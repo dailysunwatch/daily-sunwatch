@@ -198,6 +198,14 @@
       border: 1px solid var(--ivory);
       border-radius: 14px;
       padding: 26px 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .cards-copy {
+      min-width: 0;
     }
 
     .cards-promo h3 {
@@ -211,11 +219,16 @@
       margin: 0;
       color: #3A3935;
       font-size: .94rem;
+      max-width: 620px;
     }
 
     .mpc-widget {
-      margin-top: 18px;
-      min-height: 90px;
+      margin: 0;
+      min-width: 170px;
+      min-height: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .links {
@@ -277,6 +290,15 @@
       .store-promo {
         align-items: flex-start;
         flex-direction: column;
+      }
+
+      .cards-promo {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .mpc-widget {
+        justify-content: flex-start;
       }
     }
   </style>
@@ -363,11 +385,14 @@
         </div>
 
         <div class="cards-promo">
-          <h3>Daily Sunwatch Playing Cards</h3>
-          <p>
-            Custom Daily Sunwatch playing cards featuring Sunny, Moony, Sandwich, and N/A,
-            available through the MakePlayingCards Marketplace.
-          </p>
+          <div class="cards-copy">
+            <h3>Daily Sunwatch Playing Cards</h3>
+            <p>
+              Custom Daily Sunwatch playing cards featuring Sunny, Moony, Sandwich, and N/A,
+              available through the MakePlayingCards Marketplace.
+            </p>
+          </div>
+
           <div class="mpc-widget">
             <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
             <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>

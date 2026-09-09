@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Sunwatch</title>
+  <meta name="description" content="Daily Sunwatch is an automated solar and space-weather project publishing observations and updates about the Sun and near-Earth environment.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ivory: #F6F5F0;
+      --yellow: #FFD400;
+      --bg: #121210;
+      --muted: #BDBCB7;
+      --panel: #181816;
+      --line: #302F2B;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ivory);
+      font-family: "Open Sans", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(980px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    .brand span { color: var(--yellow); }
+
+    nav {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #D7D6D1;
+      text-decoration: none;
+      font-size: .94rem;
+    }
+
+    nav a:hover { color: var(--yellow); }
+
+    .hero {
+      text-align: center;
+      padding: 82px 0 76px;
+    }
+
+    .sunny {
+      width: min(190px, 45vw);
+      height: auto;
+      display: block;
+      margin: 0 auto 24px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.25rem, 7vw, 4.4rem);
+      line-height: 1.05;
+      letter-spacing: -.035em;
+      font-weight: 700;
+    }
+
+    h1 span { color: var(--yellow); }
+
+    .tagline {
+      max-width: 690px;
+      margin: 20px auto 0;
+      color: #D2D1CC;
+      font-size: 1.08rem;
+    }
+
+    section.content {
+      border-top: 1px solid var(--line);
+      padding: 62px 0;
+    }
+
+    .label {
+      color: var(--yellow);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .78rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .copy {
+      max-width: 760px;
+      margin: 0;
+      color: #D0CFC9;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin: 0 0 7px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .store-promo {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+      background: var(--yellow);
+      color: var(--bg);
+      border-radius: 14px;
+      padding: 26px 28px;
+    }
+
+    .store-promo h3 {
+      margin: 0 0 5px;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .store-promo p {
+      margin: 0;
+      max-width: 650px;
+    }
+
+    .store-button {
+      display: inline-block;
+      flex-shrink: 0;
+      text-decoration: none;
+      background: var(--bg);
+      color: var(--ivory);
+      border: 1px solid var(--bg);
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-size: .92rem;
+      font-weight: 700;
+    }
+
+    .store-button:hover {
+      background: #242420;
+    }
+
+    .links {
+      margin-top: 18px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-size: .92rem;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      border-color: var(--yellow);
+      color: var(--yellow);
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 30px 0 38px;
+      color: #AAA9A4;
+      font-size: .88rem;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a { text-decoration: none; }
+    .footer-links a:hover { color: var(--yellow); }
+
+    @media (max-width: 680px) {
+      .nav {
+        padding: 17px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      nav { gap: 14px; }
+      .hero { padding: 62px 0 58px; }
+      .grid { grid-template-columns: 1fr; }
+
+      .store-promo {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#watching">What We Watch</a>
+        <a href="https://daily-sunwatch-shop.fourthwall.com/" target="_blank" rel="noopener">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="wrap">
+        <img class="sunny" src="Sunny_Center.png" alt="Sunny, the Daily Sunwatch mascot">
+        <h1>DAILY <span>SUNWATCH</span></h1>
+        <p class="tagline">
+          Sunny is watching the Sun. Automated solar and space-weather observations,
+          updates, and original content from the Sun to near-Earth space.
+        </p>
+      </div>
+    </div>
+
+    <section class="content" id="about">
+      <div class="wrap">
+        <div class="label">About</div>
+        <h2>Solar observation, with a little personality.</h2>
+        <p class="copy">
+          Daily Sunwatch is an automated solar and space-weather project focused on
+          activity across the Sun and near-Earth environment. It combines regularly
+          updated observations with original visual content designed to make space
+          weather informative, approachable, and fun.
+        </p>
+      </div>
+    </section>
+
+    <section class="content" id="watching">
+      <div class="wrap">
+        <div class="label">What We Watch</div>
+        <h2>From solar activity to conditions near Earth.</h2>
+        <p class="copy">
+          Daily Sunwatch follows several parts of the Sun–Earth system and turns
+          public space-weather data into clear, regularly updated observations.
+        </p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>☀ Solar Activity &amp; Flares</h3>
+            <p>Solar X-ray activity, flare events, and active regions across the Sun.</p>
+          </article>
+
+          <article class="card">
+            <h3>◉ Coronal Mass Ejections</h3>
+            <p>Coronal activity and CME events reported through public space-weather sources.</p>
+          </article>
+
+          <article class="card">
+            <h3>↝ Solar Wind &amp; Geomagnetic Activity</h3>
+            <p>Solar-wind speed, IMF Bz, Kp, and other conditions in the near-Earth environment.</p>
+          </article>
+
+          <article class="card">
+            <h3>⌁ Aurora Conditions</h3>
+            <p>Geomagnetic conditions and ingredients that can support auroral activity.</p>
+          </article>
+        </div>
+
+        <div class="store-promo">
+          <div>
+            <h3>Daily Sunwatch Store</h3>
+            <p>
+              Original goods, accessories, and novelties based on Daily Sunwatch,
+              Sunny, Moony, and the project's visual identity.
+            </p>
+          </div>
+          <a class="store-button" href="https://daily-sunwatch-shop.fourthwall.com/" target="_blank" rel="noopener">Open Store</a>
+        </div>
+
+        <div class="links">
+          <a class="button" href="mailto:contact@dailysunwatch.com">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

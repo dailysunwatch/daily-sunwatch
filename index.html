@@ -661,11 +661,14 @@
 
         body.append(meta, text);
 
-        if (post.image_url) {
+        const media = Array.isArray(post.media) ? post.media : [];
+        const firstImage = media.find((item) => item && item.type === "image" && item.url);
+
+        if (firstImage) {
           const image = document.createElement("img");
           image.className = "sunny-post-media";
-          image.src = post.image_url;
-          image.alt = post.image_alt || "Daily Sunwatch solar observation";
+          image.src = firstImage.url;
+          image.alt = firstImage.alt || "Daily Sunwatch solar observation";
           image.loading = "lazy";
 
           image.addEventListener("error", () => {

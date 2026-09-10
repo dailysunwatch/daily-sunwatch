@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "20260910T015055Z",
+      "published_at": "2026-09-10T01:50:55.069226+00:00",
+      "published_display": "September 9, 2026 · 9:50 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "Midday gallery test — six-image media array with automatic Eastern time-zone labeling and a real Daily Sunwatch post title.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_1.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 1"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_2.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 2"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_3.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 3"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_4.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 4"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_5.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 5"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T015055Z/image_6.jpg",
+          "alt": "Daily Sunwatch Midday gallery test image 6"
+        }
+      ]
+    },
+    {
       "id": "20260910T014107Z",
       "published_at": "2026-09-10T01:41:07.718008+00:00",
       "published_display": "September 10, 2026 · 01:41 UTC",

@@ -1,165 +1,137 @@
 {
   "posts": [
     {
-      "id": "20260910T021608Z",
-      "published_at": "2026-09-10T02:16:08.450441+00:00",
-      "published_display": "September 9, 2026 · 10:16 PM EDT",
+      "id": "20260910T020000Z",
+      "published_at": "2026-09-10T02:00:00+00:00",
+      "published_display": "September 9, 2026 · 10:00 PM EDT",
       "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "Midday gallery test — six-image media array with automatic Eastern time-zone labeling and a real Daily Sunwatch post title.",
+      "title": "Nighttime Sunwatch",
+      "text": "Mixed-feed test: Nighttime Sunwatch with one image.",
       "media": [
         {
           "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_1.jpg",
-          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_2.jpg",
-          "alt": "SDO/AIA 335 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_3.jpg",
-          "alt": "SDO/AIA 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_4.jpg",
-          "alt": "SDO/AIA 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_5.jpg",
-          "alt": "SDO/AIA 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T021608Z/image_6.jpg",
-          "alt": "SDO/AIA 94 Å solar image used by Daily Sunwatch"
+          "url": "/media/feed/20260910T020000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
         }
       ]
     },
     {
-      "id": "20260910T020903Z",
-      "published_at": "2026-09-10T02:09:03.469175+00:00",
-      "published_display": "September 9, 2026 · 10:09 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "Midday gallery test — six-image media array with automatic Eastern time-zone labeling and a real Daily Sunwatch post title.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_1.jpg",
-          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_2.jpg",
-          "alt": "SDO/AIA 335 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_3.jpg",
-          "alt": "SDO/AIA 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_4.jpg",
-          "alt": "SDO/AIA 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_5.jpg",
-          "alt": "SDO/AIA 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020903Z/image_6.jpg",
-          "alt": "SDO/AIA 94 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20260910T015055Z",
-      "published_at": "2026-09-10T01:50:55.069226+00:00",
-      "published_display": "September 9, 2026 · 9:50 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "Midday gallery test — six-image media array with automatic Eastern time-zone labeling and a real Daily Sunwatch post title.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_1.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 1"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_2.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 2"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_3.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 3"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_4.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 4"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_5.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 5"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T015055Z/image_6.jpg",
-          "alt": "Daily Sunwatch Midday gallery test image 6"
-        }
-      ]
-    },
-    {
-      "id": "20260910T014107Z",
-      "published_at": "2026-09-10T01:41:07.718008+00:00",
-      "published_display": "September 10, 2026 · 01:41 UTC",
-      "type": "Sunwatch",
-      "text": "8-post rotation test — exact Daily Sunwatch image preserved in its own temporary media folder.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T014107Z/image_1.jpg",
-          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "published_at": "2026-09-10T00:57:53+00:00",
-      "published_display": "September 9, 2026 · 8:57 PM EDT",
-      "type": "Sunwatch",
-      "text": "Real-image pipeline test — this post is using an actual SDO/AIA 193 Å image saved by Daily Sunwatch.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/post_1.jpg",
-          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "published_at": "2026-09-09T17:00:00-04:00",
-      "published_display": "September 9, 2026 · 5:00 PM EDT",
-      "type": "Coronagraph Watch",
-      "text": "Sample bonus post — bonus Sunny posts can appear in the same chronological feed.",
+      "id": "20260909T230000Z",
+      "published_at": "2026-09-09T23:00:00+00:00",
+      "published_display": "September 9, 2026 · 7:00 PM EDT",
+      "type": "flare_watch",
+      "title": "Flare Watch",
+      "text": "Mixed-feed test: Flare Watch placeholder with no GitHub-hosted video.",
       "media": []
     },
     {
-      "published_at": "2026-09-09T12:00:00-04:00",
-      "published_display": "September 9, 2026 · 12:00 PM EDT",
-      "type": "Sunwatch",
-      "text": "Sample post #3 — text-only fallback.",
+      "id": "20260909T200000Z",
+      "published_at": "2026-09-09T20:00:00+00:00",
+      "published_display": "September 9, 2026 · 4:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "Mixed-feed test: Evening Sunwatch with one image.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T200000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
+        }
+      ]
+    },
+    {
+      "id": "20260909T170000Z",
+      "published_at": "2026-09-09T17:00:00+00:00",
+      "published_display": "September 9, 2026 · 1:00 PM EDT",
+      "type": "aurora_watch",
+      "title": "Aurora Watch",
+      "text": "Mixed-feed test: text-only Aurora Watch.",
       "media": []
+    },
+    {
+      "id": "20260909T140000Z",
+      "published_at": "2026-09-09T14:00:00+00:00",
+      "published_display": "September 9, 2026 · 10:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "Mixed-feed test: Midday Sunwatch with six images.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_2.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 2"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_3.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 3"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_4.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 4"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_5.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 5"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T140000Z/image_6.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 6"
+        }
+      ]
+    },
+    {
+      "id": "20260909T110000Z",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "published_display": "September 9, 2026 · 7:00 AM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "Mixed-feed test: bonus Coronagraph Watch with one image.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T110000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
+        }
+      ]
+    },
+    {
+      "id": "20260909T080000Z",
+      "published_at": "2026-09-09T08:00:00+00:00",
+      "published_display": "September 9, 2026 · 4:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "Mixed-feed test: Morning Sunwatch with one image.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T080000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
+        }
+      ]
+    },
+    {
+      "id": "20260909T050000Z",
+      "published_at": "2026-09-09T05:00:00+00:00",
+      "published_display": "September 9, 2026 · 1:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "Mixed-feed test: Early Morning Sunwatch with one image.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260909T050000Z/image_1.jpg",
+          "alt": "Daily Sunwatch mixed-feed test image 1"
+        }
+      ]
     }
   ]
 }

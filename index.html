@@ -291,6 +291,81 @@
       font-size: 0.78rem;
     }
 
+
+    /* Live website feed */
+    .conditions-updated {
+      margin: -6px 0 24px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .conditions-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 42px;
+    }
+
+    .conditions-column {
+      border-top: 1px solid var(--line);
+    }
+
+    .condition-row {
+      display: grid;
+      grid-template-columns: minmax(125px, .8fr) minmax(0, 1.2fr);
+      gap: 18px;
+      padding: 13px 0;
+      border-bottom: 1px solid var(--line);
+      align-items: baseline;
+    }
+
+    .condition-name {
+      color: var(--muted);
+      font-size: .88rem;
+      font-weight: 600;
+    }
+
+    .condition-value {
+      color: var(--ivory);
+      font-size: .94rem;
+      font-weight: 600;
+    }
+
+    .sunny-posts {
+      display: grid;
+      gap: 14px;
+      margin-top: 26px;
+    }
+
+    .sunny-post {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .sunny-post-meta {
+      margin-bottom: 12px;
+      color: var(--yellow);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .sunny-post-text {
+      margin: 0;
+      color: #D0CFC9;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-size: .94rem;
+    }
+
+    .feed-status {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
     @media (max-width: 680px) {
       .nav {
         padding: 17px 0;
@@ -301,6 +376,9 @@
       nav { gap: 14px; }
       .hero { padding: 62px 0 58px; }
       .grid { grid-template-columns: 1fr; }
+      .conditions-grid { grid-template-columns: 1fr; }
+      .condition-row { grid-template-columns: minmax(120px, .8fr) minmax(0, 1.2fr); }
+
 
       .store-promo {
         align-items: flex-start;
@@ -343,6 +421,28 @@
         </p>
       </div>
     </div>
+
+    <section class="content" id="conditions">
+      <div class="wrap">
+        <div class="label">Live Conditions</div>
+        <h2>Current Space Weather</h2>
+        <p class="conditions-updated" id="conditions-updated">Loading latest conditions…</p>
+
+        <div class="conditions-grid" id="conditions-grid">
+          <p class="feed-status">Loading space-weather data…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="latest">
+      <div class="wrap">
+        <div class="label">Latest From Sunny</div>
+        <h2>Recent observations.</h2>
+        <div class="sunny-posts" id="sunny-posts">
+          <p class="feed-status">Loading Sunny's latest posts…</p>
+        </div>
+      </div>
+    </section>
 
     <section class="content" id="about">
       <div class="wrap">
@@ -439,3 +539,110 @@
     </div>
   </div>
 </footer>
+
+<script>
+  const CONDITION_COLUMNS = [
+    ["solar_activity", "latest_flare", "solar_wind", "kp_index", "noaa_alert"],
+    ["imf_bz", "active_regions", "coronal_hole_hss", "cme", "aurora"]
+  ];
+
+  function makeConditionColumn(keys, conditions) {
+    const column = document.createElement("div");
+    column.className = "conditions-column";
+
+    keys.forEach((key) => {
+      const item = conditions[key] || {
+        label: key.replaceAll("_", " "),
+        value: "Unavailable"
+      };
+
+      const row = document.createElement("div");
+      row.className = "condition-row";
+
+      const name = document.createElement("div");
+      name.className = "condition-name";
+      name.textContent = item.label || key.replaceAll("_", " ");
+
+      const value = document.createElement("div");
+      value.className = "condition-value";
+      value.textContent = item.value ?? "Unavailable";
+
+      row.append(name, value);
+      column.appendChild(row);
+    });
+
+    return column;
+  }
+
+  async function loadCurrentConditions() {
+    const updated = document.getElementById("conditions-updated");
+    const grid = document.getElementById("conditions-grid");
+
+    try {
+      const response = await fetch("/feed/current_conditions.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const data = await response.json();
+      const conditions = data.conditions || {};
+
+      updated.textContent = data.updated_display
+        ? `Updated ${data.updated_display}`
+        : "Latest available conditions";
+
+      grid.replaceChildren(
+        makeConditionColumn(CONDITION_COLUMNS[0], conditions),
+        makeConditionColumn(CONDITION_COLUMNS[1], conditions)
+      );
+    } catch (error) {
+      updated.textContent = "Latest conditions temporarily unavailable.";
+      grid.innerHTML = '<p class="feed-status">Sunny could not load the current space-weather feed.</p>';
+      console.error("Current conditions feed error:", error);
+    }
+  }
+
+  async function loadLatestPosts() {
+    const container = document.getElementById("sunny-posts");
+
+    try {
+      const response = await fetch("/feed/latest_posts.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const data = await response.json();
+      const posts = Array.isArray(data.posts) ? data.posts.slice(0, 3) : [];
+
+      if (!posts.length) {
+        container.innerHTML = '<p class="feed-status">No recent Sunny posts are available yet.</p>';
+        return;
+      }
+
+      container.replaceChildren();
+
+      posts.forEach((post) => {
+        const article = document.createElement("article");
+        article.className = "sunny-post";
+
+        const meta = document.createElement("div");
+        meta.className = "sunny-post-meta";
+        const parts = [];
+        if (post.type) parts.push(post.type);
+        if (post.published_display) parts.push(post.published_display);
+        meta.textContent = parts.join(" · ");
+
+        const text = document.createElement("p");
+        text.className = "sunny-post-text";
+        text.textContent = post.text || "";
+
+        article.append(meta, text);
+        container.appendChild(article);
+      });
+    } catch (error) {
+      container.innerHTML = '<p class="feed-status">Sunny could not load the latest-post feed.</p>';
+      console.error("Latest posts feed error:", error);
+    }
+  }
+
+  loadCurrentConditions();
+  loadLatestPosts();
+</script>
+</body>
+</html>

@@ -1,6 +1,20 @@
 {
   "posts": [
     {
+      "id": "20260910T014107Z",
+      "published_at": "2026-09-10T01:41:07.718008+00:00",
+      "published_display": "September 10, 2026 · 01:41 UTC",
+      "type": "Sunwatch",
+      "text": "8-post rotation test — exact Daily Sunwatch image preserved in its own temporary media folder.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T014107Z/image_1.jpg",
+          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "published_at": "2026-09-10T00:57:53+00:00",
       "published_display": "September 9, 2026 · 8:57 PM EDT",
       "type": "Sunwatch",

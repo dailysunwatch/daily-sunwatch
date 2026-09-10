@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260910T190236Z",
+      "facebook_id": "122111516835440979",
+      "published_at": "2026-09-10T19:02:36.239212+00:00",
+      "published_display": "September 10, 2026 · 3:02 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 10, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 05:24 UTC\n💨 CME speed: 231 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 23° (Moderate)\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 05:24 UTC\n💨 CME speed: 231 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 23° (Moderate)\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T190236Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260910T190048Z",
       "facebook_id": "122111516277440979",
       "published_at": "2026-09-10T19:00:48.578154+00:00",
@@ -141,21 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260910T030306Z/image_1.jpg",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260910T020000Z",
-      "published_at": "2026-09-10T02:00:00+00:00",
-      "published_display": "September 9, 2026 · 10:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "Mixed-feed test: Nighttime Sunwatch with one image.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T020000Z/image_1.jpg",
-          "alt": "Daily Sunwatch mixed-feed test image 1"
         }
       ]
     }

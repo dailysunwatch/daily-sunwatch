@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "20260910T020903Z",
+      "published_at": "2026-09-10T02:09:03.469175+00:00",
+      "published_display": "September 9, 2026 · 10:09 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "Midday gallery test — six-image media array with automatic Eastern time-zone labeling and a real Daily Sunwatch post title.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_1.jpg",
+          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_2.jpg",
+          "alt": "SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_3.jpg",
+          "alt": "SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_4.jpg",
+          "alt": "SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_5.jpg",
+          "alt": "SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T020903Z/image_6.jpg",
+          "alt": "SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20260910T015055Z",
       "published_at": "2026-09-10T01:50:55.069226+00:00",
       "published_display": "September 9, 2026 · 9:50 PM EDT",

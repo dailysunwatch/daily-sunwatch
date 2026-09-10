@@ -350,6 +350,10 @@
       align-items: start;
     }
 
+    .sunny-post-layout.multi-media {
+      grid-template-columns: 1fr;
+    }
+
     .sunny-post-media {
       width: 100%;
       display: block;
@@ -357,6 +361,16 @@
       border: 1px solid var(--line);
       background: #0D0D0C;
       object-fit: cover;
+    }
+
+    .sunny-post-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .sunny-post-gallery .sunny-post-media {
+      aspect-ratio: 1 / 1;
     }
 
     .sunny-post-body {
@@ -398,6 +412,7 @@
       .grid { grid-template-columns: 1fr; }
       .conditions-grid { grid-template-columns: 1fr; }
       .sunny-post-layout { grid-template-columns: 1fr; }
+      .sunny-post-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .condition-row { grid-template-columns: minmax(120px, .8fr) minmax(0, 1.2fr); }
 
 
@@ -651,8 +666,11 @@
         const meta = document.createElement("div");
         meta.className = "sunny-post-meta";
         const parts = [];
-        if (post.type) parts.push(post.type);
+
+        const publicTitle = post.title || post.type || "Daily Sunwatch";
+        if (publicTitle) parts.push(publicTitle);
         if (post.published_display) parts.push(post.published_display);
+
         meta.textContent = parts.join(" · ");
 
         const text = document.createElement("p");
@@ -661,14 +679,16 @@
 
         body.append(meta, text);
 
-        const media = Array.isArray(post.media) ? post.media : [];
-        const firstImage = media.find((item) => item && item.type === "image" && item.url);
+        const media = Array.isArray(post.media)
+          ? post.media.filter((item) => item && item.type === "image" && item.url)
+          : [];
 
-        if (firstImage) {
+        if (media.length === 1) {
+          const item = media[0];
           const image = document.createElement("img");
           image.className = "sunny-post-media";
-          image.src = firstImage.url;
-          image.alt = firstImage.alt || "Daily Sunwatch solar observation";
+          image.src = item.url;
+          image.alt = item.alt || "Daily Sunwatch solar observation";
           image.loading = "lazy";
 
           image.addEventListener("error", () => {
@@ -677,6 +697,23 @@
           });
 
           layout.append(image, body);
+        } else if (media.length > 1) {
+          layout.classList.add("multi-media");
+
+          const gallery = document.createElement("div");
+          gallery.className = "sunny-post-gallery";
+
+          media.forEach((item) => {
+            const image = document.createElement("img");
+            image.className = "sunny-post-media";
+            image.src = item.url;
+            image.alt = item.alt || "Daily Sunwatch solar observation";
+            image.loading = "lazy";
+            image.addEventListener("error", () => image.remove());
+            gallery.appendChild(image);
+          });
+
+          layout.append(gallery, body);
         } else {
           layout.style.gridTemplateColumns = "1fr";
           layout.append(body);

@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-09-09T21:00:00-04:00",
+  "updated_display": "September 9, 2026 · 9:00 PM EDT",
+  "conditions": {
+    "solar_activity": {
+      "label": "Solar Activity",
+      "value": "Low"
+    },
+    "latest_flare": {
+      "label": "Latest Flare",
+      "value": "C1.0 · 18:42 UTC"
+    },
+    "solar_wind": {
+      "label": "Solar Wind",
+      "value": "538 km/s · Elevated"
+    },
+    "kp_index": {
+      "label": "Kp Index",
+      "value": "4.33 · Active"
+    },
+    "noaa_alert": {
+      "label": "NOAA Alert",
+      "value": "Kp 5 Warning"
+    },
+    "imf_bz": {
+      "label": "IMF Bz",
+      "value": "-4.2 nT · Southward"
+    },
+    "active_regions": {
+      "label": "Active Regions",
+      "value": "10 Earth-facing"
+    },
+    "coronal_hole_hss": {
+      "label": "Coronal Hole / HSS",
+      "value": "Expected · Confirmed"
+    },
+    "cme": {
+      "label": "CME",
+      "value": "None newly detected"
+    },
+    "aurora": {
+      "label": "Aurora",
+      "value": "Elevated ingredients"
+    }
+  }
+}

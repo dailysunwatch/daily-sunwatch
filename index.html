@@ -629,7 +629,7 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
-      const posts = Array.isArray(data.posts) ? data.posts.slice(0, 3) : [];
+      const posts = Array.isArray(data.posts) ? data.posts.slice(0, 8) : [];
 
       if (!posts.length) {
         container.innerHTML = '<p class="feed-status">No recent Sunny posts are available yet.</p>';

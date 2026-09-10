@@ -354,6 +354,12 @@
       grid-template-columns: 1fr;
     }
 
+    .sunny-post-media-link {
+      display: block;
+      min-width: 0;
+      text-decoration: none;
+    }
+
     .sunny-post-media {
       width: 100%;
       display: block;
@@ -361,15 +367,33 @@
       border: 1px solid var(--line);
       background: #0D0D0C;
       object-fit: cover;
+      cursor: pointer;
     }
 
-    .sunny-post-gallery {
+    .sunny-post-featured {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
+      grid-template-columns: minmax(0, 1.65fr) minmax(180px, 0.75fr);
+      gap: 12px;
+      align-items: stretch;
     }
 
-    .sunny-post-gallery .sunny-post-media {
+    .sunny-post-featured-main,
+    .sunny-post-featured-main .sunny-post-media {
+      height: 100%;
+    }
+
+    .sunny-post-featured-main .sunny-post-media {
+      aspect-ratio: 1 / 1;
+    }
+
+    .sunny-post-thumbnails {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      align-content: start;
+    }
+
+    .sunny-post-thumbnails .sunny-post-media {
       aspect-ratio: 1 / 1;
     }
 
@@ -412,7 +436,8 @@
       .grid { grid-template-columns: 1fr; }
       .conditions-grid { grid-template-columns: 1fr; }
       .sunny-post-layout { grid-template-columns: 1fr; }
-      .sunny-post-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .sunny-post-featured { grid-template-columns: 1fr; }
+      .sunny-post-thumbnails { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .condition-row { grid-template-columns: minmax(120px, .8fr) minmax(0, 1.2fr); }
 
 
@@ -683,37 +708,45 @@
           ? post.media.filter((item) => item && item.type === "image" && item.url)
           : [];
 
-        if (media.length === 1) {
-          const item = media[0];
+        const makeLinkedImage = (item) => {
+          const link = document.createElement("a");
+          link.className = "sunny-post-media-link";
+          link.href = item.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+
           const image = document.createElement("img");
           image.className = "sunny-post-media";
           image.src = item.url;
           image.alt = item.alt || "Daily Sunwatch solar observation";
           image.loading = "lazy";
 
-          image.addEventListener("error", () => {
-            image.remove();
-            layout.style.gridTemplateColumns = "1fr";
-          });
+          image.addEventListener("error", () => link.remove());
+          link.appendChild(image);
+          return link;
+        };
 
-          layout.append(image, body);
+        if (media.length === 1) {
+          const linkedImage = makeLinkedImage(media[0]);
+          layout.append(linkedImage, body);
         } else if (media.length > 1) {
           layout.classList.add("multi-media");
 
-          const gallery = document.createElement("div");
-          gallery.className = "sunny-post-gallery";
+          const featured = document.createElement("div");
+          featured.className = "sunny-post-featured";
 
-          media.forEach((item) => {
-            const image = document.createElement("img");
-            image.className = "sunny-post-media";
-            image.src = item.url;
-            image.alt = item.alt || "Daily Sunwatch solar observation";
-            image.loading = "lazy";
-            image.addEventListener("error", () => image.remove());
-            gallery.appendChild(image);
+          const main = makeLinkedImage(media[0]);
+          main.classList.add("sunny-post-featured-main");
+
+          const thumbnails = document.createElement("div");
+          thumbnails.className = "sunny-post-thumbnails";
+
+          media.slice(1).forEach((item) => {
+            thumbnails.appendChild(makeLinkedImage(item));
           });
 
-          layout.append(gallery, body);
+          featured.append(main, thumbnails);
+          layout.append(featured, body);
         } else {
           layout.style.gridTemplateColumns = "1fr";
           layout.append(body);

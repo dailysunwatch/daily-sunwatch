@@ -100,6 +100,37 @@
       font-size: 1.08rem;
     }
 
+    .social-links {
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .social-link {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #D2D1CC;
+      text-decoration: none;
+      transition: color .15s ease, transform .15s ease;
+    }
+
+    .social-link:hover {
+      color: var(--yellow);
+      transform: translateY(-1px);
+    }
+
+    .social-link svg {
+      width: 21px;
+      height: 21px;
+      display: block;
+      fill: currentColor;
+    }
+
     section.content {
       border-top: 1px solid var(--line);
       padding: 62px 0;
@@ -469,7 +500,7 @@
       <nav aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#watching">What We Watch</a>
-        <a href="https://daily-sunwatch-shop.fourthwall.com/" target="_blank" rel="noopener">Store</a>
+        <a href="#store">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
       </nav>
     </div>
@@ -481,9 +512,24 @@
         <img class="sunny" src="Sunny_Center.png" alt="Sunny, the Daily Sunwatch mascot">
         <h1>DAILY <span>SUNWATCH</span></h1>
         <p class="tagline">
-          Sunny is watching the Sun. Automated solar and space-weather observations,
-          updates, and original content from the Sun to near-Earth space.
+          Sunny is watching the Sun. ☀️
+          
         </p>
+
+        <div class="social-links" aria-label="Daily Sunwatch social media">
+          <a class="social-link" href="https://www.facebook.com/DailySunwatch" target="_blank" rel="noopener noreferrer" aria-label="Daily Sunwatch on Facebook" title="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-9h3l.45-3.5H13.5V7.26c0-1.01.28-1.7 1.73-1.7H17V2.43c-.31-.04-1.37-.13-2.61-.13-2.58 0-4.35 1.58-4.35 4.48V9.5H7.12V13h2.92v9h3.46z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/dailysunwatch/" target="_blank" rel="noopener noreferrer" aria-label="Daily Sunwatch on Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm10.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+          </a>
+          <a class="social-link" href="https://x.com/dailysunwatch" target="_blank" rel="noopener noreferrer" aria-label="Daily Sunwatch on X" title="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.24l-4.89-6.39L6.48 22H3.36l7.26-8.3L2.97 2h6.4l4.42 5.84L18.9 2zm-1.1 17.84h1.73L8.43 4.05H6.58L17.8 19.84z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.youtube.com/@DailySunwatch" target="_blank" rel="noopener noreferrer" aria-label="Daily Sunwatch on YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.52 3.58 12 3.58 12 3.58s-7.52 0-9.39.5A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.87.5 9.39.5 9.39.5s7.52 0 9.39-.5a3 3 0 0 0 2.11-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4L15.83 12 9.6 15.6z"/></svg>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -502,7 +548,7 @@
     <section class="content" id="latest">
       <div class="wrap">
         <div class="label">Latest From Sunny</div>
-        <h2>Recent observations.</h2>
+        <h2>Recent observations</h2>
         <div class="sunny-posts" id="sunny-posts">
           <p class="feed-status">Loading Sunny's latest posts…</p>
         </div>
@@ -553,6 +599,17 @@
           </article>
         </div>
 
+        <div class="links">
+          <a class="button" href="mailto:contact@dailysunwatch.com">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="store">
+      <div class="wrap">
+        <div class="label">Store</div>
+        <h2>Daily Sunwatch Store</h2>
+
         <div class="store-promo">
           <div>
             <h3>Daily Sunwatch Store</h3>
@@ -580,10 +637,6 @@
             <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
             <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
           </div>
-        </div>
-
-        <div class="links">
-          <a class="button" href="mailto:contact@dailysunwatch.com">Contact</a>
         </div>
       </div>
     </section>

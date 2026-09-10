@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260910T040037Z",
+      "facebook_id": "122111311095440979",
+      "published_at": "2026-09-10T04:00:37.335233+00:00",
+      "published_display": "September 10, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — September 10, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Strongest recent flare: C3.2 (Peaked September 09, 2026 at 10:32 UTC)\n💨 Solar wind speed: 434 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nEverything looks pretty calm. ☀💫\n\nSeveral active regions and modest sunspot groups are visible across the Sun today, with broad darker coronal areas toward the left side.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Strongest recent flare: C3.2 (Peaked September 09, 2026 at 10:32 UTC)\n💨 Solar wind speed: 434 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nEverything looks pretty calm. ☀💫\n\nSeveral active regions and modest sunspot groups are visible across the Sun today, with broad darker coronal areas toward the left side.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T040037Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260910T030306Z",
       "facebook_id": "122111304213440979",
       "published_at": "2026-09-10T03:03:06.359638+00:00",
@@ -116,21 +133,6 @@
         {
           "type": "image",
           "url": "/media/feed/20260909T110000Z/image_1.jpg",
-          "alt": "Daily Sunwatch mixed-feed test image 1"
-        }
-      ]
-    },
-    {
-      "id": "20260909T080000Z",
-      "published_at": "2026-09-09T08:00:00+00:00",
-      "published_display": "September 9, 2026 · 4:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "Mixed-feed test: Morning Sunwatch with one image.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260909T080000Z/image_1.jpg",
           "alt": "Daily Sunwatch mixed-feed test image 1"
         }
       ]

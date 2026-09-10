@@ -704,7 +704,7 @@
 
         const text = document.createElement("p");
         text.className = "sunny-post-text";
-        text.textContent = post.text || "";
+        text.textContent = post.display_text || post.text || "";
 
         body.append(meta, text);
 

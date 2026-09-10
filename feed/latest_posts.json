@@ -1,22 +1,31 @@
 {
   "posts": [
     {
-      "published_at": "2026-09-09T21:00:00-04:00",
-      "published_display": "September 9, 2026 · 9:00 PM EDT",
+      "published_at": "2026-09-10T00:57:53+00:00",
+      "published_display": "September 9, 2026 · 8:57 PM EDT",
       "type": "Sunwatch",
-      "text": "Things are picking up out there. 🌬🌞\n\nSolar activity: Low\nSolar wind: 538 km/s · Elevated\nKp index: 4.33 · Active"
+      "text": "Real-image pipeline test — this post is using an actual SDO/AIA 193 Å image saved by Daily Sunwatch.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/post_1.jpg",
+          "alt": "SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        }
+      ]
     },
     {
       "published_at": "2026-09-09T17:00:00-04:00",
       "published_display": "September 9, 2026 · 5:00 PM EDT",
-      "type": "Sunwatch",
-      "text": "Sample post #2 — this will eventually be replaced by Sunny's exact Facebook post text."
+      "type": "Coronagraph Watch",
+      "text": "Sample bonus post — bonus Sunny posts can appear in the same chronological feed.",
+      "media": []
     },
     {
       "published_at": "2026-09-09T12:00:00-04:00",
       "published_display": "September 9, 2026 · 12:00 PM EDT",
       "type": "Sunwatch",
-      "text": "Sample post #3 — this will eventually be replaced by Sunny's exact Facebook post text."
+      "text": "Sample post #3 — text-only fallback.",
+      "media": []
     }
   ]
 }

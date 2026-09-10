@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260910T190048Z",
+      "facebook_id": "122111516277440979",
+      "published_at": "2026-09-10T19:00:48.578154+00:00",
+      "published_display": "September 10, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — September 10, 2026\n\n🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.6 (Peaked September 10, 2026 at 17:12 UTC)\n💨 Solar wind speed: 433 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA little solar flare! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.6 (Peaked September 10, 2026 at 17:12 UTC)\n💨 Solar wind speed: 433 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA little solar flare! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260910T190048Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260910T160105Z",
       "facebook_id": "1170345462837861_122111477733440979",
       "published_at": "2026-09-10T16:01:05.213888+00:00",
@@ -141,15 +158,6 @@
           "alt": "Daily Sunwatch mixed-feed test image 1"
         }
       ]
-    },
-    {
-      "id": "20260909T230000Z",
-      "published_at": "2026-09-09T23:00:00+00:00",
-      "published_display": "September 9, 2026 · 7:00 PM EDT",
-      "type": "flare_watch",
-      "title": "Flare Watch",
-      "text": "Mixed-feed test: Flare Watch placeholder with no GitHub-hosted video.",
-      "media": []
     }
   ]
 }

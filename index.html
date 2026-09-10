@@ -370,6 +370,10 @@
       cursor: pointer;
     }
 
+    .sunny-post-layout.multi-media > .sunny-post-meta {
+      margin-bottom: 2px;
+    }
+
     .sunny-post-featured {
       display: grid;
       grid-template-columns: minmax(0, 1.65fr) minmax(180px, 0.75fr);
@@ -732,6 +736,16 @@
         } else if (media.length > 1) {
           layout.classList.add("multi-media");
 
+          // Multi-image posts lead with their title/date so the post identity
+          // is immediately visible before the featured Midday imagery.
+          const header = document.createElement("div");
+          header.className = "sunny-post-meta";
+          header.textContent = parts.join(" · ");
+
+          // The body below the imagery should contain only the exact public
+          // post text; do not repeat the title/date a second time.
+          body.removeChild(meta);
+
           const featured = document.createElement("div");
           featured.className = "sunny-post-featured";
 
@@ -746,7 +760,7 @@
           });
 
           featured.append(main, thumbnails);
-          layout.append(featured, body);
+          layout.append(header, featured, body);
         } else {
           layout.style.gridTemplateColumns = "1fr";
           layout.append(body);

@@ -253,22 +253,54 @@
       max-width: 620px;
     }
 
+    .cards-gallery {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
     .mpc-widget {
       margin: 0;
-      width: 190px;
-      min-width: 190px;
-      min-height: 190px;
+      width: 118px;
+      min-width: 118px;
+      height: 118px;
+      min-height: 118px;
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: visible;
     }
 
-    /* MPC's Mini widget renders quite small by default. Enlarge only the
-       rendered widget content while keeping the surrounding card compact. */
+    /* Keep MPC's live primary Marketplace image as the first gallery tile. */
     .mpc-widget > :not(script) {
-      transform: scale(1.55);
+      transform: scale(1.18);
       transform-origin: center;
+    }
+
+    .cards-photo-link {
+      display: block;
+      width: 118px;
+      height: 118px;
+      flex: 0 0 118px;
+      overflow: hidden;
+      border: 1px solid #D8D6CF;
+      border-radius: 6px;
+      background: #11110F;
+      line-height: 0;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+
+    .cards-photo-link:hover {
+      transform: translateY(-2px);
+      border-color: #AAA89F;
+    }
+
+    .cards-photo-link img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .links {
@@ -486,16 +518,29 @@
         align-items: start;
       }
 
-      .mpc-widget {
-        width: 170px;
-        min-width: 170px;
-        min-height: 170px;
+      .cards-gallery {
         justify-content: flex-start;
+        width: 100%;
+        gap: 8px;
+      }
+
+      .mpc-widget,
+      .cards-photo-link {
+        width: min(118px, 31%);
+        min-width: 0;
+        height: auto;
+        min-height: 0;
+        flex: 0 1 31%;
+        aspect-ratio: 1 / 1;
+      }
+
+      .mpc-widget {
+        justify-content: center;
       }
 
       .mpc-widget > :not(script) {
-        transform: scale(1.35);
-        transform-origin: left center;
+        transform: scale(1.05);
+        transform-origin: center;
       }
     }
   </style>
@@ -638,9 +683,19 @@
             </p>
           </div>
 
-          <div class="mpc-widget">
-            <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
-            <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
+          <div class="cards-gallery">
+            <div class="mpc-widget">
+              <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
+              <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
+            </div>
+
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-back.jpg" alt="Daily Sunwatch playing card deck showing the Sunny card back">
+            </a>
+
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-character-spread.jpg" alt="Daily Sunwatch custom playing cards featuring Sunny, Moony, Sandwich, and N/A">
+            </a>
           </div>
         </div>
       </div>
@@ -836,5 +891,36 @@
   loadCurrentConditions();
   loadLatestPosts();
 </script>
+
+<script>
+  function syncPlayingCardGalleryLinks() {
+    const gallery = document.querySelector(".cards-gallery");
+    if (!gallery) return;
+
+    const sync = () => {
+      const mpcLink = gallery.querySelector(".mpc-widget a[href]");
+      if (!mpcLink || !mpcLink.href) return false;
+
+      gallery.querySelectorAll(".cards-photo-link").forEach((link) => {
+        link.href = mpcLink.href;
+        link.target = mpcLink.target || "_blank";
+        link.rel = "noopener noreferrer";
+      });
+      return true;
+    };
+
+    if (sync()) return;
+
+    const observer = new MutationObserver(() => {
+      if (sync()) observer.disconnect();
+    });
+
+    observer.observe(gallery, { childList: true, subtree: true });
+    window.setTimeout(() => observer.disconnect(), 10000);
+  }
+
+  window.addEventListener("load", syncPlayingCardGalleryLinks);
+</script>
+
 </body>
 </html>

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20260911T160052Z",
+      "facebook_id": "1170345462837861_122111741787440979",
+      "published_at": "2026-09-11T16:00:52.505348+00:00",
+      "published_display": "September 11, 2026 · 12:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — September 11, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🌞\n\nSeveral sunspot groups and bright active regions are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🌞\n\nSeveral sunspot groups and bright active regions are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160052Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20260911T130511Z",
       "facebook_id": "122111713803440979",
       "published_at": "2026-09-11T13:05:11.768709+00:00",
@@ -116,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260910T220045Z/image_1.jpg",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260910T190236Z",
-      "facebook_id": "122111516835440979",
-      "published_at": "2026-09-10T19:02:36.239212+00:00",
-      "published_display": "September 10, 2026 · 3:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 10, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 05:24 UTC\n💨 CME speed: 231 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 23° (Moderate)\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 05:24 UTC\n💨 CME speed: 231 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 23° (Moderate)\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T190236Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260911T130511Z",
+      "facebook_id": "122111713803440979",
+      "published_at": "2026-09-11T13:05:11.768709+00:00",
+      "published_display": "September 11, 2026 · 9:05 AM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 11, 2026\n\nNASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 09, 2026 at 16:09 UTC\n💨 CME speed: 228 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 44° (Moderate)\n\nWe're watching the corona today!\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "NASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 09, 2026 at 16:09 UTC\n💨 CME speed: 228 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 44° (Moderate)\n\nWe're watching the corona today!\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T130511Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260911T130044Z",
       "facebook_id": "122111712747440979",
       "published_at": "2026-09-11T13:00:44.896026+00:00",
@@ -116,23 +133,6 @@
           "type": "image",
           "url": "/media/feed/20260910T190236Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20260910T190048Z",
-      "facebook_id": "122111516277440979",
-      "published_at": "2026-09-10T19:00:48.578154+00:00",
-      "published_display": "September 10, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 10, 2026\n\n🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.6 (Peaked September 10, 2026 at 17:12 UTC)\n💨 Solar wind speed: 433 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA little solar flare! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.6 (Peaked September 10, 2026 at 17:12 UTC)\n💨 Solar wind speed: 433 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA little solar flare! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T190048Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

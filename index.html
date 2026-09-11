@@ -246,15 +246,6 @@
       color: var(--bg);
     }
 
-    .coming-soon {
-      display: inline-block;
-      margin-left: 8px;
-      color: #8F8E89;
-      font-size: 0.82em;
-      font-style: italic;
-      font-weight: 400;
-    }
-
     .cards-promo p {
       margin: 0;
       color: #3A3935;
@@ -264,11 +255,20 @@
 
     .mpc-widget {
       margin: 0;
-      min-width: 170px;
-      min-height: 170px;
+      width: 190px;
+      min-width: 190px;
+      min-height: 190px;
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: visible;
+    }
+
+    /* MPC's Mini widget renders quite small by default. Enlarge only the
+       rendered widget content while keeping the surrounding card compact. */
+    .mpc-widget > :not(script) {
+      transform: scale(1.55);
+      transform-origin: center;
     }
 
     .links {
@@ -487,7 +487,15 @@
       }
 
       .mpc-widget {
+        width: 170px;
+        min-width: 170px;
+        min-height: 170px;
         justify-content: flex-start;
+      }
+
+      .mpc-widget > :not(script) {
+        transform: scale(1.35);
+        transform-origin: left center;
       }
     }
   </style>
@@ -623,10 +631,7 @@
 
         <div class="cards-promo">
           <div class="cards-copy">
-            <h3>
-              Daily Sunwatch Playing Cards
-              <span class="coming-soon">(Coming soon...)</span>
-            </h3>
+            <h3>Daily Sunwatch Playing Cards</h3>
             <p>
               Custom Daily Sunwatch playing cards featuring King Sunny, Queen Moony, Jack Sandwich, 
               and Joker "N/A", available through the MakePlayingCards Marketplace.

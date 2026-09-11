@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260911T010252Z",
+      "facebook_id": "122111596341440979",
+      "published_at": "2026-09-11T01:02:52.919369+00:00",
+      "published_display": "September 10, 2026 · 9:02 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 10, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 20:12 UTC\n💨 CME speed: 775 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 31° (Moderate)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 10, 2026 at 20:12 UTC\n💨 CME speed: 775 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 31° (Moderate)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T010252Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260911T010045Z",
       "facebook_id": "122111595345440979",
       "published_at": "2026-09-11T01:00:45.772436+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260910T100051Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260910T070037Z",
-      "facebook_id": "122111368611440979",
-      "published_at": "2026-09-10T07:00:37.504226+00:00",
-      "published_display": "September 10, 2026 · 3:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 10, 2026\n\n🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C1.4 (Peaked September 10, 2026 at 00:51 UTC)\n💨 Solar wind speed: 453 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\n#FreeSunny 🌞✊💫🖤\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C1.4 (Peaked September 10, 2026 at 00:51 UTC)\n💨 Solar wind speed: 453 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\n#FreeSunny 🌞✊💫🖤\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T070037Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

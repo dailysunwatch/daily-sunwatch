@@ -254,46 +254,29 @@
     }
 
     .cards-gallery {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, 118px);
       align-items: center;
-      justify-content: flex-end;
+      justify-content: end;
       gap: 10px;
-    }
-
-    .mpc-widget {
-      margin: 0;
-      width: 118px;
-      min-width: 118px;
-      height: 118px;
-      min-height: 118px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: visible;
-    }
-
-    /* Keep MPC's live primary Marketplace image as the first gallery tile. */
-    .mpc-widget > :not(script) {
-      transform: scale(1.18);
-      transform-origin: center;
     }
 
     .cards-photo-link {
       display: block;
       width: 118px;
       height: 118px;
-      flex: 0 0 118px;
       overflow: hidden;
       border: 1px solid #D8D6CF;
       border-radius: 6px;
       background: #11110F;
       line-height: 0;
-      transition: transform .15s ease, border-color .15s ease;
+      transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
     }
 
     .cards-photo-link:hover {
       transform: translateY(-2px);
       border-color: #AAA89F;
+      box-shadow: 0 5px 14px rgba(18, 18, 16, .16);
     }
 
     .cards-photo-link img {
@@ -301,6 +284,17 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    /* MPC remains hidden only so its official widget can provide the
+       Marketplace destination URL to the three custom product photos. */
+    .mpc-link-source {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
     }
 
     .links {
@@ -519,28 +513,16 @@
       }
 
       .cards-gallery {
-        justify-content: flex-start;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        justify-content: start;
         width: 100%;
         gap: 8px;
       }
 
-      .mpc-widget,
       .cards-photo-link {
-        width: min(118px, 31%);
-        min-width: 0;
+        width: 100%;
         height: auto;
-        min-height: 0;
-        flex: 0 1 31%;
         aspect-ratio: 1 / 1;
-      }
-
-      .mpc-widget {
-        justify-content: center;
-      }
-
-      .mpc-widget > :not(script) {
-        transform: scale(1.05);
-        transform-origin: center;
       }
     }
   </style>
@@ -684,10 +666,9 @@
           </div>
 
           <div class="cards-gallery">
-            <div class="mpc-widget">
-              <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
-              <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
-            </div>
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-front.jpg" alt="Daily Sunwatch Ace of Spades playing card">
+            </a>
 
             <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
               <img src="playing-cards-back.jpg" alt="Daily Sunwatch playing card deck showing the Sunny card back">
@@ -696,6 +677,11 @@
             <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
               <img src="playing-cards-character-spread.jpg" alt="Daily Sunwatch custom playing cards featuring Sunny, Moony, Sandwich, and N/A">
             </a>
+          </div>
+
+          <div class="mpc-link-source" aria-hidden="true">
+            <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
+            <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
           </div>
         </div>
       </div>
@@ -898,7 +884,7 @@
     if (!gallery) return;
 
     const sync = () => {
-      const mpcLink = gallery.querySelector(".mpc-widget a[href]");
+      const mpcLink = document.querySelector(".mpc-link-source a[href]");
       if (!mpcLink || !mpcLink.href) return false;
 
       gallery.querySelectorAll(".cards-photo-link").forEach((link) => {

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260911T160227Z",
+      "facebook_id": "122111742963440979",
+      "published_at": "2026-09-11T16:02:27.752400+00:00",
+      "published_display": "September 11, 2026 · 12:02 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 11, 2026\n\nThere’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀ CME start: September 09, 2026 at 16:00 UTC\n💨 CME speed: 282 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 35° (Moderate)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 13, 2026 at 23:00 UTC; possible Kp 2–3\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "There’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀ CME start: September 09, 2026 at 16:00 UTC\n💨 CME speed: 282 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 35° (Moderate)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 13, 2026 at 23:00 UTC; possible Kp 2–3\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260911T160227Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260911T160052Z",
       "facebook_id": "1170345462837861_122111741787440979",
       "published_at": "2026-09-11T16:00:52.505348+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260911T010045Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260910T220045Z",
-      "facebook_id": "122111567481440979",
-      "published_at": "2026-09-10T22:00:45.325377+00:00",
-      "published_display": "September 10, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — September 10, 2026\n\n🔆️ Solar activity: Low (B4.0)\n🔥 Latest solar flare: B8.1 (Peaked September 10, 2026 at 20:07 UTC)\n💨 Solar wind speed: 441 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\n#FreeSunny 🌞✊☀\n\nSeveral sunspot groups and bright active-region loops are visible today, while the coronagraph shows no obvious large outward eruption.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.0)\n🔥 Latest solar flare: B8.1 (Peaked September 10, 2026 at 20:07 UTC)\n💨 Solar wind speed: 441 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\n#FreeSunny 🌞✊☀\n\nSeveral sunspot groups and bright active-region loops are visible today, while the coronagraph shows no obvious large outward eruption.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260910T220045Z/image_1.jpg",
-          "alt": "Evening Sunwatch image"
         }
       ]
     }

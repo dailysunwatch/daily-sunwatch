@@ -127,6 +127,46 @@
       pointer-events: none;
     }
 
+    .store-feedback {
+      margin-top: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+      background: #62B6E7;
+      color: var(--bg);
+      border-radius: 14px;
+      padding: 26px 28px;
+    }
+
+    .store-feedback h3 {
+      margin: 0 0 5px;
+      font-size: 1.18rem;
+      font-weight: 700;
+    }
+
+    .store-feedback p {
+      margin: 0;
+      max-width: 650px;
+    }
+
+    .feedback-button {
+      display: inline-block;
+      flex-shrink: 0;
+      text-decoration: none;
+      background: var(--bg);
+      color: var(--ivory);
+      border: 1px solid var(--bg);
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-size: .92rem;
+      font-weight: 700;
+    }
+
+    .feedback-button:hover {
+      background: #242420;
+    }
+
     .store-philosophy {
       margin-top: 26px;
       padding-left: 14px;
@@ -137,7 +177,8 @@
     }
 
     @media (max-width: 680px) {
-      .store-promo {
+      .store-promo,
+      .store-feedback {
         align-items: flex-start;
         flex-direction: column;
       }
@@ -256,6 +297,23 @@
               SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');
             </script>
           </div>
+        </div>
+
+        <div class="store-feedback">
+          <div>
+            <h3>What would you like to see here?</h3>
+            <p>
+              Have an idea for a Daily Sunwatch product, design, or item?
+              Send a suggestion anytime.
+            </p>
+          </div>
+
+          <a
+            class="feedback-button"
+            href="mailto:contact@dailysunwatch.com"
+          >
+            Write to me
+          </a>
         </div>
 
         <p class="store-philosophy">

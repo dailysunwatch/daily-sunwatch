@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/Sunny_Favicon.png">
+  <title>Store — Daily Sunwatch</title>
+  <meta name="description" content="Daily Sunwatch merchandise, playing cards, and project goods.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/site.css">
+
+  <style>
+    .page-hero {
+      padding: 62px 0;
+    }
+
+    .page-hero h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.9rem, 4.4vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+      font-weight: 700;
+    }
+
+    .store-promo {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+      background: var(--yellow);
+      color: var(--bg);
+      border-radius: 14px;
+      padding: 26px 28px;
+    }
+
+    .store-promo h3 {
+      margin: 0 0 5px;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .store-promo p {
+      margin: 0;
+      max-width: 650px;
+    }
+
+    .store-button {
+      display: inline-block;
+      flex-shrink: 0;
+      text-decoration: none;
+      background: var(--bg);
+      color: var(--ivory);
+      border: 1px solid var(--bg);
+      border-radius: 8px;
+      padding: 10px 15px;
+      font-size: .92rem;
+      font-weight: 700;
+    }
+
+    .store-button:hover { background: #242420; }
+
+    .cards-promo {
+      margin-top: 14px;
+      background: var(--ivory);
+      color: var(--bg);
+      border: 1px solid var(--ivory);
+      border-radius: 14px;
+      padding: 26px 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .cards-copy { min-width: 0; }
+
+    .cards-promo h3 {
+      margin: 0 0 5px;
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: var(--bg);
+    }
+
+    .cards-promo p {
+      margin: 0;
+      color: #3A3935;
+      font-size: .94rem;
+      max-width: 620px;
+    }
+
+    .cards-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 118px);
+      align-items: center;
+      justify-content: end;
+      gap: 10px;
+    }
+
+    .cards-photo-link {
+      display: block;
+      width: 118px;
+      height: 118px;
+      overflow: hidden;
+      border: 1px solid #D8D6CF;
+      border-radius: 6px;
+      background: #11110F;
+      line-height: 0;
+      transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+    }
+
+    .cards-photo-link:hover {
+      transform: translateY(-2px);
+      border-color: #AAA89F;
+      box-shadow: 0 5px 14px rgba(18, 18, 16, .16);
+    }
+
+    .cards-photo-link img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .mpc-link-source {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .store-philosophy {
+      margin-top: 26px;
+      padding-left: 14px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 760px;
+    }
+
+    @media (max-width: 680px) {
+      .page-hero { padding: 48px 0; }
+
+      .store-promo {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .cards-promo {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .cards-gallery {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        justify-content: start;
+        width: 100%;
+        gap: 8px;
+      }
+
+      .cards-photo-link {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/about.html">About</a>
+        <a href="/sources.html">Sources</a>
+        <a class="active" href="/store.html">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">Store</div>
+        <h1>Daily Sunwatch Store</h1>
+        <p class="copy">
+          Original Daily Sunwatch goods, accessories, novelties, and specialty items
+          inspired by Sunny and the project's visual identity.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="store-promo">
+          <div>
+            <h3>Daily Sunwatch Store</h3>
+            <p>
+              Original goods, accessories, and novelties inspired by Sunny
+              and the project's visual identity, available through Fourthwall.
+            </p>
+          </div>
+          <a class="store-button" href="https://daily-sunwatch-shop.fourthwall.com/" target="_blank" rel="noopener">Open Store</a>
+        </div>
+
+        <div class="cards-promo">
+          <div class="cards-copy">
+            <h3>Daily Sunwatch Playing Cards</h3>
+            <p>
+              Custom Daily Sunwatch playing cards featuring King Sunny, Queen Moony, and Jack Sandwich,
+              available through the MakePlayingCards Marketplace.
+            </p>
+          </div>
+
+          <div class="cards-gallery">
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-front.jpg" alt="Daily Sunwatch Ace of Spades playing card">
+            </a>
+
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-back.jpg" alt="Daily Sunwatch playing card deck showing the Sunny card back">
+            </a>
+
+            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
+              <img src="playing-cards-character-spread.jpg" alt="Daily Sunwatch custom playing cards featuring Sunny, Moony, Sandwich, and N/A">
+            </a>
+          </div>
+
+          <div class="mpc-link-source" aria-hidden="true">
+            <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
+            <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
+          </div>
+        </div>
+
+        <p class="store-philosophy">
+          The Daily Sunwatch Store aims to keep prices as low as reasonably possible, with the focus on
+          quality, interesting merchandise at fair prices rather than maximizing profit. Bundle discounts
+          are offered when possible. Shipping prices are governed by dark forces beyond Sunny's jurisdiction.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+        </div>
+      </div>
+
+      <div class="business-info">
+        Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function syncPlayingCardGalleryLinks() {
+      const gallery = document.querySelector(".cards-gallery");
+      if (!gallery) return;
+
+      const sync = () => {
+        const mpcLink = document.querySelector(".mpc-link-source a[href]");
+        if (!mpcLink || !mpcLink.href) return false;
+
+        gallery.querySelectorAll(".cards-photo-link").forEach((link) => {
+          link.href = mpcLink.href;
+          link.target = mpcLink.target || "_blank";
+          link.rel = "noopener noreferrer";
+        });
+        return true;
+      };
+
+      if (sync()) return;
+
+      const observer = new MutationObserver(() => {
+        if (sync()) observer.disconnect();
+      });
+
+      observer.observe(gallery, { childList: true, subtree: true });
+      window.setTimeout(() => observer.disconnect(), 10000);
+    }
+
+    window.addEventListener("load", syncPlayingCardGalleryLinks);
+  </script>
+</body>
+</html>

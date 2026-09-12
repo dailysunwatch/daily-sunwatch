@@ -26,6 +26,25 @@
       font-weight: 700;
     }
 
+    .title-tail {
+      white-space: nowrap;
+    }
+
+    .about-details {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .94rem;
+      line-height: 1.6;
+    }
+
+    .about-details p {
+      margin: 0;
+    }
+
+    .about-details p + p {
+      margin-top: 3px;
+    }
+
     .about-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -61,7 +80,6 @@
       max-width: 760px;
     }
 
-
     /* What We Watch — category outline accents */
     .about-card:nth-child(1) {
       border-color: #4A4626;
@@ -80,8 +98,13 @@
     }
 
     @media (max-width: 680px) {
-      .page-hero { padding: 48px 0; }
-      .about-grid { grid-template-columns: 1fr; }
+      .page-hero {
+        padding: 48px 0;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -90,6 +113,7 @@
   <header>
     <div class="wrap nav">
       <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+
       <nav aria-label="Main navigation">
         <a class="active" href="/about.html">About</a>
         <a href="/sources.html">Sources</a>
@@ -103,30 +127,32 @@
     <section class="page-hero">
       <div class="wrap">
         <div class="label">About</div>
-  
-        <h1>Daily views of the Sun and updates on solar activity. ☀️</h1>
-  
+
+        <h1>
+          Daily views of the Sun and updates on
+          <span class="title-tail">solar activity. ☀️</span>
+        </h1>
+
         <p class="copy">
           Daily Sunwatch is an automated solar and space-weather project focused on
           activity across the Sun and near-Earth environment. It uses scientific data
           and imagery from public sources to provide regular space-weather updates
           that are fun and easy to follow.
         </p>
-  
-        <p class="copy">
-          Featuring Sunny, our lighthearted solar mascot.
-        </p>
-  
-        <p class="copy">
-          Times and updates are shown in Eastern Time (EST/EDT).
-        </p>
+
+        <div class="about-details">
+          <p>Featuring Sunny, our lighthearted solar mascot.</p>
+          <p>Times and updates are shown in Eastern Time (EST/EDT).</p>
+        </div>
       </div>
     </section>
 
     <section class="content">
       <div class="wrap">
         <div class="label">What We Watch</div>
+
         <h2>From solar activity to conditions near Earth.</h2>
+
         <p class="copy">
           Daily Sunwatch follows several parts of the Sun–Earth system and turns
           public space-weather data into clear, regularly updated observations.
@@ -166,6 +192,7 @@
     <div class="wrap">
       <div class="footer-row">
         <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
         <div class="footer-links">
           <a href="/">Home</a>
           <a href="/privacy.html">Privacy Policy</a>
@@ -178,6 +205,13 @@
       </div>
     </div>
   </footer>
-  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'></script><!-- End Cloudflare Web Analytics -->
+
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>

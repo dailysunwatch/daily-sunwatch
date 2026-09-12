@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260912T100051Z",
+      "facebook_id": "122112074349440979",
+      "published_at": "2026-09-12T10:00:51.239876+00:00",
+      "published_display": "September 12, 2026 · 6:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — September 12, 2026\n\n🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B5.5 (Peaked September 12, 2026 at 07:39 UTC)\n🔥 Strongest recent flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 391 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nSunny spotted a little solar spark! 💥\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B5.5 (Peaked September 12, 2026 at 07:39 UTC)\n🔥 Strongest recent flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 391 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nSunny spotted a little solar spark! 💥\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T100051Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260912T040049Z",
       "facebook_id": "122112022809440979",
       "published_at": "2026-09-12T04:00:49.406990+00:00",
@@ -116,48 +133,6 @@
           "type": "image",
           "url": "/media/feed/20260911T160227Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20260911T160052Z",
-      "facebook_id": "1170345462837861_122111741787440979",
-      "published_at": "2026-09-11T16:00:52.505348+00:00",
-      "published_display": "September 11, 2026 · 12:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — September 11, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🌞\n\nSeveral sunspot groups and bright active regions are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🌞\n\nSeveral sunspot groups and bright active regions are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_1.jpg",
-          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_2.jpg",
-          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_3.jpg",
-          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_4.jpg",
-          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_5.jpg",
-          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160052Z/image_6.jpg",
-          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
         }
       ]
     }

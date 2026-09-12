@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260912T130037Z",
+      "facebook_id": "122112101847440979",
+      "published_at": "2026-09-12T13:00:37.709156+00:00",
+      "published_display": "September 12, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — September 12, 2026\n\n🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B7.7 (Peaked September 12, 2026 at 11:52 UTC)\n🔥 Strongest recent flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nA little flicker from the Sun! 🔥\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B7.7 (Peaked September 12, 2026 at 11:52 UTC)\n🔥 Strongest recent flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nA little flicker from the Sun! 🔥\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T130037Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260912T100051Z",
       "facebook_id": "122112074349440979",
       "published_at": "2026-09-12T10:00:51.239876+00:00",
@@ -116,23 +133,6 @@
           "type": "image",
           "url": "/media/feed/20260911T190051Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260911T160227Z",
-      "facebook_id": "122111742963440979",
-      "published_at": "2026-09-11T16:02:27.752400+00:00",
-      "published_display": "September 11, 2026 · 12:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 11, 2026\n\nThere’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀ CME start: September 09, 2026 at 16:00 UTC\n💨 CME speed: 282 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 35° (Moderate)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 13, 2026 at 23:00 UTC; possible Kp 2–3\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "There’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀ CME start: September 09, 2026 at 16:00 UTC\n💨 CME speed: 282 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 35° (Moderate)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 13, 2026 at 23:00 UTC; possible Kp 2–3\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T160227Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

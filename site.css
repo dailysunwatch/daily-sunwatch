@@ -141,3 +141,13 @@ footer {
 
   nav { gap: 14px; }
 }
+
+/* Shared live-feed post heading/meta styling */
+.sunny-post-meta {
+  margin-bottom: 12px;
+  color: var(--yellow);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}

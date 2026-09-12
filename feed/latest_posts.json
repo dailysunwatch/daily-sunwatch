@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20260912T160040Z",
+      "facebook_id": "1170345462837861_122112133281440979",
+      "published_at": "2026-09-12T16:00:40.759684+00:00",
+      "published_display": "September 12, 2026 · 12:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — September 12, 2026\n\n🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B6.3 (Peaked September 12, 2026 at 13:44 UTC)\n💨 Solar wind speed: 389 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nLooks pretty quiet right now. ✨💛\n\nToday’s Sun shows several small sunspots, broad dark coronal-hole regions, and a bright active region, while the surrounding corona appears relatively quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B6.3 (Peaked September 12, 2026 at 13:44 UTC)\n💨 Solar wind speed: 389 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nLooks pretty quiet right now. ✨💛\n\nToday’s Sun shows several small sunspots, broad dark coronal-hole regions, and a bright active region, while the surrounding corona appears relatively quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T160040Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20260912T130037Z",
       "facebook_id": "122112101847440979",
       "published_at": "2026-09-12T13:00:37.709156+00:00",
@@ -116,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260911T190219Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20260911T190051Z",
-      "facebook_id": "122111865573440979",
-      "published_at": "2026-09-11T19:00:51.102267+00:00",
-      "published_display": "September 11, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 11, 2026\n\n🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n🔥 Strongest recent flare: B8.1 (Peaked September 10, 2026 at 20:07 UTC)\n💨 Solar wind speed: 403 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n\nThe Sun gave us a little flicker! 🔥\n\nSeveral dark coronal-hole regions and bright active-region loops are visible, while the coronagraph shows no clear large outward structure.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B5.8 (Peaked September 11, 2026 at 14:03 UTC)\n🔥 Strongest recent flare: B8.1 (Peaked September 10, 2026 at 20:07 UTC)\n💨 Solar wind speed: 403 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n\nThe Sun gave us a little flicker! 🔥\n\nSeveral dark coronal-hole regions and bright active-region loops are visible, while the coronagraph shows no clear large outward structure.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T190051Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

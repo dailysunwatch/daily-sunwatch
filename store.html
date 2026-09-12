@@ -14,18 +14,6 @@
   <link rel="stylesheet" href="/site.css">
 
   <style>
-    .page-hero {
-      padding: 62px 0;
-    }
-
-    .page-hero h1 {
-      margin: 0 0 16px;
-      font-size: clamp(1.7rem, 4vw, 2.4rem);
-      line-height: 1.1;
-      letter-spacing: -.025em;
-      font-weight: 700;
-    }
-
     .store-promo {
       margin-top: 30px;
       display: flex;
@@ -62,7 +50,9 @@
       font-weight: 700;
     }
 
-    .store-button:hover { background: #242420; }
+    .store-button:hover {
+      background: #242420;
+    }
 
     .cards-promo {
       margin-top: 14px;
@@ -77,7 +67,9 @@
       gap: 28px;
     }
 
-    .cards-copy { min-width: 0; }
+    .cards-copy {
+      min-width: 0;
+    }
 
     .cards-promo h3 {
       margin: 0 0 5px;
@@ -145,8 +137,6 @@
     }
 
     @media (max-width: 680px) {
-      .page-hero { padding: 48px 0; }
-
       .store-promo {
         align-items: flex-start;
         flex-direction: column;
@@ -177,6 +167,7 @@
   <header>
     <div class="wrap nav">
       <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+
       <nav aria-label="Main navigation">
         <a href="/about.html">About</a>
         <a href="/sources.html">Sources</a>
@@ -187,19 +178,12 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="wrap">
-        <div class="label">Store</div>
-        <h1>Daily Sunwatch Store</h1>
-        <p class="copy">
-          Original Daily Sunwatch goods, accessories, novelties, and specialty items
-          inspired by Sunny and the project's visual identity.
-        </p>
-      </div>
-    </section>
-
     <section class="content">
       <div class="wrap">
+        <div class="label">Store</div>
+
+        <h2>Daily Sunwatch Store</h2>
+
         <div class="store-promo">
           <div>
             <h3>Daily Sunwatch Store</h3>
@@ -208,41 +192,76 @@
               and the project's visual identity, available through Fourthwall.
             </p>
           </div>
-          <a class="store-button" href="https://daily-sunwatch-shop.fourthwall.com/" target="_blank" rel="noopener">Open Store</a>
+
+          <a
+            class="store-button"
+            href="https://daily-sunwatch-shop.fourthwall.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Open Store
+          </a>
         </div>
 
         <div class="cards-promo">
           <div class="cards-copy">
             <h3>Daily Sunwatch Playing Cards</h3>
             <p>
-              Custom Daily Sunwatch playing cards featuring King Sunny, Queen Moony, and Jack Sandwich,
-              available through the MakePlayingCards Marketplace.
+              Custom Daily Sunwatch playing cards featuring King Sunny, Queen Moony,
+              and Jack Sandwich, available through the MakePlayingCards Marketplace.
             </p>
           </div>
 
           <div class="cards-gallery">
-            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
-              <img src="playing-cards-front.jpg" alt="Daily Sunwatch Ace of Spades playing card">
+            <a
+              class="cards-photo-link"
+              href="#"
+              aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards"
+            >
+              <img
+                src="playing-cards-front.jpg"
+                alt="Daily Sunwatch Ace of Spades playing card"
+              >
             </a>
 
-            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
-              <img src="playing-cards-back.jpg" alt="Daily Sunwatch playing card deck showing the Sunny card back">
+            <a
+              class="cards-photo-link"
+              href="#"
+              aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards"
+            >
+              <img
+                src="playing-cards-back.jpg"
+                alt="Daily Sunwatch playing card deck showing the Sunny card back"
+              >
             </a>
 
-            <a class="cards-photo-link" href="#" aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards">
-              <img src="playing-cards-character-spread.jpg" alt="Daily Sunwatch custom playing cards featuring Sunny, Moony, Sandwich, and N/A">
+            <a
+              class="cards-photo-link"
+              href="#"
+              aria-label="View Daily Sunwatch Playing Cards on MakePlayingCards"
+            >
+              <img
+                src="playing-cards-character-spread.jpg"
+                alt="Daily Sunwatch custom playing cards featuring Sunny, Moony, Sandwich, and N/A"
+              >
             </a>
           </div>
 
           <div class="mpc-link-source" aria-hidden="true">
-            <script type='text/javascript' src='https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js'></script>
-            <script type='text/javascript'>SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');</script>
+            <script
+              type="text/javascript"
+              src="https://www.makeplayingcards.com/sell/js/sell_designer_promotion.js">
+            </script>
+            <script type="text/javascript">
+              SellDesign.Mini('078EBB11675CBA2641BE2DC23D195976392BCA1AF9A68DE0');
+            </script>
           </div>
         </div>
 
         <p class="store-philosophy">
-          The Daily Sunwatch Store aims to keep prices as low as reasonably possible, with a focus on offering quality,
-          interesting merchandise at a fair price rather than maximizing profit. Bundle discounts are offered when possible.
+          The Daily Sunwatch Store aims to keep prices as low as reasonably possible,
+          with a focus on offering quality, interesting merchandise at a fair price
+          rather than maximizing profit. Bundle discounts are offered when possible.
           Shipping prices are governed by dark forces beyond Sunny's jurisdiction.
         </p>
       </div>
@@ -253,6 +272,7 @@
     <div class="wrap">
       <div class="footer-row">
         <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
         <div class="footer-links">
           <a href="/">Home</a>
           <a href="/privacy.html">Privacy Policy</a>
@@ -280,6 +300,7 @@
           link.target = mpcLink.target || "_blank";
           link.rel = "noopener noreferrer";
         });
+
         return true;
       };
 
@@ -289,12 +310,23 @@
         if (sync()) observer.disconnect();
       });
 
-      observer.observe(gallery, { childList: true, subtree: true });
+      observer.observe(gallery, {
+        childList: true,
+        subtree: true
+      });
+
       window.setTimeout(() => observer.disconnect(), 10000);
     }
 
     window.addEventListener("load", syncPlayingCardGalleryLinks);
   </script>
-  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'></script><!-- End Cloudflare Web Analytics -->
+
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>

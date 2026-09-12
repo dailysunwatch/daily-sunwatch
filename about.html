@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/Sunny_Favicon.png">
+  <title>About — Daily Sunwatch</title>
+  <meta name="description" content="About Daily Sunwatch and the solar and space-weather activity the project follows.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/site.css">
+
+  <style>
+    .page-hero {
+      padding: 62px 0;
+    }
+
+    .page-hero h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.9rem, 4.4vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+      font-weight: 700;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .about-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .about-card h3 {
+      margin: 0 0 7px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .about-note {
+      margin-top: 26px;
+      padding-left: 14px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 760px;
+    }
+
+    @media (max-width: 680px) {
+      .page-hero { padding: 48px 0; }
+      .about-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="/about.html">About</a>
+        <a href="/sources.html">Sources</a>
+        <a href="/store.html">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">About</div>
+        <h1>Solar observation, with a little personality.</h1>
+        <p class="copy">
+          Daily Sunwatch is an automated solar and space-weather project focused on
+          activity across the Sun and near-Earth environment. It combines regularly
+          updated observations with original visual content designed to make space
+          weather informative, approachable, and fun.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="label">What We Watch</div>
+        <h2>From solar activity to conditions near Earth.</h2>
+        <p class="copy">
+          Daily Sunwatch follows several parts of the Sun–Earth system and turns
+          public space-weather data into clear, regularly updated observations.
+        </p>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>☀ Solar Activity &amp; Flares</h3>
+            <p>Solar X-ray activity, flare events, and active regions across the Sun.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>◉ Coronal Mass Ejections</h3>
+            <p>Coronal activity and CME events reported through public space-weather sources.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>↝ Solar Wind &amp; Geomagnetic Activity</h3>
+            <p>Solar-wind speed, IMF Bz, Kp, and other conditions in the near-Earth environment.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>⌁ Aurora Conditions</h3>
+            <p>Geomagnetic conditions and ingredients that can support auroral activity.</p>
+          </article>
+        </div>
+
+        <p class="about-note">
+          Daily Sunwatch also includes occasional nighttime and terrestrial-weather content,
+          while keeping its primary focus on the Sun and space weather.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+        </div>
+      </div>
+
+      <div class="business-info">
+        Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

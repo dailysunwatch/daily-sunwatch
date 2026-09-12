@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260912T220039Z",
+      "facebook_id": "122112185595440979",
+      "published_at": "2026-09-12T22:00:39.939441+00:00",
+      "published_display": "September 12, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — September 12, 2026\n\n🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: B8.3 (Peaked September 12, 2026 at 18:30 UTC)\n💨 Solar wind speed: 378 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nPretty quiet out there. 💛🌞\n\nA few coronal-hole-like dark regions and a structured active region are visible, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: B8.3 (Peaked September 12, 2026 at 18:30 UTC)\n💨 Solar wind speed: 378 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nPretty quiet out there. 💛🌞\n\nA few coronal-hole-like dark regions and a structured active region are visible, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260912T220039Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260912T190157Z",
       "facebook_id": "122112158547440979",
       "published_at": "2026-09-12T19:01:57.999628+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260912T010035Z/image_1.jpg",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260911T220233Z",
-      "facebook_id": "122111969301440979",
-      "published_at": "2026-09-11T22:02:33.571676+00:00",
-      "published_display": "September 11, 2026 · 6:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 11, 2026\n\nNASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 11, 2026 at 16:12 UTC\n💨 CME speed: 340 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 10° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "NASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 11, 2026 at 16:12 UTC\n💨 CME speed: 340 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 10° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260911T220233Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

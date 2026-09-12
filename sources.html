@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sources and resources used by Daily Sunwatch for solar, space-weather, lunar, terrestrial weather, and supplementary visual analysis.">
+  <title>Sources & Resources — Daily Sunwatch</title>
+  <style>
+    :root{
+      --bg:#121210;
+      --panel:#191917;
+      --soft:#242420;
+      --ivory:#F6F5F0;
+      --muted:#b7b6af;
+      --yellow:#FFD400;
+      --line:#34342f;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ivory);
+      font-family:"Open Sans",Arial,Helvetica,sans-serif;
+      line-height:1.6;
+    }
+
+    a{color:inherit}
+    .wrap{width:min(1120px,calc(100% - 40px));margin:0 auto}
+
+    header{
+      border-bottom:1px solid var(--line);
+      background:rgba(18,18,16,.96);
+    }
+
+    .nav-row{
+      min-height:72px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .brand{
+      font-weight:800;
+      letter-spacing:.06em;
+      text-decoration:none;
+      font-size:1.02rem;
+    }
+
+    .brand span{color:var(--yellow)}
+
+    nav{
+      display:flex;
+      gap:22px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      color:#d7d6d0;
+      text-decoration:none;
+      font-size:.92rem;
+    }
+
+    nav a:hover,
+    nav a.active{color:var(--yellow)}
+
+    .hero{
+      padding:78px 0 56px;
+      border-bottom:1px solid var(--line);
+    }
+
+    .eyebrow{
+      color:var(--yellow);
+      font-size:.78rem;
+      font-weight:800;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      margin-bottom:10px;
+    }
+
+    h1{
+      font-size:clamp(2.5rem,6vw,4.8rem);
+      line-height:1.03;
+      margin:0 0 18px;
+      letter-spacing:-.045em;
+    }
+
+    .hero p{
+      max-width:820px;
+      color:#d1d0ca;
+      font-size:1.08rem;
+      margin:0;
+    }
+
+    .hero-note{
+      margin-top:18px!important;
+      color:var(--muted)!important;
+      font-size:.9rem!important;
+    }
+
+    main{padding:58px 0 80px}
+
+    .section-head{margin-bottom:24px}
+
+    .section-head h2{
+      font-size:clamp(1.75rem,3vw,2.5rem);
+      margin:0 0 8px;
+    }
+
+    .section-head p{
+      margin:0;
+      color:var(--muted);
+      max-width:780px;
+    }
+
+    .sources{
+      display:grid;
+      gap:18px;
+    }
+
+    .source-card{
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:var(--panel);
+      padding:26px;
+      transition:transform .18s ease,border-color .18s ease;
+    }
+
+    .source-card:hover{
+      transform:translateY(-2px);
+      border-color:#4a493f;
+    }
+
+    .source-head{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+
+    .source-mark{
+      width:66px;
+      height:66px;
+      flex:0 0 66px;
+      border-radius:16px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      background:var(--ivory);
+      color:var(--bg);
+      font-weight:900;
+      font-size:.78rem;
+      line-height:1.05;
+      letter-spacing:-.02em;
+      padding:7px;
+      border:1px solid #deddd6;
+    }
+
+    .source-mark.nasa{background:#102b68;color:white}
+    .source-mark.noaa{background:#0d77a8;color:white}
+    .source-mark.usno{background:#17245a;color:#f3d365}
+    .source-mark.nws{background:#e9f4fb;color:#22549b}
+    .source-mark.ai{background:var(--ivory);color:#111}
+
+    .source-title{min-width:0}
+
+    .source-title h3{
+      font-size:1.25rem;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+
+    .source-title h3 a{
+      text-decoration:none;
+      text-underline-offset:4px;
+    }
+
+    .source-title h3 a:hover{
+      color:var(--yellow);
+      text-decoration:underline;
+    }
+
+    .source-title p{
+      margin:0;
+      color:var(--muted);
+      font-size:.93rem;
+    }
+
+    .source-summary{
+      margin:0;
+      color:#d8d7d1;
+      font-size:.98rem;
+      max-width:900px;
+    }
+
+    .source-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:18px;
+      padding-top:17px;
+      border-top:1px solid var(--line);
+    }
+
+    .source-tag{
+      border:1px solid #45443e;
+      border-radius:999px;
+      padding:6px 11px;
+      color:#d8d7d1;
+      font-size:.8rem;
+      background:#171715;
+    }
+
+    .resource-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+      margin-top:16px;
+    }
+
+    .resource-links a{
+      border:1px solid #45443e;
+      border-radius:999px;
+      padding:6px 11px;
+      text-decoration:none;
+      color:#d8d7d1;
+      font-size:.82rem;
+    }
+
+    .resource-links a:hover{
+      border-color:var(--yellow);
+      color:var(--yellow);
+    }
+
+    .model-note{
+      margin-top:16px;
+      padding:13px 15px;
+      border-radius:11px;
+      background:var(--soft);
+      color:#c9c8c2;
+      font-size:.88rem;
+    }
+
+    .ai-section{
+      margin-top:56px;
+      padding-top:52px;
+      border-top:1px solid var(--line);
+    }
+
+    .ai-card{
+      border-color:#595329;
+      background:linear-gradient(135deg,#1b1b18,#242114);
+    }
+
+    .disclaimer{
+      margin-top:20px;
+      border-left:3px solid var(--yellow);
+      padding:12px 0 12px 16px;
+      color:#c8c7c0;
+      font-size:.9rem;
+      max-width:900px;
+    }
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:28px 0 36px;
+      color:#aaa9a2;
+      font-size:.85rem;
+    }
+
+    .footer-row{
+      display:flex;
+      justify-content:space-between;
+      gap:24px;
+      align-items:center;
+    }
+
+    .footer-links{
+      display:flex;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .footer-links a{text-decoration:none}
+    .footer-links a:hover{color:var(--yellow)}
+
+    @media(max-width:760px){
+      .wrap{width:min(100% - 28px,1120px)}
+
+      .nav-row{
+        align-items:flex-start;
+        flex-direction:column;
+        padding:18px 0;
+        gap:12px;
+      }
+
+      nav{gap:14px 18px}
+      .hero{padding:54px 0 42px}
+      main{padding-top:42px}
+      .source-card{padding:20px}
+
+      .source-head{
+        align-items:flex-start;
+      }
+
+      .source-mark{
+        width:56px;
+        height:56px;
+        flex-basis:56px;
+        border-radius:14px;
+        font-size:.69rem;
+      }
+
+      .footer-row{
+        align-items:flex-start;
+        flex-direction:column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-row">
+    <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="/#about">About</a>
+      <a href="/#watching">What We Watch</a>
+      <a class="active" href="/sources.html">Sources</a>
+      <a href="/#store">Store</a>
+      <a href="mailto:contact@dailysunwatch.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Sources &amp; Resources</div>
+    <h1>Where Sunny gets the data. ☀</h1>
+
+    <p>
+      Daily Sunwatch draws on established scientific and government resources for solar,
+      space-weather, lunar, and terrestrial weather information. This page highlights the
+      main sources behind the project without getting into Sunny's entire internal workflow.
+    </p>
+
+    <p class="hero-note">
+      Each title links to an official resource. Data, imagery, forecasts, and model guidance
+      remain the work of their respective providers.
+    </p>
+  </div>
+</section>
+
+<main>
+<div class="wrap">
+
+  <section>
+    <div class="section-head">
+      <div class="eyebrow">Scientific Sources</div>
+      <h2>Observations, models &amp; forecasts</h2>
+      <p>
+        The primary scientific resources that help Daily Sunwatch keep an eye on the Sun,
+        near-Earth space, the Moon, and occasionally the weather down here too.
+      </p>
+    </div>
+
+    <div class="sources">
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark noaa" aria-hidden="true">NOAA<br>SWPC</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">
+                NOAA Space Weather Prediction Center ↗
+              </a>
+            </h3>
+            <p>Operational U.S. space-weather observations, forecasts, alerts, and imagery.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          NOAA SWPC is one of Daily Sunwatch's primary operational sources, providing much
+          of the real-time context behind Sunny's solar, solar-wind, geomagnetic, aurora,
+          and coronagraph observations.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Solar activity</span>
+          <span class="source-tag">Space weather</span>
+          <span class="source-tag">Geomagnetic conditions</span>
+          <span class="source-tag">Coronagraph imagery</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">Visit NOAA SWPC ↗</a>
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark nasa" aria-hidden="true">NASA<br>SDO</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener">
+                NASA Solar Dynamics Observatory ↗
+              </a>
+            </h3>
+            <p>Near-continuous, multi-wavelength observations of the Sun.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          NASA's Solar Dynamics Observatory provides high-resolution solar imagery used
+          throughout Daily Sunwatch for routine observations, flare context, multi-wavelength
+          views, and visual analysis.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Solar imagery</span>
+          <span class="source-tag">Multi-wavelength views</span>
+          <span class="source-tag">Flare context</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener">Visit NASA SDO ↗</a>
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark nasa" aria-hidden="true">NASA<br>DONKI</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://ccmc.gsfc.nasa.gov/tools/DONKI/" target="_blank" rel="noopener">
+                NASA CCMC / DONKI ↗
+              </a>
+            </h3>
+            <p>NASA's space-weather event database and notification resource.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          DONKI provides event information and scientific context for activity such as
+          solar flares and coronal mass ejections, helping Sunny connect observations to
+          reported space-weather events.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Solar flares</span>
+          <span class="source-tag">CMEs</span>
+          <span class="source-tag">Event context</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://ccmc.gsfc.nasa.gov/tools/DONKI/" target="_blank" rel="noopener">Visit DONKI ↗</a>
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark nasa" aria-hidden="true">WSA–<br>ENLIL</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://ccmc.gsfc.nasa.gov/models/WSA-Enlil-at-SWPC~3/" target="_blank" rel="noopener">
+                WSA–ENLIL ↗
+              </a>
+            </h3>
+            <p>Physics-based modeling of the solar wind and CME propagation through the inner heliosphere.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          Daily Sunwatch uses WSA–ENLIL model guidance for additional context when evaluating
+          how reported CME events may propagate through interplanetary space and toward Earth.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">CME modeling</span>
+          <span class="source-tag">Propagation</span>
+          <span class="source-tag">Earth-impact context</span>
+        </div>
+
+        <div class="model-note">
+          Model guidance is presented as guidance. Sunny does not independently calculate CME impact.
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark usno" aria-hidden="true">USNO</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://aa.usno.navy.mil/" target="_blank" rel="noopener">
+                U.S. Naval Observatory — Astronomical Applications ↗
+              </a>
+            </h3>
+            <p>Official astronomical data from the U.S. Naval Observatory.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          Moony Moonwatch uses USNO astronomical data for lunar-phase and illumination
+          information, including timing for upcoming major Moon phases.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Moon phase</span>
+          <span class="source-tag">Lunar illumination</span>
+          <span class="source-tag">Phase timing</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://aa.usno.navy.mil/" target="_blank" rel="noopener">Visit USNO ↗</a>
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark nasa" aria-hidden="true">NASA<br>SVS</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://svs.gsfc.nasa.gov/" target="_blank" rel="noopener">
+                NASA Scientific Visualization Studio ↗
+              </a>
+            </h3>
+            <p>NASA Goddard scientific visualizations and imagery.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          NASA SVS provides the lunar visualization imagery used by Moony Moonwatch,
+          pairing a visual view of the Moon with the astronomical phase information
+          supplied by USNO.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Lunar imagery</span>
+          <span class="source-tag">Moony Moonwatch</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://svs.gsfc.nasa.gov/" target="_blank" rel="noopener">Visit NASA SVS ↗</a>
+        </div>
+      </article>
+
+      <article class="source-card">
+        <div class="source-head">
+          <div class="source-mark nws" aria-hidden="true">NWS</div>
+          <div class="source-title">
+            <h3>
+              <a href="https://www.weather.gov/" target="_blank" rel="noopener">
+                National Weather Service ↗
+              </a>
+            </h3>
+            <p>Official U.S. terrestrial weather forecasts and observations.</p>
+          </div>
+        </div>
+
+        <p class="source-summary">
+          The National Weather Service supports Sunny's occasional East Coast terrestrial-weather
+          features, adding a little Earth weather when solar activity is especially quiet.
+        </p>
+
+        <div class="source-meta">
+          <span class="source-tag">Terrestrial weather</span>
+          <span class="source-tag">East Coast forecasts</span>
+        </div>
+
+        <div class="resource-links">
+          <a href="https://www.weather.gov/" target="_blank" rel="noopener">Visit weather.gov ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="ai-section">
+    <div class="section-head">
+      <div class="eyebrow">Visual Analysis</div>
+      <h2>Sunny Vision</h2>
+      <p>
+        An optional supporting layer for selected imagery — separate from Sunny's
+        official scientific data sources.
+      </p>
+    </div>
+
+    <article class="source-card ai-card">
+      <div class="source-head">
+        <div class="source-mark ai" aria-hidden="true">SUNNY<br>VISION</div>
+        <div class="source-title">
+          <h3>Sunny Vision</h3>
+          <p>Optional AI-assisted visual analysis for selected solar imagery.</p>
+        </div>
+      </div>
+
+      <p class="source-summary">
+        Sunny Vision helps Daily Sunwatch examine selected imagery for potentially notable
+        visible features and add short observational context when appropriate. It is
+        supplementary rather than authoritative, and official scientific observations
+        and model guidance remain separate.
+      </p>
+
+      <div class="source-meta">
+        <span class="source-tag">Image interpretation</span>
+        <span class="source-tag">Supplementary context</span>
+        <span class="source-tag">Conservative analysis</span>
+      </div>
+
+      <div class="model-note">
+        Sunny Vision uses OpenAI technology. It is not used as a replacement for official
+        NOAA, NASA, USNO, or NWS data and guidance.
+      </div>
+    </article>
+
+    <div class="disclaimer">
+      Daily Sunwatch is an independent project and is not affiliated with, sponsored by,
+      or endorsed by NOAA, NASA, the U.S. Naval Observatory, the National Weather Service,
+      or OpenAI.
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

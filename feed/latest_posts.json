@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260913T220208Z",
+      "facebook_id": "122112403611440979",
+      "published_at": "2026-09-13T22:02:08.959529+00:00",
+      "published_display": "September 13, 2026 · 6:02 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 13, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 13, 2026 at 19:48 UTC\n💨 CME speed: 1305 km/s\n🏷 CME SCORE: O-type (1000–1999 km/s)\n📐 CME half-angle: 23° (Moderate)\n📍 Source: S10W10 (near disk center)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 13, 2026 at 19:48 UTC\n💨 CME speed: 1305 km/s\n🏷 CME SCORE: O-type (1000–1999 km/s)\n📐 CME half-angle: 23° (Moderate)\n📍 Source: S10W10 (near disk center)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260913T220208Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260913T220046Z",
       "facebook_id": "122112402729440979",
       "published_at": "2026-09-13T22:00:46.071521+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260913T100044Z/image_1.jpg",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260913T040044Z",
-      "facebook_id": "122112226491440979",
-      "published_at": "2026-09-13T04:00:44.398798+00:00",
-      "published_display": "September 13, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — September 13, 2026\n\n🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.3 (Peaked September 13, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: C5.8 (Peaked September 12, 2026 at 17:20 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nA little burst of solar energy! 💥\n\nBroad coronal holes and a bright active region stand out in today’s solar images, while the coronagraph view looks quiet.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.3 (Peaked September 13, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: C5.8 (Peaked September 12, 2026 at 17:20 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nA little burst of solar energy! 💥\n\nBroad coronal holes and a bright active region stand out in today’s solar images, while the coronagraph view looks quiet.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260913T040044Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

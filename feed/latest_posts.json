@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260913T170026Z",
+      "facebook_id": "122112338679440979",
+      "published_at": "2026-09-13T17:00:26.601768+00:00",
+      "published_display": "September 13, 2026 · 1:00 PM EDT",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — September 13, 2026\n\nTime to eat!\n\nHere's what I've been watching in the last 24 hours:\n🔥 Strongest flare: C5.8\n💨 Peak solar wind: 492 km/s (Elevated)\n\nTime for a well-earned break. #SunnyRunny 🌞🏃💨\n\nYour art could be featured during a future Sunny's Lunch Break! Contact me! 🎨",
+      "display_text": "Time to eat!\n\nHere's what I've been watching in the last 24 hours:\n🔥 Strongest flare: C5.8\n💨 Peak solar wind: 492 km/s (Elevated)\n\nTime for a well-earned break. #SunnyRunny 🌞🏃💨\n\nYour art could be featured during a future Sunny's Lunch Break! Contact me! 🎨",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260913T170026Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20260913T160346Z",
       "facebook_id": "122112327039440979",
       "published_at": "2026-09-13T16:03:46.907348+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260912T220039Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260912T190157Z",
-      "facebook_id": "122112158547440979",
-      "published_at": "2026-09-12T19:01:57.999628+00:00",
-      "published_display": "September 12, 2026 · 3:01 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 12, 2026\n\nA new CME showed up in NASA’s DONKI, so Sunny is checking the Sun’s outer corona.\n\n☀ CME start: September 12, 2026 at 08:38 UTC\n💨 CME speed: 337 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 13° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A new CME showed up in NASA’s DONKI, so Sunny is checking the Sun’s outer corona.\n\n☀ CME start: September 12, 2026 at 08:38 UTC\n💨 CME speed: 337 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 13° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260912T190157Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

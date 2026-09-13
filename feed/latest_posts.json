@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260913T040044Z",
+      "facebook_id": "122112226491440979",
+      "published_at": "2026-09-13T04:00:44.398798+00:00",
+      "published_display": "September 13, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — September 13, 2026\n\n🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.3 (Peaked September 13, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: C5.8 (Peaked September 12, 2026 at 17:20 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nA little burst of solar energy! 💥\n\nBroad coronal holes and a bright active region stand out in today’s solar images, while the coronagraph view looks quiet.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.3 (Peaked September 13, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: C5.8 (Peaked September 12, 2026 at 17:20 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nA little burst of solar energy! 💥\n\nBroad coronal holes and a bright active region stand out in today’s solar images, while the coronagraph view looks quiet.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260913T040044Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260913T010047Z",
       "facebook_id": "122112205167440979",
       "published_at": "2026-09-13T01:00:47.142489+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260912T100051Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260912T040049Z",
-      "facebook_id": "122112022809440979",
-      "published_at": "2026-09-12T04:00:49.406990+00:00",
-      "published_display": "September 12, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — September 12, 2026\n\n🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n\nLooks pretty quiet right now. 🌎✨\n\nToday’s images show several small sunspots, broad coronal holes, and bright active-region loops, while the coronagraph appears routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B8.5 (Peaked September 11, 2026 at 23:14 UTC)\n💨 Solar wind speed: 409 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n\nLooks pretty quiet right now. 🌎✨\n\nToday’s images show several small sunspots, broad coronal holes, and bright active-region loops, while the coronagraph appears routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260912T040049Z/image_1.jpg",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

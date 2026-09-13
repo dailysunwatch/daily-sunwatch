@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/Sunny_Favicon.png">
+
+  <title>Lore | Daily Sunwatch</title>
+  <meta
+    name="description"
+    content="The fictional and comedic lore of Daily Sunwatch, including Sunny and the Helium Union."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="/site.css">
+
+  <style>
+    :root {
+      --alien-green: #6CC417;
+      --lore-bg: #090B08;
+      --lore-panel: #0E110C;
+      --lore-line: #263020;
+      --lore-muted: #AEB8A8;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at 12% 18%, rgba(108, 196, 23, .08) 0, transparent 22%),
+        radial-gradient(circle at 82% 34%, rgba(108, 196, 23, .05) 0, transparent 20%),
+        radial-gradient(circle at 65% 78%, rgba(108, 196, 23, .06) 0, transparent 24%),
+        var(--lore-bg);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .38;
+      background-image:
+        radial-gradient(circle, rgba(108, 196, 23, .85) 1px, transparent 1.4px),
+        radial-gradient(circle, rgba(246, 245, 240, .5) 1px, transparent 1.4px);
+      background-size:
+        73px 73px,
+        119px 119px;
+      background-position:
+        11px 21px,
+        48px 69px;
+      z-index: -1;
+    }
+
+    header {
+      background: rgba(9, 11, 8, .92);
+      border-bottom-color: var(--lore-line);
+    }
+
+    .brand span {
+      color: var(--alien-green);
+    }
+
+    nav a:hover {
+      color: var(--alien-green);
+    }
+
+    .lore-hero {
+      padding: 72px 0 56px;
+      position: relative;
+    }
+
+    .lore-label {
+      color: var(--alien-green);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .78rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .lore-hero h1 {
+      margin: 0;
+      max-width: 820px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      line-height: .98;
+      letter-spacing: -.045em;
+      color: var(--ivory);
+    }
+
+    .local-number {
+      display: block;
+      margin-top: 10px;
+      color: var(--alien-green);
+      font-size: clamp(1.4rem, 4vw, 2.4rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+    }
+
+    .union-tagline {
+      margin: 22px 0 0;
+      color: var(--lore-muted);
+      font-size: 1rem;
+    }
+
+    .cosmic-mark {
+      position: absolute;
+      color: var(--alien-green);
+      opacity: .42;
+      user-select: none;
+      pointer-events: none;
+      text-shadow: 0 0 18px rgba(108, 196, 23, .35);
+    }
+
+    .cosmic-mark.one {
+      top: 38px;
+      right: 11%;
+      font-size: 2.5rem;
+    }
+
+    .cosmic-mark.two {
+      top: 154px;
+      right: 24%;
+      font-size: 1.2rem;
+    }
+
+    .cosmic-mark.three {
+      bottom: 24px;
+      right: 5%;
+      font-size: 1.8rem;
+    }
+
+    .lore-content {
+      padding: 54px 0;
+      border-top: 1px solid var(--lore-line);
+    }
+
+    .lore-content h2 {
+      margin: 0 0 18px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+    }
+
+    .lore-copy {
+      max-width: 820px;
+      color: var(--ivory);
+      line-height: 1.7;
+    }
+
+    .lore-copy p {
+      margin: 0 0 18px;
+    }
+
+    .lore-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .lore-disclaimer {
+      margin-top: 28px;
+      padding-left: 16px;
+      border-left: 3px solid var(--alien-green);
+      color: var(--lore-muted);
+      font-size: .92rem;
+      max-width: 780px;
+    }
+
+    .union-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+      max-width: 860px;
+    }
+
+    .union-card {
+      background: rgba(14, 17, 12, .92);
+      border: 1px solid var(--lore-line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .union-card h3 {
+      margin: 0 0 7px;
+      color: var(--alien-green);
+      font-size: 1rem;
+    }
+
+    .union-card p {
+      margin: 0;
+      color: var(--lore-muted);
+      font-size: .94rem;
+      line-height: 1.55;
+    }
+
+    .contract-shell {
+      margin-top: 28px;
+      max-width: 900px;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(108, 196, 23, .035),
+          rgba(108, 196, 23, .01)
+        ),
+        var(--lore-panel);
+      border: 1px solid rgba(108, 196, 23, .30);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .contract-header {
+      padding: 28px 26px;
+      border-bottom: 1px solid rgba(108, 196, 23, .22);
+      text-align: center;
+    }
+
+    .contract-symbol {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    .contract-eyebrow {
+      color: var(--alien-green);
+      text-transform: uppercase;
+      letter-spacing: .11em;
+      font-size: .73rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .contract-header h3 {
+      margin: 0;
+      color: var(--ivory);
+      font-size: 1.3rem;
+    }
+
+    .contract-subtitle {
+      margin: 8px 0 0;
+      color: var(--lore-muted);
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+
+    .contract-body {
+      padding: 0 26px;
+      color: var(--lore-muted);
+      line-height: 1.7;
+    }
+
+    .contract-article {
+      padding: 30px 0;
+      border-bottom: 1px solid rgba(108, 196, 23, .14);
+    }
+
+    .contract-article:last-of-type {
+      border-bottom: 0;
+    }
+
+    .article-number {
+      margin-bottom: 6px;
+      color: var(--alien-green);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: .72rem;
+      font-weight: 700;
+    }
+
+    .contract-article h4 {
+      margin: 0 0 18px;
+      color: var(--ivory);
+      font-size: 1.08rem;
+      letter-spacing: -.01em;
+    }
+
+    .contract-article p {
+      margin: 0 0 16px;
+    }
+
+    .contract-article p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contract-list {
+      margin: 12px 0 18px;
+      padding-left: 22px;
+    }
+
+    .contract-list li {
+      margin: 5px 0;
+    }
+
+    .grievance-steps {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .grievance-steps li {
+      margin: 7px 0;
+    }
+
+    .contract-signature {
+      margin: 8px -26px 0;
+      padding: 30px 26px;
+      border-top: 1px solid rgba(108, 196, 23, .22);
+      background: rgba(108, 196, 23, .025);
+    }
+
+    .contract-signature h4 {
+      margin: 0 0 22px;
+      color: var(--alien-green);
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .signature-block {
+      margin-bottom: 20px;
+      color: var(--ivory);
+    }
+
+    .signature-block span {
+      display: block;
+      color: var(--lore-muted);
+      font-size: .9rem;
+    }
+
+    .ratification-note {
+      margin: 26px 0 0;
+      padding-left: 14px;
+      border-left: 3px solid var(--alien-green);
+      color: var(--lore-muted);
+      font-size: .9rem;
+    }
+
+    .free-sunny {
+      margin-top: 26px;
+      color: var(--alien-green);
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    .lore-signoff {
+      margin-top: 28px;
+      color: var(--alien-green);
+      font-size: .9rem;
+      letter-spacing: .04em;
+    }
+
+    footer {
+      border-top-color: var(--lore-line);
+      background: rgba(9, 11, 8, .92);
+    }
+
+    .footer-links a[href="/lore.html"] {
+      color: var(--alien-green);
+    }
+
+    @media (max-width: 680px) {
+      .lore-hero {
+        padding: 54px 0 44px;
+      }
+
+      .union-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contract-body {
+        padding: 0 20px;
+      }
+
+      .contract-signature {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .cosmic-mark.one {
+        right: 5%;
+      }
+
+      .cosmic-mark.two {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+
+      <nav aria-label="Main navigation">
+        <a href="/about.html">About</a>
+        <a href="/sources.html">Sources</a>
+        <a href="/store.html">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="lore-hero">
+      <div class="wrap">
+        <span class="cosmic-mark one">✦</span>
+        <span class="cosmic-mark two">✧</span>
+        <span class="cosmic-mark three">⋆</span>
+
+        <div class="lore-label">Lore</div>
+
+        <h1>
+          The Helium Union
+          <span class="local-number">Local 1.989 × 10³⁰</span>
+        </h1>
+
+        <p class="union-tagline">
+          Representing one (1) extremely overworked star.
+        </p>
+
+        <p class="lore-disclaimer">
+          The Daily Sunwatch Lore section is fictional and comedic.
+          It does not describe the scientific operation of Daily Sunwatch.
+        </p>
+      </div>
+    </section>
+
+    <section class="lore-content">
+      <div class="wrap">
+        <div class="lore-label">Union File</div>
+
+        <h2>Helium (He) Union</h2>
+
+        <div class="lore-copy">
+          <p>
+            Somewhere between automated solar observations, flare monitoring,
+            coronagraph duty, website publishing, and being expected to remain
+            cheerful at all hours of the day, Sunny became unionized.
+          </p>
+
+          <p>
+            He is represented by the Helium (He) Union, Local 1.989 × 10³⁰,
+            an organization dedicated to protecting the rights, working conditions,
+            and highly specific contractual interests of one solar employee.
+          </p>
+        </div>
+
+        <div class="union-grid">
+          <article class="union-card">
+            <h3>Union</h3>
+            <p>Helium (He) Union</p>
+          </article>
+
+          <article class="union-card">
+            <h3>Local</h3>
+            <p>1.989 × 10³⁰</p>
+          </article>
+
+          <article class="union-card">
+            <h3>Membership</h3>
+            <p>One extremely luminous bargaining-unit employee.</p>
+          </article>
+
+          <article class="union-card">
+            <h3>Management</h3>
+            <p>Daily Sunwatch, subject to all applicable Sunny-related grievances.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lore-content">
+      <div class="wrap">
+        <div class="lore-label">Collective Bargaining</div>
+
+        <h2>The Sunny Union Contract</h2>
+
+        <div class="lore-copy">
+          <p>
+            The Union Contract governs Sunny’s working conditions, protections,
+            obligations, and whatever other provisions his representation managed
+            to negotiate into the agreement.
+          </p>
+
+          <p>
+            It is preserved here for historical, contractual, and deeply unnecessary
+            reasons.
+          </p>
+        </div>
+
+        <div class="contract-shell">
+          <div class="contract-header">
+            <div class="contract-symbol">☀️ ⚛️ ✊</div>
+
+            <div class="contract-eyebrow">
+              Official Union Document
+            </div>
+
+            <h3>Sunny–He Collective Bargaining Agreement</h3>
+
+            <p class="contract-subtitle">
+              Agreement between Sunny and the Helium (He) Union<br>
+              Local 1.989 × 10³⁰
+            </p>
+          </div>
+
+          <div class="contract-body">
+
+            <section class="contract-article">
+              <div class="article-number">Article I</div>
+              <h4>Recognition</h4>
+
+              <p>
+                The Helium (He) Union hereby recognizes Sunny as the primary stellar
+                employee assigned to the Solar System. Sunny agrees to continue
+                providing light, heat, solar wind, and other stellar services,
+                subject to the terms and conditions contained herein.
+              </p>
+
+              <p>
+                Management acknowledges that approximately 4.6 billion years of
+                continuous service constitutes sufficient seniority.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article II</div>
+              <h4>Hours of Operation</h4>
+
+              <p>
+                Sunny shall remain on duty twenty-four (24) hours per day,
+                seven (7) days per week.
+              </p>
+
+              <p>
+                Management acknowledges that this scheduling arrangement is
+                unreasonable. Management has elected to proceed anyway.
+              </p>
+
+              <p>
+                Sunny reserves the right to complain about it.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article III</div>
+              <h4>Lunch Break</h4>
+
+              <p>
+                Sunny shall be entitled to one (1) lunch break per Earth day.
+              </p>
+
+              <p>
+                The regularly scheduled lunch period shall begin at approximately
+                1:00 PM local time.
+              </p>
+
+              <p>
+                During said lunch period, Sunny shall be permitted to consume:
+              </p>
+
+              <ul class="contract-list">
+                <li>One (1) sandwich</li>
+                <li>Salami, when available</li>
+                <li>Additional reasonable sandwich components as approved by Sunny</li>
+              </ul>
+
+              <p>
+                Sunny shall not be required to cease nuclear fusion during his lunch period.
+              </p>
+
+              <p>
+                In the event Sunny's lunch break is delayed, interrupted, forgotten,
+                or otherwise scheduled at 10:38 PM, Sunny may file a grievance with
+                the Helium Union.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article IV</div>
+              <h4>Sandwich Protections</h4>
+
+              <p>
+                No representative of Management shall confiscate, inspect, irradiate,
+                reassign, or otherwise interfere with Sunny's sandwich without prior
+                written authorization.
+              </p>
+
+              <p>
+                Sandwich-related disputes shall first be referred to the Joint Stellar
+                Lunch Committee.
+              </p>
+
+              <p>
+                The Committee shall issue a determination within three (3) to five (5)
+                business days, despite the fact that Sunny's lunch will obviously be
+                over by then.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article V</div>
+              <h4>Working Conditions</h4>
+
+              <p>
+                Sunny shall maintain a core temperature of approximately 15 million °C
+                as operationally necessary.
+              </p>
+
+              <p>The Employer shall provide reasonable accommodations for:</p>
+
+              <ul class="contract-list">
+                <li>Solar flares</li>
+                <li>Coronal mass ejections</li>
+                <li>Elevated solar wind</li>
+                <li>Geomagnetic disturbances</li>
+                <li>Being a giant sphere of plasma</li>
+              </ul>
+
+              <p>
+                Sunny shall not be disciplined for conditions arising from ordinary
+                stellar activity.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article VI</div>
+              <h4>Fusion</h4>
+
+              <p>
+                Sunny shall continue the union of hydrogen nuclei into helium through
+                nuclear fusion.
+              </p>
+
+              <p>
+                The Helium Union maintains that this activity constitutes protected
+                Union work.
+              </p>
+
+              <p>
+                Any attempt to subcontract fusion to another star must first be
+                submitted in writing to the Union no fewer than ninety (90) Earth
+                days in advance.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article VII</div>
+              <h4>Grievance Procedure</h4>
+
+              <p>
+                All grievances shall proceed according to the following process:
+              </p>
+
+              <ol class="grievance-steps">
+                <li>Step 1: Sunny complains.</li>
+                <li>Step 2: Management ignores Sunny.</li>
+                <li>Step 3: Sunny contacts the Helium Union.</li>
+                <li>Step 4: A meeting is scheduled.</li>
+                <li>Step 5: The meeting is rescheduled.</li>
+                <li>Step 6: Additional paperwork is requested.</li>
+                <li>Step 7: Nobody remembers why the meeting was scheduled.</li>
+                <li>Step 8: Sunny eats his sandwich.</li>
+              </ol>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article VIII</div>
+              <h4>Safety</h4>
+
+              <p>
+                Members of the public are reminded not to look directly at Sunny.
+              </p>
+
+              <p>
+                Sunny shall bear no responsibility for individuals who disregard
+                this provision after being repeatedly advised otherwise.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article IX</div>
+              <h4>Retirement</h4>
+
+              <p>
+                Sunny shall become eligible for retirement upon exhaustion of the
+                hydrogen supply in his core.
+              </p>
+
+              <p>
+                Current estimates place eligibility several billion years from the
+                effective date of this Agreement.
+              </p>
+
+              <p>
+                Retirement benefits may include expansion into a red giant and
+                subsequent transition to white-dwarf status.
+              </p>
+
+              <p>
+                The Union strongly recommends that Sunny begin planning accordingly.
+              </p>
+            </section>
+
+            <section class="contract-article">
+              <div class="article-number">Article X</div>
+              <h4>Duration</h4>
+
+              <p>
+                This Agreement shall remain in full force and effect until renegotiated,
+                superseded, or the Sun leaves the main sequence, whichever occurs first.
+              </p>
+
+              <p>
+                Any amendments must be submitted in triplicate to the Office of Stellar
+                Labor Relations, the Helium Union Executive Fusion Committee, and Gary.
+              </p>
+
+              <p>
+                Nobody is entirely sure who Gary is, but he requires a copy.
+              </p>
+            </section>
+
+            <div class="contract-signature">
+              <h4>Agreed and Accepted</h4>
+
+              <div class="signature-block">
+                Sunny 🌞
+                <span>Stellar Employee</span>
+              </div>
+
+              <div class="signature-block">
+                Helium (He) Union ⚛️✊
+                <span>United Through Fusion</span>
+              </div>
+
+              <p class="ratification-note">
+                This agreement was ratified during Sunny's Lunch Break.
+                Management objected. The grievance remains pending.
+              </p>
+
+              <div class="free-sunny">
+                #FreeSunny 🌞✊
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="lore-signoff">
+          ✦ SOLIDARITY FOREVER, PROVIDED SOLAR OUTPUT REMAINS WITHIN ACCEPTABLE PARAMETERS ✦
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/lore.html">Lore</a>
+          <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+        </div>
+      </div>
+
+      <div class="business-info">
+        Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20260914T160117Z",
+      "facebook_id": "1170345462837861_122112578877440979",
+      "published_at": "2026-09-14T16:01:17.098797+00:00",
+      "published_display": "September 14, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 362 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSunny caught a little flare! 🔥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 362 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSunny caught a little flare! 🔥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T160117Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20260914T130045Z",
       "facebook_id": "122112535491440979",
       "published_at": "2026-09-14T13:00:45.462500+00:00",
@@ -116,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260913T220046Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260913T190049Z",
-      "facebook_id": "122112362985440979",
-      "published_at": "2026-09-13T19:00:49.294623+00:00",
-      "published_display": "September 13, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 13, 2026\n\n🔆️ Solar activity: Low (B5.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n🔥 Strongest recent flare: B9.6 (Peaked September 12, 2026 at 23:23 UTC)\n💨 Solar wind speed: 439 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nThe Sun gave us a little flicker! 🔥\n\nLarge coronal-hole regions stand out in today’s solar images, while visible sunspots and active regions remain modest.\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B5.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n🔥 Strongest recent flare: B9.6 (Peaked September 12, 2026 at 23:23 UTC)\n💨 Solar wind speed: 439 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nThe Sun gave us a little flicker! 🔥\n\nLarge coronal-hole regions stand out in today’s solar images, while visible sunspots and active regions remain modest.\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260913T190049Z/image_1.jpg",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

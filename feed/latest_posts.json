@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260914T130045Z",
+      "facebook_id": "122112535491440979",
+      "published_at": "2026-09-14T13:00:45.462500+00:00",
+      "published_display": "September 14, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNice and quiet out there. 🤍☀\n\nA few small sunspots and broad dark coronal regions are visible today, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNice and quiet out there. 🤍☀\n\nA few small sunspots and broad dark coronal regions are visible today, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T130045Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260914T100047Z",
       "facebook_id": "122112508461440979",
       "published_at": "2026-09-14T10:00:47.745174+00:00",
@@ -116,23 +133,6 @@
           "type": "image",
           "url": "/media/feed/20260913T190049Z/image_1.jpg",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260913T170026Z",
-      "facebook_id": "122112338679440979",
-      "published_at": "2026-09-13T17:00:26.601768+00:00",
-      "published_display": "September 13, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — September 13, 2026\n\nTime to eat!\n\nHere's what I've been watching in the last 24 hours:\n🔥 Strongest flare: C5.8\n💨 Peak solar wind: 492 km/s (Elevated)\n\nTime for a well-earned break. #SunnyRunny 🌞🏃💨\n\nYour art could be featured during a future Sunny's Lunch Break! Contact me! 🎨",
-      "display_text": "Time to eat!\n\nHere's what I've been watching in the last 24 hours:\n🔥 Strongest flare: C5.8\n💨 Peak solar wind: 492 km/s (Elevated)\n\nTime for a well-earned break. #SunnyRunny 🌞🏃💨\n\nYour art could be featured during a future Sunny's Lunch Break! Contact me! 🎨",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260913T170026Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

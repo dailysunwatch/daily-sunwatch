@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260914T190047Z",
+      "facebook_id": "122112616731440979",
+      "published_at": "2026-09-14T19:00:47.685348+00:00",
+      "published_display": "September 14, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 369 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nKeeping the lights on. 💫\n\nA few small sunspots, bright active regions, and broad dark coronal areas are visible today; no clear CME is seen.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 369 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nKeeping the lights on. 💫\n\nA few small sunspots, bright active regions, and broad dark coronal areas are visible today; no clear CME is seen.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260914T190047Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260914T160500Z",
       "facebook_id": "122112580167440979",
       "published_at": "2026-09-14T16:05:00.504182+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260914T010048Z/image_1.jpg",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260913T220208Z",
-      "facebook_id": "122112403611440979",
-      "published_at": "2026-09-13T22:02:08.959529+00:00",
-      "published_display": "September 13, 2026 · 6:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 13, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 13, 2026 at 19:48 UTC\n💨 CME speed: 1305 km/s\n🏷 CME SCORE: O-type (1000–1999 km/s)\n📐 CME half-angle: 23° (Moderate)\n📍 Source: S10W10 (near disk center)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 13, 2026 at 19:48 UTC\n💨 CME speed: 1305 km/s\n🏷 CME SCORE: O-type (1000–1999 km/s)\n📐 CME half-angle: 23° (Moderate)\n📍 Source: S10W10 (near disk center)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260913T220208Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

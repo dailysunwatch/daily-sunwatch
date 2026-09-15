@@ -375,6 +375,14 @@
       transform: translateY(-1px);
     }
 
+    .feed-end {
+      margin: 20px 0 0;
+      color: var(--yellow);
+      text-align: center;
+      font-size: .72rem;
+      font-weight: 500;
+    }
+
     @media (max-width: 680px) {
 
       .hero { padding: 62px 0 58px; }
@@ -616,6 +624,7 @@
       container.replaceChildren();
 
       let visiblePostCount = 0;
+      let hasLoadedMore = false;
 
       const renderPost = (post) => {
         const article = document.createElement("article");
@@ -714,10 +723,20 @@
 
         if (visiblePostCount >= posts.length) {
           loadMoreButton.remove();
+
+          if (hasLoadedMore && !document.querySelector(".feed-end")) {
+            const feedEnd = document.createElement("p");
+            feedEnd.className = "feed-end";
+            feedEnd.textContent = "You've reached the end of the Sunny feed.";
+            container.insertAdjacentElement("afterend", feedEnd);
+          }
         }
       };
 
-      loadMoreButton.addEventListener("click", renderNextBatch);
+      loadMoreButton.addEventListener("click", () => {
+        hasLoadedMore = true;
+        renderNextBatch();
+      });
 
       renderNextBatch();
 

@@ -353,6 +353,28 @@
       font-size: .94rem;
     }
 
+    .load-more-observations {
+      display: block;
+      margin: 22px auto 0;
+      padding: 11px 18px;
+      background: transparent;
+      color: var(--ivory);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font: inherit;
+      font-size: .88rem;
+      font-weight: 700;
+      letter-spacing: .025em;
+      cursor: pointer;
+      transition: border-color .15s ease, color .15s ease, transform .15s ease;
+    }
+
+    .load-more-observations:hover {
+      color: var(--yellow);
+      border-color: var(--yellow);
+      transform: translateY(-1px);
+    }
+
     @media (max-width: 680px) {
 
       .hero { padding: 62px 0 58px; }
@@ -577,13 +599,14 @@
 
   async function loadLatestPosts() {
     const container = document.getElementById("sunny-posts");
+    const OBSERVATIONS_PER_PAGE = 8;
 
     try {
       const response = await fetch("/feed/latest_posts.json", { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
-      const posts = Array.isArray(data.posts) ? data.posts.slice(0, 8) : [];
+      const posts = Array.isArray(data.posts) ? data.posts : [];
 
       if (!posts.length) {
         container.innerHTML = '<p class="feed-status">No recent Sunny posts are available yet.</p>';
@@ -592,7 +615,9 @@
 
       container.replaceChildren();
 
-      posts.forEach((post) => {
+      let visiblePostCount = 0;
+
+      const renderPost = (post) => {
         const article = document.createElement("article");
         article.className = "sunny-post";
 
@@ -671,7 +696,34 @@
 
         article.appendChild(layout);
         container.appendChild(article);
-      });
+      };
+
+      const loadMoreButton = document.createElement("button");
+      loadMoreButton.type = "button";
+      loadMoreButton.className = "load-more-observations";
+      loadMoreButton.textContent = "LOAD MORE";
+
+      const renderNextBatch = () => {
+        const nextPosts = posts.slice(
+          visiblePostCount,
+          visiblePostCount + OBSERVATIONS_PER_PAGE
+        );
+
+        nextPosts.forEach(renderPost);
+        visiblePostCount += nextPosts.length;
+
+        if (visiblePostCount >= posts.length) {
+          loadMoreButton.remove();
+        }
+      };
+
+      loadMoreButton.addEventListener("click", renderNextBatch);
+
+      renderNextBatch();
+
+      if (visiblePostCount < posts.length) {
+        container.insertAdjacentElement("afterend", loadMoreButton);
+      }
     } catch (error) {
       container.innerHTML = '<p class="feed-status">Sunny could not load the latest-post feed.</p>';
       console.error("Latest posts feed error:", error);

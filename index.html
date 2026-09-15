@@ -384,6 +384,40 @@
     }
 
 
+    /* Observation Likes */
+    .sunny-post-actions {
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+      padding-top: 13px;
+      border-top: 1px solid var(--line);
+    }
+
+    .like-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: .82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: color .15s ease;
+    }
+
+    .like-button:hover,
+    .like-button.is-liked {
+      color: var(--yellow);
+    }
+
+    .like-button:disabled {
+      cursor: default;
+      opacity: .7;
+    }
+
     /* Firebase account controls */
     .auth-control {
       display: inline-flex;
@@ -709,6 +743,26 @@
 
         body.append(meta, text);
 
+        const postId = post.post_id || post.id || "";
+        if (postId) {
+          const actions = document.createElement("div");
+          actions.className = "sunny-post-actions";
+
+          const likeButton = document.createElement("button");
+          likeButton.type = "button";
+          likeButton.className = "like-button";
+          likeButton.dataset.postId = postId;
+          likeButton.setAttribute("aria-pressed", "false");
+          likeButton.innerHTML = '<span aria-hidden="true">👍</span> <span class="like-label">Like</span> · <span class="like-count">0</span>';
+
+          actions.appendChild(likeButton);
+          body.appendChild(actions);
+
+          window.dispatchEvent(new CustomEvent("sunny-like-button-added", {
+            detail: { button: likeButton }
+          }));
+        }
+
         const media = Array.isArray(post.media)
           ? post.media.filter((item) => item && item.type === "image" && item.url)
           : [];
@@ -850,6 +904,16 @@
     signOut,
     onAuthStateChanged
   } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+  import {
+    getFirestore,
+    collection,
+    doc,
+    getDoc,
+    setDoc,
+    deleteDoc,
+    getCountFromServer,
+    serverTimestamp
+  } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
 
   const firebaseConfig = {
     apiKey: "AIzaSyCW-BizVPufz9upVEqSyLQLQgxd0w4Wxcs",
@@ -862,6 +926,7 @@
 
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
+  const db = getFirestore(app);
   const provider = new GoogleAuthProvider();
   provider.setCustomParameters({ prompt: "select_account" });
 
@@ -870,6 +935,92 @@
   const userPanel = document.getElementById("auth-user");
   const userName = document.getElementById("auth-name");
   const userAvatar = document.getElementById("auth-avatar");
+
+  const likeButtons = new Map();
+  let pendingLikePostId = null;
+
+  function likeDocRef(postId, uid) {
+    return doc(db, "posts", postId, "likes", uid);
+  }
+
+  async function refreshLikeButton(button) {
+    const postId = button.dataset.postId;
+    if (!postId) return;
+
+    try {
+      const likesRef = collection(db, "posts", postId, "likes");
+      const countSnapshot = await getCountFromServer(likesRef);
+      const count = countSnapshot.data().count || 0;
+      button.querySelector(".like-count").textContent = count;
+
+      const user = auth.currentUser;
+      let liked = false;
+      if (user) {
+        liked = (await getDoc(likeDocRef(postId, user.uid))).exists();
+      }
+
+      button.classList.toggle("is-liked", liked);
+      button.setAttribute("aria-pressed", liked ? "true" : "false");
+      button.querySelector(".like-label").textContent = liked ? "Liked" : "Like";
+    } catch (error) {
+      console.error(`Could not load Likes for ${postId}:`, error);
+    }
+  }
+
+  async function refreshAllLikeButtons() {
+    await Promise.all([...likeButtons.values()].map(refreshLikeButton));
+  }
+
+  async function toggleLike(button) {
+    const postId = button.dataset.postId;
+    if (!postId) return;
+
+    if (!auth.currentUser) {
+      pendingLikePostId = postId;
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (error) {
+        pendingLikePostId = null;
+        console.error("Google sign-in failed:", error);
+      }
+      return;
+    }
+
+    button.disabled = true;
+    try {
+      const ref = likeDocRef(postId, auth.currentUser.uid);
+      const existing = await getDoc(ref);
+
+      if (existing.exists()) {
+        await deleteDoc(ref);
+      } else {
+        await setDoc(ref, {
+          createdAt: serverTimestamp()
+        });
+      }
+
+      await refreshLikeButton(button);
+    } catch (error) {
+      console.error(`Could not update Like for ${postId}:`, error);
+    } finally {
+      button.disabled = false;
+    }
+  }
+
+  function registerLikeButton(button) {
+    const postId = button?.dataset?.postId;
+    if (!postId || likeButtons.has(postId)) return;
+
+    likeButtons.set(postId, button);
+    button.addEventListener("click", () => toggleLike(button));
+    refreshLikeButton(button);
+  }
+
+  window.addEventListener("sunny-like-button-added", (event) => {
+    registerLikeButton(event.detail?.button);
+  });
+
+  document.querySelectorAll(".like-button[data-post-id]").forEach(registerLikeButton);
 
   signInButton.addEventListener("click", async () => {
     try {
@@ -905,6 +1056,15 @@
       userPanel.style.display = "none";
       userName.textContent = "";
       userAvatar.removeAttribute("src");
+    }
+
+    refreshAllLikeButtons();
+
+    if (user && pendingLikePostId) {
+      const postId = pendingLikePostId;
+      pendingLikePostId = null;
+      const button = likeButtons.get(postId);
+      if (button) toggleLike(button);
     }
   });
 </script>

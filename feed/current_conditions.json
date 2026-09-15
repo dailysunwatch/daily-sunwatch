@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-15T01:00:56.885621+00:00",
-  "updated_display": "September 14, 2026 · 9:00 PM EDT",
+  "updated_at": "2026-09-15T19:00:44.635495+00:00",
+  "updated_display": "September 15, 2026 at 3:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,35 +8,35 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "B9.9 · 14:33 UTC"
+      "value": "B5.4 · 15:09 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "380 km/s · Moderate"
+      "value": "739 km/s · Intense"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "2.67 · Quiet"
+      "value": "0.67 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Alert: Geomagnetic K-index of 4"
+      "value": "Warning: Geomagnetic K-index of 5 expected"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+7.1 nT · Northward"
+      "value": "-11.7 nT · Strongly Southward"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "7 Earth-facing"
+      "value": "5 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Expected"
+      "value": "Expected · Confirmed"
     },
     "cme": {
       "label": "CME",
-      "value": "9 recent · No new event"
+      "value": "New CME detected"
     },
     "aurora": {
       "label": "Aurora",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260915T190040Z",
+      "facebook_id": "122112834465440979",
+      "published_at": "2026-09-15T19:00:40.938278+00:00",
+      "published_display": "September 15, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — September 15, 2026\n\n🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 739 km/s (Intense)\n🧲 Bz: −11.7 nT (Strongly Southward)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nStrong southward Bz! 🏔👀💨🌪\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 739 km/s (Intense)\n🧲 Bz: −11.7 nT (Strongly Southward)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nStrong southward Bz! 🏔👀💨🌪\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260915T190040Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260915T160228Z",
       "facebook_id": "1170345462837861_122112803397440979",
       "published_at": "2026-09-15T16:02:28.410429+00:00",

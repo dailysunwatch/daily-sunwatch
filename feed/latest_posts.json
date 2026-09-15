@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260915T010053Z",
+      "facebook_id": "122112662799440979",
+      "published_at": "2026-09-15T01:00:53.293348+00:00",
+      "published_display": "September 14, 2026 · 9:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 380 km/s (Moderate)\n🧲 Bz: +7.1 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nNorthward Bz right now. 🌎👀\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B9.9 (Peaked September 14, 2026 at 14:33 UTC)\n💨 Solar wind speed: 380 km/s (Moderate)\n🧲 Bz: +7.1 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nNorthward Bz right now. 🌎👀\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260915T010053Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260914T220040Z",
       "facebook_id": "122112641967440979",
       "published_at": "2026-09-14T22:00:40.225971+00:00",
@@ -141,23 +158,6 @@
           "type": "image",
           "url": "/media/feed/20260914T040046Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260914T010347Z",
-      "facebook_id": "122112425595440979",
-      "published_at": "2026-09-14T01:03:47.576756+00:00",
-      "published_display": "September 13, 2026 · 9:03 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 13, 2026\n\nNASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 13, 2026 at 21:12 UTC\n💨 CME speed: 645 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 22° (Moderate)\n📍 Source: S10W10 (near disk center)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 17, 2026 at 12:00 UTC; possible Kp 2–4\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "NASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 13, 2026 at 21:12 UTC\n💨 CME speed: 645 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 22° (Moderate)\n📍 Source: S10W10 (near disk center)\n🌎 WSA-ENLIL Earth outlook: Glancing Earth impact modeled — estimated arrival September 17, 2026 at 12:00 UTC; possible Kp 2–4\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260914T010347Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

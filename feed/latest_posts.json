@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20260915T160228Z",
+      "facebook_id": "1170345462837861_122112803397440979",
+      "published_at": "2026-09-15T16:02:28.410429+00:00",
+      "published_display": "September 15, 2026 · 12:02 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nManchester, NH — 71°F and Sunny ☀️",
+      "display_text": "Manchester, NH — 71°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20260915T160100Z",
       "facebook_id": "1170345462837861_122112802635440979",
       "published_at": "2026-09-15T16:01:00.397292+00:00",

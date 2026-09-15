@@ -383,6 +383,55 @@
       font-weight: 500;
     }
 
+
+    /* Firebase account controls */
+    .auth-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: 4px;
+    }
+
+    .auth-button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: transparent;
+      color: var(--ivory);
+      padding: 7px 10px;
+      font: inherit;
+      font-size: .82rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .auth-button:hover {
+      color: var(--yellow);
+      border-color: var(--yellow);
+    }
+
+    .auth-user {
+      display: none;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .auth-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .auth-name {
+      color: var(--ivory);
+      font-size: .82rem;
+      font-weight: 600;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     @media (max-width: 680px) {
 
       .hero { padding: 62px 0 58px; }
@@ -428,6 +477,14 @@
         <a href="sources.html">Sources</a>
         <a href="store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
+        <span class="auth-control" id="auth-control">
+          <button class="auth-button" id="google-sign-in" type="button">Sign in with Google</button>
+          <span class="auth-user" id="auth-user">
+            <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
+            <span class="auth-name" id="auth-name"></span>
+            <button class="auth-button" id="google-sign-out" type="button">Sign out</button>
+          </span>
+        </span>
       </nav>
     </div>
   </header>
@@ -781,6 +838,75 @@
   }
 
   window.addEventListener("load", syncPlayingCardGalleryLinks);
+</script>
+
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+  import {
+    getAuth,
+    GoogleAuthProvider,
+    signInWithPopup,
+    signOut,
+    onAuthStateChanged
+  } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCW-BizVPufz9upVEqSyLQLQgxd0w4Wxcs",
+    authDomain: "daily-sunwatch.firebaseapp.com",
+    projectId: "daily-sunwatch",
+    storageBucket: "daily-sunwatch.firebasestorage.app",
+    messagingSenderId: "1022960265442",
+    appId: "1:1022960265442:web:fd06d76a3216a56bb956bb"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
+
+  const signInButton = document.getElementById("google-sign-in");
+  const signOutButton = document.getElementById("google-sign-out");
+  const userPanel = document.getElementById("auth-user");
+  const userName = document.getElementById("auth-name");
+  const userAvatar = document.getElementById("auth-avatar");
+
+  signInButton.addEventListener("click", async () => {
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      console.error("Google sign-in failed:", error);
+    }
+  });
+
+  signOutButton.addEventListener("click", async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error("Sign-out failed:", error);
+    }
+  });
+
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      signInButton.style.display = "none";
+      userPanel.style.display = "inline-flex";
+      userName.textContent = user.displayName || user.email || "Signed in";
+
+      if (user.photoURL) {
+        userAvatar.src = user.photoURL;
+        userAvatar.style.display = "block";
+      } else {
+        userAvatar.removeAttribute("src");
+        userAvatar.style.display = "none";
+      }
+    } else {
+      signInButton.style.display = "inline-block";
+      userPanel.style.display = "none";
+      userName.textContent = "";
+      userAvatar.removeAttribute("src");
+    }
+  });
 </script>
 
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'></script><!-- End Cloudflare Web Analytics -->

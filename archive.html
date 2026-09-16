@@ -11,28 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/site.css">
   <style>
-    /* Stable desktop header: brand | centered nav | account */
-    @media (min-width: 681px) {
-      header .nav {
-        display: grid;
-        grid-template-columns: 1fr auto 1fr;
-        align-items: center;
-      }
-
-      header .brand {
-        justify-self: start;
-      }
-
-      header nav[aria-label="Main navigation"] {
-        justify-self: center;
-      }
-
-      header .auth-control {
-        justify-self: end;
-        margin-left: 0;
-      }
-    }
-
     .archive-wrap { padding: 70px 0 90px; }
     .archive-controls { margin: 24px 0 30px; }
     .archive-search { width: 100%; max-width: 520px; box-sizing: border-box; padding: 11px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ivory); font: inherit; }
@@ -45,47 +23,6 @@
     .archive-title { color: var(--ivory); text-decoration: none; font-weight: 600; }
     .archive-title:hover { color: var(--yellow); }
     .status { color: var(--muted); }
-
-    /* Daily Sunwatch account menu */
-    .auth-control { position: relative; display: inline-flex; align-items: center; margin-left: 4px; }
-    .auth-button { border: 1px solid var(--line); border-radius: 8px; background: transparent; color: var(--ivory); padding: 7px 10px; font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer; }
-    .auth-button:hover { color: var(--yellow); border-color: var(--yellow); }
-    .auth-user { display: none; }
-    .account-trigger { display: inline-flex; align-items: center; gap: 8px; padding: 4px 6px; border: 0; background: transparent; color: var(--ivory); font: inherit; cursor: pointer; border-radius: 8px; }
-    .account-trigger:hover, .account-trigger[aria-expanded="true"] { background: rgba(255,255,255,.045); color: var(--yellow); }
-    .auth-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
-    .auth-name { font-size: .82rem; font-weight: 600; max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .account-caret { color: var(--muted); font-size: .68rem; }
-    .account-menu { position: absolute; z-index: 1000; right: 0; top: calc(100% + 10px); width: 270px; padding: 10px; border: 1px solid var(--line); border-radius: 11px; background: #151513; box-shadow: 0 14px 38px rgba(0,0,0,.45); }
-    .account-menu[hidden] { display: none; }
-    .account-summary { display: grid; grid-template-columns: 38px minmax(0,1fr); gap: 10px; align-items: center; padding: 6px 7px 10px; }
-    .account-menu-avatar { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; }
-    .account-menu-name { color: var(--ivory); font-size: .9rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .account-menu-email { color: var(--muted); font-size: .75rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 2px; }
-    .account-divider { height: 1px; background: var(--line); margin: 4px 0; }
-    .account-menu-link, .account-menu-button, .account-menu-disabled { display: flex; width: 100%; box-sizing: border-box; align-items: center; gap: 8px; padding: 9px 8px; border: 0; border-radius: 7px; background: transparent; color: var(--ivory); font: inherit; font-size: .84rem; text-decoration: none; text-align: left; }
-    .account-menu-link:hover, .account-menu-button:hover { background: rgba(255,255,255,.045); color: var(--yellow); }
-    .account-menu-button { cursor: pointer; }
-    .account-menu-disabled { color: var(--muted); cursor: default; }
-    .coming-soon { margin-left: auto; font-size: .7rem; font-style: italic; color: var(--muted); }
-    /* Destructive account action + confirmation */
-    .account-menu-danger { color: #ff6b6b; margin-top: 2px; }
-    .account-menu-danger:hover { color: #ff8a8a !important; background: rgba(255,107,107,.08) !important; }
-    .delete-account-overlay { position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center; padding: 20px; background: rgba(0,0,0,.72); }
-    .delete-account-overlay[hidden] { display: none; }
-    .delete-account-dialog { width: min(460px, 100%); box-sizing: border-box; border: 1px solid var(--line); border-radius: 13px; background: #151513; box-shadow: 0 18px 55px rgba(0,0,0,.6); padding: 24px; color: var(--ivory); }
-    .delete-account-dialog h2 { margin: 0 0 10px; font-size: 1.3rem; }
-    .delete-account-dialog p { color: var(--muted); line-height: 1.55; margin: 0 0 14px; }
-    .delete-account-dialog strong { color: var(--ivory); }
-    .delete-account-input { width: 100%; box-sizing: border-box; border: 1px solid var(--line); border-radius: 8px; background: #0f0f0e; color: var(--ivory); padding: 10px 11px; font: inherit; outline: none; }
-    .delete-account-input:focus { border-color: #ff6b6b; }
-    .delete-account-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
-    .delete-account-cancel, .delete-account-confirm { border-radius: 8px; padding: 9px 12px; font: inherit; font-weight: 700; cursor: pointer; }
-    .delete-account-cancel { border: 1px solid var(--line); background: transparent; color: var(--ivory); }
-    .delete-account-confirm { border: 1px solid #ff6b6b; background: #ff6b6b; color: #111; }
-    .delete-account-confirm:disabled { opacity: .4; cursor: not-allowed; }
-    .delete-account-status { min-height: 1.2em; margin-top: 12px !important; font-size: .82rem; color: #ff8a8a !important; }
-
 
     @media (max-width: 600px) { .archive-item { grid-template-columns: 1fr; gap: 3px; } }
   </style>
@@ -101,33 +38,6 @@
         <a href="/store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
       </nav>
-        <span class="auth-control" id="auth-control">
-          <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
-          <span class="auth-user" id="auth-user">
-            <button class="account-trigger" id="account-trigger" type="button" aria-haspopup="true" aria-expanded="false">
-              <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
-              <span class="auth-name" id="auth-name"></span>
-              <span class="account-caret" aria-hidden="true">▼</span>
-            </button>
-            <div class="account-menu" id="account-menu" hidden>
-              <div class="account-summary">
-                <img class="account-menu-avatar" id="account-menu-avatar" alt="" referrerpolicy="no-referrer">
-                <div>
-                  <div class="account-menu-name" id="account-menu-name"></div>
-                  <div class="account-menu-email" id="account-menu-email"></div>
-                </div>
-              </div>
-              <div class="account-divider"></div>
-              <a class="account-menu-link" href="/account.html#saved">⭐ <span>My Saved Posts</span></a>
-              <a class="account-menu-link" href="/account.html#liked">👍 <span>My Liked Posts</span></a>
-              <div class="account-menu-disabled" aria-disabled="true">📧 <span>Email Updates</span><span class="coming-soon">Coming soon!</span></div>
-              <div class="account-divider"></div>
-              <button class="account-menu-button" id="google-sign-out" type="button">Sign out</button>
-              <div class="account-divider"></div>
-              <button class="account-menu-button account-menu-danger" id="delete-account" type="button">Delete account</button>
-            </div>
-          </span>
-        </span>
     </div>
   </header>
 
@@ -258,116 +168,6 @@
   </script>
 
   
-  <div class="delete-account-overlay" id="delete-account-overlay" hidden>
-    <div class="delete-account-dialog" role="dialog" aria-modal="true" aria-labelledby="delete-account-title">
-      <h2 id="delete-account-title">Delete Daily Sunwatch account?</h2>
-      <p>This permanently removes your Daily Sunwatch account data, including <strong>Saved Posts</strong> and your <strong>Likes</strong>. Public Daily Sunwatch observations are not affected.</p>
-      <p>Type <strong>DELETE</strong> to confirm. Google may ask you to verify your account before deletion.</p>
-      <input class="delete-account-input" id="delete-account-input" type="text" autocomplete="off" spellcheck="false" placeholder="Type DELETE">
-      <p class="delete-account-status" id="delete-account-status" aria-live="polite"></p>
-      <div class="delete-account-actions">
-        <button class="delete-account-cancel" id="delete-account-cancel" type="button">Cancel</button>
-        <button class="delete-account-confirm" id="delete-account-confirm" type="button" disabled>Delete my account</button>
-      </div>
-    </div>
-  </div>
-<script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
-    import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, reauthenticateWithPopup, deleteUser } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
-    import { getFirestore, collection, getDocs, doc, getDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
-    const app = initializeApp({ apiKey:"AIzaSyCW-BizVPufz9upVEqSyLQLQgxd0w4Wxcs", authDomain:"daily-sunwatch.firebaseapp.com", projectId:"daily-sunwatch", storageBucket:"daily-sunwatch.firebasestorage.app", messagingSenderId:"1022960265442", appId:"1:1022960265442:web:fd06d76a3216a56bb956bb" });
-    const auth=getAuth(app), db=getFirestore(app), provider=new GoogleAuthProvider(); provider.setCustomParameters({prompt:"select_account"});
-    const signInButton=document.getElementById("google-sign-in"), signOutButton=document.getElementById("google-sign-out"), userPanel=document.getElementById("auth-user"), userName=document.getElementById("auth-name"), userAvatar=document.getElementById("auth-avatar"), accountTrigger=document.getElementById("account-trigger"), accountMenu=document.getElementById("account-menu"), accountMenuAvatar=document.getElementById("account-menu-avatar"), accountMenuName=document.getElementById("account-menu-name"), accountMenuEmail=document.getElementById("account-menu-email");
-    function closeMenu(){accountMenu.hidden=true;accountTrigger.setAttribute("aria-expanded","false");}
-    accountTrigger.addEventListener("click",e=>{e.stopPropagation();const opening=accountMenu.hidden;accountMenu.hidden=!opening;accountTrigger.setAttribute("aria-expanded",opening?"true":"false");});
-    document.addEventListener("click",e=>{if(!document.getElementById("auth-control").contains(e.target))closeMenu();}); document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu();});
-    signInButton.addEventListener("click",()=>signInWithPopup(auth,provider).catch(console.error)); 
-  const deleteAccountButton = document.getElementById("delete-account");
-  const deleteAccountOverlay = document.getElementById("delete-account-overlay");
-  const deleteAccountInput = document.getElementById("delete-account-input");
-  const deleteAccountCancel = document.getElementById("delete-account-cancel");
-  const deleteAccountConfirm = document.getElementById("delete-account-confirm");
-  const deleteAccountStatus = document.getElementById("delete-account-status");
 
-  function closeDeleteAccountDialog() {
-    if (deleteAccountConfirm.disabled && deleteAccountStatus.textContent === "Deleting your account…") return;
-    deleteAccountOverlay.hidden = true;
-    deleteAccountInput.value = "";
-    deleteAccountConfirm.disabled = true;
-    deleteAccountStatus.textContent = "";
-  }
-
-  deleteAccountButton.addEventListener("click", () => {
-    if (!auth.currentUser) return;
-    closeMenu();
-    deleteAccountOverlay.hidden = false;
-    setTimeout(() => deleteAccountInput.focus(), 0);
-  });
-  deleteAccountInput.addEventListener("input", () => {
-    deleteAccountConfirm.disabled = deleteAccountInput.value.trim() !== "DELETE";
-  });
-  deleteAccountCancel.addEventListener("click", closeDeleteAccountDialog);
-  deleteAccountOverlay.addEventListener("click", event => { if (event.target === deleteAccountOverlay) closeDeleteAccountDialog(); });
-
-  async function removeDailySunwatchAccountData(user) {
-    const uid = user.uid;
-    const saved = await getDocs(collection(db, "users", uid, "savedPosts"));
-    for (const item of saved.docs) await deleteDoc(item.ref);
-
-    const liked = await getDocs(collection(db, "users", uid, "likedPosts"));
-    const knownLikeIds = new Set();
-    for (const item of liked.docs) {
-      knownLikeIds.add(item.id);
-      await deleteDoc(doc(db, "posts", item.id, "likes", uid));
-      await deleteDoc(item.ref);
-    }
-
-    /* Catch Likes created before the private likedPosts index existed. */
-    try {
-      const response = await fetch("/feed/archive_index.json", { cache: "no-store" });
-      if (response.ok) {
-        const archive = await response.json();
-        const entries = Array.isArray(archive.posts) ? archive.posts : [];
-        for (const entry of entries) {
-          const postId = entry.id || entry.post_id;
-          if (!postId || knownLikeIds.has(postId)) continue;
-          const publicLike = doc(db, "posts", postId, "likes", uid);
-          if ((await getDoc(publicLike)).exists()) await deleteDoc(publicLike);
-        }
-      }
-    } catch (error) {
-      console.error("Legacy Like cleanup failed:", error);
-      throw error;
-    }
-  }
-
-  deleteAccountConfirm.addEventListener("click", async () => {
-    const user = auth.currentUser;
-    if (!user || deleteAccountInput.value.trim() !== "DELETE") return;
-    deleteAccountConfirm.disabled = true;
-    deleteAccountCancel.disabled = true;
-    deleteAccountInput.disabled = true;
-    deleteAccountStatus.textContent = "Verifying your Google account…";
-    try {
-      await reauthenticateWithPopup(user, provider);
-      deleteAccountStatus.textContent = "Deleting your account…";
-      await removeDailySunwatchAccountData(user);
-      localStorage.removeItem(`sunny-liked-index-v1:${user.uid}`);
-      await deleteUser(user);
-      window.location.href = "/";
-    } catch (error) {
-      console.error("Account deletion failed:", error);
-      deleteAccountStatus.textContent = error?.code === "auth/popup-closed-by-user"
-        ? "Account deletion cancelled."
-        : "Account deletion could not be completed. Please try again.";
-      deleteAccountCancel.disabled = false;
-      deleteAccountInput.disabled = false;
-      deleteAccountConfirm.disabled = deleteAccountInput.value.trim() !== "DELETE";
-    }
-  });
-
-  signOutButton.addEventListener("click",()=>signOut(auth).catch(console.error));
-    onAuthStateChanged(auth,user=>{if(user){signInButton.style.display="none";userPanel.style.display="inline-flex";const n=user.displayName||user.email||"Daily Sunwatch";userName.textContent=n;accountMenuName.textContent=n;accountMenuEmail.textContent=user.email||"";if(user.photoURL){userAvatar.src=user.photoURL;accountMenuAvatar.src=user.photoURL;userAvatar.style.display=accountMenuAvatar.style.display="block";}else{userAvatar.style.display=accountMenuAvatar.style.display="none";}}else{signInButton.style.display="inline-block";userPanel.style.display="none";closeMenu();}});
-  </script>
 </body>
 </html>

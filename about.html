@@ -1,432 +1,436 @@
-Today 8:14 PM
-Pasted text(20260916-001446).txt
-Document
-Here ya go!
-Pasted text(20260916-013907).txt
-Document
-daily_sunwatch(20260916-013927).py
-Python
-moony_moonwatch(20260916-014027).py
-Python
-sunny_weather(5).py
-Python
-Great! ♥
-
-Do we still need to build the Saved Posts/My Saved Posts/Account/Menu/WHATEVER SOLUTION mechanism? 😂
-
-Though... I DO quite like the look of this little Sunny in the nav bar. Maybe we could get rid of the Sign out button and make it so that, when you click your Account name, it pulls up the Account menu with My Saved Posts, Sign out, etc.? and then we would also need a solution for when you're logged out. IDK.
-It is possible to add a scrolly message bar at the top of index (the homepage)? Like directly below the navigation. something like this mockup i made. It wouldnt be there all the time. only when i want to trigger a message for something important (website edit happening, big noaa alert, big event, big sunny release, etc.). it should scroll from right to left on repeat, like a digital billboard style.  
-Edit
-Pasted markdown(2).md
-File
-Pasted markdown(3).md
-File
-Pasted text(20260916-034628).txt
-Document
-Pasted text(20260916-034828).txt
-Document
-closer! still a bit far to the right
-Pasted text(20260916-035540).txt
-Document
-Can you fix this one now
-
-
-Pasted text(20260916-035913).txt
-Document
-Can you fix Archive now?
-
-
-Pasted text(20260916-040629).txt
-Document
-can you fix about?
-
-and thank you! ♥ im 32 now.
-Pasted text(20260916-041329).txt
-Document
-can you do the same for sources?:
-
-
-Pasted text(20260916-041552).txt
-Document
-OK, now we can fix Store and its alignment
-
-
-Pasted text(20260916-041723).txt
-Document
-Can you add Archive to Lore and make sure it's right-aligned the same?
-
-
-Pasted text(20260916-041907).txt
-Document
-Let's remove Google Friend and go right-aligned
-
-
-
-Done. ☀
-
-Archive now matches the other normal navigation pages:
-
-DAILY SUNWATCH left
-About · Sources · Archive · Store · Contact right-aligned
-
-I removed Google Friend completely, including the Firebase/account-menu and Delete Account code that was only there to support it. The Archive search/loading functionality is untouched. The uploaded version previously had the account control immediately after the nav.
-
-Download Archive — Right Aligned, No Google Friend
-
-That makes the division much cleaner now: Google Friend lives where you actually interact with posts/account stuff. 😎 
-
-archive_RIGHT_ALIGNED_NO_GOOGLE.html
-HTML
-Store is still slightly more right than the other pages
-
-Yeah — I see what you mean. Since Store now has the same five links and the same basic header structure as About/Sources/Lore, its right edge should land in exactly the same place. There’s no reason for Store to have its own slightly shifted position.
-
-Upload or paste the currently deployed Store file again and I’ll compare its header/CSS directly against one of the pages that’s sitting correctly and make them pixel-identical.
-
-Pasted text(20260916-042116).txt
-Document
-Pasted text (2)(1).txt
-Document
-Pasted text (3).txt
-Document
-
-Aha — I compared the actual files this time. The Store header markup itself is effectively the same as About's—the Store version has the same five links and right-aligned structure.
-
-I made Store use the About header structure exactly (with Store active instead of About), and added an explicit desktop alignment lock:
-
-header nav[aria-label="Main navigation"] {
-    margin-left: auto;
-}
-
-So its right edge should now be forced to the exact same container edge as About rather than merely relying on the inherited layout.
-
-Download Store — Alignment Locked
-
-This should kill that last few-pixels-of-weirdness. 😂 
-
-store_ALIGNMENT_LOCKED.html
-HTML
-Pasted text(20260916-042304).txt
-Document
-Pasted text (2)(2).txt
-Document
-Can we make Account match Index now?
-
-
-
-Yep — Account now matches Index exactly for the header layout. 😎
-
-Index uses the three-column desktop header—brand left, navigation mathematically centered, Google Friend right. Account previously had Google Friend nested inside the navigation itself.
-
-I changed Account to:
-
-DAILY SUNWATCH  About · Sources · Archive · Store · Contact  ☀ Google Friend
-
-using the exact same 1fr auto 1fr structure as Index. All Account functionality—Saved Posts, Liked Posts, Share, sign-in/out, and Delete Account—is preserved.
-
-Download Account — Match Index 
-
-account_MATCH_INDEX.html
-HTML
-naw, you see how Store and Saved/Liked are all mis-aligned from About and Sources?
-
-YES. Now I see it. The screenshots exposed what the HTML comparison didn't.
-
-This isn't actually a Store/Account header-layout problem — it's the vertical scrollbar. 😂
-
-About and Sources are tall enough to have a scrollbar. That reduces the usable viewport width by roughly 15–17 px, so their centered .wrap sits about 8 px farther left. Store is short enough that there's no scrollbar, so its entire centered container shifts ~8 px right.
-
-And your Account screenshots prove it beautifully: Saved Posts is short → no scrollbar → shifted right. Liked Posts is long → scrollbar → shifts left. That's why Account can literally move horizontally when you switch tabs.
-
-I fixed the actual cause by reserving the vertical scrollbar space permanently:
-
-html {
-    overflow-y: scroll;
-}
-
-Now Store, Saved Posts, Liked Posts, About, Sources, etc. all calculate their centered .wrap against the same viewport width, whether the page happens to need scrolling or not.
-
-Download Store — Scrollbar Alignment Fix
-
-Download Account — Scrollbar Alignment Fix
-
-That was the bastard. The ~8 px difference in your screenshots is basically half the scrollbar width. 😭 
-
-store_SCROLLBAR_ALIGNMENT_FIX.html
-HTML
-account_SCROLLBAR_ALIGNMENT_FIX.html
-HTML
-OH, we can ignore the scroll bar thing, but Saved/Liked still need to be fixed. they are misaligned from each other, and from index/the rest of the pages
-
-Yes — I understand the distinction now.
-
-You don't care whether the browser shows a scrollbar. You want the Account header itself not to move when Saved ↔ Liked changes the page height, and you want that header to stay on the same horizontal coordinates as Index/the normal pages.
-
-The current Account markup is using the shared .wrap, so when Saved is short and Liked is tall, the browser's available layout width changes and the entire Account header moves. That's exactly what your two screenshots show.
-
-So I should not globally force a scrollbar like I just did. Instead, I'll pin only Account's header geometry to the same fixed page axis as Index, independent of whether Saved or Liked is showing. The Account body can scroll normally.
-
-I need to make that adjustment against the latest Account version rather than layering another hack onto the scrollbar version.
-
-OH NEVERMIND, THATS THE SAME THING LMAO
-
-LMAO YES. 😂
-
-I was sitting here going, “No no, there are TWO alignment problems—” and then realized:
-
-Scrollbar appears → usable viewport gets narrower → centered container moves → Saved/Liked/header shift.
-
-It really is the same damn thing. 😭
-
-So the html { overflow-y: scroll; } fix was actually the clean solution. It just reserves that scrollbar width all the time, so Saved, Liked, Store, About, Sources, Index—all stay on the same horizontal axis regardless of page height.
-
-We accidentally solved it and then argued with our own solution. 💀
-
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/Sunny_Favicon.png">
+  <title>About | Daily Sunwatch</title>
+  <meta name="description" content="About Daily Sunwatch and the solar and space-weather activity the project follows.">
 
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="icon" type="image/png" href="/Sunny_Favicon.png"> <title>About | Daily Sunwatch</title> <meta name="description" content="About Daily Sunwatch and the solar and space-weather activity the project follows.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css">
 
-<link rel="stylesheet" href="/site.css">
+  <style>
+    .page-hero {
+      padding: 62px 0;
+    }
 
-<style> .page-hero { padding: 62px 0; } .page-hero h1 { margin: 0 0 16px; font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.1; letter-spacing: -.025em; font-weight: 700; } .title-tail { white-space: nowrap; } .about-mascot { margin: -6px 0 22px; color: var(--muted); font-size: .94rem; } .about-time { margin: 18px 0 0; color: var(--muted); font-size: .94rem; } .about-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 30px; } .about-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; } .about-card h3 { margin: 0 0 7px; font-size: 1rem; font-weight: 700; } .about-card p { margin: 0; color: var(--muted); font-size: .94rem; } .about-note { margin-top: 26px; padding-left: 14px; border-left: 3px solid var(--yellow); color: var(--muted); font-size: .9rem; max-width: 760px; } /* Sunny's Schedule */ .sunny-schedule { margin-top: 28px; max-width: 760px; } .schedule-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; margin: 24px 0 28px; } .schedule-item { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: .96rem; } .schedule-time { display: inline-block; min-width: 92px; font-weight: 700; color: var(--ivory); } .schedule-copy { margin-top: 18px; } .schedule-copy p { margin: 0 0 16px; } .schedule-rule { margin: 24px 0 20px; padding-left: 14px; border-left: 3px solid var(--yellow); color: var(--muted); font-size: .9rem; max-width: 760px; } .schedule-rule strong { color: var(--ivory); } .schedule-timezone { margin: 0; color: var(--muted); font-size: .9rem; } .characters-copy { max-width: 820px; } .characters-copy p { margin: 0 0 16px; } .characters-copy p:last-child { margin-bottom: 0; } .character-sunny { display: block; width: 110px; height: auto; margin: -2px 0 12px; } .character-note { margin: 0 0 22px; padding-left: 14px; border-left: 3px solid var(--yellow); color: var(--muted); font-size: .9rem; max-width: 760px; } /* What We Watch — category outline accents */ .about-card:nth-child(1) { border-color: #4A4626; } .about-card:nth-child(2) { border-color: #6F2929; } .about-card:nth-child(3) { border-color: #285578; } .about-card:nth-child(4) { border-color: #28705F; } @media (max-width: 680px) { .page-hero { padding: 48px 0; } .about-grid { grid-template-columns: 1fr; } .schedule-grid { grid-template-columns: 1fr; gap: 0; } } </style>
+    .page-hero h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+      font-weight: 700;
+    }
 
+    .title-tail {
+      white-space: nowrap;
+    }
+
+    .about-mascot {
+      margin: -6px 0 22px;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .about-time {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .about-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .about-card h3 {
+      margin: 0 0 7px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .about-note {
+      margin-top: 26px;
+      padding-left: 14px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 760px;
+    }
+
+    /* Sunny's Schedule */
+    .sunny-schedule {
+      margin-top: 28px;
+      max-width: 760px;
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 28px;
+      margin: 24px 0 28px;
+    }
+
+    .schedule-item {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: .96rem;
+    }
+
+    .schedule-time {
+      display: inline-block;
+      min-width: 92px;
+      font-weight: 700;
+      color: var(--ivory);
+    }
+
+    .schedule-copy {
+      margin-top: 18px;
+    }
+
+    .schedule-copy p {
+      margin: 0 0 16px;
+    }
+
+    .schedule-rule {
+      margin: 24px 0 20px;
+      padding-left: 14px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 760px;
+    }
+
+    .schedule-rule strong {
+      color: var(--ivory);
+    }
+
+    .schedule-timezone {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .characters-copy {
+      max-width: 820px;
+    }
+
+    .characters-copy p {
+      margin: 0 0 16px;
+    }
+
+    .characters-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .character-sunny {
+      display: block;
+      width: 110px;
+      height: auto;
+      margin: -2px 0 12px;
+    }
+
+    .character-note {
+      margin: 0 0 22px;
+      padding-left: 14px;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 760px;
+    }
+
+    /* What We Watch — category outline accents */
+    .about-card:nth-child(1) {
+      border-color: #4A4626;
+    }
+
+    .about-card:nth-child(2) {
+      border-color: #6F2929;
+    }
+
+    .about-card:nth-child(3) {
+      border-color: #285578;
+    }
+
+    .about-card:nth-child(4) {
+      border-color: #28705F;
+    }
+
+    @media (max-width: 680px) {
+      .page-hero {
+        padding: 48px 0;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .schedule-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+    }
+  </style>
 </head>
 
-<body> <header> <div class="wrap nav"> <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
 
-  <nav aria-label="Main navigation">
-    <a class="active" href="/about.html">About</a>
-    <a href="/sources.html">Sources</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/store.html">Store</a>
-    <a href="mailto:contact@dailysunwatch.com">Contact</a>
-  </nav>
-</div>
-
-</header>
-
-<main> <section class="page-hero"> <div class="wrap"> <div class="label">About</div>
-
-    <h1>
-      Daily views of the Sun and updates on
-      <span class="title-tail">solar activity. ☀️</span>
-    </h1>
-
-    <p class="about-mascot">
-      (Featuring Sunny, our lighthearted solar mascot.)
-    </p>
-
-    <p class="copy">
-      Daily Sunwatch is an automated solar and space-weather project focused on
-      activity across the Sun and near-Earth environment. It uses scientific data
-      and imagery from public sources to provide regular space-weather updates
-      that are fun and easy to follow.
-    </p>
-
-    <p class="about-time">
-      Times and updates are shown in Eastern Time (EST/EDT).
-    </p>
-  </div>
-</section>
-
-<section class="content">
-  <div class="wrap">
-    <div class="label">What We Watch</div>
-
-    <h2>From solar activity to conditions near Earth.</h2>
-
-    <p class="copy">
-      Daily Sunwatch follows several parts of the Sun–Earth system and turns
-      public space-weather data into clear, regularly updated observations.
-    </p>
-
-    <div class="about-grid">
-      <article class="about-card">
-        <h3>☀ Solar Activity &amp; Flares</h3>
-        <p>Solar X-ray activity, flare events, and active regions across the Sun.</p>
-      </article>
-
-      <article class="about-card">
-        <h3>◉ Coronal Mass Ejections</h3>
-        <p>Coronal activity and CME events reported through public space-weather sources.</p>
-      </article>
-
-      <article class="about-card">
-        <h3>↝ Solar Wind &amp; Geomagnetic Activity</h3>
-        <p>Solar-wind speed, IMF Bz, Kp, and other conditions in the near-Earth environment.</p>
-      </article>
-
-      <article class="about-card">
-        <h3>⌁ Aurora Conditions</h3>
-        <p>Geomagnetic conditions and ingredients that can support auroral activity.</p>
-      </article>
+      <nav aria-label="Main navigation">
+        <a class="active" href="/about.html">About</a>
+        <a href="/sources.html">Sources</a>
+        <a href="/archive.html">Archive</a>
+        <a href="/store.html">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <p class="about-note">
-      Daily Sunwatch also includes occasional nighttime and terrestrial-weather content,
-      while keeping its primary focus on the Sun and space weather.
-    </p>
-  </div>
-</section>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">About</div>
 
-<section class="content">
-  <div class="wrap">
-    <div class="label">Sunny's Schedule</div>
+        <h1>
+          Daily views of the Sun and updates on
+          <span class="title-tail">solar activity. ☀️</span>
+        </h1>
 
-    <h2>When does Sunny post?</h2>
-
-    <p class="copy">
-      Sunny currently “runs” every three hours—eight times a day—on the following schedule:
-    </p>
-
-    <div class="sunny-schedule">
-      <div class="schedule-grid">
-        <div class="schedule-item">
-          <span class="schedule-time">12 AM 🌙</span>
-          <span>Midnight</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">3 AM 🌕</span>
-          <span>Nighttime</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">6 AM 🌅</span>
-          <span>Early Morning</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">9 AM ☀️</span>
-          <span>Morning</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">12 PM 🌤️</span>
-          <span>Midday</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">3 PM ☀️</span>
-          <span>Afternoon</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">6 PM 🌇</span>
-          <span>Evening</span>
-        </div>
-
-        <div class="schedule-item">
-          <span class="schedule-time">9 PM 🌕</span>
-          <span>Nighttime</span>
-        </div>
-      </div>
-
-      <div class="schedule-copy">
-        <p class="copy">
-          Sunny’s regular Sunwatch posts are the foundation of Daily Sunwatch’s
-          automated posting system and serve as its primary solar updates.
+        <p class="about-mascot">
+          (Featuring Sunny, our lighthearted solar mascot.)
         </p>
 
         <p class="copy">
-          Features such as Coronagraph Watch and Moony Moonwatch run alongside
-          the main Daily Sunwatch system and are considered bonus posts. When
-          conditions call for them, Sunny may make more than eight posts in a
-          single day.
+          Daily Sunwatch is an automated solar and space-weather project focused on
+          activity across the Sun and near-Earth environment. It uses scientific data
+          and imagery from public sources to provide regular space-weather updates
+          that are fun and easy to follow.
+        </p>
+
+        <p class="about-time">
+          Times and updates are shown in Eastern Time (EST/EDT).
         </p>
       </div>
+    </section>
 
-      <div class="schedule-rule">
-        <strong>3 AM is the only special rule here.</strong> At 3 AM, Sunny wakes
-        up and checks solar conditions. If conditions are elevated, Sunny makes
-        a post. If conditions are low, Sunny goes back to sleep. 😴
+    <section class="content">
+      <div class="wrap">
+        <div class="label">What We Watch</div>
+
+        <h2>From solar activity to conditions near Earth.</h2>
+
+        <p class="copy">
+          Daily Sunwatch follows several parts of the Sun–Earth system and turns
+          public space-weather data into clear, regularly updated observations.
+        </p>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>☀ Solar Activity &amp; Flares</h3>
+            <p>Solar X-ray activity, flare events, and active regions across the Sun.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>◉ Coronal Mass Ejections</h3>
+            <p>Coronal activity and CME events reported through public space-weather sources.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>↝ Solar Wind &amp; Geomagnetic Activity</h3>
+            <p>Solar-wind speed, IMF Bz, Kp, and other conditions in the near-Earth environment.</p>
+          </article>
+
+          <article class="about-card">
+            <h3>⌁ Aurora Conditions</h3>
+            <p>Geomagnetic conditions and ingredients that can support auroral activity.</p>
+          </article>
+        </div>
+
+        <p class="about-note">
+          Daily Sunwatch also includes occasional nighttime and terrestrial-weather content,
+          while keeping its primary focus on the Sun and space weather.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="label">Sunny's Schedule</div>
+
+        <h2>When does Sunny post?</h2>
+
+        <p class="copy">
+          Sunny currently “runs” every three hours—eight times a day—on the following schedule:
+        </p>
+
+        <div class="sunny-schedule">
+          <div class="schedule-grid">
+            <div class="schedule-item">
+              <span class="schedule-time">12 AM 🌙</span>
+              <span>Midnight</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">3 AM 🌕</span>
+              <span>Nighttime</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">6 AM 🌅</span>
+              <span>Early Morning</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">9 AM ☀️</span>
+              <span>Morning</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">12 PM 🌤️</span>
+              <span>Midday</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">3 PM ☀️</span>
+              <span>Afternoon</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">6 PM 🌇</span>
+              <span>Evening</span>
+            </div>
+
+            <div class="schedule-item">
+              <span class="schedule-time">9 PM 🌕</span>
+              <span>Nighttime</span>
+            </div>
+          </div>
+
+          <div class="schedule-copy">
+            <p class="copy">
+              Sunny’s regular Sunwatch posts are the foundation of Daily Sunwatch’s
+              automated posting system and serve as its primary solar updates.
+            </p>
+
+            <p class="copy">
+              Features such as Coronagraph Watch and Moony Moonwatch run alongside
+              the main Daily Sunwatch system and are considered bonus posts. When
+              conditions call for them, Sunny may make more than eight posts in a
+              single day.
+            </p>
+          </div>
+
+          <div class="schedule-rule">
+            <strong>3 AM is the only special rule here.</strong> At 3 AM, Sunny wakes
+            up and checks solar conditions. If conditions are elevated, Sunny makes
+            a post. If conditions are low, Sunny goes back to sleep. 😴
+          </div>
+
+          <p class="schedule-timezone">
+            Posts are made in Eastern Time (EST/EDT).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="label">Characters</div>
+
+        <h2>The faces of Daily Sunwatch.</h2>
+
+        <div class="characters-copy">
+          <p class="copy">
+            Sunny serves as the primary character and visual identity of Daily Sunwatch.
+            He represents the project across its solar observations, updates, and original content.
+          </p>
+
+          <img
+            class="character-sunny"
+            src="/Sunny_Center.png"
+            alt="Sunny, the Daily Sunwatch solar mascot"
+          >
+
+          <p class="character-note">
+            This site uses “Daily Sunwatch” and “Sunny” interchangeably. They both refer
+            to the same program. Sunny is a characterization of the Daily Sunwatch program.
+          </p>
+
+          <p class="copy">
+            Moony accompanies Daily Sunwatch’s nighttime and lunar content, providing a
+            counterpart to Sunny for Moon-related observations.
+          </p>
+
+          <p class="copy">
+            Both characters are featured throughout the project and serve as the basis
+            for many of the original designs and items available through the Daily
+            Sunwatch Store.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="label">Is Sunny AI?</div>
+
+        <h2>Sunny runs on code.</h2>
+
+        <p class="copy">
+          Sunny himself is not AI. He is code that contains various message libraries
+          and conditional logic that helps him decide when and how to react to changing
+          space weather and varying conditions across the Sun.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/lore.html">Lore</a>
+          <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+        </div>
       </div>
 
-      <p class="schedule-timezone">
-        Posts are made in Eastern Time (EST/EDT).
-      </p>
+      <div class="business-info">
+        Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
+      </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section class="content">
-  <div class="wrap">
-    <div class="label">Characters</div>
-
-    <h2>The faces of Daily Sunwatch.</h2>
-
-    <div class="characters-copy">
-      <p class="copy">
-        Sunny serves as the primary character and visual identity of Daily Sunwatch.
-        He represents the project across its solar observations, updates, and original content.
-      </p>
-
-      <img
-        class="character-sunny"
-        src="/Sunny_Center.png"
-        alt="Sunny, the Daily Sunwatch solar mascot"
-      >
-
-      <p class="character-note">
-        This site uses “Daily Sunwatch” and “Sunny” interchangeably. They both refer
-        to the same program. Sunny is a characterization of the Daily Sunwatch program.
-      </p>
-
-      <p class="copy">
-        Moony accompanies Daily Sunwatch’s nighttime and lunar content, providing a
-        counterpart to Sunny for Moon-related observations.
-      </p>
-
-      <p class="copy">
-        Both characters are featured throughout the project and serve as the basis
-        for many of the original designs and items available through the Daily
-        Sunwatch Store.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="content">
-  <div class="wrap">
-    <div class="label">Is Sunny AI?</div>
-
-    <h2>Sunny runs on code.</h2>
-
-    <p class="copy">
-      Sunny himself is not AI. He is code that contains various message libraries
-      and conditional logic that helps him decide when and how to react to changing
-      space weather and varying conditions across the Sun.
-    </p>
-  </div>
-</section>
-
-</main>
-
-<footer> <div class="wrap"> <div class="footer-row"> <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
-
-    <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/lore.html">Lore</a>
-      <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
-    </div>
-  </div>
-
-  <div class="business-info">
-    Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
-  </div>
-</div>
-
-</footer>
-
-<!-- Cloudflare Web Analytics -->
-
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'> </script>
-
-<!-- End Cloudflare Web Analytics -->
-
-</body> </html>
-
-Close
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

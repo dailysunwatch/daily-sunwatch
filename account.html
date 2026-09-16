@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/png" href="/Sunny_Favicon.png"><title>My Account · Daily Sunwatch</title><meta name="description" content="Your Daily Sunwatch saved and liked observations."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/site.css"><style>
-/* Stable desktop header: brand | centered nav | account */
+
+    /* Stable desktop header: brand | centered nav | account */
     @media (min-width: 681px) {
       header .nav {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         align-items: center;
       }
+
+      header .brand {
+        justify-self: start;
+      }
+
+      header nav[aria-label="Main navigation"] {
+        justify-self: center;
+      }
+
+      header .auth-control {
+        justify-self: end;
+        margin-left: 0;
+      }
+    }
+
 
 .account-wrap{padding:64px 0 90px}.account-heading{display:flex;align-items:center;gap:14px;margin-bottom:8px}.profile-avatar{width:52px;height:52px;border-radius:50%;object-fit:cover}.account-email{color:var(--muted);margin-top:-4px}.account-tabs{display:flex;gap:8px;margin:30px 0 24px;border-bottom:1px solid var(--line)}.account-tab{border:0;background:transparent;color:var(--muted);font:inherit;font-weight:700;padding:10px 12px 12px;cursor:pointer;border-bottom:2px solid transparent}.account-tab:hover,.account-tab.active{color:var(--yellow);border-bottom-color:var(--yellow)}.account-posts{display:grid;gap:16px;max-width:900px}.account-post{border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:20px}.account-post-title{color:var(--ivory);font-weight:700;text-decoration:none}.account-post-title:hover{color:var(--yellow)}.account-post-date{color:var(--muted);font-size:.8rem;margin-top:4px}.account-post-text{color:#D0CFC9;white-space:pre-wrap;line-height:1.55;margin:14px 0 0}.account-post-media{width:90px;height:90px;object-fit:cover;border-radius:8px;border:1px solid var(--line);float:right;margin:0 0 10px 16px}.account-post-actions{clear:both;margin-top:15px;padding-top:12px;border-top:1px solid var(--line);display:flex;align-items:center;gap:10px}.account-action{border:0;background:transparent;color:var(--muted);font:inherit;font-size:.82rem;font-weight:600;cursor:pointer;padding:0}.account-action:hover{color:var(--yellow)}.status{color:var(--muted)}.signin-card{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:28px;max-width:620px}.signin-button{border:1px solid var(--yellow);border-radius:8px;background:transparent;color:var(--ivory);padding:9px 13px;font:inherit;font-weight:700;cursor:pointer}.signin-button:hover{color:var(--yellow)}
 
@@ -50,33 +66,65 @@
     .delete-account-confirm:disabled { opacity: .4; cursor: not-allowed; }
     .delete-account-status { min-height: 1.2em; margin-top: 12px !important; font-size: .82rem; color: #ff8a8a !important; }
 
-</style></head><body id="top"><header><div class="wrap nav"><a class="brand" href="/">DAILY <span>SUNWATCH</span></a><nav aria-label="Main navigation"><a href="/about.html">About</a><a href="/sources.html">Sources</a><a href="/archive.html">Archive</a><a href="/store.html">Store</a><a href="mailto:contact@dailysunwatch.com">Contact</a></nav><span class="auth-control" id="auth-control">
-          <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
-          <span class="auth-user" id="auth-user">
-            <button class="account-trigger" id="account-trigger" type="button" aria-haspopup="true" aria-expanded="false">
-              <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
-              <span class="auth-name" id="auth-name"></span>
-              <span class="account-caret" aria-hidden="true">▼</span>
-            </button>
-            <div class="account-menu" id="account-menu" hidden>
-              <div class="account-summary">
-                <img class="account-menu-avatar" id="account-menu-avatar" alt="" referrerpolicy="no-referrer">
-                <div>
-                  <div class="account-menu-name" id="account-menu-name"></div>
-                  <div class="account-menu-email" id="account-menu-email"></div>
-                </div>
-              </div>
-              <div class="account-divider"></div>
-              <a class="account-menu-link" href="/account.html#saved">⭐ <span>My Saved Posts</span></a>
-              <a class="account-menu-link" href="/account.html#liked">👍 <span>My Liked Posts</span></a>
-              <div class="account-menu-disabled" aria-disabled="true">📧 <span>Email Updates</span><span class="coming-soon">Coming soon!</span></div>
-              <div class="account-divider"></div>
-              <button class="account-menu-button" id="google-sign-out" type="button">Sign out</button>
-              <div class="account-divider"></div>
-              <button class="account-menu-button account-menu-danger" id="delete-account" type="button">Delete account</button>
+
+    @media (max-width: 680px) {
+      /* Open Google Friend to the right on phones instead of off-screen left. */
+      .account-menu {
+        left: 0;
+        right: auto;
+        width: min(270px, calc(100vw - 24px));
+        box-sizing: border-box;
+      }
+    }
+
+  
+    @media (max-width: 680px) {
+      /* Align Google Friend's left edge exactly with the mobile nav. */
+      header .auth-control {
+        margin-left: 0;
+        align-self: flex-start;
+      }
+    }
+
+  </style></head><body id="top"><header>
+  <div class="wrap nav">
+    <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/about.html">About</a>
+      <a href="/sources.html">Sources</a>
+      <a href="/archive.html">Archive</a>
+      <a href="/store.html">Store</a>
+      <a href="mailto:contact@dailysunwatch.com">Contact</a>
+    </nav>
+    <span class="auth-control" id="auth-control">
+      <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
+      <span class="auth-user" id="auth-user">
+        <button class="account-trigger" id="account-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+          <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
+          <span class="auth-name" id="auth-name"></span>
+          <span class="account-caret" aria-hidden="true">▼</span>
+        </button>
+        <div class="account-menu" id="account-menu" hidden>
+          <div class="account-summary">
+            <img class="account-menu-avatar" id="account-menu-avatar" alt="" referrerpolicy="no-referrer">
+            <div>
+              <div class="account-menu-name" id="account-menu-name"></div>
+              <div class="account-menu-email" id="account-menu-email"></div>
             </div>
-          </span>
-        </span></div></header><main class="account-wrap"><div class="wrap"><div id="signed-out" class="signin-card" hidden><div class="label">My Account</div><h1>Sign in to Daily Sunwatch</h1><p class="status">Your saved and liked observations are connected to your Google account.</p><button class="signin-button" id="page-sign-in" type="button">☀ Sign in with Google</button></div><div id="signed-in" hidden><div class="label">My Account</div><div class="account-heading"><img id="profile-avatar" class="profile-avatar" alt="" referrerpolicy="no-referrer"><div><h1 id="profile-name" style="margin:0"></h1><div class="account-email" id="profile-email"></div></div></div><div class="account-tabs" role="tablist"><button class="account-tab active" id="tab-saved" data-tab="saved" type="button">⭐ My Saved Posts</button><button class="account-tab" id="tab-liked" data-tab="liked" type="button">👍 My Liked Posts</button></div><div id="account-posts" class="account-posts"><p class="status">Loading…</p></div></div></div></main><footer><div class="wrap"><div class="footer-row"><div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div><div class="footer-links"><a href="#top">Top</a><a href="/privacy.html">Privacy Policy</a><a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a></div></div><div class="business-info">Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.</div></div></footer>
+          </div>
+          <div class="account-divider"></div>
+          <a class="account-menu-link" href="/account.html#saved">⭐ <span>My Saved Posts</span></a>
+          <a class="account-menu-link" href="/account.html#liked">👍 <span>My Liked Posts</span></a>
+          <div class="account-menu-disabled" aria-disabled="true">📧 <span>Email Updates</span><span class="coming-soon">Coming soon!</span></div>
+          <div class="account-divider"></div>
+          <button class="account-menu-button" id="google-sign-out" type="button">Sign out</button>
+          <div class="account-divider"></div>
+          <button class="account-menu-button account-menu-danger" id="delete-account" type="button">Delete account</button>
+        </div>
+      </span>
+    </span>
+  </div>
+</header><main class="account-wrap"><div class="wrap"><div id="signed-out" class="signin-card" hidden><div class="label">My Account</div><h1>Sign in to Daily Sunwatch</h1><p class="status">Your saved and liked observations are connected to your Google account.</p><button class="signin-button" id="page-sign-in" type="button">☀ Sign in with Google</button></div><div id="signed-in" hidden><div class="label">My Account</div><div class="account-heading"><img id="profile-avatar" class="profile-avatar" alt="" referrerpolicy="no-referrer"><div><h1 id="profile-name" style="margin:0"></h1><div class="account-email" id="profile-email"></div></div></div><div class="account-tabs" role="tablist"><button class="account-tab active" id="tab-saved" data-tab="saved" type="button">⭐ My Saved Posts</button><button class="account-tab" id="tab-liked" data-tab="liked" type="button">👍 My Liked Posts</button></div><div id="account-posts" class="account-posts"><p class="status">Loading…</p></div></div></div></main><footer><div class="wrap"><div class="footer-row"><div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div><div class="footer-links"><a href="#top">Top</a><a href="/privacy.html">Privacy Policy</a><a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a></div></div><div class="business-info">Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.</div></div></footer>
 
   <div class="delete-account-overlay" id="delete-account-overlay" hidden>
     <div class="delete-account-dialog" role="dialog" aria-modal="true" aria-labelledby="delete-account-title">

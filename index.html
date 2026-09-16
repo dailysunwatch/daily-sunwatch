@@ -1096,14 +1096,18 @@
     };
 
     try {
-      if (navigator.share) {
+      const isMobileShareDevice =
+        /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+        (navigator.maxTouchPoints > 1 && /Macintosh/i.test(navigator.userAgent));
+
+      if (isMobileShareDevice && navigator.share) {
         await navigator.share(shareData);
         return;
       }
 
       await navigator.clipboard.writeText(url);
       const label = button.querySelector(".share-label");
-      label.textContent = "Link copied";
+      label.textContent = "Link copied!";
       window.setTimeout(() => {
         label.textContent = "Share";
       }, 1800);

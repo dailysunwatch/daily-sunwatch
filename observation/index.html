@@ -383,7 +383,7 @@
 
   deleteAccountButton.addEventListener("click", () => {
     if (!auth.currentUser) return;
-    closeMenu();
+    closeAccountMenu();
     deleteAccountOverlay.hidden = false;
     setTimeout(() => deleteAccountInput.focus(), 0);
   });

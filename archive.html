@@ -11,6 +11,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/site.css">
   <style>
+    /* Stable desktop header: brand | centered nav | account */
+    @media (min-width: 681px) {
+      header .nav {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+      }
+
+      header .brand {
+        justify-self: start;
+      }
+
+      header nav[aria-label="Main navigation"] {
+        justify-self: center;
+      }
+
+      header .auth-control {
+        justify-self: end;
+        margin-left: 0;
+      }
+    }
+
     .archive-wrap { padding: 70px 0 90px; }
     .archive-controls { margin: 24px 0 30px; }
     .archive-search { width: 100%; max-width: 520px; box-sizing: border-box; padding: 11px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ivory); font: inherit; }
@@ -78,6 +100,7 @@
         <a href="/archive.html">Archive</a>
         <a href="/store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
         <span class="auth-control" id="auth-control">
           <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
           <span class="auth-user" id="auth-user">
@@ -105,7 +128,6 @@
             </div>
           </span>
         </span>
-      </nav>
     </div>
   </header>
 

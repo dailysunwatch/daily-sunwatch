@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T16:01:14.767688+00:00",
-  "updated_display": "September 16, 2026 at 12:01 PM EDT",
+  "updated_at": "2026-09-16T19:33:58.854002+00:00",
+  "updated_display": "September 16, 2026 at 3:33 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -12,23 +12,23 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "518 km/s · Elevated"
+      "value": "501 km/s · Elevated"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "2.33 · Quiet"
+      "value": "1.00 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "No active alert"
+      "value": "Space Weather Message Code: WARK04"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+3.2 nT · Normal"
+      "value": "-6.7 nT · Southward"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "4 Earth-facing"
+      "value": "5 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",

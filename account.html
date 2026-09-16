@@ -24,6 +24,24 @@
     .account-menu-button { cursor: pointer; }
     .account-menu-disabled { color: var(--muted); cursor: default; }
     .coming-soon { margin-left: auto; font-size: .7rem; font-style: italic; color: var(--muted); }
+    /* Destructive account action + confirmation */
+    .account-menu-danger { color: #ff6b6b; margin-top: 2px; }
+    .account-menu-danger:hover { color: #ff8a8a !important; background: rgba(255,107,107,.08) !important; }
+    .delete-account-overlay { position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center; padding: 20px; background: rgba(0,0,0,.72); }
+    .delete-account-overlay[hidden] { display: none; }
+    .delete-account-dialog { width: min(460px, 100%); box-sizing: border-box; border: 1px solid var(--line); border-radius: 13px; background: #151513; box-shadow: 0 18px 55px rgba(0,0,0,.6); padding: 24px; color: var(--ivory); }
+    .delete-account-dialog h2 { margin: 0 0 10px; font-size: 1.3rem; }
+    .delete-account-dialog p { color: var(--muted); line-height: 1.55; margin: 0 0 14px; }
+    .delete-account-dialog strong { color: var(--ivory); }
+    .delete-account-input { width: 100%; box-sizing: border-box; border: 1px solid var(--line); border-radius: 8px; background: #0f0f0e; color: var(--ivory); padding: 10px 11px; font: inherit; outline: none; }
+    .delete-account-input:focus { border-color: #ff6b6b; }
+    .delete-account-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
+    .delete-account-cancel, .delete-account-confirm { border-radius: 8px; padding: 9px 12px; font: inherit; font-weight: 700; cursor: pointer; }
+    .delete-account-cancel { border: 1px solid var(--line); background: transparent; color: var(--ivory); }
+    .delete-account-confirm { border: 1px solid #ff6b6b; background: #ff6b6b; color: #111; }
+    .delete-account-confirm:disabled { opacity: .4; cursor: not-allowed; }
+    .delete-account-status { min-height: 1.2em; margin-top: 12px !important; font-size: .82rem; color: #ff8a8a !important; }
+
 </style></head><body id="top"><header><div class="wrap nav"><a class="brand" href="/">DAILY <span>SUNWATCH</span></a><nav aria-label="Main navigation"><a href="/about.html">About</a><a href="/sources.html">Sources</a><a href="/archive.html">Archive</a><a href="/store.html">Store</a><a href="mailto:contact@dailysunwatch.com">Contact</a><span class="auth-control" id="auth-control">
           <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
           <span class="auth-user" id="auth-user">
@@ -46,11 +64,27 @@
               <div class="account-menu-disabled" aria-disabled="true">📧 <span>Email Updates</span><span class="coming-soon">Coming soon!</span></div>
               <div class="account-divider"></div>
               <button class="account-menu-button" id="google-sign-out" type="button">Sign out</button>
+              <div class="account-divider"></div>
+              <button class="account-menu-button account-menu-danger" id="delete-account" type="button">Delete account</button>
             </div>
           </span>
         </span></nav></div></header><main class="account-wrap"><div class="wrap"><div id="signed-out" class="signin-card" hidden><div class="label">My Account</div><h1>Sign in to Daily Sunwatch</h1><p class="status">Your saved and liked observations are connected to your Google account.</p><button class="signin-button" id="page-sign-in" type="button">☀ Sign in with Google</button></div><div id="signed-in" hidden><div class="label">My Account</div><div class="account-heading"><img id="profile-avatar" class="profile-avatar" alt="" referrerpolicy="no-referrer"><div><h1 id="profile-name" style="margin:0"></h1><div class="account-email" id="profile-email"></div></div></div><div class="account-tabs" role="tablist"><button class="account-tab active" id="tab-saved" data-tab="saved" type="button">⭐ My Saved Posts</button><button class="account-tab" id="tab-liked" data-tab="liked" type="button">👍 My Liked Posts</button></div><div id="account-posts" class="account-posts"><p class="status">Loading…</p></div></div></div></main><footer><div class="wrap"><div class="footer-row"><div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div><div class="footer-links"><a href="#top">Top</a><a href="/privacy.html">Privacy Policy</a><a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a></div></div><div class="business-info">Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.</div></div></footer>
+
+  <div class="delete-account-overlay" id="delete-account-overlay" hidden>
+    <div class="delete-account-dialog" role="dialog" aria-modal="true" aria-labelledby="delete-account-title">
+      <h2 id="delete-account-title">Delete Daily Sunwatch account?</h2>
+      <p>This permanently removes your Daily Sunwatch account data, including <strong>Saved Posts</strong> and your <strong>Likes</strong>. Public Daily Sunwatch observations are not affected.</p>
+      <p>Type <strong>DELETE</strong> to confirm. Google may ask you to verify your account before deletion.</p>
+      <input class="delete-account-input" id="delete-account-input" type="text" autocomplete="off" spellcheck="false" placeholder="Type DELETE">
+      <p class="delete-account-status" id="delete-account-status" aria-live="polite"></p>
+      <div class="delete-account-actions">
+        <button class="delete-account-cancel" id="delete-account-cancel" type="button">Cancel</button>
+        <button class="delete-account-confirm" id="delete-account-confirm" type="button" disabled>Delete my account</button>
+      </div>
+    </div>
+  </div>
 <script type="module">
-import{initializeApp}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";import{getAuth,GoogleAuthProvider,signInWithPopup,signOut,onAuthStateChanged}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";import{getFirestore,collection,getDocs,doc,getDoc,setDoc,deleteDoc,serverTimestamp}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+import{initializeApp}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";import{getAuth,GoogleAuthProvider,signInWithPopup,signOut,onAuthStateChanged,reauthenticateWithPopup,deleteUser}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";import{getFirestore,collection,getDocs,doc,getDoc,setDoc,deleteDoc,serverTimestamp}from"https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
 const app=initializeApp({apiKey:"AIzaSyCW-BizVPufz9upVEqSyLQLQgxd0w4Wxcs",authDomain:"daily-sunwatch.firebaseapp.com",projectId:"daily-sunwatch",storageBucket:"daily-sunwatch.firebasestorage.app",messagingSenderId:"1022960265442",appId:"1:1022960265442:web:fd06d76a3216a56bb956bb"});const auth=getAuth(app),db=getFirestore(app),provider=new GoogleAuthProvider();provider.setCustomParameters({prompt:"select_account"});
 const $=id=>document.getElementById(id),signInButton=$("google-sign-in"),signOutButton=$("google-sign-out"),userPanel=$("auth-user"),userName=$("auth-name"),userAvatar=$("auth-avatar"),accountTrigger=$("account-trigger"),accountMenu=$("account-menu"),accountMenuAvatar=$("account-menu-avatar"),accountMenuName=$("account-menu-name"),accountMenuEmail=$("account-menu-email"),postsRoot=$("account-posts");let activeTab=location.hash==="#liked"?"liked":"saved";
 function closeMenu(){accountMenu.hidden=true;accountTrigger.setAttribute("aria-expanded","false")}accountTrigger.addEventListener("click",e=>{e.stopPropagation();const o=accountMenu.hidden;accountMenu.hidden=!o;accountTrigger.setAttribute("aria-expanded",o?"true":"false")});document.addEventListener("click",e=>{if(!$("auth-control").contains(e.target))closeMenu()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu()});
@@ -58,7 +92,92 @@ function title(p){const t=String(p.title||p.type||"Daily Sunwatch").trim(),y=Str
 function setTab(tab){activeTab=tab;location.hash=tab;$("tab-saved").classList.toggle("active",tab==="saved");$("tab-liked").classList.toggle("active",tab==="liked");if(auth.currentUser)loadPosts()}
 $("tab-saved").onclick=()=>setTab("saved");$("tab-liked").onclick=()=>setTab("liked");window.addEventListener("hashchange",()=>{const t=location.hash==="#liked"?"liked":"saved";if(t!==activeTab){activeTab=t;$("tab-saved").classList.toggle("active",t==="saved");$("tab-liked").classList.toggle("active",t==="liked");if(auth.currentUser)loadPosts()}});
 async function backfillExistingLikes(){const u=auth.currentUser;if(!u)return;const key=`sunny-liked-index-v1:${u.uid}`;if(localStorage.getItem(key)==="done")return;try{const r=await fetch("/feed/archive_index.json",{cache:"no-store"});if(!r.ok)throw new Error(`HTTP ${r.status}`);const data=await r.json();const entries=Array.isArray(data.posts)?data.posts:[];for(const entry of entries){const id=entry.id||entry.post_id;if(!id)continue;const publicLike=await getDoc(doc(db,"posts",id,"likes",u.uid));if(!publicLike.exists())continue;const mirror=doc(db,"users",u.uid,"likedPosts",id);if((await getDoc(mirror)).exists())continue;try{const o=await fetch(`/observations/data/${encodeURIComponent(id)}.json`,{cache:"no-store"});const p=o.ok?await o.json():entry;const media=Array.isArray(p.media)?p.media.filter(x=>x&&x.url).map(x=>({type:x.type||"image",url:x.url,alt:x.alt||""})):[];await setDoc(mirror,{postId:id,title:p.title||p.type||"Daily Sunwatch",type:p.type||"",displayText:p.display_text||p.text||"",publishedDisplay:p.published_display||"",publishedAt:p.published_at||p.published_utc||"",media,likedAt:serverTimestamp()})}catch(e){console.error(`Could not backfill Like ${id}:`,e)}}localStorage.setItem(key,"done")}catch(e){console.error("Liked-post backfill could not complete:",e)}}
-async function loadPosts(){postsRoot.innerHTML='<p class="status">Loading…</p>';const u=auth.currentUser;if(!u)return;const kind=activeTab==="liked"?"likedPosts":"savedPosts";try{const snap=await getDocs(collection(db,"users",u.uid,kind));let items=snap.docs.map(d=>({...d.data(),_id:d.id}));items.sort((a,b)=>String(b.publishedAt||"").localeCompare(String(a.publishedAt||"")));postsRoot.replaceChildren();if(!items.length){postsRoot.innerHTML=`<p class="status">${activeTab==="liked"?"You haven't liked any indexed observations yet.":"You haven't saved any observations yet."}</p>`;return}for(const p of items){const card=document.createElement("article");card.className="account-post";const media=Array.isArray(p.media)?p.media.find(x=>x&&x.url):null;if(media){const img=document.createElement("img");img.className="account-post-media";img.src=media.url;img.alt=media.alt||"Daily Sunwatch observation";card.append(img)}const a=document.createElement("a");a.className="account-post-title";a.href=`/observation/?id=${encodeURIComponent(p.postId||p._id)}`;a.textContent=title(p);const date=document.createElement("div");date.className="account-post-date";date.textContent=p.publishedDisplay||"";const text=document.createElement("div");text.className="account-post-text";text.textContent=p.displayText||"";const actions=document.createElement("div");actions.className="account-post-actions";const open=document.createElement("a");open.className="account-action";open.href=a.href;open.textContent="Open observation";const remove=document.createElement("button");remove.type="button";remove.className="account-action";remove.textContent=activeTab==="liked"?"Unlike":"Remove saved";remove.onclick=async()=>{remove.disabled=true;try{if(activeTab==="liked"){await Promise.all([deleteDoc(doc(db,"users",u.uid,"likedPosts",p.postId||p._id)),deleteDoc(doc(db,"posts",p.postId||p._id,"likes",u.uid))])}else await deleteDoc(doc(db,"users",u.uid,"savedPosts",p.postId||p._id));card.remove();if(!postsRoot.children.length)loadPosts()}catch(e){console.error(e);remove.disabled=false}};actions.append(open,remove);card.append(a,date,text,actions);postsRoot.append(card)}}catch(e){console.error(e);postsRoot.innerHTML='<p class="status">Could not load your account posts.</p>'}}
-async function login(){try{await signInWithPopup(auth,provider)}catch(e){console.error(e)}}signInButton.onclick=login;$("page-sign-in").onclick=login;signOutButton.onclick=()=>signOut(auth).catch(console.error);
+async function loadPosts(){postsRoot.innerHTML='<p class="status">Loading…</p>';const u=auth.currentUser;if(!u)return;const kind=activeTab==="liked"?"likedPosts":"savedPosts";try{const snap=await getDocs(collection(db,"users",u.uid,kind));let items=snap.docs.map(d=>({...d.data(),_id:d.id}));items.sort((a,b)=>String(b.publishedAt||"").localeCompare(String(a.publishedAt||"")));postsRoot.replaceChildren();if(!items.length){postsRoot.innerHTML=`<p class="status">${activeTab==="liked"?"You haven't liked any indexed observations yet.":"You haven't saved any observations yet."}</p>`;return}for(const p of items){const card=document.createElement("article");card.className="account-post";const media=Array.isArray(p.media)?p.media.find(x=>x&&x.url):null;if(media){const img=document.createElement("img");img.className="account-post-media";img.src=media.url;img.alt=media.alt||"Daily Sunwatch observation";card.append(img)}const a=document.createElement("a");a.className="account-post-title";a.href=`/observation/?id=${encodeURIComponent(p.postId||p._id)}`;a.textContent=title(p);const date=document.createElement("div");date.className="account-post-date";date.textContent=p.publishedDisplay||"";const text=document.createElement("div");text.className="account-post-text";text.textContent=p.displayText||"";const actions=document.createElement("div");actions.className="account-post-actions";const open=document.createElement("a");open.className="account-action";open.href=a.href;open.textContent="Open observation";const remove=document.createElement("button");remove.type="button";remove.className="account-action";remove.textContent=activeTab==="liked"?"Unlike":"Remove saved";remove.onclick=async()=>{remove.disabled=true;try{if(activeTab==="liked"){await Promise.all([deleteDoc(doc(db,"users",u.uid,"likedPosts",p.postId||p._id)),deleteDoc(doc(db,"posts",p.postId||p._id,"likes",u.uid))])}else await deleteDoc(doc(db,"users",u.uid,"savedPosts",p.postId||p._id));card.remove();if(!postsRoot.children.length)loadPosts()}catch(e){console.error(e);remove.disabled=false}};const share=document.createElement("button");share.type="button";share.className="account-action";share.innerHTML='<span aria-hidden="true">↪</span> <span class="share-label">Share</span>';share.onclick=async()=>{const url=new URL(a.href,window.location.origin).href;const label=share.querySelector(".share-label");try{const mobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/Macintosh/i.test(navigator.userAgent));if(mobile&&navigator.share){await navigator.share({title:title(p),url});return}await navigator.clipboard.writeText(url);label.textContent="Link copied!";setTimeout(()=>label.textContent="Share",1800)}catch(e){if(e?.name!=="AbortError")console.error("Share failed:",e)}};actions.append(open,remove,share);card.append(a,date,text,actions);postsRoot.append(card)}}catch(e){console.error(e);postsRoot.innerHTML='<p class="status">Could not load your account posts.</p>'}}
+async function login(){try{await signInWithPopup(auth,provider)}catch(e){console.error(e)}}signInButton.onclick=login;$("page-sign-in").onclick=login;
+  const deleteAccountButton = document.getElementById("delete-account");
+  const deleteAccountOverlay = document.getElementById("delete-account-overlay");
+  const deleteAccountInput = document.getElementById("delete-account-input");
+  const deleteAccountCancel = document.getElementById("delete-account-cancel");
+  const deleteAccountConfirm = document.getElementById("delete-account-confirm");
+  const deleteAccountStatus = document.getElementById("delete-account-status");
+
+  function closeDeleteAccountDialog() {
+    if (deleteAccountConfirm.disabled && deleteAccountStatus.textContent === "Deleting your account…") return;
+    deleteAccountOverlay.hidden = true;
+    deleteAccountInput.value = "";
+    deleteAccountConfirm.disabled = true;
+    deleteAccountStatus.textContent = "";
+  }
+
+  deleteAccountButton.addEventListener("click", () => {
+    if (!auth.currentUser) return;
+    closeMenu();
+    deleteAccountOverlay.hidden = false;
+    setTimeout(() => deleteAccountInput.focus(), 0);
+  });
+  deleteAccountInput.addEventListener("input", () => {
+    deleteAccountConfirm.disabled = deleteAccountInput.value.trim() !== "DELETE";
+  });
+  deleteAccountCancel.addEventListener("click", closeDeleteAccountDialog);
+  deleteAccountOverlay.addEventListener("click", event => { if (event.target === deleteAccountOverlay) closeDeleteAccountDialog(); });
+
+  async function removeDailySunwatchAccountData(user) {
+    const uid = user.uid;
+    const saved = await getDocs(collection(db, "users", uid, "savedPosts"));
+    for (const item of saved.docs) await deleteDoc(item.ref);
+
+    const liked = await getDocs(collection(db, "users", uid, "likedPosts"));
+    const knownLikeIds = new Set();
+    for (const item of liked.docs) {
+      knownLikeIds.add(item.id);
+      await deleteDoc(doc(db, "posts", item.id, "likes", uid));
+      await deleteDoc(item.ref);
+    }
+
+    /* Catch Likes created before the private likedPosts index existed. */
+    try {
+      const response = await fetch("/feed/archive_index.json", { cache: "no-store" });
+      if (response.ok) {
+        const archive = await response.json();
+        const entries = Array.isArray(archive.posts) ? archive.posts : [];
+        for (const entry of entries) {
+          const postId = entry.id || entry.post_id;
+          if (!postId || knownLikeIds.has(postId)) continue;
+          const publicLike = doc(db, "posts", postId, "likes", uid);
+          if ((await getDoc(publicLike)).exists()) await deleteDoc(publicLike);
+        }
+      }
+    } catch (error) {
+      console.error("Legacy Like cleanup failed:", error);
+      throw error;
+    }
+  }
+
+  deleteAccountConfirm.addEventListener("click", async () => {
+    const user = auth.currentUser;
+    if (!user || deleteAccountInput.value.trim() !== "DELETE") return;
+    deleteAccountConfirm.disabled = true;
+    deleteAccountCancel.disabled = true;
+    deleteAccountInput.disabled = true;
+    deleteAccountStatus.textContent = "Verifying your Google account…";
+    try {
+      await reauthenticateWithPopup(user, provider);
+      deleteAccountStatus.textContent = "Deleting your account…";
+      await removeDailySunwatchAccountData(user);
+      localStorage.removeItem(`sunny-liked-index-v1:${user.uid}`);
+      await deleteUser(user);
+      window.location.href = "/";
+    } catch (error) {
+      console.error("Account deletion failed:", error);
+      deleteAccountStatus.textContent = error?.code === "auth/popup-closed-by-user"
+        ? "Account deletion cancelled."
+        : "Account deletion could not be completed. Please try again.";
+      deleteAccountCancel.disabled = false;
+      deleteAccountInput.disabled = false;
+      deleteAccountConfirm.disabled = deleteAccountInput.value.trim() !== "DELETE";
+    }
+  });
+
+  signOutButton.onclick=()=>signOut(auth).catch(console.error);
 onAuthStateChanged(auth,u=>{if(u){signInButton.style.display="none";userPanel.style.display="inline-flex";$("signed-out").hidden=true;$("signed-in").hidden=false;const n=u.displayName||u.email||"Daily Sunwatch";userName.textContent=n;accountMenuName.textContent=n;accountMenuEmail.textContent=u.email||"";$("profile-name").textContent=n;$("profile-email").textContent=u.email||"";if(u.photoURL){userAvatar.src=accountMenuAvatar.src=$("profile-avatar").src=u.photoURL;userAvatar.style.display=accountMenuAvatar.style.display=$("profile-avatar").style.display="block"}else userAvatar.style.display=accountMenuAvatar.style.display=$("profile-avatar").style.display="none";backfillExistingLikes().finally(()=>setTab(activeTab))}else{signInButton.style.display="inline-block";userPanel.style.display="none";$("signed-out").hidden=false;$("signed-in").hidden=true;closeMenu()}});
 </script></body></html>

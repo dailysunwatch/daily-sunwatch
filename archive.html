@@ -11,11 +11,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/site.css">
   <style>
-    .archive-wrap { padding: 70px 0 90px; }
-    .archive-controls { margin: 24px 0 30px; }
+    /* Match the normal site content spacing used by the homepage sections. */
+    .archive-wrap { padding: 58px 0 70px; }
+    .archive-wrap h1 { margin-bottom: 10px; }
+    .archive-wrap > .wrap > .status { margin: 0; }
+
+    .archive-controls { margin: 22px 0 26px; }
     .archive-search { width: 100%; max-width: 520px; box-sizing: border-box; padding: 11px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ivory); font: inherit; }
     .archive-search:focus { outline: none; border-color: var(--yellow); }
-    .archive-month { margin-top: 34px; }
+    .archive-month { margin-top: 28px; }
     .archive-month h3 { margin: 0 0 10px; color: var(--yellow); font-size: .92rem; text-transform: uppercase; letter-spacing: .05em; }
     .archive-list { border-top: 1px solid var(--line); }
     .archive-item { display: grid; grid-template-columns: minmax(135px, .35fr) minmax(0, 1fr); gap: 20px; padding: 13px 0; border-bottom: 1px solid var(--line); }
@@ -24,7 +28,13 @@
     .archive-title:hover { color: var(--yellow); }
     .status { color: var(--muted); }
 
-    @media (max-width: 600px) { .archive-item { grid-template-columns: 1fr; gap: 3px; } }
+    /* Same active-navigation treatment used elsewhere on Daily Sunwatch. */
+    header nav a.active { color: var(--yellow); }
+
+    @media (max-width: 600px) {
+      .archive-wrap { padding: 48px 0 60px; }
+      .archive-item { grid-template-columns: 1fr; gap: 3px; }
+    }
   </style>
 </head>
 <body id="top">
@@ -34,7 +44,7 @@
       <nav aria-label="Main navigation">
         <a href="/about.html">About</a>
         <a href="/sources.html">Sources</a>
-        <a href="/archive.html">Archive</a>
+        <a href="/archive.html" class="active" aria-current="page">Archive</a>
         <a href="/store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
       </nav>
@@ -71,7 +81,6 @@
     const results = document.getElementById("archive-results");
     const search = document.getElementById("archive-search");
     let allPosts = [];
-
 
     function formatObservationTitle(post) {
       const title = String(post?.title || post?.type || "Daily Sunwatch").trim();
@@ -166,8 +175,5 @@
         console.error("Archive load error:", error);
       });
   </script>
-
-  
-
 </body>
 </html>

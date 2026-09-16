@@ -170,28 +170,29 @@ footer {
 .marquee-friend-track {
   display: flex;
   width: max-content;
-  min-width: 100%;
   align-items: center;
-  animation: marquee-friend-scroll 24s linear infinite;
+  gap: 80px;
+  animation: marquee-friend-scroll 28s linear infinite;
   will-change: transform;
 }
 
 .marquee-friend-message {
   flex: 0 0 auto;
-  padding: 7px 56px 7px 0;
+  padding: 7px 0;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 12px; /* 9pt */
   font-weight: 400;
   letter-spacing: .01em;
 }
 
-.marquee-friend-message:first-child {
-  padding-left: 100vw;
-}
-
 @keyframes marquee-friend-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(100vw);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260916T220035Z",
+      "facebook_id": "122113103025440979",
+      "published_at": "2026-09-16T22:00:35.594520+00:00",
+      "published_display": "September 16, 2026 · 6:00 PM EDT",
+      "type": "quiet_corona",
+      "title": "Quiet Corona",
+      "text": "☀️ Quiet Corona — September 16, 2026\n\nQuiet conditions make this a good time for a casual look at the outer corona.\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Quiet conditions make this a good time for a casual look at the outer corona.\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260916T220035Z/image_1.jpg",
+          "alt": "Quiet Corona image"
+        }
+      ]
+    },
+    {
       "id": "20260916T192638Z",
       "facebook_id": "122113084671440979",
       "published_at": "2026-09-16T19:26:38.635725+00:00",

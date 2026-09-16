@@ -384,16 +384,17 @@
     }
 
 
-    /* Observation Likes */
+    /* Observation actions */
     .sunny-post-actions {
       display: flex;
       align-items: center;
       margin-top: 16px;
       padding-top: 13px;
       border-top: 1px solid var(--line);
+      flex-wrap: wrap;
     }
 
-    .like-button {
+    .post-action-button {
       display: inline-flex;
       align-items: center;
       gap: 5px;
@@ -408,14 +409,22 @@
       transition: color .15s ease;
     }
 
-    .like-button:hover,
-    .like-button.is-liked {
+    .post-action-button:hover,
+    .like-button.is-liked,
+    .save-button.is-saved {
       color: var(--yellow);
     }
 
-    .like-button:disabled {
+    .post-action-button:disabled {
       cursor: default;
       opacity: .7;
+    }
+
+    .post-action-separator {
+      margin: 0 9px;
+      color: var(--line);
+      font-size: .82rem;
+      user-select: none;
     }
 
     /* Firebase account controls */
@@ -746,21 +755,56 @@
 
         const postId = post.post_id || post.id || "";
         if (postId) {
+          const observationAnchor = `observation-${postId}`;
+          article.id = observationAnchor;
+
           const actions = document.createElement("div");
           actions.className = "sunny-post-actions";
 
           const likeButton = document.createElement("button");
           likeButton.type = "button";
-          likeButton.className = "like-button";
+          likeButton.className = "post-action-button like-button";
           likeButton.dataset.postId = postId;
           likeButton.setAttribute("aria-pressed", "false");
           likeButton.innerHTML = '<span aria-hidden="true">👍</span> <span class="like-label">Like</span> · <span class="like-count">0</span>';
 
-          actions.appendChild(likeButton);
+          const separatorOne = document.createElement("span");
+          separatorOne.className = "post-action-separator";
+          separatorOne.setAttribute("aria-hidden", "true");
+          separatorOne.textContent = "·";
+
+          const saveButton = document.createElement("button");
+          saveButton.type = "button";
+          saveButton.className = "post-action-button save-button";
+          saveButton.dataset.postId = postId;
+          saveButton.setAttribute("aria-pressed", "false");
+          saveButton.innerHTML = '<span aria-hidden="true">⭐</span> <span class="save-label">Save</span>';
+
+          const separatorTwo = document.createElement("span");
+          separatorTwo.className = "post-action-separator";
+          separatorTwo.setAttribute("aria-hidden", "true");
+          separatorTwo.textContent = "·";
+
+          const shareButton = document.createElement("button");
+          shareButton.type = "button";
+          shareButton.className = "post-action-button share-button";
+          shareButton.dataset.postId = postId;
+          shareButton.dataset.shareTitle = publicTitle;
+          shareButton.dataset.shareText = post.display_text || post.text || "";
+          shareButton.dataset.shareAnchor = observationAnchor;
+          shareButton.innerHTML = '<span aria-hidden="true">➦</span> <span class="share-label">Share</span>';
+
+          actions.append(likeButton, separatorOne, saveButton, separatorTwo, shareButton);
           body.appendChild(actions);
 
           window.dispatchEvent(new CustomEvent("sunny-like-button-added", {
             detail: { button: likeButton }
+          }));
+          window.dispatchEvent(new CustomEvent("sunny-save-button-added", {
+            detail: { button: saveButton, post }
+          }));
+          window.dispatchEvent(new CustomEvent("sunny-share-button-added", {
+            detail: { button: shareButton }
           }));
         }
 
@@ -938,7 +982,145 @@
   const userAvatar = document.getElementById("auth-avatar");
 
   const likeButtons = new Map();
+  const saveButtons = new Map();
+  const savePostSnapshots = new Map();
+  const shareButtons = new Map();
   let pendingLikePostId = null;
+  let pendingSavePostId = null;
+
+  function saveDocRef(uid, postId) {
+    return doc(db, "users", uid, "savedPosts", postId);
+  }
+
+  async function refreshSaveButton(button) {
+    const postId = button.dataset.postId;
+    const user = auth.currentUser;
+    if (!postId) return;
+
+    let saved = false;
+    if (user) {
+      try {
+        saved = (await getDoc(saveDocRef(user.uid, postId))).exists();
+      } catch (error) {
+        console.error(`Could not load Save state for ${postId}:`, error);
+      }
+    }
+
+    button.classList.toggle("is-saved", saved);
+    button.setAttribute("aria-pressed", saved ? "true" : "false");
+    button.querySelector(".save-label").textContent = saved ? "Saved" : "Save";
+  }
+
+  async function refreshAllSaveButtons() {
+    await Promise.all([...saveButtons.values()].map(refreshSaveButton));
+  }
+
+  async function toggleSave(button) {
+    const postId = button.dataset.postId;
+    if (!postId) return;
+
+    if (!auth.currentUser) {
+      pendingSavePostId = postId;
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (error) {
+        pendingSavePostId = null;
+        console.error("Google sign-in failed:", error);
+      }
+      return;
+    }
+
+    button.disabled = true;
+    try {
+      const ref = saveDocRef(auth.currentUser.uid, postId);
+      const existing = await getDoc(ref);
+
+      if (existing.exists()) {
+        await deleteDoc(ref);
+      } else {
+        const post = savePostSnapshots.get(postId) || {};
+        const media = Array.isArray(post.media)
+          ? post.media.filter((item) => item && item.url).map((item) => ({
+              type: item.type || "image",
+              url: item.url,
+              alt: item.alt || ""
+            }))
+          : [];
+
+        await setDoc(ref, {
+          postId,
+          title: post.title || post.type || "Daily Sunwatch",
+          displayText: post.display_text || post.text || "",
+          publishedDisplay: post.published_display || "",
+          publishedAt: post.published_at || post.published_utc || "",
+          media,
+          savedAt: serverTimestamp()
+        });
+      }
+
+      await refreshSaveButton(button);
+    } catch (error) {
+      console.error(`Could not update Save for ${postId}:`, error);
+    } finally {
+      button.disabled = false;
+    }
+  }
+
+  function registerSaveButton(button, post = null) {
+    const postId = button?.dataset?.postId;
+    if (!postId) return;
+
+    if (post) savePostSnapshots.set(postId, post);
+    if (saveButtons.has(postId)) return;
+
+    saveButtons.set(postId, button);
+    button.addEventListener("click", () => toggleSave(button));
+    refreshSaveButton(button);
+  }
+
+  function observationShareUrl(button) {
+    const anchor = button.dataset.shareAnchor || `observation-${button.dataset.postId || ""}`;
+    const url = new URL(window.location.href);
+    url.hash = anchor;
+    return url.toString();
+  }
+
+  async function shareObservation(button) {
+    const url = observationShareUrl(button);
+    const title = button.dataset.shareTitle || "Daily Sunwatch observation";
+    const text = button.dataset.shareText || "";
+    const shareData = {
+      title: `${title} — Daily Sunwatch`,
+      text: text.length > 220 ? `${text.slice(0, 217)}...` : text,
+      url
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+
+      await navigator.clipboard.writeText(url);
+      const label = button.querySelector(".share-label");
+      label.textContent = "Link copied";
+      window.setTimeout(() => {
+        label.textContent = "Share";
+      }, 1800);
+    } catch (error) {
+      if (error?.name !== "AbortError") {
+        console.error("Could not share observation:", error);
+      }
+    }
+  }
+
+  function registerShareButton(button) {
+    const postId = button?.dataset?.postId;
+    if (!postId || shareButtons.has(postId)) return;
+
+    shareButtons.set(postId, button);
+    button.addEventListener("click", () => shareObservation(button));
+  }
 
   function likeDocRef(postId, uid) {
     return doc(db, "posts", postId, "likes", uid);
@@ -1021,7 +1203,17 @@
     registerLikeButton(event.detail?.button);
   });
 
+  window.addEventListener("sunny-save-button-added", (event) => {
+    registerSaveButton(event.detail?.button, event.detail?.post || null);
+  });
+
+  window.addEventListener("sunny-share-button-added", (event) => {
+    registerShareButton(event.detail?.button);
+  });
+
   document.querySelectorAll(".like-button[data-post-id]").forEach(registerLikeButton);
+  document.querySelectorAll(".save-button[data-post-id]").forEach((button) => registerSaveButton(button));
+  document.querySelectorAll(".share-button[data-post-id]").forEach(registerShareButton);
 
   signInButton.addEventListener("click", async () => {
     try {
@@ -1060,12 +1252,20 @@
     }
 
     refreshAllLikeButtons();
+    refreshAllSaveButtons();
 
     if (user && pendingLikePostId) {
       const postId = pendingLikePostId;
       pendingLikePostId = null;
       const button = likeButtons.get(postId);
       if (button) toggleLike(button);
+    }
+
+    if (user && pendingSavePostId) {
+      const postId = pendingSavePostId;
+      pendingSavePostId = null;
+      const button = saveButtons.get(postId);
+      if (button) toggleSave(button);
     }
   });
 </script>

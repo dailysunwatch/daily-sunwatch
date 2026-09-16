@@ -1,0 +1,144 @@
+{
+  "posts": [
+    {
+      "id": "20260916T010048Z",
+      "published_at": "2026-09-16T01:00:48.900318+00:00",
+      "published_display": "September 15, 2026 · 9:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch"
+    },
+    {
+      "id": "20260915T220200Z",
+      "published_at": "2026-09-15T22:02:00.621756+00:00",
+      "published_display": "September 15, 2026 · 6:02 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather"
+    },
+    {
+      "id": "20260915T220038Z",
+      "published_at": "2026-09-15T22:00:38.531715+00:00",
+      "published_display": "September 15, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch"
+    },
+    {
+      "id": "20260915T190221Z",
+      "published_at": "2026-09-15T19:02:21.653101+00:00",
+      "published_display": "September 15, 2026 · 3:02 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch"
+    },
+    {
+      "id": "20260915T190040Z",
+      "published_at": "2026-09-15T19:00:40.938278+00:00",
+      "published_display": "September 15, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch"
+    },
+    {
+      "id": "20260915T160228Z",
+      "published_at": "2026-09-15T16:02:28.410429+00:00",
+      "published_display": "September 15, 2026 · 12:02 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather"
+    },
+    {
+      "id": "20260915T160100Z",
+      "published_at": "2026-09-15T16:01:00.397292+00:00",
+      "published_display": "September 15, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch"
+    },
+    {
+      "id": "20260915T130306Z",
+      "published_at": "2026-09-15T13:03:06.639482+00:00",
+      "published_display": "September 15, 2026 · 9:03 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather"
+    },
+    {
+      "id": "20260915T130044Z",
+      "published_at": "2026-09-15T13:00:44.373960+00:00",
+      "published_display": "September 15, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch"
+    },
+    {
+      "id": "20260915T100044Z",
+      "published_at": "2026-09-15T10:00:44.851564+00:00",
+      "published_display": "September 15, 2026 · 6:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch"
+    },
+    {
+      "id": "20260915T040219Z",
+      "published_at": "2026-09-15T04:02:19.575741+00:00",
+      "published_display": "September 15, 2026 · 12:02 AM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch"
+    },
+    {
+      "id": "20260915T040041Z",
+      "published_at": "2026-09-15T04:00:41.962053+00:00",
+      "published_display": "September 15, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch"
+    },
+    {
+      "id": "20260915T010053Z",
+      "published_at": "2026-09-15T01:00:53.293348+00:00",
+      "published_display": "September 14, 2026 · 9:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch"
+    },
+    {
+      "id": "20260914T220040Z",
+      "published_at": "2026-09-14T22:00:40.225971+00:00",
+      "published_display": "September 14, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch"
+    },
+    {
+      "id": "20260914T190047Z",
+      "published_at": "2026-09-14T19:00:47.685348+00:00",
+      "published_display": "September 14, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch"
+    },
+    {
+      "id": "20260914T160500Z",
+      "published_at": "2026-09-14T16:05:00.504182+00:00",
+      "published_display": "September 14, 2026 · 12:05 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch"
+    },
+    {
+      "id": "20260914T160117Z",
+      "published_at": "2026-09-14T16:01:17.098797+00:00",
+      "published_display": "September 14, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch"
+    },
+    {
+      "id": "20260914T130045Z",
+      "published_at": "2026-09-14T13:00:45.462500+00:00",
+      "published_display": "September 14, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch"
+    },
+    {
+      "id": "20260914T100047Z",
+      "published_at": "2026-09-14T10:00:47.745174+00:00",
+      "published_display": "September 14, 2026 · 6:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch"
+    },
+    {
+      "id": "20260914T040046Z",
+      "published_at": "2026-09-14T04:00:46.677537+00:00",
+      "published_display": "September 14, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch"
+    }
+  ]
+}

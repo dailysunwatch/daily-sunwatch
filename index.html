@@ -597,6 +597,10 @@
     </div>
   </header>
 
+  <div class="marquee-friend" id="marquee-friend" role="status" aria-live="polite" hidden>
+    <div class="marquee-friend-track" id="marquee-friend-track"></div>
+  </div>
+
   <main>
     <div class="hero">
       <div class="wrap">
@@ -710,6 +714,46 @@
     </div>
   </div>
 </footer>
+
+
+<script>
+  async function loadMarqueeFriend() {
+    const marquee = document.getElementById("marquee-friend");
+    const track = document.getElementById("marquee-friend-track");
+    if (!marquee || !track) return;
+
+    try {
+      const response = await fetch("/feed/site_alert.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const data = await response.json();
+      const message = String(data?.message || "").trim();
+
+      if (!data?.active || !message) {
+        marquee.hidden = true;
+        track.replaceChildren();
+        return;
+      }
+
+      const makeMessage = () => {
+        const span = document.createElement("span");
+        span.className = "marquee-friend-message";
+        span.textContent = message;
+        return span;
+      };
+
+      track.replaceChildren(makeMessage(), makeMessage());
+      marquee.hidden = false;
+    } catch (error) {
+      /* Marquee Friend fails closed: no feed = no visible bar. */
+      marquee.hidden = true;
+      track.replaceChildren();
+      console.error("Marquee Friend feed error:", error);
+    }
+  }
+
+  loadMarqueeFriend();
+</script>
 
 <script>
   const CONDITION_COLUMNS = [

@@ -363,7 +363,7 @@
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         currentPost = await response.json();
         const publicTitle = formatObservationTitle(currentPost);
-        document.title = `${publicTitle} · Daily Sunwatch`;
+        document.title = `${publicTitle} | Daily Sunwatch`;
 
         const card = document.createElement("article");
         card.className = "observation-card";

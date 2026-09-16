@@ -71,6 +71,25 @@
     const search = document.getElementById("archive-search");
     let allPosts = [];
 
+
+    function formatObservationTitle(post) {
+      const title = String(post?.title || post?.type || "Daily Sunwatch").trim();
+      const type = String(post?.type || "").trim().toLowerCase();
+      if (title === "Moony Moonwatch" || type === "moonwatch") return `Moony Moonwatch 🌙`;
+      if (title === "East Coast Weather" || type === "weather") return `🌎 East Coast Weather`;
+      if (title === "Coronagraph Watch" || type === "coronagraph_watch") return `🔭 Coronagraph Watch`;
+      if (title === "Quiet Corona" || type === "quiet_corona") return `☀️ Quiet Corona`;
+      if (title === "Flare Watch" || type === "flare_watch") return `🔥 Flare Watch`;
+      if (title === "Coronal Hole Watch" || type === "coronal_hole_watch") return `🕳 Coronal Hole Watch`;
+      if (title === "Aurora Watch" || type === "aurora_watch") return `🌌 Aurora Watch`;
+      if (title === "Sunny's Lunch Break" || type === "lunch_break") return `🥪 Sunny's Lunch Break`;
+      const sunwatchEmoji = {
+        "Midnight Sunwatch": "🌙", "Nighttime Sunwatch": "🌕", "Early Morning Sunwatch": "🌅",
+        "Morning Sunwatch": "☀️", "Midday Sunwatch": "🌤️", "Afternoon Sunwatch": "☀️", "Evening Sunwatch": "🌇"
+      };
+      return sunwatchEmoji[title] ? `${sunwatchEmoji[title]} ${title}` : title;
+    }
+
     function monthKey(post) {
       const date = new Date(post.published_at);
       if (Number.isNaN(date.getTime())) return "Undated";
@@ -114,7 +133,7 @@
           const link = document.createElement("a");
           link.className = "archive-title";
           link.href = `/observation/?id=${encodeURIComponent(post.id)}`;
-          link.textContent = post.title || post.type || "Daily Sunwatch";
+          link.textContent = formatObservationTitle(post);
           row.append(date, link);
           list.appendChild(row);
         });

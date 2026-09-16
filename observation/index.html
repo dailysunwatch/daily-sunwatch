@@ -26,12 +26,29 @@
     .post-action-button:hover, .like-button.is-liked, .save-button.is-saved { color: var(--yellow); }
     .post-action-button:disabled { cursor: default; opacity: .7; }
     .post-action-separator { margin: 0 9px; color: var(--line); font-size: .82rem; user-select: none; }
-    .auth-control { display: inline-flex; align-items: center; gap: 8px; margin-left: 4px; }
+
+    /* Daily Sunwatch account menu */
+    .auth-control { position: relative; display: inline-flex; align-items: center; margin-left: 4px; }
     .auth-button { border: 1px solid var(--line); border-radius: 8px; background: transparent; color: var(--ivory); padding: 7px 10px; font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer; }
     .auth-button:hover { color: var(--yellow); border-color: var(--yellow); }
-    .auth-user { display: none; align-items: center; gap: 8px; }
+    .auth-user { display: none; }
+    .account-trigger { display: inline-flex; align-items: center; gap: 8px; padding: 4px 6px; border: 0; background: transparent; color: var(--ivory); font: inherit; cursor: pointer; border-radius: 8px; }
+    .account-trigger:hover, .account-trigger[aria-expanded="true"] { background: rgba(255,255,255,.045); color: var(--yellow); }
     .auth-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
-    .auth-name { color: var(--muted); font-size: .82rem; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .auth-name { font-size: .82rem; font-weight: 600; max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .account-caret { color: var(--muted); font-size: .68rem; }
+    .account-menu { position: absolute; z-index: 1000; right: 0; top: calc(100% + 10px); width: 270px; padding: 10px; border: 1px solid var(--line); border-radius: 11px; background: #151513; box-shadow: 0 14px 38px rgba(0,0,0,.45); }
+    .account-menu[hidden] { display: none; }
+    .account-summary { display: grid; grid-template-columns: 38px minmax(0,1fr); gap: 10px; align-items: center; padding: 6px 7px 10px; }
+    .account-menu-avatar { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; }
+    .account-menu-name { color: var(--ivory); font-size: .9rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .account-menu-email { color: var(--muted); font-size: .75rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 2px; }
+    .account-divider { height: 1px; background: var(--line); margin: 4px 0; }
+    .account-menu-link, .account-menu-button, .account-menu-disabled { display: flex; width: 100%; box-sizing: border-box; align-items: center; gap: 8px; padding: 9px 8px; border: 0; border-radius: 7px; background: transparent; color: var(--ivory); font: inherit; font-size: .84rem; text-decoration: none; text-align: left; }
+    .account-menu-link:hover, .account-menu-button:hover { background: rgba(255,255,255,.045); color: var(--yellow); }
+    .account-menu-button { cursor: pointer; }
+    .account-menu-disabled { color: var(--muted); cursor: default; }
+    .coming-soon { margin-left: auto; font-size: .7rem; font-style: italic; color: var(--muted); }
     .status { color: var(--muted); }
     @media (max-width: 680px) { .observation-media.multi { grid-template-columns: 1fr; } }
   </style>
@@ -47,11 +64,28 @@
         <a href="/store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
         <span class="auth-control" id="auth-control">
-          <button class="auth-button" id="google-sign-in" type="button">Sign in with Google</button>
+          <button class="auth-button" id="google-sign-in" type="button">☀ Sign in</button>
           <span class="auth-user" id="auth-user">
-            <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
-            <span class="auth-name" id="auth-name"></span>
-            <button class="auth-button" id="google-sign-out" type="button">Sign out</button>
+            <button class="account-trigger" id="account-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+              <img class="auth-avatar" id="auth-avatar" alt="" referrerpolicy="no-referrer">
+              <span class="auth-name" id="auth-name"></span>
+              <span class="account-caret" aria-hidden="true">▼</span>
+            </button>
+            <div class="account-menu" id="account-menu" hidden>
+              <div class="account-summary">
+                <img class="account-menu-avatar" id="account-menu-avatar" alt="" referrerpolicy="no-referrer">
+                <div>
+                  <div class="account-menu-name" id="account-menu-name"></div>
+                  <div class="account-menu-email" id="account-menu-email"></div>
+                </div>
+              </div>
+              <div class="account-divider"></div>
+              <a class="account-menu-link" href="/account.html#saved">⭐ <span>My Saved Posts</span></a>
+              <a class="account-menu-link" href="/account.html#liked">👍 <span>My Liked Posts</span></a>
+              <div class="account-menu-disabled" aria-disabled="true">📧 <span>Email Updates</span><span class="coming-soon">Coming soon!</span></div>
+              <div class="account-divider"></div>
+              <button class="account-menu-button" id="google-sign-out" type="button">Sign out</button>
+            </div>
           </span>
         </span>
       </nav>
@@ -104,10 +138,20 @@
     const userPanel = document.getElementById("auth-user");
     const userName = document.getElementById("auth-name");
     const userAvatar = document.getElementById("auth-avatar");
+    const accountTrigger = document.getElementById("account-trigger");
+    const accountMenu = document.getElementById("account-menu");
+    const accountMenuAvatar = document.getElementById("account-menu-avatar");
+    const accountMenuName = document.getElementById("account-menu-name");
+    const accountMenuEmail = document.getElementById("account-menu-email");
     let currentPost = null;
     let likeButton = null;
     let saveButton = null;
     let pendingAction = null;
+
+    function closeAccountMenu() { accountMenu.hidden = true; accountTrigger.setAttribute("aria-expanded", "false"); }
+    accountTrigger.addEventListener("click", event => { event.stopPropagation(); const opening = accountMenu.hidden; accountMenu.hidden = !opening; accountTrigger.setAttribute("aria-expanded", opening ? "true" : "false"); });
+    document.addEventListener("click", event => { if (!document.getElementById("auth-control").contains(event.target)) closeAccountMenu(); });
+    document.addEventListener("keydown", event => { if (event.key === "Escape") closeAccountMenu(); });
 
     function formatObservationTitle(post) {
       const title = String(post?.title || post?.type || "Daily Sunwatch").trim();
@@ -128,7 +172,12 @@
     }
 
     function likeDocRef(uid) { return doc(db, "posts", postId, "likes", uid); }
+    function userLikedDocRef(uid) { return doc(db, "users", uid, "likedPosts", postId); }
     function saveDocRef(uid) { return doc(db, "users", uid, "savedPosts", postId); }
+    function currentSnapshot() {
+      const media = Array.isArray(currentPost?.media) ? currentPost.media.filter(item => item && item.url).map(item => ({ type: item.type || "image", url: item.url, alt: item.alt || "" })) : [];
+      return { postId, title: currentPost?.title || currentPost?.type || "Daily Sunwatch", type: currentPost?.type || "", displayText: currentPost?.display_text || currentPost?.text || "", publishedDisplay: currentPost?.published_display || "", publishedAt: currentPost?.published_at || currentPost?.published_utc || "", media };
+    }
 
     async function refreshLike() {
       if (!likeButton || !postId) return;
@@ -136,6 +185,10 @@
         const count = (await getCountFromServer(collection(db, "posts", postId, "likes"))).data().count || 0;
         likeButton.querySelector(".like-count").textContent = count;
         const liked = auth.currentUser ? (await getDoc(likeDocRef(auth.currentUser.uid))).exists() : false;
+        if (liked && auth.currentUser) {
+          const mirrorRef = userLikedDocRef(auth.currentUser.uid);
+          if (!(await getDoc(mirrorRef)).exists()) await setDoc(mirrorRef, { ...currentSnapshot(), likedAt: serverTimestamp() });
+        }
         likeButton.classList.toggle("is-liked", liked);
         likeButton.setAttribute("aria-pressed", liked ? "true" : "false");
         likeButton.querySelector(".like-label").textContent = liked ? "Liked" : "Like";
@@ -165,9 +218,16 @@
       likeButton.disabled = true;
       try {
         const ref = likeDocRef(auth.currentUser.uid);
+        const mirrorRef = userLikedDocRef(auth.currentUser.uid);
         const existing = await getDoc(ref);
-        if (existing.exists()) await deleteDoc(ref);
-        else await setDoc(ref, { createdAt: serverTimestamp() });
+        if (existing.exists()) {
+          await Promise.all([deleteDoc(ref), deleteDoc(mirrorRef)]);
+        } else {
+          await Promise.all([
+            setDoc(ref, { createdAt: serverTimestamp() }),
+            setDoc(mirrorRef, { ...currentSnapshot(), likedAt: serverTimestamp() })
+          ]);
+        }
         await refreshLike();
       } catch (error) { console.error("Could not update Like:", error); }
       finally { likeButton.disabled = false; }
@@ -274,10 +334,12 @@
 
     onAuthStateChanged(auth, async user => {
       if (user) {
-        signInButton.style.display = "none"; userPanel.style.display = "inline-flex"; userName.textContent = user.displayName || user.email || "Signed in";
-        if (user.photoURL) { userAvatar.src = user.photoURL; userAvatar.style.display = "block"; } else { userAvatar.removeAttribute("src"); userAvatar.style.display = "none"; }
+        signInButton.style.display = "none"; userPanel.style.display = "inline-flex";
+        const displayName = user.displayName || user.email || "Daily Sunwatch";
+        userName.textContent = displayName; accountMenuName.textContent = displayName; accountMenuEmail.textContent = user.email || "";
+        if (user.photoURL) { userAvatar.src = user.photoURL; userAvatar.style.display = "block"; accountMenuAvatar.src = user.photoURL; accountMenuAvatar.style.display = "block"; } else { userAvatar.removeAttribute("src"); userAvatar.style.display = "none"; accountMenuAvatar.removeAttribute("src"); accountMenuAvatar.style.display = "none"; }
       } else {
-        signInButton.style.display = "inline-block"; userPanel.style.display = "none"; userName.textContent = ""; userAvatar.removeAttribute("src");
+        signInButton.style.display = "inline-block"; userPanel.style.display = "none"; userName.textContent = ""; accountMenuName.textContent = ""; accountMenuEmail.textContent = ""; userAvatar.removeAttribute("src"); accountMenuAvatar.removeAttribute("src"); closeAccountMenu();
       }
       await Promise.all([refreshLike(), refreshSave()]);
       if (user && pendingAction) {

@@ -339,6 +339,16 @@
       text-transform: uppercase;
     }
 
+    .sunny-post-title-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .sunny-post-title-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .sunny-post-text {
       margin: 0;
       color: #D0CFC9;
@@ -518,6 +528,7 @@
       <nav aria-label="Main navigation">
         <a href="about.html">About</a>
         <a href="sources.html">Sources</a>
+        <a href="/archive.html">Archive</a>
         <a href="store.html">Store</a>
         <a href="mailto:contact@dailysunwatch.com">Contact</a>
         <span class="auth-control" id="auth-control">
@@ -745,7 +756,16 @@
         if (publicTitle) parts.push(publicTitle);
         if (post.published_display) parts.push(post.published_display);
 
-        meta.textContent = parts.join(" · ");
+        const postId = post.post_id || post.id || "";
+        if (postId) {
+          const metaLink = document.createElement("a");
+          metaLink.className = "sunny-post-title-link";
+          metaLink.href = `/observation/?id=${encodeURIComponent(postId)}`;
+          metaLink.textContent = parts.join(" · ");
+          meta.appendChild(metaLink);
+        } else {
+          meta.textContent = parts.join(" · ");
+        }
 
         const text = document.createElement("p");
         text.className = "sunny-post-text";
@@ -753,7 +773,6 @@
 
         body.append(meta, text);
 
-        const postId = post.post_id || post.id || "";
         if (postId) {
           const observationAnchor = `observation-${postId}`;
           article.id = observationAnchor;
@@ -1079,10 +1098,8 @@
   }
 
   function observationShareUrl(button) {
-    const anchor = button.dataset.shareAnchor || `observation-${button.dataset.postId || ""}`;
-    const url = new URL(window.location.href);
-    url.hash = anchor;
-    return url.toString();
+    const postId = button.dataset.postId || "";
+    return `${window.location.origin}/observation/?id=${encodeURIComponent(postId)}`;
   }
 
   async function shareObservation(button) {

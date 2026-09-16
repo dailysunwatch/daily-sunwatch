@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T19:33:58.854002+00:00",
-  "updated_display": "September 16, 2026 at 3:33 PM EDT",
+  "updated_at": "2026-09-16T19:36:34.957690+00:00",
+  "updated_display": "September 16, 2026 at 3:36 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -24,7 +24,7 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-6.7 nT · Southward"
+      "value": "-4.8 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

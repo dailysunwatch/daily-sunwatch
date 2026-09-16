@@ -738,6 +738,35 @@
       let visiblePostCount = 0;
       let hasLoadedMore = false;
 
+
+      function formatObservationTitle(post) {
+        const title = String(post?.title || post?.type || "Daily Sunwatch").trim();
+        const type = String(post?.type || "").trim().toLowerCase();
+
+        // Preserve the established public/Facebook title identities.
+        if (title === "Moony Moonwatch" || type === "moonwatch") return `Moony Moonwatch 🌙`;
+        if (title === "East Coast Weather" || type === "weather") return `🌎 East Coast Weather`;
+        if (title === "Coronagraph Watch" || type === "coronagraph_watch") return `🔭 Coronagraph Watch`;
+        if (title === "Quiet Corona" || type === "quiet_corona") return `☀️ Quiet Corona`;
+        if (title === "Flare Watch" || type === "flare_watch") return `🔥 Flare Watch`;
+        if (title === "Coronal Hole Watch" || type === "coronal_hole_watch") return `🕳 Coronal Hole Watch`;
+        if (title === "Aurora Watch" || type === "aurora_watch") return `🌌 Aurora Watch`;
+        if (title === "Sunny's Lunch Break" || type === "lunch_break") return `🥪 Sunny's Lunch Break`;
+
+        const sunwatchEmoji = {
+          "Midnight Sunwatch": "🌙",
+          "Nighttime Sunwatch": "🌕",
+          "Early Morning Sunwatch": "🌅",
+          "Morning Sunwatch": "☀️",
+          "Midday Sunwatch": "🌤️",
+          "Afternoon Sunwatch": "☀️",
+          "Evening Sunwatch": "🌇"
+        };
+
+        if (sunwatchEmoji[title]) return `${sunwatchEmoji[title]} ${title}`;
+        return title;
+      }
+
       const renderPost = (post) => {
         const article = document.createElement("article");
         article.className = "sunny-post";
@@ -752,7 +781,7 @@
         meta.className = "sunny-post-meta";
         const parts = [];
 
-        const publicTitle = post.title || post.type || "Daily Sunwatch";
+        const publicTitle = formatObservationTitle(post);
         if (publicTitle) parts.push(publicTitle);
         if (post.published_display) parts.push(post.published_display);
 

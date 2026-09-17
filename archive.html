@@ -69,7 +69,13 @@
       <h1>Observation Archive</h1>
       <p class="status">Permanent observations from Sunny, Moony, and Daily Sunwatch.</p>
       <div class="archive-controls">
-        <input class="archive-search" id="archive-search" type="search" placeholder="Search observations…" aria-label="Search observations">
+        <input
+          class="archive-search"
+          id="archive-search"
+          type="search"
+          placeholder="Search by observation or date…"
+          aria-label="Search observations..."
+        >
       </div>
       <div id="archive-results"><p class="status">Loading archive…</p></div>
     </div>
@@ -167,10 +173,59 @@
 
     search.addEventListener("input", () => {
       const q = search.value.trim().toLowerCase();
-      if (!q) return render(allPosts);
-      render(allPosts.filter(post =>
-        `${post.title || ""} ${post.type || ""} ${post.published_display || ""}`.toLowerCase().includes(q)
-      ));
+    
+      if (!q) {
+        render(allPosts);
+        return;
+      }
+    
+      render(allPosts.filter(post => {
+        const date = new Date(post.published_at);
+    
+        const searchableDates = Number.isNaN(date.getTime())
+          ? ""
+          : [
+              // Sep 17, 2026
+              date.toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+                timeZone: "America/New_York"
+              }),
+    
+              // September 17, 2026
+              date.toLocaleDateString("en-US", {
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+                timeZone: "America/New_York"
+              }),
+    
+              // September 2026
+              date.toLocaleDateString("en-US", {
+                month: "long",
+                year: "numeric",
+                timeZone: "America/New_York"
+              }),
+    
+              // 9/17/2026
+              date.toLocaleDateString("en-US", {
+                month: "numeric",
+                day: "numeric",
+                year: "numeric",
+                timeZone: "America/New_York"
+              })
+            ].join(" ");
+    
+        const searchableText = [
+          post.title || "",
+          post.type || "",
+          post.published_display || "",
+          searchableDates
+        ].join(" ").toLowerCase();
+    
+        return searchableText.includes(q);
+      }));
     });
 
     fetch("/feed/archive_index.json", { cache: "no-store" })

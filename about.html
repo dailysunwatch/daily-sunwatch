@@ -13,6 +13,10 @@
 
   <link rel="stylesheet" href="/site.css">
 
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628395604557320"
+       crossorigin="anonymous"></script>
+
   <style>
     .page-hero {
       padding: 62px 0;
@@ -189,6 +193,31 @@
         gap: 0;
       }
     }
+
+    /* Bottom AdSense placement */
+    .about-bottom-ad {
+      margin: 0;
+      padding: 30px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .about-bottom-ad .sunwatch-ad {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .about-bottom-ad .sunwatch-ad-label {
+      margin: 0 0 7px;
+      color: #777670;
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
   </style>
 </head>
 
@@ -404,6 +433,28 @@
         </p>
       </div>
     </section>
+    <section class="about-bottom-ad" aria-label="Advertisement">
+      <div class="wrap">
+        <div class="sunwatch-ad">
+          <div class="sunwatch-ad-label">Advertisement</div>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-1628395604557320"
+               data-ad-slot="5880619810"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (error) {
+        console.error("Could not initialize About AdSense unit:", error);
+      }
+    </script>
+
   </main>
 
   <footer>

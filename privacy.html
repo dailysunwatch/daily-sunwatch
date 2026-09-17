@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="/site.css">
 
   <style>
+    /* Prevent the first content section from doubling the header divider. */
+    main > .content:first-child {
+      border-top: 0;
+    }
+
     .privacy-copy {
       max-width: 760px;
     }

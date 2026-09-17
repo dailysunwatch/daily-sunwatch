@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/site.css">
 
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628395604557320"
+       crossorigin="anonymous"></script>
+
   <style>
     /* Stable desktop header: brand | centered nav | account */
     @media (min-width: 681px) {
@@ -553,6 +557,39 @@
       }
     }
 
+
+    /* Controlled AdSense placements */
+    .sunwatch-ad {
+      width: 100%;
+      margin: 12px 0;
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .sunwatch-ad-label {
+      margin: 0 0 7px;
+      color: #777670;
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .homepage-bottom-ad {
+      margin: 0;
+      padding: 30px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .homepage-bottom-ad .sunwatch-ad {
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+
   </style>
 </head>
 
@@ -696,6 +733,21 @@
         </div>
       </div>
     </section>
+
+    <section class="homepage-bottom-ad" aria-label="Advertisement">
+      <div class="wrap">
+        <div class="sunwatch-ad">
+          <div class="sunwatch-ad-label">Advertisement</div>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-1628395604557320"
+               data-ad-slot="5880619810"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </div>
+      </div>
+    </section>
+
   </main>
 
 <footer>
@@ -835,6 +887,30 @@
 
       let visiblePostCount = 0;
       let hasLoadedMore = false;
+      let loadedSinceLastAd = 0;
+      let nextAdAfter = Math.random() < 0.5 ? 24 : 32;
+
+      const insertFeedAd = () => {
+        const ad = document.createElement("div");
+        ad.className = "sunwatch-ad sunwatch-feed-ad";
+        ad.setAttribute("aria-label", "Advertisement");
+        ad.innerHTML = `
+          <div class="sunwatch-ad-label">Advertisement</div>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-1628395604557320"
+               data-ad-slot="5880619810"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        `;
+        container.appendChild(ad);
+
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (error) {
+          console.error("Could not initialize feed AdSense unit:", error);
+        }
+      };
 
 
       function formatObservationTitle(post) {
@@ -1014,7 +1090,7 @@
       loadMoreButton.className = "load-more-observations";
       loadMoreButton.textContent = "LOAD MORE";
 
-      const renderNextBatch = () => {
+      const renderNextBatch = (isLoadMore = false) => {
         const nextPosts = posts.slice(
           visiblePostCount,
           visiblePostCount + OBSERVATIONS_PER_PAGE
@@ -1022,6 +1098,18 @@
 
         nextPosts.forEach(renderPost);
         visiblePostCount += nextPosts.length;
+
+        // The initial eight observations are ad-free. Only batches loaded by
+        // LOAD MORE count toward the randomized 24/32-observation interval.
+        if (isLoadMore) {
+          loadedSinceLastAd += nextPosts.length;
+
+          if (loadedSinceLastAd >= nextAdAfter) {
+            insertFeedAd();
+            loadedSinceLastAd = 0;
+            nextAdAfter = Math.random() < 0.5 ? 24 : 32;
+          }
+        }
 
         if (visiblePostCount >= posts.length) {
           loadMoreButton.remove();
@@ -1037,7 +1125,7 @@
 
       loadMoreButton.addEventListener("click", () => {
         hasLoadedMore = true;
-        renderNextBatch();
+        renderNextBatch(true);
       });
 
       renderNextBatch();
@@ -1050,6 +1138,15 @@
       console.error("Latest posts feed error:", error);
     }
   }
+
+  // Initialize the static homepage ad once.
+  document.querySelectorAll(".homepage-bottom-ad .adsbygoogle").forEach(() => {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (error) {
+      console.error("Could not initialize bottom AdSense unit:", error);
+    }
+  });
 
   loadCurrentConditions();
   loadLatestPosts();

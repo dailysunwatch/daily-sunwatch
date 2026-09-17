@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260917T040042Z",
+      "facebook_id": "122113184541440979",
+      "published_at": "2026-09-17T04:00:42.417670+00:00",
+      "published_display": "September 17, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — September 17, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 💨🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 💨🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260917T040042Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260917T010050Z",
       "facebook_id": "122113128603440979",
       "published_at": "2026-09-17T01:00:50.760520+00:00",

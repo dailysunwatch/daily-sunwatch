@@ -12,6 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/site.css">
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628395604557320" crossorigin="anonymous"></script>
+
 
   <style>
     .store-promo {
@@ -201,6 +204,10 @@
         aspect-ratio: 1 / 1;
       }
     }
+
+    /* Controlled AdSense placements */
+    .sunwatch-ad { width: 100%; margin: 26px 0; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; overflow: hidden; }
+    .sunwatch-ad-label { margin: 0 0 7px; color: #777670; font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
   </style>
 </head>
 
@@ -225,6 +232,11 @@
         <div class="label">Store</div>
 
         <h2>Daily Sunwatch Store</h2>
+
+        <div class="sunwatch-ad" aria-label="Advertisement">
+          <div class="sunwatch-ad-label">Advertisement</div>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1628395604557320" data-ad-slot="5880619810" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        </div>
 
         <div class="store-promo">
           <div>
@@ -317,6 +329,11 @@
           </a>
         </div>
 
+        <div class="sunwatch-ad" aria-label="Advertisement">
+          <div class="sunwatch-ad-label">Advertisement</div>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1628395604557320" data-ad-slot="5880619810" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        </div>
+
         <p class="store-philosophy">
           The Daily Sunwatch Store aims to keep prices as low as reasonably possible,
           with a focus on offering quality, interesting merchandise at a fair price
@@ -378,6 +395,14 @@
     }
 
     window.addEventListener("load", syncPlayingCardGalleryLinks);
+  </script>
+
+
+  <script>
+    document.querySelectorAll(".sunwatch-ad .adsbygoogle").forEach(() => {
+      try { (adsbygoogle = window.adsbygoogle || []).push({}); }
+      catch (error) { console.error("Could not initialize Store AdSense unit:", error); }
+    });
   </script>
 
   <!-- Cloudflare Web Analytics -->

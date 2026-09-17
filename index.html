@@ -1096,19 +1096,20 @@
           visiblePostCount + OBSERVATIONS_PER_PAGE
         );
 
+        // The initial eight observations are ad-free. Once the visitor has
+        // loaded 24 or 32 observations since the previous feed ad, the NEXT
+        // LOAD MORE click begins with an ad before that new batch of posts.
+        if (isLoadMore && loadedSinceLastAd >= nextAdAfter) {
+          insertFeedAd();
+          loadedSinceLastAd = 0;
+          nextAdAfter = Math.random() < 0.5 ? 24 : 32;
+        }
+
         nextPosts.forEach(renderPost);
         visiblePostCount += nextPosts.length;
 
-        // The initial eight observations are ad-free. Only batches loaded by
-        // LOAD MORE count toward the randomized 24/32-observation interval.
         if (isLoadMore) {
           loadedSinceLastAd += nextPosts.length;
-
-          if (loadedSinceLastAd >= nextAdAfter) {
-            insertFeedAd();
-            loadedSinceLastAd = 0;
-            nextAdAfter = Math.random() < 0.5 ? 24 : 32;
-          }
         }
 
         if (visiblePostCount >= posts.length) {

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20260918T220254Z",
+      "facebook_id": "1170345462837861_122113659537440979",
+      "published_at": "2026-09-18T22:02:54.455442+00:00",
+      "published_display": "September 18, 2026 · 6:02 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nPhiladelphia, PA — 84°F and Mostly Sunny 🌤️",
+      "display_text": "Philadelphia, PA — 84°F and Mostly Sunny 🌤️",
+      "media": []
+    },
+    {
       "id": "20260918T220040Z",
       "facebook_id": "122113659015440979",
       "published_at": "2026-09-18T22:00:40.129807+00:00",

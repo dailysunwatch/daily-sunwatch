@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260919T220039Z",
+      "facebook_id": "122113994559440979",
+      "published_at": "2026-09-19T22:00:39.462368+00:00",
+      "published_display": "September 19, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — September 19, 2026\n\n🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 420 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThe Sun is about 93 million miles away. That's quite a commute. 💫💛\n\nA broad coronal-hole region is the Sun’s main visible feature today, while the coronagraph shows ordinary streamers without a clear CME.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 420 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThe Sun is about 93 million miles away. That's quite a commute. 💫💛\n\nA broad coronal-hole region is the Sun’s main visible feature today, while the coronagraph shows ordinary streamers without a clear CME.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260919T220039Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260919T190038Z",
       "facebook_id": "122113948797440979",
       "published_at": "2026-09-19T19:00:38.738920+00:00",

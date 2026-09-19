@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20260919T220333Z",
+      "facebook_id": "1170345462837861_122113995153440979",
+      "published_at": "2026-09-19T22:03:33.731683+00:00",
+      "published_display": "September 19, 2026 · 6:03 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nOcean City, MD — 69°F and Partly Cloudy ⛅",
+      "display_text": "Ocean City, MD — 69°F and Partly Cloudy ⛅",
+      "media": []
+    },
+    {
       "id": "20260919T220039Z",
       "facebook_id": "122113994559440979",
       "published_at": "2026-09-19T22:00:39.462368+00:00",

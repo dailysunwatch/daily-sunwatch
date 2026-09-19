@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260919T220602Z",
+      "facebook_id": "122113995543440979",
+      "published_at": "2026-09-19T22:06:02.095294+00:00",
+      "published_display": "September 19, 2026 · 6:06 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 19, 2026\n\nThere’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀️ CME start: September 19, 2026 at 18:48 UTC\n💨 CME speed: 321 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N14E90 (near the eastern limb)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "There’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀️ CME start: September 19, 2026 at 18:48 UTC\n💨 CME speed: 321 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N14E90 (near the eastern limb)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260919T220602Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260919T220333Z",
       "facebook_id": "1170345462837861_122113995153440979",
       "published_at": "2026-09-19T22:03:33.731683+00:00",

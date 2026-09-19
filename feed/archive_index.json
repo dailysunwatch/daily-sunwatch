@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20260919T130415Z",
+      "published_at": "2026-09-19T13:04:15.096627+00:00",
+      "published_display": "September 19, 2026 · 9:04 AM EDT",
+      "type": "coronal_hole_watch",
+      "title": "Coronal Hole Watch"
+    },
+    {
       "id": "20260919T130238Z",
       "published_at": "2026-09-19T13:02:38.657085+00:00",
       "published_display": "September 19, 2026 · 9:02 AM EDT",

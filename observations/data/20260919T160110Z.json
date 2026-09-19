@@ -1,0 +1,32 @@
+{
+  "id": "20260919T160110Z",
+  "facebook_id": "1170345462837861_122113866177440979",
+  "published_at": "2026-09-19T16:01:10.834671+00:00",
+  "published_display": "September 19, 2026 · 12:01 PM EDT",
+  "type": "sunwatch",
+  "title": "Midday Sunwatch",
+  "text": "🌤️ Midday Sunwatch — September 19, 2026\n\n🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: B5.5 (Peaked September 19, 2026 at 05:36 UTC)\n💨 Solar wind speed: 424 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nCalm conditions right now. 🖤✨\n\nImages: NOAA GOES-19 SUVI — 284, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: B5.5 (Peaked September 19, 2026 at 05:36 UTC)\n💨 Solar wind speed: 424 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nCalm conditions right now. 🖤✨\n\nImages: NOAA GOES-19 SUVI — 284, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20260919T160110Z/image_1.png",
+      "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20260919T160110Z/image_2.png",
+      "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20260919T160110Z/image_3.png",
+      "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20260919T160110Z/image_4.png",
+      "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+    }
+  ]
+}

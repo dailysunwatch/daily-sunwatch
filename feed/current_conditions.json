@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-20T04:00:39.305240+00:00",
-  "updated_display": "September 20, 2026 at 12:00 AM EDT",
+  "updated_at": "2026-09-20T10:00:57.731735+00:00",
+  "updated_display": "September 20, 2026 at 6:00 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,15 +8,15 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "B5.1 · 03:35 UTC"
+      "value": "B4.2 · 06:38 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "391 km/s · Moderate"
+      "value": "387 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "2.33 · Quiet"
+      "value": "2.00 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
@@ -24,15 +24,15 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-1.4 nT · Normal"
+      "value": "+1.1 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "2 Earth-facing"
+      "value": "5 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Detected"
+      "value": "None detected"
     },
     "cme": {
       "label": "CME",

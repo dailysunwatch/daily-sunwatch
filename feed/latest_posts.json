@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260920T100052Z",
+      "facebook_id": "122114150613440979",
+      "published_at": "2026-09-20T10:00:52.844260+00:00",
+      "published_display": "September 20, 2026 · 6:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — September 20, 2026\n\n🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B4.2 (Peaked September 20, 2026 at 06:38 UTC)\n🔥 Strongest recent flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little flare activity! 💥\n\nImage: NASA SDO/AIA — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.1)\n🔥 Latest solar flare: B4.2 (Peaked September 20, 2026 at 06:38 UTC)\n🔥 Strongest recent flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little flare activity! 💥\n\nImage: NASA SDO/AIA — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260920T100052Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260920T040033Z",
       "facebook_id": "122114052219440979",
       "published_at": "2026-09-20T04:00:33.672770+00:00",

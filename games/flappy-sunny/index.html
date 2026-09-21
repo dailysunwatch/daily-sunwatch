@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Flappy Sunny | Daily Sunwatch</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#050505}
+body{min-height:100vh;display:grid;place-items:center;font-family:"Courier New",monospace;color:#f5f5f0;overflow:hidden;user-select:none}
+.game-shell{width:min(100vw,720px);padding:12px}.title{text-align:center;font-weight:900;letter-spacing:.08em;color:#ffd400;margin:0 0 8px;font-size:clamp(18px,4vw,28px);text-shadow:2px 2px #8a3100}
+canvas{display:block;width:100%;height:auto;max-height:calc(100vh - 72px);margin:auto;background:#050505;border:2px solid #2a2925;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none}
+.hint{text-align:center;color:#9c9b95;font-size:12px;margin-top:7px}
+</style>
+</head>
+<body>
+<div class="game-shell"><div class="title">FLAPPY SUNNY ☀</div><canvas id="game" width="480" height="720"></canvas><div class="hint">SPACE / CLICK / TAP</div></div>
+<script>
+(()=>{"use strict";
+const c=document.getElementById("game"),x=c.getContext("2d");x.imageSmoothingEnabled=false;
+const W=c.width,H=c.height,S=48,HIT=38,PW=92,SPEED=155,GRAV=1120,FLAP=-390,SPACE=235;
+const sunnyImg=new Image(),moonyImg=new Image(),towerImg=new Image();
+sunnyImg.src="sunny.png";moonyImg.src="moony.png";towerImg.src="plasma_tower.png";
+const stars=Array.from({length:78},(_,i)=>({x:(i*83+31)%W,y:(i*137+19)%H,r:i%9===0?2:1,a:.28+((i*17)%60)/100}));
+let state,sunny,towers,score,best=Number(localStorage.getItem("flappySunnyBest")||0),last=performance.now(),moony,elapsed;
+function diff(){if(score>=20)return{name:"STORM",gap:158};if(score>=12)return{name:"ACTIVE",gap:174};if(score>=6)return{name:"UNSETTLED",gap:190};return{name:"QUIET",gap:205}}
+function addTower(px){const d=diff(),m=105,min=m+d.gap/2,max=H-m-d.gap/2,center=min+Math.random()*(max-min);towers.push({x:px,center,gap:d.gap,scored:false})}
+function reset(){state="ready";sunny={x:118,y:H*.46,vy:0};towers=[];score=0;moony=null;elapsed=0;addTower(W+190);addTower(W+190+SPACE)}
+function flap(){if(state==="gameover"){reset();state="playing"}else if(state==="ready")state="playing";sunny.vy=FLAP}
+function input(e){if(e)e.preventDefault();flap()} c.addEventListener("pointerdown",input);addEventListener("keydown",e=>{if(e.code==="Space")input(e)},{passive:false});
+function overlap(a,b){return a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y}
+function box(){const q=(S-HIT)/2;return{x:sunny.x+q,y:sunny.y+q,w:HIT,h:HIT}}
+function collide(t){const p=box(),top=t.center-t.gap/2,bot=t.center+t.gap/2;return overlap(p,{x:t.x,y:0,w:PW,h:top})||overlap(p,{x:t.x,y:bot,w:PW,h:H-bot})}
+function end(){if(state==="gameover")return;state="gameover";best=Math.max(best,score);localStorage.setItem("flappySunnyBest",best)}
+function update(dt){elapsed+=dt;if(state!=="playing")return;sunny.vy+=GRAV*dt;sunny.y+=sunny.vy*dt;
+for(const t of towers){t.x-=SPEED*dt;if(!t.scored&&t.x+PW<sunny.x){t.scored=true;score++;if(!moony&&Math.random()<.12)moony={x:W+55,y:70+Math.random()*180,life:7}}if(collide(t))end()}
+towers=towers.filter(t=>t.x+PW>-20);if(towers.length&&towers[towers.length-1].x<W-SPACE+40)addTower(towers[towers.length-1].x+SPACE);
+if(moony){moony.x-=28*dt;moony.life-=dt;if(moony.life<=0||moony.x<-60)moony=null}if(sunny.y<-8||sunny.y+S>H+8)end()}
+function bg(){x.fillStyle="#050505";x.fillRect(0,0,W,H);for(const s of stars){x.globalAlpha=s.a;x.fillStyle="#f5f5f0";x.fillRect(Math.round(s.x),Math.round(s.y),s.r,s.r)}x.globalAlpha=1}
+function tower(t){const top=t.center-t.gap/2,bot=t.center+t.gap/2,iw=towerImg.naturalWidth||64,ih=towerImg.naturalHeight||360,dh=ih*(PW/iw);
+for(let y=top-dh;y>-dh;y-=dh)x.drawImage(towerImg,Math.round(t.x),Math.round(y),PW,Math.ceil(dh));
+x.save();x.translate(0,H);x.scale(1,-1);const fs=H-bot;for(let y=fs-dh;y>-dh;y-=dh)x.drawImage(towerImg,Math.round(t.x),Math.round(y),PW,Math.ceil(dh));x.restore()}
+function hud(){x.textAlign="left";x.font="bold 16px Courier New";x.fillStyle="#ffd400";x.fillText("SOLAR RADII  "+score,16,28);x.textAlign="right";x.fillStyle="#f5f5f0";x.fillText(diff().name,W-16,28);x.textAlign="left";x.font="12px Courier New";x.fillStyle="#8f8e89";x.fillText("BEST "+best,16,47)}
+function panel(title,lines){const pw=370,ph=150,px=(W-pw)/2,py=H*.30;x.fillStyle="rgba(5,5,5,.88)";x.fillRect(px,py,pw,ph);x.strokeStyle="#ffd400";x.lineWidth=2;x.strokeRect(px+.5,py+.5,pw-1,ph-1);x.textAlign="center";x.fillStyle="#ffd400";x.font="bold 24px Courier New";x.fillText(title,W/2,py+42);x.fillStyle="#f5f5f0";x.font="14px Courier New";lines.forEach((l,i)=>x.fillText(l,W/2,py+78+i*24))}
+function draw(){bg();if(moonyImg.complete&&moony){x.globalAlpha=.62;x.drawImage(moonyImg,Math.round(moony.x),Math.round(moony.y),48,48);x.globalAlpha=1}if(towerImg.complete)towers.forEach(tower);
+if(sunnyImg.complete){const bob=state==="ready"?Math.sin(elapsed*3)*5:0;x.drawImage(sunnyImg,Math.round(sunny.x),Math.round(sunny.y+bob),S,S)}hud();
+if(state==="ready")panel("READY, SUNNY?",["SPACE / CLICK / TAP TO FLY","Don't touch the prominences."]);
+else if(state==="gameover")panel("GAME OVER",["Sunny has left the heliosphere.","Solar Radii: "+score+"   Best: "+best,"Tap / click / SPACE to try again."])}
+function frame(now){const dt=Math.min((now-last)/1000,.033);last=now;update(dt);draw();requestAnimationFrame(frame)}reset();requestAnimationFrame(frame);
+})();
+</script></body></html>

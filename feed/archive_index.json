@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20260921T100205Z",
+      "published_at": "2026-09-21T10:02:05.485693+00:00",
+      "published_display": "September 21, 2026 · 6:02 AM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch"
+    },
+    {
       "id": "20260921T100041Z",
       "published_at": "2026-09-21T10:00:41.312652+00:00",
       "published_display": "September 21, 2026 · 6:00 AM EDT",

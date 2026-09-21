@@ -354,6 +354,31 @@
       aspect-ratio: 1 / 1;
     }
 
+    /* Sunspot Watch: standard Sunwatch-sized main image with companions below. */
+    .sunny-post-layout.sunspot-watch-layout {
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+    }
+
+    .sunny-post-layout.sunspot-watch-layout .sunny-post-featured {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .sunny-post-layout.sunspot-watch-layout .sunny-post-featured-main,
+    .sunny-post-layout.sunspot-watch-layout .sunny-post-featured-main .sunny-post-media {
+      height: auto;
+    }
+
+    .sunny-post-layout.sunspot-watch-layout .sunny-post-featured-main .sunny-post-media {
+      aspect-ratio: 1 / 1;
+    }
+
+    .sunny-post-layout.sunspot-watch-layout .sunny-post-thumbnails {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .sunny-post-
 
     .sunny-post-meta {
@@ -510,6 +535,7 @@
       .grid { grid-template-columns: 1fr; }
       .conditions-grid { grid-template-columns: 1fr; }
       .sunny-post-layout { grid-template-columns: 1fr; }
+      .sunny-post-layout.sunspot-watch-layout { grid-template-columns: 1fr; }
       .sunny-post-featured { grid-template-columns: 1fr; }
       .sunny-post-thumbnails { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .condition-row { grid-template-columns: minmax(120px, .8fr) minmax(0, 1.2fr); }
@@ -1075,14 +1101,19 @@
           const featured = document.createElement("div");
           featured.className = "sunny-post-featured";
 
-          // Sunspot Watch: feature the first smaller companion image instead of
-          // the large continuum image. This only changes website presentation;
-          // the published media order itself remains untouched for Facebook.
+          // Sunspot Watch: keep the orange continuum image first, but present
+          // it at the normal Sunwatch media width with the two companion
+          // HMI images directly underneath.
           const isSunspotWatch =
             String(post?.type || "").trim().toLowerCase() === "sunspot_watch" ||
             String(post?.title || "").trim().toLowerCase() === "sunspot watch";
 
-          const featuredIndex = isSunspotWatch && media.length >= 2 ? 1 : 0;
+          if (isSunspotWatch) {
+            layout.classList.remove("multi-media");
+            layout.classList.add("sunspot-watch-layout");
+          }
+
+          const featuredIndex = 0;
           const main = makeLinkedImage(media[featuredIndex]);
           main.classList.add("sunny-post-featured-main");
 

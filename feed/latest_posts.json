@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260921T010037Z",
+      "facebook_id": "122114368749440979",
+      "published_at": "2026-09-21T01:00:37.354714+00:00",
+      "published_display": "September 20, 2026 · 9:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — September 20, 2026\n\n🔆️ Solar activity: Low (B4.2)\n🔥 Latest solar flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little solar flare! 🔥🚀\n\nA broad coronal-hole region stands out across the Sun’s southern-central disk in today’s ultraviolet views.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B4.2)\n🔥 Latest solar flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little solar flare! 🔥🚀\n\nA broad coronal-hole region stands out across the Sun’s southern-central disk in today’s ultraviolet views.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260921T010037Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260920T220217Z",
       "facebook_id": "122114337279440979",
       "published_at": "2026-09-20T22:02:17.912823+00:00",

@@ -1075,14 +1075,24 @@
           const featured = document.createElement("div");
           featured.className = "sunny-post-featured";
 
-          const main = makeLinkedImage(media[0]);
+          // Sunspot Watch: feature the first smaller companion image instead of
+          // the large continuum image. This only changes website presentation;
+          // the published media order itself remains untouched for Facebook.
+          const isSunspotWatch =
+            String(post?.type || "").trim().toLowerCase() === "sunspot_watch" ||
+            String(post?.title || "").trim().toLowerCase() === "sunspot watch";
+
+          const featuredIndex = isSunspotWatch && media.length >= 2 ? 1 : 0;
+          const main = makeLinkedImage(media[featuredIndex]);
           main.classList.add("sunny-post-featured-main");
 
           const thumbnails = document.createElement("div");
           thumbnails.className = "sunny-post-thumbnails";
 
-          media.slice(1).forEach((item) => {
-            thumbnails.appendChild(makeLinkedImage(item));
+          media.forEach((item, index) => {
+            if (index !== featuredIndex) {
+              thumbnails.appendChild(makeLinkedImage(item));
+            }
           });
 
           featured.append(main, thumbnails);

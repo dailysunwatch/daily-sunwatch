@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20260921T100205Z",
+      "facebook_id": "1170345462837861_122114520543440979",
+      "published_at": "2026-09-21T10:02:05.485693+00:00",
+      "published_display": "September 21, 2026 · 6:02 AM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — September 21, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4534.\n\n📍 Location: N10W21\n☀️ Region: AR 4534\n🔥 Recent activity: 2 C-class flares\n\nThat is a lot of freckles.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4534.\n\n📍 Location: N10W21\n☀️ Region: AR 4534\n🔥 Recent activity: 2 C-class flares\n\nThat is a lot of freckles.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260921T100205Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4534"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260921T100205Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4534"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260921T100205Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4534"
+        }
+      ]
+    },
+    {
       "id": "20260921T100041Z",
       "facebook_id": "122114519997440979",
       "published_at": "2026-09-21T10:00:41.312652+00:00",

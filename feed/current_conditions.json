@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-21T22:27:02.741994+00:00",
-  "updated_display": "September 21, 2026 at 6:27 PM EDT",
+  "updated_at": "2026-09-22T00:00:42.744231+00:00",
+  "updated_display": "September 21, 2026 at 8:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -12,7 +12,7 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "338 km/s · Calm"
+      "value": "326 km/s · Calm"
     },
     "kp_index": {
       "label": "Kp Index",
@@ -24,11 +24,11 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-3.2 nT · Normal"
+      "value": "-0.0 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "8 Earth-facing"
+      "value": "9 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",

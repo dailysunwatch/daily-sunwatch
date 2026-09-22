@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260922T220033Z",
+      "facebook_id": "122115002847440979",
+      "published_at": "2026-09-22T22:00:33.026224+00:00",
+      "published_display": "September 22, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — September 22, 2026\n\n🔆️ Solar activity: Low (B5.7)\n🔥 Latest solar flare: C1.1 (Peaked September 22, 2026 at 17:58 UTC)\n💨 Solar wind speed: 291 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nAll quiet on the Sunwatch front. 👀☀️\n\nA few bright active regions and a broad dark coronal structure are visible, while the coronagraph shows no clear large outward feature.\n\nImage: NASA SDO/AIA — 304/211/171 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.7)\n🔥 Latest solar flare: C1.1 (Peaked September 22, 2026 at 17:58 UTC)\n💨 Solar wind speed: 291 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nAll quiet on the Sunwatch front. 👀☀️\n\nA few bright active regions and a broad dark coronal structure are visible, while the coronagraph shows no clear large outward feature.\n\nImage: NASA SDO/AIA — 304/211/171 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260922T220033Z/image_1.jpg",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260922T190037Z",
       "facebook_id": "122114962269440979",
       "published_at": "2026-09-22T19:00:37.872800+00:00",

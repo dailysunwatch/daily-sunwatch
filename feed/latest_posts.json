@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260922T040033Z",
+      "facebook_id": "122114769423440979",
+      "published_at": "2026-09-22T04:00:33.381877+00:00",
+      "published_display": "September 22, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — September 22, 2026\n\n🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: B6.6 (Peaked September 22, 2026 at 03:09 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked September 21, 2026 at 06:29 UTC)\n💨 Solar wind speed: 321 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSunny caught a little flare! 🔥\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: B6.6 (Peaked September 22, 2026 at 03:09 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked September 21, 2026 at 06:29 UTC)\n💨 Solar wind speed: 321 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSunny caught a little flare! 🔥\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260922T040033Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260922T010034Z",
       "facebook_id": "122114708181440979",
       "published_at": "2026-09-22T01:00:34.695999+00:00",

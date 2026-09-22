@@ -34,7 +34,7 @@
     .archive-month { margin-top: 28px; }
     .archive-month h3 { margin: 0 0 10px; color: var(--yellow); font-size: .92rem; text-transform: uppercase; letter-spacing: .05em; }
     .archive-list { border-top: 1px solid var(--line); }
-    .archive-item { display: grid; grid-template-columns: minmax(135px, .35fr) minmax(0, 1fr); gap: 20px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+    .archive-item { padding: 13px 0; border-bottom: 1px solid var(--line); }
     .archive-date { color: var(--muted); font-size: .88rem; }
     .archive-title { color: var(--ivory); text-decoration: none; font-weight: 600; }
     .archive-title:hover { color: var(--yellow); }
@@ -45,7 +45,6 @@
 
     @media (max-width: 600px) {
       .archive-wrap { padding: 48px 0; }
-      .archive-item { grid-template-columns: 1fr; gap: 3px; }
     }
   </style>
 </head>
@@ -111,6 +110,7 @@
       if (title === "Coronal Hole Watch" || type === "coronal_hole_watch") return `🕳 Coronal Hole Watch`;
       if (title === "Aurora Watch" || type === "aurora_watch") return `🌌 Aurora Watch`;
       if (title === "Sunny's Lunch Break" || type === "lunch_break") return `🥪 Sunny's Lunch Break`;
+      if (title === "Sunspot Watch" || type === "sunspot_watch") return `☀️ Sunspot Watch`;
       const sunwatchEmoji = {
         "Midnight Sunwatch": "🌙", "Nighttime Sunwatch": "🌕", "Early Morning Sunwatch": "🌅",
         "Morning Sunwatch": "☀️", "Midday Sunwatch": "🌤️", "Afternoon Sunwatch": "☀️", "Evening Sunwatch": "🌇"
@@ -155,14 +155,14 @@
         items.forEach(post => {
           const row = document.createElement("div");
           row.className = "archive-item";
-          const date = document.createElement("div");
-          date.className = "archive-date";
-          date.textContent = shortDate(post);
           const link = document.createElement("a");
           link.className = "archive-title";
           link.href = `/observation/?id=${encodeURIComponent(post.id)}`;
-          link.textContent = formatObservationTitle(post);
-          row.append(date, link);
+          link.textContent = [
+            formatObservationTitle(post),
+            post.published_display
+          ].filter(Boolean).join(" · ");
+          row.append(link);
           list.appendChild(row);
         });
 
@@ -173,57 +173,43 @@
 
     search.addEventListener("input", () => {
       const q = search.value.trim().toLowerCase();
-    
+
       if (!q) {
         render(allPosts);
         return;
       }
-    
+
       render(allPosts.filter(post => {
         const date = new Date(post.published_at);
-    
+
         const searchableDates = Number.isNaN(date.getTime())
           ? ""
           : [
-              // Sep 17, 2026
               date.toLocaleDateString("en-US", {
-                month: "short",
-                day: "numeric",
-                year: "numeric",
+                month: "short", day: "numeric", year: "numeric",
                 timeZone: "America/New_York"
               }),
-    
-              // September 17, 2026
               date.toLocaleDateString("en-US", {
-                month: "long",
-                day: "numeric",
-                year: "numeric",
+                month: "long", day: "numeric", year: "numeric",
                 timeZone: "America/New_York"
               }),
-    
-              // September 2026
               date.toLocaleDateString("en-US", {
-                month: "long",
-                year: "numeric",
+                month: "long", year: "numeric",
                 timeZone: "America/New_York"
               }),
-    
-              // 9/17/2026
               date.toLocaleDateString("en-US", {
-                month: "numeric",
-                day: "numeric",
-                year: "numeric",
+                month: "numeric", day: "numeric", year: "numeric",
                 timeZone: "America/New_York"
               })
             ].join(" ");
-    
+
         const searchableText = [
           post.title || "",
           post.type || "",
           post.published_display || "",
           searchableDates
         ].join(" ").toLowerCase();
-    
+
         return searchableText.includes(q);
       }));
     });

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20260922T130201Z",
+      "facebook_id": "1170345462837861_122114900127440979",
+      "published_at": "2026-09-22T13:02:01.963978+00:00",
+      "published_display": "September 22, 2026 · 9:02 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nMiami, FL — 87°F and Thunderstorms ⛈️",
+      "display_text": "Miami, FL — 87°F and Thunderstorms ⛈️",
+      "media": []
+    },
+    {
       "id": "20260922T130034Z",
       "facebook_id": "122114899365440979",
       "published_at": "2026-09-22T13:00:34.455851+00:00",

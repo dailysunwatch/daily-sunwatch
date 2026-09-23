@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20260923T100252Z",
+      "facebook_id": "1170345462837861_122115198183440979",
+      "published_at": "2026-09-23T10:02:52.248525+00:00",
+      "published_display": "September 23, 2026 · 6:02 AM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — September 23, 2026\n\nNOAA Active Region 4538 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N11W36\n☀️ Region: AR 4538\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4538 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N11W36\n☀️ Region: AR 4538\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260923T100252Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4538"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260923T100252Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4538"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260923T100252Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4538"
+        }
+      ]
+    },
+    {
       "id": "20260923T100039Z",
       "facebook_id": "122115197547440979",
       "published_at": "2026-09-23T10:00:39.601021+00:00",

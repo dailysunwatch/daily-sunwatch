@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T19:00:43.140453+00:00",
-  "updated_display": "September 24, 2026 at 3:00 PM EDT",
+  "updated_at": "2026-09-24T22:00:39.934557+00:00",
+  "updated_display": "September 24, 2026 at 6:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -12,19 +12,19 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "403 km/s · Moderate"
+      "value": "425 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "3.00 · Unsettled"
+      "value": "2.00 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Extended Warning: Geomagnetic K-index of 4 expected"
+      "value": "Watch: Geomagnetic Storm Category G1 Predicted"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-2.1 nT · Normal"
+      "value": "-1.6 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

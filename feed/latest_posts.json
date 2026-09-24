@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260924T160358Z",
+      "facebook_id": "122115548751440979",
+      "published_at": "2026-09-24T16:03:58.859370+00:00",
+      "published_display": "September 24, 2026 · 12:03 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — September 24, 2026\n\nNASA’s DONKI reported a new coronal mass ejection, so Sunny is taking a look at the outer corona.\n\n☀️ CME start: September 24, 2026 at 02:53 UTC\n💨 CME speed: 500 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 10° (Narrow)\n📍 Source: Active Region 14536 — N03W32 (western central disk)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny has his eyes on the corona. 👀☀️\n\nImage: NOAA SWPC — LASCO C3\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "display_text": "NASA’s DONKI reported a new coronal mass ejection, so Sunny is taking a look at the outer corona.\n\n☀️ CME start: September 24, 2026 at 02:53 UTC\n💨 CME speed: 500 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 10° (Narrow)\n📍 Source: Active Region 14536 — N03W32 (western central disk)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny has his eyes on the corona. 👀☀️\n\nImage: NOAA SWPC — LASCO C3\nData: NASA DONKI + NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260924T160358Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20260924T160047Z",
       "facebook_id": "1170345462837861_122115547431440979",
       "published_at": "2026-09-24T16:00:47.148783+00:00",

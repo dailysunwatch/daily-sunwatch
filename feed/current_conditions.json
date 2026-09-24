@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T22:00:45.047456+00:00",
-  "updated_display": "September 23, 2026 at 6:00 PM EDT",
+  "updated_at": "2026-09-24T01:00:33.902481+00:00",
+  "updated_display": "September 23, 2026 at 9:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -24,7 +24,7 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+0.3 nT · Normal"
+      "value": "+0.9 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
@@ -32,11 +32,11 @@
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Expected"
+      "value": "Expected · Confirmed"
     },
     "cme": {
       "label": "CME",
-      "value": "2 recent · No new event"
+      "value": "1 recent · No new event"
     },
     "aurora": {
       "label": "Aurora",

@@ -1,0 +1,17 @@
+{
+  "id": "20260925T010028Z",
+  "facebook_id": "122115734127440979",
+  "published_at": "2026-09-25T01:00:28.346325+00:00",
+  "published_display": "September 24, 2026 · 9:00 PM EDT",
+  "type": "sunwatch",
+  "title": "Nighttime Sunwatch",
+  "text": "🌕 Nighttime Sunwatch — September 24, 2026\n\n🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 430 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nWe're looking pretty quiet right now. 🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 430 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nWe're looking pretty quiet right now. 🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20260925T010028Z/image_1.png",
+      "alt": "Nighttime Sunwatch image"
+    }
+  ]
+}

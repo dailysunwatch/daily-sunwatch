@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20260925T190303Z",
+      "facebook_id": "1170345462837861_122115953667440979",
+      "published_at": "2026-09-25T19:03:03.385491+00:00",
+      "published_display": "September 25, 2026 · 3:03 PM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — September 25, 2026\n\nNOAA Active Region 4536 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: N02W53\n☀️ Region: AR 4536\n🔥 Recent activity: 1 C-class flare\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4536 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: N02W53\n☀️ Region: AR 4536\n🔥 Recent activity: 1 C-class flare\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260925T190303Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4536"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260925T190303Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4536"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20260925T190303Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4536"
+        }
+      ]
+    },
+    {
       "id": "20260925T190038Z",
       "facebook_id": "122115952677440979",
       "published_at": "2026-09-25T19:00:38.299167+00:00",

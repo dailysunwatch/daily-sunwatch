@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260927T190027Z",
+      "facebook_id": "122116486179440979",
+      "published_at": "2026-09-27T19:00:27.393516+00:00",
+      "published_display": "September 27, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — September 27, 2026\n\n🔆️ Solar activity: Low (B4.5)\n🔥 Latest solar flare: C1.2 (Peaked September 27, 2026 at 16:01 UTC)\n🔥 Strongest recent flare: C1.9 (Peaked September 27, 2026 at 04:37 UTC)\n💨 Solar wind speed: 391 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe Sun's core is around 15 million °C. Toasty! 🖤\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B4.5)\n🔥 Latest solar flare: C1.2 (Peaked September 27, 2026 at 16:01 UTC)\n🔥 Strongest recent flare: C1.9 (Peaked September 27, 2026 at 04:37 UTC)\n💨 Solar wind speed: 391 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe Sun's core is around 15 million °C. Toasty! 🖤\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260927T190027Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260927T170009Z",
       "facebook_id": "122116460223440979",
       "published_at": "2026-09-27T17:00:09.430278+00:00",

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20260927T220324Z",
+      "facebook_id": "1170345462837861_122116513455440979",
+      "published_at": "2026-09-27T22:03:24.552239+00:00",
+      "published_display": "September 27, 2026 · 6:03 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nJacksonville, FL — 86°F and Sunny ☀️",
+      "display_text": "Jacksonville, FL — 86°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20260927T220023Z",
       "facebook_id": "122116513071440979",
       "published_at": "2026-09-27T22:00:23.371376+00:00",

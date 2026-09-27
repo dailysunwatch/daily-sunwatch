@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-27T04:00:34.527909+00:00",
-  "updated_display": "September 27, 2026 at 12:00 AM EDT",
+  "updated_at": "2026-09-27T10:00:37.263978+00:00",
+  "updated_display": "September 27, 2026 at 6:00 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,27 +8,27 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "C1.1 · 02:46 UTC"
+      "value": "B8.6 · 05:39 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "452 km/s · Elevated"
+      "value": "433 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "4.00 · Active"
+      "value": "2.00 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Alert: Geomagnetic K-index of 4"
+      "value": "Continued Alert: Electron 2MeV Integral Flux exceeded 1,000pfu"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+1.4 nT · Normal"
+      "value": "+0.1 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "8 Earth-facing"
+      "value": "7 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
@@ -36,11 +36,11 @@
     },
     "cme": {
       "label": "CME",
-      "value": "14 recent · No new event"
+      "value": "13 recent · No new event"
     },
     "aurora": {
       "label": "Aurora",
-      "value": "Elevated ingredients"
+      "value": "No watch conditions"
     }
   }
 }

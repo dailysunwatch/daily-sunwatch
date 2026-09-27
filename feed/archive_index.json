@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20260927T040354Z",
+      "published_at": "2026-09-27T04:03:54.216068+00:00",
+      "published_display": "September 27, 2026 · 12:03 AM EDT",
+      "type": "aurora_watch",
+      "title": "Aurora Watch"
+    },
+    {
       "id": "20260927T040219Z",
       "published_at": "2026-09-27T04:02:19.103497+00:00",
       "published_display": "September 27, 2026 · 12:02 AM EDT",

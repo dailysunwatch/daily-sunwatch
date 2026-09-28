@@ -1,0 +1,11 @@
+{
+  "id": "20260928T132302Z",
+  "facebook_id": null,
+  "published_at": "2026-09-28T13:23:02.196835+00:00",
+  "published_display": "September 28, 2026 · 9:23 AM EDT",
+  "type": "site_update",
+  "title": "📡 SDO Service Update",
+  "text": "NASA SDO is currently experiencing data outages. ☀️\n\nFor the time being, Sunny is explicitly using NOAA GOES-19 SUVI for solar imagery while the NASA SDO website and its data services are unavailable.\n\nSunny will return to his normal mix of NASA SDO/AIA and NOAA SUVI imagery once SDO service is restored.\nClear skies and sunny days! ☀️",
+  "display_text": "NASA SDO is currently experiencing data outages. ☀️\n\nFor the time being, Sunny is explicitly using NOAA GOES-19 SUVI for solar imagery while the NASA SDO website and its data services are unavailable.\n\nSunny will return to his normal mix of NASA SDO/AIA and NOAA SUVI imagery once SDO service is restored.\nClear skies and sunny days! ☀️",
+  "media": []
+}

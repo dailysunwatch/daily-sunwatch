@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260928T210430Z",
+      "facebook_id": "122116827375440979",
+      "published_at": "2026-09-28T21:04:30.178744+00:00",
+      "published_display": "September 28, 2026 · 5:04 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — September 28, 2026\n\n🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: C2.5 (Peaked September 28, 2026 at 15:19 UTC)\n💨 Solar wind speed: 317 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunlight takes about 8 minutes and 20 seconds to reach Earth. 🌎💫\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: C2.5 (Peaked September 28, 2026 at 15:19 UTC)\n💨 Solar wind speed: 317 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunlight takes about 8 minutes and 20 seconds to reach Earth. 🌎💫\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260928T210430Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260928T160041Z",
       "facebook_id": "1170345462837861_122116772199440979",
       "published_at": "2026-09-28T16:00:41.167820+00:00",

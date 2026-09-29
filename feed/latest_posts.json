@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20260929T130029Z",
+      "facebook_id": "122116994553440979",
+      "published_at": "2026-09-29T13:00:29.425880+00:00",
+      "published_display": "September 29, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — September 29, 2026\n\n🔆️ Solar activity: Low (B3.7)\n🔥 Latest solar flare: B4.6 (Peaked September 29, 2026 at 06:24 UTC)\n💨 Solar wind speed: 295 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 📡🔋🚀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.7)\n🔥 Latest solar flare: B4.6 (Peaked September 29, 2026 at 06:24 UTC)\n💨 Solar wind speed: 295 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 📡🔋🚀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20260929T130029Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20260929T100031Z",
       "facebook_id": "122116962105440979",
       "published_at": "2026-09-29T10:00:31.729591+00:00",

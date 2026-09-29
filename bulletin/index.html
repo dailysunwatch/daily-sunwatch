@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/Sunny_Favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628395604557320" crossorigin="anonymous"></script>
+
+  <title>Bulletin | Daily Sunwatch</title>
+  <meta name="description" content="Daily Sunwatch Bulletin: sourced articles and research on solar science, space weather, atmospheric science, climate, geoengineering, and related topics.">
+  <style>
+    body.bulletin-page {
+      --bg: #F5F5F0;
+      --panel: #ECECE6;
+      --line: #D2D2C9;
+      --ivory: #121210;
+      --muted: #5F5F58;
+      background: #F5F5F0;
+      color: #121210;
+    }
+
+    .bulletin-page header {
+      background: #F5F5F0;
+      border-bottom-color: #D2D2C9;
+    }
+
+    .bulletin-page .brand,
+    .bulletin-page header nav a {
+      color: #121210;
+    }
+
+    .bulletin-page .brand span,
+    .bulletin-page header nav a.active,
+    .bulletin-page a {
+      color: #9A7F00;
+    }
+
+    .bulletin-page footer {
+      border-top-color: #D2D2C9;
+      color: #5F5F58;
+    }
+
+    .bulletin-page footer a { color: #5F5F58; }
+
+    .page-hero { padding: 62px 0; }
+    .page-hero h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.1;
+      letter-spacing: -.025em;
+      font-weight: 700;
+    }
+
+    .bulletin-intro {
+      max-width: 820px;
+    }
+
+    .bulletin-note {
+      margin-top: 26px;
+      padding-left: 14px;
+      border-left: 3px solid #FFD400;
+      color: var(--muted);
+      font-size: .9rem;
+      max-width: 780px;
+    }
+
+    .bulletin-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .bulletin-card {
+      aspect-ratio: 1 / 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 24px;
+      background: #121210;
+      border: 1px solid #121210;
+      border-radius: 12px;
+      color: #F5F5F0 !important;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .bulletin-card:hover {
+      transform: translateY(-2px);
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(18,18,16,.12);
+    }
+
+    .bulletin-card .card-kicker {
+      margin-bottom: auto;
+      color: #FFD400;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .bulletin-card h3 {
+      margin: 0 0 9px;
+      color: #F5F5F0;
+      font-size: 1.28rem;
+      line-height: 1.2;
+    }
+
+    .bulletin-card p {
+      margin: 0;
+      color: #C8C8C0;
+      font-size: .91rem;
+      line-height: 1.55;
+    }
+
+    .article-wrap { max-width: 840px; }
+    .article-back {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: var(--muted) !important;
+      font-size: .9rem;
+    }
+    .article-meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+    .article-section { margin-top: 42px; }
+    .article-section h2 { margin-bottom: 16px; }
+
+    .source-block {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .source-block:first-of-type { border-top: 1px solid var(--line); }
+    .source-block h3 { margin: 0 0 7px; font-size: 1.03rem; }
+    .source-block p { margin: 0 0 10px; color: #34342F; }
+    .source-link { font-weight: 700; }
+
+    .observer-list { margin: 18px 0 0; padding-left: 20px; }
+    .observer-list li { margin: 0 0 18px; }
+    .observer-note { color: var(--muted); font-size: .9rem; }
+
+    .article-bottom-ad {
+      margin-top: 46px;
+      padding: 30px 0 0;
+      border-top: 1px solid var(--line);
+    }
+    .sunwatch-ad { width: 100%; margin: 0; padding: 0; text-align: center; overflow: hidden; }
+    .sunwatch-ad-label {
+      margin: 0 0 7px;
+      color: #777670;
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 760px) {
+      .page-hero { padding: 48px 0; }
+      .bulletin-grid { grid-template-columns: 1fr; }
+      .bulletin-card { aspect-ratio: auto; min-height: 270px; }
+    }
+</style>
+</head>
+<body class="bulletin-page">
+<header>
+    <div class="wrap nav">
+      <a class="brand" href="/">DAILY <span>SUNWATCH</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/about.html">About</a>
+        <a href="/sources.html">Sources</a>
+        <a href="/archive.html">Archive</a>
+        <a class="active" href="/bulletin/">Bulletin</a>
+        <a href="/store.html">Store</a>
+        <a href="mailto:contact@dailysunwatch.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="label">Bulletin</div>
+      <h1>Sourced notes, research, and interesting questions.</h1>
+      <p class="copy bulletin-intro">
+        Longer-form articles from Daily Sunwatch exploring solar science, space weather,
+        atmospheric science, climate, geoengineering, and related topics.
+      </p>
+      <p class="bulletin-note">
+        Bulletin separates documented information from research, observations, and unresolved
+        questions. External links are provided for source review and do not imply affiliation
+        or endorsement.
+      </p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="wrap">
+      <div class="label">Articles</div>
+      <h2>Explore the Bulletin.</h2>
+
+      <div class="bulletin-grid">
+        <a class="bulletin-card" href="/bulletin/solar-geoengineering/">
+          <div class="card-kicker">Article 01</div>
+          <h3>Solar Geoengineering</h3>
+          <p>What has actually happened? A sourced look at outdoor experiments, private-sector activity, government oversight, and what remains unknown.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>© 2026 Daily Sunwatch. Clear skies and sunny days. ☀</div>
+
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/lore.html">Lore</a>
+          <a href="mailto:contact@dailysunwatch.com">contact@dailysunwatch.com</a>
+        </div>
+      </div>
+
+      <div class="business-info">
+        Daily Sunwatch is a registered assumed business name operated by Nicholas Scatigno in New York.
+      </div>
+    </div>
+  </footer>
+<!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "0346764b310e49efb1af1fe1d95fe645"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

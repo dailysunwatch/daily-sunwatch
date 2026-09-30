@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30T16:02:02.770877+00:00",
-  "updated_display": "September 30, 2026 at 12:02 PM EDT",
+  "updated_at": "2026-09-30T19:00:55.445612+00:00",
+  "updated_display": "September 30, 2026 at 3:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -12,19 +12,19 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "304 km/s · Calm"
+      "value": "298 km/s · Calm"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "1.00 · Quiet"
+      "value": "0.33 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Alert: Electron 2MeV Integral Flux exceeded 1,000pfu"
+      "value": "Watch: Geomagnetic Storm Category G1 Predicted"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-0.8 nT · Normal"
+      "value": "+0.5 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20261001T130406Z",
+      "published_at": "2026-10-01T13:04:06.482636+00:00",
+      "published_display": "October 1, 2026 · 9:04 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather"
+    },
+    {
       "id": "20261001T130059Z",
       "published_at": "2026-10-01T13:00:59.958530+00:00",
       "published_display": "October 1, 2026 · 9:00 AM EDT",

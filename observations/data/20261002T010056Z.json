@@ -1,0 +1,17 @@
+{
+  "id": "20261002T010056Z",
+  "facebook_id": "122117696175440979",
+  "published_at": "2026-10-02T01:00:56.531376+00:00",
+  "published_display": "October 1, 2026 · 9:00 PM EDT",
+  "type": "sunwatch",
+  "title": "Nighttime Sunwatch",
+  "text": "🌕 Nighttime Sunwatch — October 01, 2026\n\n🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 308 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 308 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261002T010056Z/image_1.png",
+      "alt": "Nighttime Sunwatch image"
+    }
+  ]
+}

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261002T130101Z",
+      "facebook_id": "122117830737440979",
+      "published_at": "2026-10-02T13:01:01.713618+00:00",
+      "published_display": "October 2, 2026 · 9:01 AM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — October 02, 2026\n\nNot much is happening right now, so Sunny is checking out the outer corona.\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Not much is happening right now, so Sunny is checking out the outer corona.\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261002T130101Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261002T100059Z",
       "facebook_id": "122117791275440979",
       "published_at": "2026-10-02T10:00:59.301719+00:00",

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261002T130238Z",
+      "facebook_id": "1170345462837861_122117831193440979",
+      "published_at": "2026-10-02T13:02:38.604221+00:00",
+      "published_display": "October 2, 2026 · 9:02 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nPortland, ME — 76°F and Chance of Rain 🌧️",
+      "display_text": "Portland, ME — 76°F and Chance of Rain 🌧️",
+      "media": []
+    },
+    {
       "id": "20261002T130101Z",
       "facebook_id": "122117830737440979",
       "published_at": "2026-10-02T13:01:01.713618+00:00",

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261003T130341Z",
+      "facebook_id": "1170345462837861_122118090819440979",
+      "published_at": "2026-10-03T13:03:41.733589+00:00",
+      "published_display": "October 3, 2026 · 9:03 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nWilmington, DE — 72°F and Mostly Cloudy 🌥️",
+      "display_text": "Wilmington, DE — 72°F and Mostly Cloudy 🌥️",
+      "media": []
+    },
+    {
       "id": "20261003T130052Z",
       "facebook_id": "122118090231440979",
       "published_at": "2026-10-03T13:00:52.993868+00:00",

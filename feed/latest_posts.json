@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261003T220047Z",
+      "facebook_id": "122118178653440979",
+      "published_at": "2026-10-03T22:00:47.419506+00:00",
+      "published_display": "October 3, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — October 03, 2026\n\n🔆️ Solar activity: Low (B2.3)\n🔥 Latest solar flare: B4.5 (Peaked October 03, 2026 at 16:18 UTC)\n💨 Solar wind speed: 282 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nAll quiet out there. ☀️\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.3)\n🔥 Latest solar flare: B4.5 (Peaked October 03, 2026 at 16:18 UTC)\n💨 Solar wind speed: 282 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nAll quiet out there. ☀️\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261003T220047Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261003T190047Z",
       "facebook_id": "122118151287440979",
       "published_at": "2026-10-03T19:00:47.898339+00:00",

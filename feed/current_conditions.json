@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-04T10:00:56.672056+00:00",
-  "updated_display": "October 4, 2026 at 6:00 AM EDT",
+  "updated_at": "2026-10-04T13:00:56.719211+00:00",
+  "updated_display": "October 4, 2026 at 9:00 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
-      "value": "Very Low"
+      "value": "Low"
     },
     "latest_flare": {
       "label": "Latest Flare",
@@ -12,19 +12,19 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "461 km/s · Elevated"
+      "value": "519 km/s · Elevated"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "4.33 · Active"
+      "value": "5.00 · G1 Minor Storm"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Alert: Geomagnetic K-index of 4"
+      "value": "Alert: Geomagnetic K-index of 5"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-14.7 nT · Strongly Southward"
+      "value": "-5.0 nT · Southward"
     },
     "active_regions": {
       "label": "Active Regions",
@@ -32,7 +32,7 @@
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Expected"
+      "value": "Expected · Confirmed"
     },
     "cme": {
       "label": "CME",
@@ -40,7 +40,7 @@
     },
     "aurora": {
       "label": "Aurora",
-      "value": "Elevated ingredients"
+      "value": "G1 storm conditions"
     }
   }
 }

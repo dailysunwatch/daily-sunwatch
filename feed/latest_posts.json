@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261004T040051Z",
+      "facebook_id": "122118248649440979",
+      "published_at": "2026-10-04T04:00:51.141801+00:00",
+      "published_display": "October 4, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — October 04, 2026\n\n🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: B4.5 (Peaked October 03, 2026 at 16:18 UTC)\n💨 Solar wind speed: 337 km/s (Calm)\n🧲 Bz: +13.3 nT (Strongly Northward)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nHello from 93 million miles away! ✨🌞\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: B4.5 (Peaked October 03, 2026 at 16:18 UTC)\n💨 Solar wind speed: 337 km/s (Calm)\n🧲 Bz: +13.3 nT (Strongly Northward)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nHello from 93 million miles away! ✨🌞\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261004T040051Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261003T220047Z",
       "facebook_id": "122118178653440979",
       "published_at": "2026-10-03T22:00:47.419506+00:00",

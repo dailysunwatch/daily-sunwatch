@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T16:01:38.920561+00:00",
-  "updated_display": "October 4, 2026 at 12:01 PM EDT",
+  "updated_at": "2026-10-04T19:00:52.100812+00:00",
+  "updated_display": "October 4, 2026 at 3:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,23 +8,23 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "B9.3 · 06:30 UTC"
+      "value": "B4.3 · 17:57 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "511 km/s · Elevated"
+      "value": "596 km/s · Fast"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "4.67 · Active"
+      "value": "4.33 · Active"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Alert: Geomagnetic K-index of 5"
+      "value": "Extended Warning: Geomagnetic K-index of 5 expected"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+1.5 nT · Normal"
+      "value": "+2.2 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

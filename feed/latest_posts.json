@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261004T130306Z",
+      "facebook_id": "1170345462837861_122118343191440979",
+      "published_at": "2026-10-04T13:03:06.211819+00:00",
+      "published_display": "October 4, 2026 · 9:03 AM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nWashington, DC — 67°F and Rainy 🌧️",
+      "display_text": "Washington, DC — 67°F and Rainy 🌧️",
+      "media": []
+    },
+    {
       "id": "20261004T130050Z",
       "facebook_id": "122118342837440979",
       "published_at": "2026-10-04T13:00:50.497285+00:00",

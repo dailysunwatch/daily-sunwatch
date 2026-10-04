@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261004T100219Z",
+      "facebook_id": "122118309003440979",
+      "published_at": "2026-10-04T10:02:19.802353+00:00",
+      "published_display": "October 4, 2026 · 6:02 AM EDT",
+      "type": "aurora_watch",
+      "title": "Aurora Watch",
+      "text": "🌌 Aurora Watch — October 04, 2026\n\nThe geomagnetic ingredients are coming together: elevated Kp, southward Bz, and faster solar wind have Sunny's attention.\n\n🌎 Kp: 4.33 (Elevated)\n🧲 IMF Bz: -14.7 nT (Southward)\n💨 Solar wind: 461 km/s (Elevated)\n🚨 NOAA: ALERT: Geomagnetic K-index of 4\n☀️ Solar driver context: CH-HSS\n\nOkay, this could get pretty. 👀✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "display_text": "The geomagnetic ingredients are coming together: elevated Kp, southward Bz, and faster solar wind have Sunny's attention.\n\n🌎 Kp: 4.33 (Elevated)\n🧲 IMF Bz: -14.7 nT (Southward)\n💨 Solar wind: 461 km/s (Elevated)\n🚨 NOAA: ALERT: Geomagnetic K-index of 4\n☀️ Solar driver context: CH-HSS\n\nOkay, this could get pretty. 👀✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261004T100219Z/image_1.jpg",
+          "alt": "NOAA SWPC OVATION Aurora Forecast"
+        }
+      ]
+    },
+    {
       "id": "20261004T100049Z",
       "facebook_id": "122118308559440979",
       "published_at": "2026-10-04T10:00:49.647485+00:00",

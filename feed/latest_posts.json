@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261005T070057Z",
+      "facebook_id": "122118511437440979",
+      "published_at": "2026-10-05T07:00:57.654051+00:00",
+      "published_display": "October 5, 2026 · 3:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — October 05, 2026\n\n🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B9.6 (Peaked October 05, 2026 at 06:01 UTC)\n💨 Solar wind speed: 571 km/s (Fast)\n🌎 Geomagnetic activity: G1 Minor Storm (Kp 5.33)\n🚨 NOAA Alert: Geomagnetic K-index of 5\n\nG1 STORM! Here comes the wind! 🧲🌫☄😯\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B9.6 (Peaked October 05, 2026 at 06:01 UTC)\n💨 Solar wind speed: 571 km/s (Fast)\n🌎 Geomagnetic activity: G1 Minor Storm (Kp 5.33)\n🚨 NOAA Alert: Geomagnetic K-index of 5\n\nG1 STORM! Here comes the wind! 🧲🌫☄😯\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261005T070057Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261005T040049Z",
       "facebook_id": "122118488223440979",
       "published_at": "2026-10-05T04:00:49.594449+00:00",

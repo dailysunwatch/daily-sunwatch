@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-05T10:00:55.659509+00:00",
-  "updated_display": "October 5, 2026 at 6:00 AM EDT",
+  "updated_at": "2026-10-05T13:00:46.385772+00:00",
+  "updated_display": "October 5, 2026 at 9:00 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
-      "value": "Very Low"
+      "value": "Low"
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "B9.6 · 06:01 UTC"
+      "value": "C1.3 · 12:00 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "570 km/s · Fast"
+      "value": "549 km/s · Elevated"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "2.33 · Quiet"
+      "value": "3.33 · Unsettled"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
@@ -24,7 +24,7 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-0.1 nT · Normal"
+      "value": "-0.6 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

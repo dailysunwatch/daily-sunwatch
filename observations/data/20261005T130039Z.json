@@ -1,0 +1,17 @@
+{
+  "id": "20261005T130039Z",
+  "facebook_id": "122118578175440979",
+  "published_at": "2026-10-05T13:00:39.609605+00:00",
+  "published_display": "October 5, 2026 · 9:00 AM EDT",
+  "type": "sunwatch",
+  "title": "Morning Sunwatch",
+  "text": "☀️ Morning Sunwatch — October 05, 2026\n\n🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C1.3 (Peaked October 05, 2026 at 12:00 UTC)\n🔥 Strongest recent flare: C1.5 (Peaked October 05, 2026 at 11:48 UTC)\n💨 Solar wind speed: 549 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nSunny reporting for duty! 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C1.3 (Peaked October 05, 2026 at 12:00 UTC)\n🔥 Strongest recent flare: C1.5 (Peaked October 05, 2026 at 11:48 UTC)\n💨 Solar wind speed: 549 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nSunny reporting for duty! 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261005T130039Z/image_1.png",
+      "alt": "Morning Sunwatch image"
+    }
+  ]
+}

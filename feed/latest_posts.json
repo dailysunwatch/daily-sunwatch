@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261005T220052Z",
+      "facebook_id": "122118664737440979",
+      "published_at": "2026-10-05T22:00:52.287407+00:00",
+      "published_display": "October 5, 2026 · 6:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — October 05, 2026\n\n🔆️ Solar activity: Low (B6.7)\n🔥 Latest solar flare: M1.0 (Peaked October 05, 2026 at 18:48 UTC)\n💨 Solar wind speed: 546 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nNotable M-Class flare! There's a little more speed in the solar wind! 🔥🌀💥🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.7)\n🔥 Latest solar flare: M1.0 (Peaked October 05, 2026 at 18:48 UTC)\n💨 Solar wind speed: 546 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nNotable M-Class flare! There's a little more speed in the solar wind! 🔥🌀💥🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261005T220052Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261005T190049Z",
       "facebook_id": "122118638589440979",
       "published_at": "2026-10-05T19:00:49.094847+00:00",

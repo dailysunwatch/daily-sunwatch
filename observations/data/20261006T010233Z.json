@@ -1,0 +1,17 @@
+{
+  "id": "20261006T010233Z",
+  "facebook_id": "122118693513440979",
+  "published_at": "2026-10-06T01:02:33.647890+00:00",
+  "published_display": "October 5, 2026 · 9:02 PM EDT",
+  "type": "aurora_watch",
+  "title": "Aurora Watch",
+  "text": "🌌 Aurora Watch — October 05, 2026\n\nNear-Earth conditions are starting to line up: elevated Kp and faster solar wind. Sunny is keeping watch.\n\n🌎 Kp: 4.00 (Elevated)\n🧲 IMF Bz: -1.4 nT (Southward)\n💨 Solar wind: 532 km/s (Elevated)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nAurora ingredients detected. 👀🌎\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+  "display_text": "Near-Earth conditions are starting to line up: elevated Kp and faster solar wind. Sunny is keeping watch.\n\n🌎 Kp: 4.00 (Elevated)\n🧲 IMF Bz: -1.4 nT (Southward)\n💨 Solar wind: 532 km/s (Elevated)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nAurora ingredients detected. 👀🌎\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261006T010233Z/image_1.jpg",
+      "alt": "NOAA SWPC OVATION Aurora Forecast"
+    }
+  ]
+}

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261006T220044Z",
+      "facebook_id": "122118897783440979",
+      "published_at": "2026-10-06T22:00:44.094522+00:00",
+      "published_display": "October 6, 2026 · 6:00 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — October 06, 2026\n\nThe Sun has been active today, so Sunny is checking in on the outer corona.\n\n🔥 Strongest recent flare: M1.8\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "display_text": "The Sun has been active today, so Sunny is checking in on the outer corona.\n\n🔥 Strongest recent flare: M1.8\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261006T220044Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261006T190341Z",
       "facebook_id": "1170345462837861_122118873129440979",
       "published_at": "2026-10-06T19:03:41.501563+00:00",

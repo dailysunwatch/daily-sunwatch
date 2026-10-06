@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261006T040259Z",
+      "facebook_id": "122118718881440979",
+      "published_at": "2026-10-06T04:02:59.075936+00:00",
+      "published_display": "October 6, 2026 · 12:02 AM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — October 06, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 19%\n📅 Next full moon: October 26, 2026\n\n*looks at photo*\ngetting little again~ 🌘🎀💗\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 19%\n📅 Next full moon: October 26, 2026\n\n*looks at photo*\ngetting little again~ 🌘🎀💗\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261006T040259Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261006T040043Z",
       "facebook_id": "122118718365440979",
       "published_at": "2026-10-06T04:00:43.698203+00:00",

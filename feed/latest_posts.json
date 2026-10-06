@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261006T100204Z",
+      "facebook_id": "122118779613440979",
+      "published_at": "2026-10-06T10:02:04.863131+00:00",
+      "published_display": "October 6, 2026 · 6:02 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — October 06, 2026\n\n🔆️ Solar activity: Very Low (Below A1.0...)\n🔥 Latest solar flare: M1.8 (Peaked October 06, 2026 at 08:05 UTC)\n💨 Solar wind speed: 509 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Type II Radio Emission\n\nM-Class flare activity! Something just made some noise on solar radio! 📻☀️💥💣🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Very Low (Below A1.0...)\n🔥 Latest solar flare: M1.8 (Peaked October 06, 2026 at 08:05 UTC)\n💨 Solar wind speed: 509 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Type II Radio Emission\n\nM-Class flare activity! Something just made some noise on solar radio! 📻☀️💥💣🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261006T100204Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261006T070210Z",
       "facebook_id": "122118750555440979",
       "published_at": "2026-10-06T07:02:10.031187+00:00",

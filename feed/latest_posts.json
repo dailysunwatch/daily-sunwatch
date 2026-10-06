@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261006T190059Z",
+      "facebook_id": "122118872595440979",
+      "published_at": "2026-10-06T19:00:59.031180+00:00",
+      "published_display": "October 6, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — October 06, 2026\n\n🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 426 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nStill keeping an eye on that earlier M1.8 flare. 👀💥✨\n\nSeveral bright active regions stand out in today’s solar images, while no clear outward CME is visible.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 426 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nStill keeping an eye on that earlier M1.8 flare. 👀💥✨\n\nSeveral bright active regions stand out in today’s solar images, while no clear outward CME is visible.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261006T190059Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261006T160518Z",
       "facebook_id": "1170345462837861_122118844365440979",
       "published_at": "2026-10-06T16:05:18.747194+00:00",

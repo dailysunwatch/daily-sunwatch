@@ -1,0 +1,17 @@
+{
+  "id": "20261007T130044Z",
+  "facebook_id": "122119043187440979",
+  "published_at": "2026-10-07T13:00:44.502575+00:00",
+  "published_display": "October 7, 2026 · 9:00 AM EDT",
+  "type": "sunwatch",
+  "title": "Morning Sunwatch",
+  "text": "☀️ Morning Sunwatch — October 07, 2026\n\n🔆️ Solar activity: Moderate (C1.7)\n🔥 Latest solar flare: C1.1 (Peaked October 07, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle flare from the Sun! 💥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Moderate (C1.7)\n🔥 Latest solar flare: C1.1 (Peaked October 07, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle flare from the Sun! 💥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261007T130044Z/image_1.png",
+      "alt": "Morning Sunwatch image"
+    }
+  ]
+}

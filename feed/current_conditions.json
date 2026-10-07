@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-07T04:00:52.051823+00:00",
-  "updated_display": "October 7, 2026 at 12:00 AM EDT",
+  "updated_at": "2026-10-07T10:00:57.120305+00:00",
+  "updated_display": "October 7, 2026 at 6:00 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
-      "value": "Low"
+      "value": "Very Low"
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "C2.3 · 21:36 UTC"
+      "value": "C1.6 · 05:34 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "384 km/s · Moderate"
+      "value": "365 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
@@ -20,11 +20,11 @@
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Watch: Geomagnetic Storm Category G2 Predicted"
+      "value": "Continued Alert: Electron 2MeV Integral Flux exceeded 1,000pfu"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+1.0 nT · Normal"
+      "value": "-1.9 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

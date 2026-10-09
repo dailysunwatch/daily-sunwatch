@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261009T010046Z",
+      "facebook_id": "122119403127440979",
+      "published_at": "2026-10-09T01:00:46.930425+00:00",
+      "published_display": "October 8, 2026 · 9:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — October 08, 2026\n\n🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.5 (Peaked October 08, 2026 at 22:44 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 363 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nA bright active region stands out in today’s EUV solar images, while the coronagraph shows routine streamer structure.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.5 (Peaked October 08, 2026 at 22:44 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 363 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nA bright active region stands out in today’s EUV solar images, while the coronagraph shows routine streamer structure.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261009T010046Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261008T220218Z",
       "facebook_id": "1170345462837861_122119377609440979",
       "published_at": "2026-10-08T22:02:18.439070+00:00",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261010T010046Z",
+      "facebook_id": "122119632819440979",
+      "published_at": "2026-10-10T01:00:46.103243+00:00",
+      "published_display": "October 9, 2026 · 9:00 PM EDT",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — October 09, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M1.3\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M1.3\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261010T010046Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261009T220046Z",
       "facebook_id": "122119601913440979",
       "published_at": "2026-10-09T22:00:46.473209+00:00",

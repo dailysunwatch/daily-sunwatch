@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261015T040043Z",
+      "facebook_id": "122120667873440979",
+      "published_at": "2026-10-15T04:00:43.214066+00:00",
+      "published_display": "October 15, 2026 · 12:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — October 15, 2026\n\n🔆️ Solar activity: Low (B6.5)\n🔥 Latest solar flare: C2.8 (Peaked October 15, 2026 at 02:07 UTC)\n💨 Solar wind speed: 489 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nThe Sun converts roughly 4 million metric tons of mass into energy every second. 💫💛\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.5)\n🔥 Latest solar flare: C2.8 (Peaked October 15, 2026 at 02:07 UTC)\n💨 Solar wind speed: 489 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nThe Sun converts roughly 4 million metric tons of mass into energy every second. 💫💛\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261015T040043Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261015T010046Z",
       "facebook_id": "122120652021440979",
       "published_at": "2026-10-15T01:00:46.573344+00:00",

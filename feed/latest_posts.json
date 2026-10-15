@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261015T130046Z",
+      "facebook_id": "122120727735440979",
+      "published_at": "2026-10-15T13:00:46.907843+00:00",
+      "published_display": "October 15, 2026 · 9:00 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — October 15, 2026\n\n🔆️ Solar activity: Low (B6.1)\n🔥 Latest solar flare: C1.0 (Peaked October 15, 2026 at 07:27 UTC)\n💨 Solar wind speed: 478 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nA little extra breeze out there. 💨🌎\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.1)\n🔥 Latest solar flare: C1.0 (Peaked October 15, 2026 at 07:27 UTC)\n💨 Solar wind speed: 478 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nA little extra breeze out there. 💨🌎\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261015T130046Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261015T100044Z",
       "facebook_id": "122120706261440979",
       "published_at": "2026-10-15T10:00:44.376377+00:00",

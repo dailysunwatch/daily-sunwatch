@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T22:00:54.740122+00:00",
-  "updated_display": "October 14, 2026 at 6:00 PM EDT",
+  "updated_at": "2026-10-15T01:00:56.820271+00:00",
+  "updated_display": "October 14, 2026 at 9:00 PM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -12,7 +12,7 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "535 km/s · Elevated"
+      "value": "504 km/s · Elevated"
     },
     "kp_index": {
       "label": "Kp Index",
@@ -20,11 +20,11 @@
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Watch: Geomagnetic Storm Category G1 Predicted"
+      "value": "No active alert"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-0.5 nT · Normal"
+      "value": "+4.0 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
@@ -32,7 +32,7 @@
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Expected · Confirmed"
+      "value": "Expected"
     },
     "cme": {
       "label": "CME",

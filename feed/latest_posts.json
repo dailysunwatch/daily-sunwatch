@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261015T190045Z",
+      "facebook_id": "122120770125440979",
+      "published_at": "2026-10-15T19:00:45.793413+00:00",
+      "published_display": "October 15, 2026 · 3:00 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — October 15, 2026\n\n🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C2.8 (Peaked October 15, 2026 at 17:55 UTC)\n🔥 Strongest recent flare: C4.9 (Peaked October 15, 2026 at 15:55 UTC)\n💨 Solar wind speed: 478 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nGot a little C-Class flare! 🔥🚀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C2.8 (Peaked October 15, 2026 at 17:55 UTC)\n🔥 Strongest recent flare: C4.9 (Peaked October 15, 2026 at 15:55 UTC)\n💨 Solar wind speed: 478 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n\nGot a little C-Class flare! 🔥🚀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261015T190045Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261015T160057Z",
       "facebook_id": "1170345462837861_122120751309440979",
       "published_at": "2026-10-15T16:00:57.989969+00:00",

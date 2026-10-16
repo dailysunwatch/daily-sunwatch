@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261016T220357Z",
+      "facebook_id": "1170345462837861_122120949651440979",
+      "published_at": "2026-10-16T22:03:57.712022+00:00",
+      "published_display": "October 16, 2026 · 6:03 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nBoston, MA — 68°F and Foggy 🌫️",
+      "display_text": "Boston, MA — 68°F and Foggy 🌫️",
+      "media": []
+    },
+    {
       "id": "20261016T220114Z",
       "facebook_id": "122120949261440979",
       "published_at": "2026-10-16T22:01:14.486005+00:00",

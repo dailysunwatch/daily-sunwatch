@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261016T190354Z",
+      "facebook_id": "1170345462837861_122120918433440979",
+      "published_at": "2026-10-16T19:03:54.152921+00:00",
+      "published_display": "October 16, 2026 · 3:03 PM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — October 16, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S14W19\n☀️ Region: AR 4551\n🔥 Recent activity: 1 M-class flare · 4 C-class flares\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S14W19\n☀️ Region: AR 4551\n🔥 Recent activity: 1 M-class flare · 4 C-class flares\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261016T190354Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261016T190354Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261016T190354Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4551"
+        }
+      ]
+    },
+    {
       "id": "20261016T190111Z",
       "facebook_id": "122120917617440979",
       "published_at": "2026-10-16T19:01:11.037625+00:00",

@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20261016T143452Z",
+      "published_at": "2026-10-16T14:34:52.717765+00:00",
+      "published_display": "October 16, 2026 · 10:34 AM EDT",
+      "type": "site_update",
+      "title": "☀️ Daily Sunwatch Update — SDO Images Restored!"
+    },
+    {
       "id": "20261016T130111Z",
       "published_at": "2026-10-16T13:01:11.182168+00:00",
       "published_display": "October 16, 2026 · 9:01 AM EDT",

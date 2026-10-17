@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261017T100107Z",
+      "facebook_id": "122121026517440979",
+      "published_at": "2026-10-17T10:01:07.589701+00:00",
+      "published_display": "October 17, 2026 · 6:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — October 17, 2026\n\n🔆️ Solar activity: Low (B8.0)\n🔥 Latest solar flare: B8.6 (Peaked October 17, 2026 at 09:41 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 418 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nHow's the Sun looking from where you are? 🖤\n\nToday’s solar images show two active regions alongside a broad, elongated coronal-hole feature, while the surrounding corona appears otherwise routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B8.0)\n🔥 Latest solar flare: B8.6 (Peaked October 17, 2026 at 09:41 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 418 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nHow's the Sun looking from where you are? 🖤\n\nToday’s solar images show two active regions alongside a broad, elongated coronal-hole feature, while the surrounding corona appears otherwise routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T100107Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261017T070110Z",
       "facebook_id": "122121005595440979",
       "published_at": "2026-10-17T07:01:10.019301+00:00",

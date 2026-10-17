@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261017T010403Z",
+      "facebook_id": "122120964855440979",
+      "published_at": "2026-10-17T01:04:03.223590+00:00",
+      "published_display": "October 16, 2026 · 9:04 PM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — October 16, 2026\n\n🌒 Moon phase: Waxing Crescent\n💡 Illumination: 30%\n🌌 Constellation: Sagittarius ♐\n📅 Next full moon: October 26, 2026\n\nmoony came to say hi!!! 🎀\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌒 Moon phase: Waxing Crescent\n💡 Illumination: 30%\n🌌 Constellation: Sagittarius ♐\n📅 Next full moon: October 26, 2026\n\nmoony came to say hi!!! 🎀\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T010403Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261017T010110Z",
       "facebook_id": "122120964489440979",
       "published_at": "2026-10-17T01:01:10.665589+00:00",

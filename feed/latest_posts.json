@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261017T070110Z",
+      "facebook_id": "122121005595440979",
+      "published_at": "2026-10-17T07:01:10.019301+00:00",
+      "published_display": "October 17, 2026 · 3:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — October 17, 2026\n\n🔆️ Solar activity: Low (B8.8​)\n🔥 Latest solar flare: C1.2 (Peaked October 17, 2026 at 06:30 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 450 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nSunny spotted a flare! 🔥🌌\n\nA broad coronal-hole feature and two active regions are visible today, while the coronagraph shows no clearly notable outward structure.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B8.8​)\n🔥 Latest solar flare: C1.2 (Peaked October 17, 2026 at 06:30 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 450 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nSunny spotted a flare! 🔥🌌\n\nA broad coronal-hole feature and two active regions are visible today, while the coronagraph shows no clearly notable outward structure.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T070110Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261017T040111Z",
       "facebook_id": "122120984889440979",
       "published_at": "2026-10-17T04:01:11.266831+00:00",

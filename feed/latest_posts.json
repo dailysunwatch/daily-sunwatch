@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261017T160120Z",
+      "facebook_id": "1170345462837861_122121076803440979",
+      "published_at": "2026-10-17T16:01:20.473187+00:00",
+      "published_display": "October 17, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — October 17, 2026\n\n🔆️ Solar activity: Low (B9.7)\n🔥 Latest solar flare: C1.7 (Peaked October 17, 2026 at 15:40 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 455 km/s (Elevated)\n🧲 Bz: +7.3 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nSmall flare, but Sunny noticed! 🔥🌎\n\nToday’s solar images show two sunspot groups, bright active regions, and a prominent elongated dark structure across the lower-central Sun.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B9.7)\n🔥 Latest solar flare: C1.7 (Peaked October 17, 2026 at 15:40 UTC)\n🔥 Strongest recent flare: C6.0 (Peaked October 16, 2026 at 19:14 UTC)\n💨 Solar wind speed: 455 km/s (Elevated)\n🧲 Bz: +7.3 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nSmall flare, but Sunny noticed! 🔥🌎\n\nToday’s solar images show two sunspot groups, bright active regions, and a prominent elongated dark structure across the lower-central Sun.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T160120Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261017T130323Z",
       "facebook_id": "1170345462837861_122121050625440979",
       "published_at": "2026-10-17T13:03:23.722087+00:00",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261017T040111Z",
+      "facebook_id": "122120984889440979",
+      "published_at": "2026-10-17T04:01:11.266831+00:00",
+      "published_display": "October 17, 2026 · 12:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — October 17, 2026\n\n🔆️ Solar activity: Low (B7.1)\n🔥 Latest solar flare: B8.7 (Peaked October 17, 2026 at 00:48 UTC)\n💨 Solar wind speed: 471 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nThe solar wind has a little extra pep. 💨🌞\n\nSolar images show two visible active regions and a prominent elongated dark coronal feature, while the coronagraph view shows no obvious large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.1)\n🔥 Latest solar flare: B8.7 (Peaked October 17, 2026 at 00:48 UTC)\n💨 Solar wind speed: 471 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nThe solar wind has a little extra pep. 💨🌞\n\nSolar images show two visible active regions and a prominent elongated dark coronal feature, while the coronagraph view shows no obvious large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261017T040111Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261017T010403Z",
       "facebook_id": "122120964855440979",
       "published_at": "2026-10-17T01:04:03.223590+00:00",

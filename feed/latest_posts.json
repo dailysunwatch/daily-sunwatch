@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261018T130104Z",
+      "facebook_id": "122121229287440979",
+      "published_at": "2026-10-18T13:01:04.131536+00:00",
+      "published_display": "October 18, 2026 · 9:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — October 18, 2026\n\n🔆️ Solar activity: Low (B5.2)\n🔥 Latest solar flare: C1.3 (Peaked October 18, 2026 at 10:50 UTC)\n🔥 Strongest recent flare: C3.7 (Peaked October 18, 2026 at 06:44 UTC)\n💨 Solar wind speed: 444 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nA little C-Class flare action! 💥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.2)\n🔥 Latest solar flare: C1.3 (Peaked October 18, 2026 at 10:50 UTC)\n🔥 Strongest recent flare: C3.7 (Peaked October 18, 2026 at 06:44 UTC)\n💨 Solar wind speed: 444 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nA little C-Class flare action! 💥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261018T130104Z/image_1.jpg",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261018T100119Z",
       "facebook_id": "122121205995440979",
       "published_at": "2026-10-18T10:01:19.228516+00:00",

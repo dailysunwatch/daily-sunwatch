@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261018T160301Z",
+      "facebook_id": "1170345462837861_122121252639440979",
+      "published_at": "2026-10-18T16:03:01.127655+00:00",
+      "published_display": "October 18, 2026 · 12:03 PM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — October 18, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S16W46\n☀️ Region: AR 4551\n🔥 Recent activity: 2 C-class flares\n\nSunny has spots. This seems unfair.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S16W46\n☀️ Region: AR 4551\n🔥 Recent activity: 2 C-class flares\n\nSunny has spots. This seems unfair.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261018T160301Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261018T160301Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261018T160301Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4551"
+        }
+      ]
+    },
+    {
       "id": "20261018T160130Z",
       "facebook_id": "1170345462837861_122121251805440979",
       "published_at": "2026-10-18T16:01:30.023590+00:00",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261018T070109Z",
+      "facebook_id": "122121185523440979",
+      "published_at": "2026-10-18T07:01:09.264755+00:00",
+      "published_display": "October 18, 2026 · 3:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — October 18, 2026\n\n🔆️ Solar activity: Moderate (C2.4)\n🔥 Latest solar flare: C3.4 (Peaked October 18, 2026 at 03:53 UTC)\n💨 Solar wind speed: 518 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun just gave us a little flare! 💥🚀\n\nThe Sun shows two clear sunspot groups and bright active-region emission, while the coronagraph shows no unambiguous large outward structure.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C2.4)\n🔥 Latest solar flare: C3.4 (Peaked October 18, 2026 at 03:53 UTC)\n💨 Solar wind speed: 518 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun just gave us a little flare! 💥🚀\n\nThe Sun shows two clear sunspot groups and bright active-region emission, while the coronagraph shows no unambiguous large outward structure.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261018T070109Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261018T040347Z",
       "facebook_id": "122121155745440979",
       "published_at": "2026-10-18T04:03:47.531728+00:00",

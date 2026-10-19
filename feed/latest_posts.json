@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261019T220240Z",
+      "facebook_id": "1170345462837861_122121463659440979",
+      "published_at": "2026-10-19T22:02:40.141977+00:00",
+      "published_display": "October 19, 2026 · 6:02 PM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — October 19, 2026\n\nNOAA Active Region 4551 stands out on the visible solar disk today as a sunspot region associated with recent M-class activity.\n\n📍 Location: S15W59\n☀️ Region: AR 4551\n🔥 Recent activity: 1 M-class flare · 2 C-class flares\n\nSunny has spots. This seems unfair.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4551 stands out on the visible solar disk today as a sunspot region associated with recent M-class activity.\n\n📍 Location: S15W59\n☀️ Region: AR 4551\n🔥 Recent activity: 1 M-class flare · 2 C-class flares\n\nSunny has spots. This seems unfair.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261019T220240Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261019T220240Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261019T220240Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4551"
+        }
+      ]
+    },
+    {
       "id": "20261019T220110Z",
       "facebook_id": "122121463239440979",
       "published_at": "2026-10-19T22:01:10.506768+00:00",

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261019T220440Z",
+      "facebook_id": "1170345462837861_122121464325440979",
+      "published_at": "2026-10-19T22:04:40.759307+00:00",
+      "published_display": "October 19, 2026 · 6:04 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nHartford, CT — 64°F and Sunny ☀️",
+      "display_text": "Hartford, CT — 64°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20261019T220240Z",
       "facebook_id": "1170345462837861_122121463659440979",
       "published_at": "2026-10-19T22:02:40.141977+00:00",

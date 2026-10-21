@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261021T190433Z",
+      "facebook_id": "1170345462837861_122121798831440979",
+      "published_at": "2026-10-21T19:04:33.332438+00:00",
+      "published_display": "October 21, 2026 · 3:04 PM EDT",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — October 21, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S15W83\n☀️ Region: AR 4551\n🔥 Recent activity: 1 C-class flare\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4551.\n\n📍 Location: S15W83\n☀️ Region: AR 4551\n🔥 Recent activity: 1 C-class flare\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261021T190433Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261021T190433Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4551"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261021T190433Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4551"
+        }
+      ]
+    },
+    {
       "id": "20261021T190116Z",
       "facebook_id": "122121798285440979",
       "published_at": "2026-10-21T19:01:16.355588+00:00",

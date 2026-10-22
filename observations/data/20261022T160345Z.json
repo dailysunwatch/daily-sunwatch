@@ -1,0 +1,27 @@
+{
+  "id": "20261022T160345Z",
+  "facebook_id": "1170345462837861_122121949071440979",
+  "published_at": "2026-10-22T16:03:45.281425+00:00",
+  "published_display": "October 22, 2026 · 12:03 PM EDT",
+  "type": "sunspot_watch",
+  "title": "Sunspot Watch",
+  "text": "☀️ Sunspot Watch — October 22, 2026\n\nNOAA Active Region 4560 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N13W42\n☀️ Region: AR 4560\n🔥 Recent activity: 2 C-class flares\n\nSomebody brought freckles to work.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "display_text": "NOAA Active Region 4560 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N13W42\n☀️ Region: AR 4560\n🔥 Recent activity: 2 C-class flares\n\nSomebody brought freckles to work.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261022T160345Z/image_1.jpg",
+      "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4560"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261022T160345Z/image_2.jpg",
+      "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4560"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261022T160345Z/image_3.jpg",
+      "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4560"
+    }
+  ]
+}

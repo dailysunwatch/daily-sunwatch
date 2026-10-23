@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20261023T160124Z",
+      "published_at": "2026-10-23T16:01:24.920954+00:00",
+      "published_display": "October 23, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch"
+    },
+    {
       "id": "20261023T130301Z",
       "published_at": "2026-10-23T13:03:01.921028+00:00",
       "published_display": "October 23, 2026 · 9:03 AM EDT",

@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-10-23T10:01:21.949733+00:00",
-  "updated_display": "October 23, 2026 at 6:01 AM EDT",
+  "updated_at": "2026-10-23T13:01:21.061708+00:00",
+  "updated_display": "October 23, 2026 at 9:01 AM EDT",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
-      "value": "Moderate"
+      "value": "Low"
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "C1.2 · 09:39 UTC"
+      "value": "C1.2 · 12:39 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "411 km/s · Moderate"
+      "value": "418 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "1.67 · Quiet"
+      "value": "2.33 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Watch: Geomagnetic Storm Category G1 Predicted"
+      "value": "Alert: Electron 2MeV Integral Flux exceeded 1,000pfu"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-2.9 nT · Normal"
+      "value": "-3.1 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",

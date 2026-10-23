@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261023T220115Z",
+      "facebook_id": "122122185465440979",
+      "published_at": "2026-10-23T22:01:15.955887+00:00",
+      "published_display": "October 23, 2026 · 6:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — October 23, 2026\n\n🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.3 (Peaked October 23, 2026 at 19:07 UTC)\n🔥 Strongest recent flare: C3.3 (Peaked October 23, 2026 at 05:42 UTC)\n💨 Solar wind speed: 426 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.33)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThe sky looks blue because molecules are scattered in Earth’s atmosphere — and blue light scatters especially strongly. 🌎💛\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.3 (Peaked October 23, 2026 at 19:07 UTC)\n🔥 Strongest recent flare: C3.3 (Peaked October 23, 2026 at 05:42 UTC)\n💨 Solar wind speed: 426 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.33)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThe sky looks blue because molecules are scattered in Earth’s atmosphere — and blue light scatters especially strongly. 🌎💛\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261023T220115Z/image_1.jpg",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261023T190111Z",
       "facebook_id": "122122155963440979",
       "published_at": "2026-10-23T19:01:11.000290+00:00",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261023T040343Z",
+      "facebook_id": "122122027281440979",
+      "published_at": "2026-10-23T04:03:43.938153+00:00",
+      "published_display": "October 23, 2026 · 12:03 AM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — October 23, 2026\n\n🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 91%\n🌌 Constellation: Pisces ♓\n📅 Next full moon: October 26, 2026\n\n*looks at image*\nthe sky is sooo pretty tonight~ ✨🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 91%\n🌌 Constellation: Pisces ♓\n📅 Next full moon: October 26, 2026\n\n*looks at image*\nthe sky is sooo pretty tonight~ ✨🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261023T040343Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261023T040117Z",
       "facebook_id": "122122026615440979",
       "published_at": "2026-10-23T04:01:17.040988+00:00",

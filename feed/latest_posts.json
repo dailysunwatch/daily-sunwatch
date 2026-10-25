@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261025T220319Z",
+      "facebook_id": "1170345462837861_122122873659440979",
+      "published_at": "2026-10-25T22:03:19.750135+00:00",
+      "published_display": "October 25, 2026 · 6:03 PM EDT",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nRaleigh, NC — 71°F and Sunny ☀️",
+      "display_text": "Raleigh, NC — 71°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20261025T220111Z",
       "facebook_id": "122122872867440979",
       "published_at": "2026-10-25T22:01:11.585452+00:00",

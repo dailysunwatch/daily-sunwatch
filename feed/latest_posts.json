@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261026T040111Z",
+      "facebook_id": "122122952397440979",
+      "published_at": "2026-10-26T04:01:11.838866+00:00",
+      "published_display": "October 26, 2026 · 12:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — October 26, 2026\n\n🔆️ Solar activity: Low (B6.4)\n🔥 Latest solar flare: C1.5 (Peaked October 26, 2026 at 01:34 UTC)\n🔥 Strongest recent flare: C1.5 (Peaked October 25, 2026 at 19:42 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThere goes a C-Class flare! 🔥🌌\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.4)\n🔥 Latest solar flare: C1.5 (Peaked October 26, 2026 at 01:34 UTC)\n🔥 Strongest recent flare: C1.5 (Peaked October 25, 2026 at 19:42 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThere goes a C-Class flare! 🔥🌌\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261026T040111Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261026T010411Z",
       "facebook_id": "122122910655440979",
       "published_at": "2026-10-26T01:04:11.544812+00:00",

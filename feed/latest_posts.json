@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261028T220114Z",
+      "facebook_id": "122123732211440979",
+      "published_at": "2026-10-28T22:01:14.947984+00:00",
+      "published_display": "October 28, 2026 · 6:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — October 28, 2026\n\n🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 407 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNice and quiet out there. 🌎☀️\n\nSeveral bright active regions and a broad darker coronal area are visible today, with no clear large outward structure in the coronagraph.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 407 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNice and quiet out there. 🌎☀️\n\nSeveral bright active regions and a broad darker coronal area are visible today, with no clear large outward structure in the coronagraph.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T220114Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261028T190114Z",
       "facebook_id": "122123705211440979",
       "published_at": "2026-10-28T19:01:14.861204+00:00",
@@ -9251,23 +9268,6 @@
           "type": "image",
           "url": "/media/feed/20260914T190047Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260914T160500Z",
-      "facebook_id": "122112580167440979",
-      "published_at": "2026-09-14T16:05:00.504182+00:00",
-      "published_display": "September 14, 2026 · 12:05 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 14, 2026\n\nNASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 14, 2026 at 11:08 UTC\n💨 CME speed: 897 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 22° (Moderate)\n📍 Source: Active Region 14528 — S11W38 (western disk)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny has his eyes on the corona. 👀☀\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "NASA’s DONKI logged a new coronal mass ejection, making the outer corona worth a look.\n\n☀ CME start: September 14, 2026 at 11:08 UTC\n💨 CME speed: 897 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 22° (Moderate)\n📍 Source: Active Region 14528 — S11W38 (western disk)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nSunny has his eyes on the corona. 👀☀\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260914T160500Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

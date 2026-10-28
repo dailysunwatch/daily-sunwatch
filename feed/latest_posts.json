@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261028T100115Z",
+      "facebook_id": "122123618319440979",
+      "published_at": "2026-10-28T10:01:15.700706+00:00",
+      "published_display": "October 28, 2026 · 6:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — October 28, 2026\n\n🔆️ Solar activity: N/A\n🔥 Latest solar flare: B8.4 (Peaked October 28, 2026 at 08:39 UTC)\n💨 Solar wind speed: 392 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nTiny data hiccup. The watch continues! 🌎✨\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: N/A\n🔥 Latest solar flare: B8.4 (Peaked October 28, 2026 at 08:39 UTC)\n💨 Solar wind speed: 392 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nTiny data hiccup. The watch continues! 🌎✨\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T100115Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261028T040343Z",
       "facebook_id": "122123553669440979",
       "published_at": "2026-10-28T04:03:43.620951+00:00",

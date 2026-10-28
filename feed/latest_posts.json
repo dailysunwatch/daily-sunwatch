@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261028T160119Z",
+      "facebook_id": "1170345462837861_122123669295440979",
+      "published_at": "2026-10-28T16:01:19.425234+00:00",
+      "published_display": "October 28, 2026 · 12:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — October 28, 2026\n\n🔆️ Solar activity: Low (B4.7)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 393 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡📡💡🌞\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B4.7)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 393 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡📡💡🌞\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T160119Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261028T130308Z",
       "facebook_id": "1170345462837861_122123647869440979",
       "published_at": "2026-10-28T13:03:08.296844+00:00",
@@ -9257,23 +9299,6 @@
           "type": "image",
           "url": "/media/feed/20260914T100047Z/image_1.jpg",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260914T040046Z",
-      "facebook_id": "122112452715440979",
-      "published_at": "2026-09-14T04:00:46.677537+00:00",
-      "published_display": "September 14, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 342 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nToday’s solar images show two small sunspots, broad coronal-hole regions, and localized bright activity, while the surrounding corona looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 342 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nToday’s solar images show two small sunspots, broad coronal-hole regions, and localized bright activity, while the surrounding corona looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260914T040046Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

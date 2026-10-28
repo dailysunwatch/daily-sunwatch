@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261028T170038Z",
+      "facebook_id": "122123680845440979",
+      "published_at": "2026-10-28T17:00:38.306553+00:00",
+      "published_display": "October 28, 2026 · 1:00 PM EDT",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — October 28, 2026\n\nSunny's on lunch!\n\nHere's what caught my attention today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C1.0\n\nBack to work soon. Probably.",
+      "display_text": "Sunny's on lunch!\n\nHere's what caught my attention today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C1.0\n\nBack to work soon. Probably.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261028T170038Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261028T160342Z",
       "facebook_id": "1170345462837861_122123670363440979",
       "published_at": "2026-10-28T16:03:42.855131+00:00",
@@ -9276,23 +9293,6 @@
           "type": "image",
           "url": "/media/feed/20260914T160117Z/image_6.jpg",
           "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20260914T130045Z",
-      "facebook_id": "122112535491440979",
-      "published_at": "2026-09-14T13:00:45.462500+00:00",
-      "published_display": "September 14, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 14, 2026\n\n🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNice and quiet out there. 🤍☀\n\nA few small sunspots and broad dark coronal regions are visible today, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B9.2 (Peaked September 13, 2026 at 18:01 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNice and quiet out there. 🤍☀\n\nA few small sunspots and broad dark coronal regions are visible today, while the coronagraph shows no clear CME.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260914T130045Z/image_1.png",
-          "alt": "Morning Sunwatch image"
         }
       ]
     }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261030T170041Z",
+      "facebook_id": "122124349815440979",
+      "published_at": "2026-10-30T17:00:41.630738+00:00",
+      "published_display": "October 30, 2026 · 1:00 PM EDT",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — October 30, 2026\n\nSunny's on lunch!\n\nHere's what I've been watching in the last 24 hours:\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLunch break officially underway.",
+      "display_text": "Sunny's on lunch!\n\nHere's what I've been watching in the last 24 hours:\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLunch break officially underway.",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261030T170041Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261030T160124Z",
       "facebook_id": "1170345462837861_122124340323440979",
       "published_at": "2026-10-30T16:01:24.637136+00:00",
@@ -9288,23 +9305,6 @@
           "type": "image",
           "url": "/media/feed/20260916T040250Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20260916T040041Z",
-      "facebook_id": "122112920631440979",
-      "published_at": "2026-09-16T04:00:41.223350+00:00",
-      "published_display": "September 16, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — September 16, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 546 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThe breeze is picking up. 🌫🌌\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 546 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThe breeze is picking up. 🌫🌌\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260916T040041Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

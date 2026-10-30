@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261030T040413Z",
+      "facebook_id": "122124208419440979",
+      "published_at": "2026-10-30T04:04:13.523651+00:00",
+      "published_display": "October 30, 2026 · 12:04 AM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — October 30, 2026\n\n🌖 Moon phase: Waning Gibbous\n💡 Illumination: 76%\n🌌 Constellation: Gemini ♊\n📅 Next full moon: November 24, 2026\n\n*peeks at picture*\nisn't the sky pretty tonight~? 🌕✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌖 Moon phase: Waning Gibbous\n💡 Illumination: 76%\n🌌 Constellation: Gemini ♊\n📅 Next full moon: November 24, 2026\n\n*peeks at picture*\nisn't the sky pretty tonight~? 🌕✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261030T040413Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261030T040110Z",
       "facebook_id": "122124207873440979",
       "published_at": "2026-10-30T04:01:10.923031+00:00",
@@ -9257,23 +9274,6 @@
           "type": "image",
           "url": "/media/feed/20260915T220038Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260915T190221Z",
-      "facebook_id": "122112834915440979",
-      "published_at": "2026-09-15T19:02:21.653101+00:00",
-      "published_display": "September 15, 2026 · 3:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 15, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 15, 2026 at 08:36 UTC\n💨 CME speed: 395 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 16° (Narrow)\n\nWe're watching the corona today!\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀ CME start: September 15, 2026 at 08:36 UTC\n💨 CME speed: 395 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 16° (Narrow)\n\nWe're watching the corona today!\n\nImage: NOAA SWPC — CCOR-1\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260915T190221Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

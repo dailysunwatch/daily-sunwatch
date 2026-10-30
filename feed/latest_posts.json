@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261030T100113Z",
+      "facebook_id": "122124272481440979",
+      "published_at": "2026-10-30T10:01:13.841622+00:00",
+      "published_display": "October 30, 2026 · 6:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — October 30, 2026\n\n🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 332 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWe're looking pretty quiet right now. 💛\n\nA broad dark coronal region and several bright active areas are visible, while overall solar conditions remain quiet.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: B6.4 (Peaked October 28, 2026 at 12:52 UTC)\n💨 Solar wind speed: 332 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWe're looking pretty quiet right now. 💛\n\nA broad dark coronal region and several bright active areas are visible, while overall solar conditions remain quiet.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261030T100113Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261030T040413Z",
       "facebook_id": "122124208419440979",
       "published_at": "2026-10-30T04:04:13.523651+00:00",
@@ -9259,23 +9276,6 @@
       "text": "🌎 East Coast Weather\n\nPittsburgh, PA — 82°F and Sunny ☀️",
       "display_text": "Pittsburgh, PA — 82°F and Sunny ☀️",
       "media": []
-    },
-    {
-      "id": "20260915T220038Z",
-      "facebook_id": "122112861435440979",
-      "published_at": "2026-09-15T22:00:38.531715+00:00",
-      "published_display": "September 15, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — September 15, 2026\n\n🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 449 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nCalm conditions right now. ✨\n\nThe Sun looks quiet overall, with broad dark coronal-hole regions and bright activity concentrated near the limbs; no clear large outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: B5.4 (Peaked September 15, 2026 at 15:09 UTC)\n💨 Solar wind speed: 449 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nCalm conditions right now. ✨\n\nThe Sun looks quiet overall, with broad dark coronal-hole regions and bright activity concentrated near the limbs; no clear large outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260915T220038Z/image_1.png",
-          "alt": "Evening Sunwatch image"
-        }
-      ]
     }
   ]
 }

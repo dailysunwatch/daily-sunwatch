@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261031T190110Z",
+      "facebook_id": "122124527127440979",
+      "published_at": "2026-10-31T19:01:10.762660+00:00",
+      "published_display": "October 31, 2026 · 3:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — October 31, 2026\n\n🔆️ Solar activity: Low (B2.5)\n🔥 Latest solar flare: B3.8 (Peaked October 31, 2026 at 15:42 UTC)\n💨 Solar wind speed: 597 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nNow that's some wind! 💨🌞👀\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.5)\n🔥 Latest solar flare: B3.8 (Peaked October 31, 2026 at 15:42 UTC)\n💨 Solar wind speed: 597 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nNow that's some wind! 💨🌞👀\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261031T190110Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261031T160322Z",
       "facebook_id": "1170345462837861_122124511101440979",
       "published_at": "2026-10-31T16:03:22.056111+00:00",
@@ -9288,23 +9305,6 @@
           "type": "image",
           "url": "/media/feed/20260917T040042Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260917T010050Z",
-      "facebook_id": "122113128603440979",
-      "published_at": "2026-09-17T01:00:50.760520+00:00",
-      "published_display": "September 16, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 16, 2026\n\n🔆️ Solar activity: Low (B5.1)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 502 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThings are picking up out there. ☀🌎\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B5.1)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 502 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThings are picking up out there. ☀🌎\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T010050Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

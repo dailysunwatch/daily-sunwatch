@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261031T220110Z",
+      "facebook_id": "122124550257440979",
+      "published_at": "2026-10-31T22:01:10.431126+00:00",
+      "published_display": "October 31, 2026 · 6:01 PM EDT",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — October 31, 2026\n\n🔆️ Solar activity: Very Low (Below A1.0...)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 551 km/s (Fast)\n🧲 Bz: +5.4 nT (Northward)\n🌎 Geomagnetic activity: G2 Moderate Storm (Kp 6.00)\n🚨 NOAA Alert: Geomagnetic K-index of 6\n\nStorm's picking up! The solar wind has places to be. 🏔☀️🌠😳\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Very Low (Below A1.0...)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 551 km/s (Fast)\n🧲 Bz: +5.4 nT (Northward)\n🌎 Geomagnetic activity: G2 Moderate Storm (Kp 6.00)\n🚨 NOAA Alert: Geomagnetic K-index of 6\n\nStorm's picking up! The solar wind has places to be. 🏔☀️🌠😳\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261031T220110Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261031T190110Z",
       "facebook_id": "122124527127440979",
       "published_at": "2026-10-31T19:01:10.762660+00:00",
@@ -9288,23 +9305,6 @@
           "type": "image",
           "url": "/media/feed/20260917T040351Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20260917T040042Z",
-      "facebook_id": "122113184541440979",
-      "published_at": "2026-09-17T04:00:42.417670+00:00",
-      "published_display": "September 17, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — September 17, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 💨🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 💨🌌\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T040042Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

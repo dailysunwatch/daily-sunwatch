@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261031T010245Z",
+      "facebook_id": "122124413817440979",
+      "published_at": "2026-10-31T01:02:45.605685+00:00",
+      "published_display": "October 30, 2026 · 9:02 PM EDT",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — October 30, 2026\n\n🌖 Moon phase: Waning Gibbous\n💡 Illumination: 76%\n🌌 Constellation: Gemini ♊\n📅 Next full moon: November 24, 2026\n\nmoony thinks it's sooo pretty out tonight~ ✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌖 Moon phase: Waning Gibbous\n💡 Illumination: 76%\n🌌 Constellation: Gemini ♊\n📅 Next full moon: November 24, 2026\n\nmoony thinks it's sooo pretty out tonight~ ✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261031T010245Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261031T010109Z",
       "facebook_id": "122124413379440979",
       "published_at": "2026-10-31T01:01:09.217347+00:00",
@@ -9290,23 +9307,6 @@
       "text": "🌎 East Coast Weather\n\nManchester, NH — 81°F and Mostly Sunny 🌤️",
       "display_text": "Manchester, NH — 81°F and Mostly Sunny 🌤️",
       "media": []
-    },
-    {
-      "id": "20260916T130038Z",
-      "facebook_id": "122113019919440979",
-      "published_at": "2026-09-16T13:00:38.592153+00:00",
-      "published_display": "September 16, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 16, 2026\n\n🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 562 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n\nBlustery day! 💨🌎👀\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B3.4 (Peaked September 16, 2026 at 11:53 UTC)\n💨 Solar wind speed: 562 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n\nBlustery day! 💨🌎👀\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260916T130038Z/image_1.jpg",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

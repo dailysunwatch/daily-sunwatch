@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261031T040112Z",
+      "facebook_id": "122124432627440979",
+      "published_at": "2026-10-31T04:01:12.059481+00:00",
+      "published_display": "October 31, 2026 · 12:01 AM EDT",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — October 31, 2026\n\n🔆️ Solar activity: Low (B2.3)\n🔥 Latest solar flare: B3.2 (Peaked October 31, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: B7.3 (Peaked October 30, 2026 at 13:22 UTC)\n💨 Solar wind speed: 362 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nJust a little solar flicker. 🔥\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.3)\n🔥 Latest solar flare: B3.2 (Peaked October 31, 2026 at 03:21 UTC)\n🔥 Strongest recent flare: B7.3 (Peaked October 30, 2026 at 13:22 UTC)\n💨 Solar wind speed: 362 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nJust a little solar flicker. 🔥\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261031T040112Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261031T010245Z",
       "facebook_id": "122124413817440979",
       "published_at": "2026-10-31T01:02:45.605685+00:00",
@@ -9296,17 +9313,6 @@
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20260916T130345Z",
-      "facebook_id": "1170345462837861_122113021137440979",
-      "published_at": "2026-09-16T13:03:45.972096+00:00",
-      "published_display": "September 16, 2026 · 9:03 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nManchester, NH — 81°F and Mostly Sunny 🌤️",
-      "display_text": "Manchester, NH — 81°F and Mostly Sunny 🌤️",
-      "media": []
     }
   ]
 }

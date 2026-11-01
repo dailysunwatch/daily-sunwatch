@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261101T180044Z",
+      "facebook_id": "122124693195440979",
+      "published_at": "2026-11-01T18:00:44.318437+00:00",
+      "published_display": "November 1, 2026 · 1:00 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 01, 2026\n\nLunch acquired!\n\nHere's what I noticed in the last 24 hours:\n💨 Peak solar wind: 815 km/s (Intense)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLunch break officially underway.\n\nContact me to have your art featured during Sunny's Lunch Break! 🎨",
+      "display_text": "Lunch acquired!\n\nHere's what I noticed in the last 24 hours:\n💨 Peak solar wind: 815 km/s (Intense)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLunch break officially underway.\n\nContact me to have your art featured during Sunny's Lunch Break! 🎨",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T180044Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261101T170127Z",
       "facebook_id": "1170345462837861_122124686667440979",
       "published_at": "2026-11-01T17:01:27.601314+00:00",
@@ -9312,17 +9329,6 @@
           "alt": "Nighttime Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20260917T220151Z",
-      "facebook_id": "1170345462837861_122113382415440979",
-      "published_at": "2026-09-17T22:01:51.761487+00:00",
-      "published_display": "September 17, 2026 · 6:01 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nSavannah, GA — 87°F and Sunny ☀️",
-      "display_text": "Savannah, GA — 87°F and Sunny ☀️",
-      "media": []
     }
   ]
 }

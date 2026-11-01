@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261101T080411Z",
+      "facebook_id": "1170345462837861_122124619587440979",
+      "published_at": "2026-11-01T08:04:11.786175+00:00",
+      "published_display": "November 1, 2026 · 3:04 AM EST",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — November 01, 2026\n\nNOAA Active Region 4564 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N04E29\n☀️ Region: AR 4564\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4564 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N04E29\n☀️ Region: AR 4564\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T080411Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4564"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T080411Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4564"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T080411Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4564"
+        }
+      ]
+    },
+    {
       "id": "20261101T080110Z",
       "facebook_id": "122124618813440979",
       "published_at": "2026-11-01T08:01:10.867807+00:00",
@@ -9296,17 +9323,6 @@
           "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20260917T130243Z",
-      "facebook_id": "1170345462837861_122113268133440979",
-      "published_at": "2026-09-17T13:02:43.536016+00:00",
-      "published_display": "September 17, 2026 · 9:02 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nWilmington, DE — 86°F and Partly Sunny ⛅",
-      "display_text": "Wilmington, DE — 86°F and Partly Sunny ⛅",
-      "media": []
     }
   ]
 }

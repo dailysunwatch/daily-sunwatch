@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261101T080110Z",
+      "facebook_id": "122124618813440979",
+      "published_at": "2026-11-01T08:01:10.867807+00:00",
+      "published_display": "November 1, 2026 · 3:01 AM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 01, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 493 km/s (Elevated)\n🧲 Bz: −5.1 nT (Southward)\n🌎 Geomagnetic activity: Active (Kp 4.33)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nSouthward Bz right now. 🏔👀☀️\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 493 km/s (Elevated)\n🧲 Bz: −5.1 nT (Southward)\n🌎 Geomagnetic activity: Active (Kp 4.33)\n🚨 NOAA Warning: Geomagnetic K-index of 5 expected\n\nSouthward Bz right now. 🏔👀☀️\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T080110Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261101T070751Z",
       "facebook_id": "122124612639440979",
       "published_at": "2026-11-01T07:07:51.086702+00:00",
@@ -9290,23 +9307,6 @@
       "text": "🌎 East Coast Weather\n\nWilmington, DE — 86°F and Partly Sunny ⛅",
       "display_text": "Wilmington, DE — 86°F and Partly Sunny ⛅",
       "media": []
-    },
-    {
-      "id": "20260917T130045Z",
-      "facebook_id": "122113267653440979",
-      "published_at": "2026-09-17T13:00:45.453476+00:00",
-      "published_display": "September 17, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 17, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.2 (Peaked September 17, 2026 at 12:16 UTC)\n💨 Solar wind speed: 467 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 🌬🌎\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.2 (Peaked September 17, 2026 at 12:16 UTC)\n💨 Solar wind speed: 467 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little extra breeze out there. 🌬🌎\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T130045Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

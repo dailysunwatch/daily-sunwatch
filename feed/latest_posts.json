@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261101T110108Z",
+      "facebook_id": "122124641583440979",
+      "published_at": "2026-11-01T11:01:08.966143+00:00",
+      "published_display": "November 1, 2026 · 6:01 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 01, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 489 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nWind's picking up! 🌬🌎\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B4.0 (Peaked October 31, 2026 at 20:51 UTC)\n💨 Solar wind speed: 489 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nWind's picking up! 🌬🌎\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261101T110108Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261101T080411Z",
       "facebook_id": "1170345462837861_122124619587440979",
       "published_at": "2026-11-01T08:04:11.786175+00:00",
@@ -9281,48 +9298,6 @@
       "text": "🌎 East Coast Weather\n\nManchester, NH — 78°F and Chance of Thunderstorms ⛈️",
       "display_text": "Manchester, NH — 78°F and Chance of Thunderstorms ⛈️",
       "media": []
-    },
-    {
-      "id": "20260917T160112Z",
-      "facebook_id": "1170345462837861_122113295481440979",
-      "published_at": "2026-09-17T16:01:12.089676+00:00",
-      "published_display": "September 17, 2026 · 12:01 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — September 17, 2026\n\n🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.2 (Peaked September 17, 2026 at 12:16 UTC)\n💨 Solar wind speed: 458 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle flare from the Sun! 🔥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.4)\n🔥 Latest solar flare: B3.2 (Peaked September 17, 2026 at 12:16 UTC)\n💨 Solar wind speed: 458 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle flare from the Sun! 🔥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_1.jpg",
-          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_2.jpg",
-          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_3.jpg",
-          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_4.jpg",
-          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_5.jpg",
-          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260917T160112Z/image_6.jpg",
-          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

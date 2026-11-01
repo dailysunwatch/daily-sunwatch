@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-01T01:01:19.620938+00:00",
-  "updated_display": "October 31, 2026 at 9:01 PM EDT",
+  "updated_at": "2026-11-01T07:07:59.625766+00:00",
+  "updated_display": "November 1, 2026 at 2:07 AM EST",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
-      "value": "Very Low"
+      "value": "Low"
     },
     "latest_flare": {
       "label": "Latest Flare",
@@ -12,23 +12,23 @@
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "525 km/s · Elevated"
+      "value": "489 km/s · Elevated"
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "3.67 · Unsettled"
+      "value": "4.33 · Active"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Warning: Geomagnetic K-index of 5 expected"
+      "value": "Alert: Geomagnetic K-index of 5"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-6.0 nT · Southward"
+      "value": "-1.8 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
-      "value": "4 Earth-facing"
+      "value": "3 Earth-facing"
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
@@ -40,7 +40,7 @@
     },
     "aurora": {
       "label": "Aurora",
-      "value": "No watch conditions"
+      "value": "Elevated ingredients"
     }
   }
 }

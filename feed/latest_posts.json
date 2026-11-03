@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261103T200203Z",
+      "facebook_id": "122125070547440979",
+      "published_at": "2026-11-03T20:02:03.471296+00:00",
+      "published_display": "November 3, 2026 · 3:02 PM EST",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — November 03, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B4.6 (Peaked November 03, 2026 at 19:25 UTC)\n💨 Solar wind speed: 331 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 📡⚡🚀\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B4.6 (Peaked November 03, 2026 at 19:25 UTC)\n💨 Solar wind speed: 331 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 📡⚡🚀\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T200203Z/image_1.jpg",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261103T180110Z",
       "facebook_id": "122125050489440979",
       "published_at": "2026-11-03T18:01:10.140478+00:00",
@@ -9316,23 +9333,6 @@
           "type": "image",
           "url": "/media/feed/20260919T220039Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260919T190038Z",
-      "facebook_id": "122113948797440979",
-      "published_at": "2026-09-19T19:00:38.738920+00:00",
-      "published_display": "September 19, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 19, 2026\n\n🔆️ Solar activity: Low (B7.9)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 418 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThere goes a C-Class flare! 💥🌎\n\nA large dark coronal-hole-like region is visible across the southern solar disk; no clear CME is evident.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B7.9)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 418 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThere goes a C-Class flare! 💥🌎\n\nA large dark coronal-hole-like region is visible across the southern solar disk; no clear CME is evident.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260919T190038Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

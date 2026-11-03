@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261103T170222Z",
+      "facebook_id": "1170345462837861_122125043181440979",
+      "published_at": "2026-11-03T17:02:22.817415+00:00",
+      "published_display": "November 3, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 03, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B4.2 (Peaked November 03, 2026 at 16:40 UTC)\n💨 Solar wind speed: 342 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe space around Earth is getting a little energetic! 🌎⚡📡🌞\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B4.2 (Peaked November 03, 2026 at 16:40 UTC)\n💨 Solar wind speed: 342 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe space around Earth is getting a little energetic! 🌎⚡📡🌞\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T170222Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261103T140326Z",
       "facebook_id": "1170345462837861_122125018689440979",
       "published_at": "2026-11-03T14:03:26.476569+00:00",
@@ -9306,23 +9348,6 @@
           "type": "image",
           "url": "/media/feed/20260919T160110Z/image_4.png",
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20260919T130415Z",
-      "facebook_id": "122113840167440979",
-      "published_at": "2026-09-19T13:04:15.096627+00:00",
-      "published_display": "September 19, 2026 · 9:04 AM EDT",
-      "type": "coronal_hole_watch",
-      "title": "Coronal Hole Watch",
-      "text": "🕳 Coronal Hole Watch — September 19, 2026\n\nSunny noticed a prominent dark region in the current EUV imagery that's consistent with a coronal hole. For now, there's no established high-speed stream headed toward Earth.\n\n🌎 Earth relevance: Not established yet.\n💨 CH-HSS status: No Earth arrival forecast yet.\n📡 Solar wind now: 438 km/s (Moderate)\n\nProbably nothing. Probably.\n\nCoronal holes are regions of open magnetic field that can feed faster solar-wind streams into interplanetary space. ☀💨\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "Sunny noticed a prominent dark region in the current EUV imagery that's consistent with a coronal hole. For now, there's no established high-speed stream headed toward Earth.\n\n🌎 Earth relevance: Not established yet.\n💨 CH-HSS status: No Earth arrival forecast yet.\n📡 Solar wind now: 438 km/s (Moderate)\n\nProbably nothing. Probably.\n\nCoronal holes are regions of open magnetic field that can feed faster solar-wind streams into interplanetary space. ☀💨\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260919T130415Z/image_1.jpg",
-          "alt": "Coronal Hole Watch solar image"
         }
       ]
     }

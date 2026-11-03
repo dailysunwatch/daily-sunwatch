@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261103T140204Z",
+      "facebook_id": "122125018419440979",
+      "published_at": "2026-11-03T14:02:04.324863+00:00",
+      "published_display": "November 3, 2026 · 9:02 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 03, 2026\n\n🔆️ Solar activity: Low (B2.9)\n🔥 Latest solar flare: B4.8 (Peaked November 03, 2026 at 06:15 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellites have some energetic company right now! 🛰💡🌞\n\nA broad coronal-hole-like region stands out today alongside several bright active-region loops; visible sunspots remain sparse.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.9)\n🔥 Latest solar flare: B4.8 (Peaked November 03, 2026 at 06:15 UTC)\n💨 Solar wind speed: 360 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellites have some energetic company right now! 🛰💡🌞\n\nA broad coronal-hole-like region stands out today alongside several bright active-region loops; visible sunspots remain sparse.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261103T140204Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261103T110159Z",
       "facebook_id": "122124992685440979",
       "published_at": "2026-11-03T11:01:59.686962+00:00",
@@ -9308,23 +9325,6 @@
       "text": "🌎 East Coast Weather\n\nMiami, FL — 87°F and Thunderstorms ⛈️",
       "display_text": "Miami, FL — 87°F and Thunderstorms ⛈️",
       "media": []
-    },
-    {
-      "id": "20260919T130037Z",
-      "facebook_id": "122113839369440979",
-      "published_at": "2026-09-19T13:00:37.793421+00:00",
-      "published_display": "September 19, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 19, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B5.5 (Peaked September 19, 2026 at 05:36 UTC)\n💨 Solar wind speed: 438 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny's having an easy shift. 🌎💛\n\nA broad dark coronal-hole region is the main visible feature on today’s solar disk; no prominent sunspot group is apparent.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B5.5 (Peaked September 19, 2026 at 05:36 UTC)\n💨 Solar wind speed: 438 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny's having an easy shift. 🌎💛\n\nA broad dark coronal-hole region is the main visible feature on today’s solar disk; no prominent sunspot group is apparent.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260919T130037Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

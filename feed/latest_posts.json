@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261103T140326Z",
+      "facebook_id": "1170345462837861_122125018689440979",
+      "published_at": "2026-11-03T14:03:26.476569+00:00",
+      "published_display": "November 3, 2026 · 9:03 AM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nAtlanta, GA — 75°F and Mostly Cloudy 🌥️",
+      "display_text": "Atlanta, GA — 75°F and Mostly Cloudy 🌥️",
+      "media": []
+    },
+    {
       "id": "20261103T140204Z",
       "facebook_id": "122125018419440979",
       "published_at": "2026-11-03T14:02:04.324863+00:00",
@@ -9314,17 +9325,6 @@
           "alt": "Coronal Hole Watch solar image"
         }
       ]
-    },
-    {
-      "id": "20260919T130238Z",
-      "facebook_id": "1170345462837861_122113839903440979",
-      "published_at": "2026-09-19T13:02:38.657085+00:00",
-      "published_display": "September 19, 2026 · 9:02 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nMiami, FL — 87°F and Thunderstorms ⛈️",
-      "display_text": "Miami, FL — 87°F and Thunderstorms ⛈️",
-      "media": []
     }
   ]
 }

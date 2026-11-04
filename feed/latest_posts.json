@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261104T020206Z",
+      "facebook_id": "122125119189440979",
+      "published_at": "2026-11-04T02:02:06.311316+00:00",
+      "published_display": "November 3, 2026 · 9:02 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — November 03, 2026\n\nSolar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C1.1\n\nSunny is checking out the corona. ☀️🔭\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Solar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C1.1\n\nSunny is checking out the corona. ☀️🔭\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T020206Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261103T230206Z",
       "facebook_id": "122125097151440979",
       "published_at": "2026-11-03T23:02:06.770424+00:00",
@@ -9324,17 +9341,6 @@
           "alt": "Coronagraph Watch image"
         }
       ]
-    },
-    {
-      "id": "20260919T220333Z",
-      "facebook_id": "1170345462837861_122113995153440979",
-      "published_at": "2026-09-19T22:03:33.731683+00:00",
-      "published_display": "September 19, 2026 · 6:03 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nOcean City, MD — 69°F and Partly Cloudy ⛅",
-      "display_text": "Ocean City, MD — 69°F and Partly Cloudy ⛅",
-      "media": []
     }
   ]
 }

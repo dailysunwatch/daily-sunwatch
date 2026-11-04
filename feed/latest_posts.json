@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261104T110209Z",
+      "facebook_id": "122125182615440979",
+      "published_at": "2026-11-04T11:02:09.499143+00:00",
+      "published_display": "November 4, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 04, 2026\n\n🔆️ Solar activity: Low (B5.1)\n🔥 Latest solar flare: C1.2 (Peaked November 04, 2026 at 06:54 UTC)\n💨 Solar wind speed: 422 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle burst of solar energy! 🔥🌎\n\nToday’s images show a broad dark coronal region and several bright active areas, while the coronagraph appears free of any obvious major outward structure.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.1)\n🔥 Latest solar flare: C1.2 (Peaked November 04, 2026 at 06:54 UTC)\n💨 Solar wind speed: 422 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle burst of solar energy! 🔥🌎\n\nToday’s images show a broad dark coronal region and several bright active areas, while the coronagraph appears free of any obvious major outward structure.\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T110209Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261104T050505Z",
       "facebook_id": "122125138779440979",
       "published_at": "2026-11-04T05:05:05.723176+00:00",
@@ -9322,23 +9339,6 @@
           "type": "image",
           "url": "/media/feed/20260920T040033Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260920T010301Z",
-      "facebook_id": "122114023479440979",
-      "published_at": "2026-09-20T01:03:01.859461+00:00",
-      "published_display": "September 19, 2026 · 9:03 PM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — September 19, 2026\n\n🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 56%\n📅 Next full moon: September 26, 2026\n\nthe sky is sooo pretty tonight~ ✨🌕\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 56%\n📅 Next full moon: September 26, 2026\n\nthe sky is sooo pretty tonight~ ✨🌕\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T010301Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

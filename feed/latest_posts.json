@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261104T200207Z",
+      "facebook_id": "122125243335440979",
+      "published_at": "2026-11-04T20:02:07.002832+00:00",
+      "published_display": "November 4, 2026 · 3:02 PM EST",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — November 04, 2026\n\n🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: C2.2 (Peaked November 04, 2026 at 17:34 UTC)\n💨 Solar wind speed: 390 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nDoing anything fun today? 🌎\n\nA broad dark coronal feature and several bright active regions stand out today; no clear large outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: C2.2 (Peaked November 04, 2026 at 17:34 UTC)\n💨 Solar wind speed: 390 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nDoing anything fun today? 🌎\n\nA broad dark coronal feature and several bright active regions stand out today; no clear large outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T200207Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261104T170542Z",
       "facebook_id": "1170345462837861_122125224339440979",
       "published_at": "2026-11-04T17:05:42.060977+00:00",
@@ -9310,23 +9327,6 @@
           "type": "image",
           "url": "/media/feed/20260920T190048Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260920T170028Z",
-      "facebook_id": "122114266485440979",
-      "published_at": "2026-09-20T17:00:28.166608+00:00",
-      "published_display": "September 20, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — September 20, 2026\n\nI'm hungry!\n\nHere's what I noticed in the last 24 hours:\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n🔥 Strongest flare: C3.3\n\nI'll be back after lunch!",
-      "display_text": "I'm hungry!\n\nHere's what I noticed in the last 24 hours:\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n🔥 Strongest flare: C3.3\n\nI'll be back after lunch!",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T170028Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

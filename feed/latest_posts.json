@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261104T050505Z",
+      "facebook_id": "122125138779440979",
+      "published_at": "2026-11-04T05:05:05.723176+00:00",
+      "published_display": "November 4, 2026 · 12:05 AM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 04, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 23%\n📅 Next full moon: November 24, 2026\n\nwhat a lovely night!!! ✨💗\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 23%\n📅 Next full moon: November 24, 2026\n\nwhat a lovely night!!! ✨💗\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T050505Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261104T050204Z",
       "facebook_id": "122125138137440979",
       "published_at": "2026-11-04T05:02:04.797309+00:00",
@@ -9322,23 +9339,6 @@
           "type": "image",
           "url": "/media/feed/20260920T010301Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20260920T010043Z",
-      "facebook_id": "122114022915440979",
-      "published_at": "2026-09-20T01:00:43.447008+00:00",
-      "published_display": "September 19, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 19, 2026\n\n🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 402 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThings are pretty calm. 🌞🤍\n\nA broad coronal-hole region is visible on today’s solar disk, while no clear sunspots or major outward structure stand out.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: C3.3 (Peaked September 19, 2026 at 18:17 UTC)\n💨 Solar wind speed: 402 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThings are pretty calm. 🌞🤍\n\nA broad coronal-hole region is visible on today’s solar disk, while no clear sunspots or major outward structure stand out.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T010043Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

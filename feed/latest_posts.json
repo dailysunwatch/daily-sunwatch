@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261104T200507Z",
+      "facebook_id": "1170345462837861_122125243959440979",
+      "published_at": "2026-11-04T20:05:07.860191+00:00",
+      "published_display": "November 4, 2026 · 3:05 PM EST",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — November 04, 2026\n\nNOAA Active Region 4566 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: S06E40\n☀️ Region: AR 4566\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4566 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: S06E40\n☀️ Region: AR 4566\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T200507Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T200507Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T200507Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4566"
+        }
+      ]
+    },
+    {
       "id": "20261104T200207Z",
       "facebook_id": "122125243335440979",
       "published_at": "2026-11-04T20:02:07.002832+00:00",
@@ -9310,23 +9337,6 @@
           "type": "image",
           "url": "/media/feed/20260920T220039Z/image_1.jpg",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260920T190048Z",
-      "facebook_id": "122114295093440979",
-      "published_at": "2026-09-20T19:00:48.909802+00:00",
-      "published_display": "September 20, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 20, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B8.0 (Peaked September 20, 2026 at 18:10 UTC)\n🔥 Strongest recent flare: B9.3 (Peaked September 20, 2026 at 05:06 UTC)\n💨 Solar wind speed: 371 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSmall burst of solar energy! 🔥\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B8.0 (Peaked September 20, 2026 at 18:10 UTC)\n🔥 Strongest recent flare: B9.3 (Peaked September 20, 2026 at 05:06 UTC)\n💨 Solar wind speed: 371 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSmall burst of solar energy! 🔥\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T190048Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

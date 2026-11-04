@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261104T230333Z",
+      "facebook_id": "1170345462837861_122125265139440979",
+      "published_at": "2026-11-04T23:03:33.910875+00:00",
+      "published_display": "November 4, 2026 · 6:03 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nRaleigh, NC — 77°F and Partly Sunny ⛅",
+      "display_text": "Raleigh, NC — 77°F and Partly Sunny ⛅",
+      "media": []
+    },
+    {
       "id": "20261104T230204Z",
       "facebook_id": "122125264605440979",
       "published_at": "2026-11-04T23:02:04.305561+00:00",
@@ -9320,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260921T010037Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260920T220217Z",
-      "facebook_id": "122114337279440979",
-      "published_at": "2026-09-20T22:02:17.912823+00:00",
-      "published_display": "September 20, 2026 · 6:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 20, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 20, 2026 at 12:23 UTC\n💨 CME speed: 427 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 12° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 20, 2026 at 12:23 UTC\n💨 CME speed: 427 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 12° (Narrow)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T220217Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261104T050204Z",
+      "facebook_id": "122125138137440979",
+      "published_at": "2026-11-04T05:02:04.797309+00:00",
+      "published_display": "November 4, 2026 · 12:02 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 04, 2026\n\n🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.1 (Peaked November 03, 2026 at 22:39 UTC)\n💨 Solar wind speed: 357 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡🔌🌞\n\nA broad coronal-hole-like dark region is visible across the lower-left solar disk, alongside modest sunspots and bright active regions.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.1 (Peaked November 03, 2026 at 22:39 UTC)\n💨 Solar wind speed: 357 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡🔌🌞\n\nA broad coronal-hole-like dark region is visible across the lower-left solar disk, alongside modest sunspots and bright active regions.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T050204Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261104T020206Z",
       "facebook_id": "122125119189440979",
       "published_at": "2026-11-04T02:02:06.311316+00:00",
@@ -9322,23 +9339,6 @@
           "type": "image",
           "url": "/media/feed/20260920T010043Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260919T220602Z",
-      "facebook_id": "122113995543440979",
-      "published_at": "2026-09-19T22:06:02.095294+00:00",
-      "published_display": "September 19, 2026 · 6:06 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 19, 2026\n\nThere’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀️ CME start: September 19, 2026 at 18:48 UTC\n💨 CME speed: 321 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N14E90 (near the eastern limb)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "There’s a new CME in NASA’s DONKI, so Sunny is looking at the corona.\n\n☀️ CME start: September 19, 2026 at 18:48 UTC\n💨 CME speed: 321 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N14E90 (near the eastern limb)\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260919T220602Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

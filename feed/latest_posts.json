@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261104T170218Z",
+      "facebook_id": "1170345462837861_122125223037440979",
+      "published_at": "2026-11-04T17:02:18.707961+00:00",
+      "published_display": "November 4, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 04, 2026\n\n🔆️ Solar activity: Low (B5.7)\n🔥 Latest solar flare: B9.7 (Peaked November 04, 2026 at 15:00 UTC)\n💨 Solar wind speed: 410 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡💡🌌\n\nA broad coronal-hole-like region and several bright active regions stand out in today’s solar images, while sunspots remain relatively small.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.7)\n🔥 Latest solar flare: B9.7 (Peaked November 04, 2026 at 15:00 UTC)\n💨 Solar wind speed: 410 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡💡🌌\n\nA broad coronal-hole-like region and several bright active regions stand out in today’s solar images, while sunspots remain relatively small.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261104T170218Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261104T140420Z",
       "facebook_id": "1170345462837861_122125205607440979",
       "published_at": "2026-11-04T14:04:20.102247+00:00",
@@ -9316,23 +9358,6 @@
           "type": "image",
           "url": "/media/feed/20260920T160049Z/image_6.png",
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20260920T130040Z",
-      "facebook_id": "122114214525440979",
-      "published_at": "2026-09-20T13:00:40.337006+00:00",
-      "published_display": "September 20, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 20, 2026\n\n🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: B4.2 (Peaked September 20, 2026 at 06:38 UTC)\n💨 Solar wind speed: 398 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThe Sun's behaving itself. 💫\n\nA broad dark coronal-hole-like region stands out on today’s otherwise relatively quiet Sun.\n\nImage: NASA SDO/AIA — 211/193/171 Å Composite\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: B4.2 (Peaked September 20, 2026 at 06:38 UTC)\n💨 Solar wind speed: 398 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThe Sun's behaving itself. 💫\n\nA broad dark coronal-hole-like region stands out on today’s otherwise relatively quiet Sun.\n\nImage: NASA SDO/AIA — 211/193/171 Å Composite\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260920T130040Z/image_1.jpg",
-          "alt": "Morning Sunwatch image"
         }
       ]
     }

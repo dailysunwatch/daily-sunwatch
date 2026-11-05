@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261105T050501Z",
+      "facebook_id": "122125309587440979",
+      "published_at": "2026-11-05T05:05:01.509615+00:00",
+      "published_display": "November 5, 2026 · 12:05 AM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 05, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 14%\n🌌 Constellation: Leo ♌\n📅 Next full moon: November 24, 2026\n\nhope you're all cozy tonight~ <3 💖✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 14%\n🌌 Constellation: Leo ♌\n📅 Next full moon: November 24, 2026\n\nhope you're all cozy tonight~ <3 💖✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261105T050501Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261105T050209Z",
       "facebook_id": "122125309017440979",
       "published_at": "2026-11-05T05:02:09.727174+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260921T100205Z/image_3.jpg",
           "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4534"
-        }
-      ]
-    },
-    {
-      "id": "20260921T100041Z",
-      "facebook_id": "122114519997440979",
-      "published_at": "2026-09-21T10:00:41.312652+00:00",
-      "published_display": "September 21, 2026 · 6:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Early Morning Sunwatch",
-      "text": "🌅 Early Morning Sunwatch — September 21, 2026\n\n🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: C1.2 (Peaked September 21, 2026 at 06:29 UTC)\n🔥 Strongest recent flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 333 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSome C-Class activity! 🔥🌞\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: C1.2 (Peaked September 21, 2026 at 06:29 UTC)\n🔥 Strongest recent flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 333 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSome C-Class activity! 🔥🌞\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T100041Z/image_1.png",
-          "alt": "Early Morning Sunwatch image"
         }
       ]
     }

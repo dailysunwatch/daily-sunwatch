@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261105T230205Z",
+      "facebook_id": "122125456995440979",
+      "published_at": "2026-11-05T23:02:05.833120+00:00",
+      "published_display": "November 5, 2026 · 6:02 PM EST",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — November 05, 2026\n\n🔆️ Solar activity: Low (B8.5)\n🔥 Latest solar flare: C1.3 (Peaked November 05, 2026 at 22:31 UTC)\n💨 Solar wind speed: 318 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Type II Radio Emission\n\nSomething just made some noise on solar radio! 📻☀️📡🔆🌌\n\nSolar images show several bright active regions and a broad dark coronal feature; the coronagraph view appears otherwise routine.\n\nImage: NASA SDO/AIA — 94/335/193 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B8.5)\n🔥 Latest solar flare: C1.3 (Peaked November 05, 2026 at 22:31 UTC)\n💨 Solar wind speed: 318 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Type II Radio Emission\n\nSomething just made some noise on solar radio! 📻☀️📡🔆🌌\n\nSolar images show several bright active regions and a broad dark coronal feature; the coronagraph view appears otherwise routine.\n\nImage: NASA SDO/AIA — 94/335/193 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261105T230205Z/image_1.jpg",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261105T200204Z",
       "facebook_id": "122125438017440979",
       "published_at": "2026-11-05T20:02:04.760038+00:00",
@@ -9316,23 +9333,6 @@
       "text": "🌎 East Coast Weather\n\nNewark, NJ — 57°F and Mostly Cloudy 🌥️",
       "display_text": "Newark, NJ — 57°F and Mostly Cloudy 🌥️",
       "media": []
-    },
-    {
-      "id": "20260921T222656Z",
-      "facebook_id": "122114680509440979",
-      "published_at": "2026-09-21T22:26:56.342619+00:00",
-      "published_display": "September 21, 2026 · 6:26 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — September 21, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B6.8 (Peaked September 21, 2026 at 11:17 UTC)\n💨 Solar wind speed: 338 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B6.8 (Peaked September 21, 2026 at 11:17 UTC)\n💨 Solar wind speed: 338 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T222656Z/image_1.png",
-          "alt": "Evening Sunwatch image"
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261105T230356Z",
+      "facebook_id": "1170345462837861_122125457637440979",
+      "published_at": "2026-11-05T23:03:56.494687+00:00",
+      "published_display": "November 5, 2026 · 6:03 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nSavannah, GA — 81°F and Mostly Sunny 🌤️",
+      "display_text": "Savannah, GA — 81°F and Mostly Sunny 🌤️",
+      "media": []
+    },
+    {
       "id": "20261105T230205Z",
       "facebook_id": "122125456995440979",
       "published_at": "2026-11-05T23:02:05.833120+00:00",
@@ -9322,17 +9333,6 @@
           "alt": "Nighttime Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20260921T222854Z",
-      "facebook_id": "1170345462837861_122114681031440979",
-      "published_at": "2026-09-21T22:28:54.016666+00:00",
-      "published_display": "September 21, 2026 · 6:28 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nNewark, NJ — 57°F and Mostly Cloudy 🌥️",
-      "display_text": "Newark, NJ — 57°F and Mostly Cloudy 🌥️",
-      "media": []
     }
   ]
 }

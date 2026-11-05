@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "20261105T200204Z",
+      "published_at": "2026-11-05T20:02:04.760038+00:00",
+      "published_display": "November 5, 2026 · 3:02 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch"
+    },
+    {
       "id": "20261105T180111Z",
       "published_at": "2026-11-05T18:01:11.758944+00:00",
       "published_display": "November 5, 2026 · 1:01 PM EST",

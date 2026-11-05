@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261105T200204Z",
+      "facebook_id": "122125438017440979",
+      "published_at": "2026-11-05T20:02:04.760038+00:00",
+      "published_display": "November 5, 2026 · 3:02 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — November 05, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M3.5\n\nWatching the corona today. 👀\n\nA broad coronal-hole region stands out today, alongside several bright active regions and a few small sunspot groups.\n\nImage: NOAA SWPC — LASCO C3\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M3.5\n\nWatching the corona today. 👀\n\nA broad coronal-hole region stands out today, alongside several bright active regions and a few small sunspot groups.\n\nImage: NOAA SWPC — LASCO C3\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261105T200204Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261105T180111Z",
       "facebook_id": "122125417131440979",
       "published_at": "2026-11-05T18:01:11.758944+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260921T222656Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260921T191724Z",
-      "facebook_id": "122114641425440979",
-      "published_at": "2026-09-21T19:17:24.446194+00:00",
-      "published_display": "September 21, 2026 · 3:17 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 21, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 21, 2026 at 09:09 UTC\n💨 CME speed: 347 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 12° (Narrow)\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 21, 2026 at 09:09 UTC\n💨 CME speed: 347 km/s\n🏷 CME SCORE: S-type (<500 km/s)\n📐 CME half-angle: 12° (Narrow)\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T191724Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

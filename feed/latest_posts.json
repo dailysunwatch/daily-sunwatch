@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261105T170631Z",
+      "facebook_id": "1170345462837861_122125411179440979",
+      "published_at": "2026-11-05T17:06:31.789541+00:00",
+      "published_display": "November 5, 2026 · 12:06 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nRichmond, VA — 78°F and Slight Chance of Rain 🌧️",
+      "display_text": "Richmond, VA — 78°F and Slight Chance of Rain 🌧️",
+      "media": []
+    },
+    {
       "id": "20261105T170409Z",
       "facebook_id": "1170345462837861_122125410423440979",
       "published_at": "2026-11-05T17:04:09.412412+00:00",
@@ -9320,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260921T191535Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260921T170036Z",
-      "facebook_id": "122114614515440979",
-      "published_at": "2026-09-21T17:00:36.518430+00:00",
-      "published_display": "September 21, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — September 21, 2026\n\nI'm hungry!\n\nHere's what caught my eye today:\n💨 Peak solar wind: 595 km/s (Fast)\n🔥 Strongest flare: C3.7\n\nBack to work soon. Probably.\n\nContact me to have your art featured during Sunny's Lunch Break! 🎨",
-      "display_text": "I'm hungry!\n\nHere's what caught my eye today:\n💨 Peak solar wind: 595 km/s (Fast)\n🔥 Strongest flare: C3.7\n\nBack to work soon. Probably.\n\nContact me to have your art featured during Sunny's Lunch Break! 🎨",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T170036Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

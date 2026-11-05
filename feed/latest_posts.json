@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261105T110206Z",
+      "facebook_id": "122125350141440979",
+      "published_at": "2026-11-05T11:02:06.071988+00:00",
+      "published_display": "November 5, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 05, 2026\n\n🔆️ Solar activity: Low (B6.7)\n🔥 Latest solar flare: B9.1 (Peaked November 05, 2026 at 06:12 UTC)\n💨 Solar wind speed: 328 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nEverything looks pretty calm. 🌎\n\nA few bright active regions and a long dark filament-like feature stand out on an otherwise relatively quiet Sun.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.7)\n🔥 Latest solar flare: B9.1 (Peaked November 05, 2026 at 06:12 UTC)\n💨 Solar wind speed: 328 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nEverything looks pretty calm. 🌎\n\nA few bright active regions and a long dark filament-like feature stand out on an otherwise relatively quiet Sun.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261105T110206Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261105T050501Z",
       "facebook_id": "122125309587440979",
       "published_at": "2026-11-05T05:05:01.509615+00:00",
@@ -9304,33 +9321,6 @@
           "type": "image",
           "url": "/media/feed/20260921T130046Z/image_1.jpg",
           "alt": "Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260921T100205Z",
-      "facebook_id": "1170345462837861_122114520543440979",
-      "published_at": "2026-09-21T10:02:05.485693+00:00",
-      "published_display": "September 21, 2026 · 6:02 AM EDT",
-      "type": "sunspot_watch",
-      "title": "Sunspot Watch",
-      "text": "☀️ Sunspot Watch — September 21, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4534.\n\n📍 Location: N10W21\n☀️ Region: AR 4534\n🔥 Recent activity: 2 C-class flares\n\nThat is a lot of freckles.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4534.\n\n📍 Location: N10W21\n☀️ Region: AR 4534\n🔥 Recent activity: 2 C-class flares\n\nThat is a lot of freckles.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T100205Z/image_1.jpg",
-          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4534"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T100205Z/image_2.jpg",
-          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4534"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T100205Z/image_3.jpg",
-          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4534"
         }
       ]
     }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261105T020207Z",
+      "facebook_id": "122125282701440979",
+      "published_at": "2026-11-05T02:02:07.461027+00:00",
+      "published_display": "November 4, 2026 · 9:02 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — November 04, 2026\n\nSolar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C2.2\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Solar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C2.2\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261105T020207Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261104T230333Z",
       "facebook_id": "1170345462837861_122125265139440979",
       "published_at": "2026-11-04T23:03:33.910875+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260921T040044Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260921T010037Z",
-      "facebook_id": "122114368749440979",
-      "published_at": "2026-09-21T01:00:37.354714+00:00",
-      "published_display": "September 20, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 20, 2026\n\n🔆️ Solar activity: Low (B4.2)\n🔥 Latest solar flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little solar flare! 🔥🚀\n\nA broad coronal-hole region stands out across the Sun’s southern-central disk in today’s ultraviolet views.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.2)\n🔥 Latest solar flare: C3.7 (Peaked September 20, 2026 at 22:34 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nA little solar flare! 🔥🚀\n\nA broad coronal-hole region stands out across the Sun’s southern-central disk in today’s ultraviolet views.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260921T010037Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

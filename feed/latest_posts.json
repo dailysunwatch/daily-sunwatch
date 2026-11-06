@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261106T230205Z",
+      "facebook_id": "122125643421440979",
+      "published_at": "2026-11-06T23:02:05.632289+00:00",
+      "published_display": "November 6, 2026 · 6:02 PM EST",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — November 06, 2026\n\n🔆️ Solar activity: Moderate (C2.3)\n🔥 Latest solar flare: C3.4 (Peaked November 06, 2026 at 22:33 UTC)\n🔥 Strongest recent flare: C5.6 (Peaked November 06, 2026 at 02:51 UTC)\n💨 Solar wind speed: 424 km/s (Moderate)\n🧲 Bz: +7.5 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 💥🌌\n\nSeveral active regions and sunspots are visible today, along with a broad dark coronal region; no clear large outward structure appears in the coronagraph.\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C2.3)\n🔥 Latest solar flare: C3.4 (Peaked November 06, 2026 at 22:33 UTC)\n🔥 Strongest recent flare: C5.6 (Peaked November 06, 2026 at 02:51 UTC)\n💨 Solar wind speed: 424 km/s (Moderate)\n🧲 Bz: +7.5 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 💥🌌\n\nSeveral active regions and sunspots are visible today, along with a broad dark coronal region; no clear large outward structure appears in the coronagraph.\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261106T230205Z/image_1.jpg",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261106T200206Z",
       "facebook_id": "122125618953440979",
       "published_at": "2026-11-06T20:02:06.289618+00:00",
@@ -9328,17 +9345,6 @@
           "alt": "Coronagraph Watch image"
         }
       ]
-    },
-    {
-      "id": "20260922T220304Z",
-      "facebook_id": "1170345462837861_122115003603440979",
-      "published_at": "2026-09-22T22:03:04.536937+00:00",
-      "published_display": "September 22, 2026 · 6:03 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nHartford, CT — 67°F and Partly Sunny ⛅",
-      "display_text": "Hartford, CT — 67°F and Partly Sunny ⛅",
-      "media": []
     }
   ]
 }

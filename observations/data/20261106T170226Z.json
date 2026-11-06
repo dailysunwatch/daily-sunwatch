@@ -1,0 +1,42 @@
+{
+  "id": "20261106T170226Z",
+  "facebook_id": "1170345462837861_122125593939440979",
+  "published_at": "2026-11-06T17:02:26.504508+00:00",
+  "published_display": "November 6, 2026 · 12:02 PM EST",
+  "type": "sunwatch",
+  "title": "Midday Sunwatch",
+  "text": "🌤️ Midday Sunwatch — November 06, 2026\n\n🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C2.5 (Peaked November 06, 2026 at 15:58 UTC)\n🔥 Strongest recent flare: M3.5 (Peaked November 05, 2026 at 18:33 UTC)\n💨 Solar wind speed: 367 km/s (Moderate)\n🧲 Bz: +9.2 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌌\n\nSeveral bright active regions and a broad dark coronal structure are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C2.5 (Peaked November 06, 2026 at 15:58 UTC)\n🔥 Strongest recent flare: M3.5 (Peaked November 05, 2026 at 18:33 UTC)\n💨 Solar wind speed: 367 km/s (Moderate)\n🧲 Bz: +9.2 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌌\n\nSeveral bright active regions and a broad dark coronal structure are visible across today’s Sun.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_1.jpg",
+      "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_2.jpg",
+      "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_3.jpg",
+      "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_4.jpg",
+      "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_5.jpg",
+      "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261106T170226Z/image_6.jpg",
+      "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+    }
+  ]
+}

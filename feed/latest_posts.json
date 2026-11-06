@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261106T230508Z",
+      "facebook_id": "1170345462837861_122125643865440979",
+      "published_at": "2026-11-06T23:05:08.809379+00:00",
+      "published_display": "November 6, 2026 · 6:05 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nWashington, DC — 68°F and Partly Sunny ⛅",
+      "display_text": "Washington, DC — 68°F and Partly Sunny ⛅",
+      "media": []
+    },
+    {
       "id": "20261106T230205Z",
       "facebook_id": "122125643421440979",
       "published_at": "2026-11-06T23:02:05.632289+00:00",
@@ -9326,23 +9337,6 @@
           "type": "image",
           "url": "/media/feed/20260923T040034Z/image_1.jpg",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260923T010030Z",
-      "facebook_id": "122115060309440979",
-      "published_at": "2026-09-23T01:00:30.696938+00:00",
-      "published_display": "September 22, 2026 · 9:00 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 22, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C2.4\n\nWatching the corona today. 👀\n\nImage: NOAA SWPC — LASCO C2\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C2.4\n\nWatching the corona today. 👀\n\nImage: NOAA SWPC — LASCO C2\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260923T010030Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

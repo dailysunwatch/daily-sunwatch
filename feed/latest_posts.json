@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261106T050337Z",
+      "facebook_id": "122125496253440979",
+      "published_at": "2026-11-06T05:03:37.359457+00:00",
+      "published_display": "November 6, 2026 · 12:03 AM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 06, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 8%\n🌌 Constellation: Virgo ♍\n📅 Next full moon: November 24, 2026\n\n*stares at photo*\ngetting little again~ 🌘🎀✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 8%\n🌌 Constellation: Virgo ♍\n📅 Next full moon: November 24, 2026\n\n*stares at photo*\ngetting little again~ 🌘🎀✨\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261106T050337Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261106T050200Z",
       "facebook_id": "122125495755440979",
       "published_at": "2026-11-06T05:02:00.520155+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260922T100038Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260922T070036Z",
-      "facebook_id": "122114809239440979",
-      "published_at": "2026-09-22T07:00:36.008415+00:00",
-      "published_display": "September 22, 2026 · 3:00 AM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 22, 2026\n\nSolar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C2.0\n\nSunny has his eyes on the corona. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Solar activity has been elevated today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C2.0\n\nSunny has his eyes on the corona. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260922T070036Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

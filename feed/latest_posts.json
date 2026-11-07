@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261107T230517Z",
+      "facebook_id": "122125836381440979",
+      "published_at": "2026-11-07T23:05:17.419426+00:00",
+      "published_display": "November 7, 2026 · 6:05 PM EST",
+      "type": "aurora_watch",
+      "title": "Aurora Watch",
+      "text": "🌌 Aurora Watch — November 07, 2026\n\nEarth's magnetic field is officially getting stirred up. Geomagnetic storm levels are active, and Aurora Watch is on.\n\n🌎 Kp: 5.33 (G1 Storm Level)\n🧲 IMF Bz: -1.5 nT (Southward)\n💨 Solar wind: 671 km/s (Fast)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nOkay, now we're glowing. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Earth's magnetic field is officially getting stirred up. Geomagnetic storm levels are active, and Aurora Watch is on.\n\n🌎 Kp: 5.33 (G1 Storm Level)\n🧲 IMF Bz: -1.5 nT (Southward)\n💨 Solar wind: 671 km/s (Fast)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nOkay, now we're glowing. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T230517Z/image_1.jpg",
+          "alt": "NOAA SWPC OVATION Aurora Forecast"
+        }
+      ]
+    },
+    {
       "id": "20261107T230205Z",
       "facebook_id": "122125835889440979",
       "published_at": "2026-11-07T23:02:05.069962+00:00",
@@ -9326,23 +9343,6 @@
           "type": "image",
           "url": "/media/feed/20260924T040036Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260924T010028Z",
-      "facebook_id": "122115374295440979",
-      "published_at": "2026-09-24T01:00:28.097484+00:00",
-      "published_display": "September 23, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 23, 2026\n\n🔆️ Solar activity: Low (B7.7)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 309 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 💛✨\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B7.7)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 309 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 💛✨\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T010028Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

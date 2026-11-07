@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261107T170215Z",
+      "facebook_id": "1170345462837861_122125791045440979",
+      "published_at": "2026-11-07T17:02:15.450025+00:00",
+      "published_display": "November 7, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 07, 2026\n\n🔆️ Solar activity: Moderate (C3.1)\n🔥 Latest solar flare: C1.3 (Peaked November 07, 2026 at 16:31 UTC)\n💨 Solar wind speed: 630 km/s (Fast)\n🧲 Bz: −9.8 nT (Southward)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThat wind is FAST! 💨🌌👀\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C3.1)\n🔥 Latest solar flare: C1.3 (Peaked November 07, 2026 at 16:31 UTC)\n💨 Solar wind speed: 630 km/s (Fast)\n🧲 Bz: −9.8 nT (Southward)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nThat wind is FAST! 💨🌌👀\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261107T170215Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261107T140209Z",
       "facebook_id": "122125765467440979",
       "published_at": "2026-11-07T14:02:09.187461+00:00",
@@ -9301,23 +9343,6 @@
           "type": "image",
           "url": "/media/feed/20260923T190035Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260923T170024Z",
-      "facebook_id": "122115278007440979",
-      "published_at": "2026-09-23T17:00:24.284718+00:00",
-      "published_display": "September 23, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — September 23, 2026\n\nSandwich time!\n\nToday, Sunny has his eyes on:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C2.4\n\nLunch break officially underway.",
-      "display_text": "Sandwich time!\n\nToday, Sunny has his eyes on:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C2.4\n\nLunch break officially underway.",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260923T170024Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

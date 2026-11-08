@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261108T180111Z",
+      "facebook_id": "122125995225440979",
+      "published_at": "2026-11-08T18:01:11.954353+00:00",
+      "published_display": "November 8, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 08, 2026\n\nI'm hungry!\n\nHere's what I noticed in the last 24 hours:\n🔥 Strongest flare: M1.9\n💨 Peak solar wind: 832 km/s (Intense)\n\nLunch time!",
+      "display_text": "I'm hungry!\n\nHere's what I noticed in the last 24 hours:\n🔥 Strongest flare: M1.9\n💨 Peak solar wind: 832 km/s (Intense)\n\nLunch time!",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T180111Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261108T170526Z",
       "facebook_id": "1170345462837861_122125988055440979",
       "published_at": "2026-11-08T17:05:26.097179+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260925T010143Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20260925T010028Z",
-      "facebook_id": "122115734127440979",
-      "published_at": "2026-09-25T01:00:28.346325+00:00",
-      "published_display": "September 24, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 24, 2026\n\n🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 430 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nWe're looking pretty quiet right now. 🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.6)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 430 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nWe're looking pretty quiet right now. 🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T010028Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

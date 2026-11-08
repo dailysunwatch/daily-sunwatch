@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261108T230353Z",
+      "facebook_id": "122126027895440979",
+      "published_at": "2026-11-08T23:03:53.392551+00:00",
+      "published_display": "November 8, 2026 · 6:03 PM EST",
+      "type": "aurora_watch",
+      "title": "Aurora Watch",
+      "text": "🌌 Aurora Watch — November 08, 2026\n\nNear-Earth conditions are starting to line up: elevated Kp and faster solar wind. Sunny is keeping watch.\n\n🌎 Kp: 4.00 (Elevated)\n🧲 IMF Bz: +1.5 nT (Northward)\n💨 Solar wind: 710 km/s (Intense)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nThings are lining up up there. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Near-Earth conditions are starting to line up: elevated Kp and faster solar wind. Sunny is keeping watch.\n\n🌎 Kp: 4.00 (Elevated)\n🧲 IMF Bz: +1.5 nT (Northward)\n💨 Solar wind: 710 km/s (Intense)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nThings are lining up up there. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T230353Z/image_1.jpg",
+          "alt": "NOAA SWPC OVATION Aurora Forecast"
+        }
+      ]
+    },
+    {
       "id": "20261108T230208Z",
       "facebook_id": "122126027517440979",
       "published_at": "2026-11-08T23:02:08.923409+00:00",
@@ -9314,23 +9331,6 @@
           "type": "image",
           "url": "/media/feed/20260925T130042Z/image_1.jpg",
           "alt": "Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260925T100051Z",
-      "facebook_id": "122115839589440979",
-      "published_at": "2026-09-25T10:00:51.943025+00:00",
-      "published_display": "September 25, 2026 · 6:00 AM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 25, 2026\n\nThe Sun has been active today, so Sunny is checking in on the outer corona.\n\n🔥 Strongest recent flare: C1.1\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "display_text": "The Sun has been active today, so Sunny is checking in on the outer corona.\n\n🔥 Strongest recent flare: C1.1\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T100051Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

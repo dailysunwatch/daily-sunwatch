@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261108T110330Z",
+      "facebook_id": "1170345462837861_122125928919440979",
+      "published_at": "2026-11-08T11:03:30.503081+00:00",
+      "published_display": "November 8, 2026 · 6:03 AM EST",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — November 08, 2026\n\nNOAA Active Region 4566 stands out on the visible solar disk today as a sunspot region associated with recent M-class activity.\n\n📍 Location: S06W07\n☀️ Region: AR 4566\n🔥 Recent activity: 1 M-class flare · 8 C-class flares\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4566 stands out on the visible solar disk today as a sunspot region associated with recent M-class activity.\n\n📍 Location: S06W07\n☀️ Region: AR 4566\n🔥 Recent activity: 1 M-class flare · 8 C-class flares\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T110330Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T110330Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T110330Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4566"
+        }
+      ]
+    },
+    {
       "id": "20261108T110207Z",
       "facebook_id": "122125928331440979",
       "published_at": "2026-11-08T11:02:07.363561+00:00",
@@ -9285,48 +9312,6 @@
           "type": "image",
           "url": "/media/feed/20260924T160358Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20260924T160047Z",
-      "facebook_id": "1170345462837861_122115547431440979",
-      "published_at": "2026-09-24T16:00:47.148783+00:00",
-      "published_display": "September 24, 2026 · 12:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — September 24, 2026\n\n🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 375 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nKeeping watch. Nothing unusual. 👀☀️\n\nA few modest active regions and small sunspot groups are visible, while the corona remains broadly quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.1 (Peaked September 23, 2026 at 15:32 UTC)\n💨 Solar wind speed: 375 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nKeeping watch. Nothing unusual. 👀☀️\n\nA few modest active regions and small sunspot groups are visible, while the corona remains broadly quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_1.jpg",
-          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_2.jpg",
-          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_3.jpg",
-          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_4.jpg",
-          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_5.jpg",
-          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T160047Z/image_6.jpg",
-          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
         }
       ]
     }

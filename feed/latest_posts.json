@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261108T110207Z",
+      "facebook_id": "122125928331440979",
+      "published_at": "2026-11-08T11:02:07.363561+00:00",
+      "published_display": "November 8, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 08, 2026\n\n🔆️ Solar activity: Moderate (C1.2)\n🔥 Latest solar flare: C2.1 (Peaked November 08, 2026 at 10:07 UTC)\n🔥 Strongest recent flare: M1.9 (Peaked November 07, 2026 at 18:42 UTC)\n💨 Solar wind speed: 695 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny's hair would be a mess right now. ☀️🌌👀\n\nSeveral bright active regions and a broad dark coronal-hole-like structure are visible today, with no clear large outward feature in the coronagraph.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.2)\n🔥 Latest solar flare: C2.1 (Peaked November 08, 2026 at 10:07 UTC)\n🔥 Strongest recent flare: M1.9 (Peaked November 07, 2026 at 18:42 UTC)\n💨 Solar wind speed: 695 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny's hair would be a mess right now. ☀️🌌👀\n\nSeveral bright active regions and a broad dark coronal-hole-like structure are visible today, with no clear large outward feature in the coronagraph.\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261108T110207Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261108T080206Z",
       "facebook_id": "122125905045440979",
       "published_at": "2026-11-08T08:02:06.372876+00:00",
@@ -9310,23 +9327,6 @@
           "type": "image",
           "url": "/media/feed/20260924T160047Z/image_6.jpg",
           "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20260924T130332Z",
-      "facebook_id": "122115518775440979",
-      "published_at": "2026-09-24T13:03:32.469237+00:00",
-      "published_display": "September 24, 2026 · 9:03 AM EDT",
-      "type": "aurora_watch",
-      "title": "Aurora Watch",
-      "text": "🌌 Aurora Watch — September 24, 2026\n\nNear-Earth conditions are starting to line up: elevated Kp and southward Bz. Sunny is keeping watch.\n\n🌎 Kp: 4.33 (elevated)\n🧲 IMF Bz: -5.8 nT (southward)\n💨 Solar wind: 386 km/s (Moderate)\n🚨 NOAA: ALERT: Geomagnetic K-index of 4\n☀️ Solar driver context: CH-HSS\n\nI'm watching this one. 👀\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Near-Earth conditions are starting to line up: elevated Kp and southward Bz. Sunny is keeping watch.\n\n🌎 Kp: 4.33 (elevated)\n🧲 IMF Bz: -5.8 nT (southward)\n💨 Solar wind: 386 km/s (Moderate)\n🚨 NOAA: ALERT: Geomagnetic K-index of 4\n☀️ Solar driver context: CH-HSS\n\nI'm watching this one. 👀\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260924T130332Z/image_1.jpg",
-          "alt": "NOAA SWPC OVATION Aurora Forecast"
         }
       ]
     }

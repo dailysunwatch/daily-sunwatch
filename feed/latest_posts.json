@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261109T110212Z",
+      "facebook_id": "122126127543440979",
+      "published_at": "2026-11-09T11:02:12.079655+00:00",
+      "published_display": "November 9, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 09, 2026\n\n🔆️ Solar activity: Low (B7.2)\n🔥 Latest solar flare: C1.4 (Peaked November 09, 2026 at 08:45 UTC)\n💨 Solar wind speed: 707 km/s (Intense)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nNow that's some wind! 🌫🌌👀\n\nSeveral bright active regions and a broad dark EUV region are visible across today’s Sun, with no clear large outward feature in the coronagraph.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.2)\n🔥 Latest solar flare: C1.4 (Peaked November 09, 2026 at 08:45 UTC)\n💨 Solar wind speed: 707 km/s (Intense)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nNow that's some wind! 🌫🌌👀\n\nSeveral bright active regions and a broad dark EUV region are visible across today’s Sun, with no clear large outward feature in the coronagraph.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261109T110212Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261109T080504Z",
       "facebook_id": "1170345462837861_122126099949440979",
       "published_at": "2026-11-09T08:05:04.374546+00:00",
@@ -9285,23 +9302,6 @@
       "text": "🌎 East Coast Weather\n\nBaltimore, MD — 75°F and Sunny ☀️",
       "display_text": "Baltimore, MD — 75°F and Sunny ☀️",
       "media": []
-    },
-    {
-      "id": "20260925T220038Z",
-      "facebook_id": "122115993705440979",
-      "published_at": "2026-09-25T22:00:38.569910+00:00",
-      "published_display": "September 25, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — September 25, 2026\n\n🔆️ Solar activity: Low (B4.3)\n🔥 Latest solar flare: C1.2 (Peaked September 25, 2026 at 18:30 UTC)\n💨 Solar wind speed: 479 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nSolar wind is on the move. 🌀🌎\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.3)\n🔥 Latest solar flare: C1.2 (Peaked September 25, 2026 at 18:30 UTC)\n💨 Solar wind speed: 479 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nSolar wind is on the move. 🌀🌎\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T220038Z/image_1.jpg",
-          "alt": "Evening Sunwatch image"
-        }
-      ]
     }
   ]
 }

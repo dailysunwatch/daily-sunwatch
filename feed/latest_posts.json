@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261109T080504Z",
+      "facebook_id": "1170345462837861_122126099949440979",
+      "published_at": "2026-11-09T08:05:04.374546+00:00",
+      "published_display": "November 9, 2026 · 3:05 AM EST",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — November 09, 2026\n\nSunny is taking a closer look at NOAA Active Region 4566, where a particularly prominent sunspot group is showing up on the solar disk.\n\n📍 Location: S08W21\n☀️ Region: AR 4566\n🔥 Recent activity: 6 C-class flares\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "Sunny is taking a closer look at NOAA Active Region 4566, where a particularly prominent sunspot group is showing up on the solar disk.\n\n📍 Location: S08W21\n☀️ Region: AR 4566\n🔥 Recent activity: 6 C-class flares\n\nSunny is checking out the sunspots.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261109T080504Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261109T080504Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261109T080504Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4566"
+        }
+      ]
+    },
+    {
       "id": "20261109T080207Z",
       "facebook_id": "122126099097440979",
       "published_at": "2026-11-09T08:02:07.457176+00:00",
@@ -9273,33 +9300,6 @@
           "type": "image",
           "url": "/media/feed/20260925T220038Z/image_1.jpg",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260925T190303Z",
-      "facebook_id": "1170345462837861_122115953667440979",
-      "published_at": "2026-09-25T19:03:03.385491+00:00",
-      "published_display": "September 25, 2026 · 3:03 PM EDT",
-      "type": "sunspot_watch",
-      "title": "Sunspot Watch",
-      "text": "☀️ Sunspot Watch — September 25, 2026\n\nNOAA Active Region 4536 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: N02W53\n☀️ Region: AR 4536\n🔥 Recent activity: 1 C-class flare\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "NOAA Active Region 4536 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: N02W53\n☀️ Region: AR 4536\n🔥 Recent activity: 1 C-class flare\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T190303Z/image_1.jpg",
-          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4536"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T190303Z/image_2.jpg",
-          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4536"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260925T190303Z/image_3.jpg",
-          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4536"
         }
       ]
     }

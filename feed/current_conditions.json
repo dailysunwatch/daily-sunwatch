@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T23:02:17.790902+00:00",
-  "updated_display": "November 8, 2026 at 6:02 PM EST",
+  "updated_at": "2026-11-09T02:02:11.459226+00:00",
+  "updated_display": "November 8, 2026 at 9:02 PM EST",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,7 +8,7 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "C1.3 · 22:02 UTC"
+      "value": "C4.7 · 01:14 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
@@ -16,15 +16,15 @@
     },
     "kp_index": {
       "label": "Kp Index",
-      "value": "4.00 · Active"
+      "value": "2.67 · Quiet"
     },
     "noaa_alert": {
       "label": "NOAA Alert",
-      "value": "Extended Warning: Geomagnetic K-index of 4 expected"
+      "value": "Alert: Electron 2MeV Integral Flux exceeded 1,000pfu"
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "+1.5 nT · Normal"
+      "value": "+0.2 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
@@ -40,7 +40,7 @@
     },
     "aurora": {
       "label": "Aurora",
-      "value": "Elevated ingredients"
+      "value": "No watch conditions"
     }
   }
 }

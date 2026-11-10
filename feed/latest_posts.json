@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261110T230201Z",
+      "facebook_id": "122126458059440979",
+      "published_at": "2026-11-10T23:02:01.727597+00:00",
+      "published_display": "November 10, 2026 · 6:02 PM EST",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — November 10, 2026\n\n🔆️ Solar activity: Low (B7.1)\n🔥 Latest solar flare: C2.4 (Peaked November 10, 2026 at 20:34 UTC)\n💨 Solar wind speed: 568 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSpace weather is feeling a little breezy today. 🌬🌌👀\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.1)\n🔥 Latest solar flare: C2.4 (Peaked November 10, 2026 at 20:34 UTC)\n💨 Solar wind speed: 568 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSpace weather is feeling a little breezy today. 🌬🌌👀\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T230201Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261110T200211Z",
       "facebook_id": "122126439255440979",
       "published_at": "2026-11-10T20:02:11.281835+00:00",
@@ -9357,17 +9374,6 @@
           "alt": "Morning Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20260927T100247Z",
-      "facebook_id": "1170345462837861_122116386345440979",
-      "published_at": "2026-09-27T10:02:47.455987+00:00",
-      "published_display": "September 27, 2026 · 6:02 AM EDT",
-      "type": "sunspot_watch",
-      "title": "Sunspot Watch",
-      "text": "☀️ Sunspot Watch — September 27, 2026\n\nNOAA Active Region 4535 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N11W19\n☀️ Region: AR 4535\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "NOAA Active Region 4535 stands out on the visible solar disk today as an unusually spot-rich active region.\n\n📍 Location: N11W19\n☀️ Region: AR 4535\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": []
     }
   ]
 }

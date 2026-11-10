@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261110T170217Z",
+      "facebook_id": "1170345462837861_122126410083440979",
+      "published_at": "2026-11-10T17:02:17.926512+00:00",
+      "published_display": "November 10, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 10, 2026\n\n🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: C1.9 (Peaked November 10, 2026 at 14:07 UTC)\n💨 Solar wind speed: 601 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe solar wind is in a hurry today. 💨🌌👀\n\nSeveral bright active regions and a compact sunspot group are currently visible on the Sun.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: C1.9 (Peaked November 10, 2026 at 14:07 UTC)\n💨 Solar wind speed: 601 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe solar wind is in a hurry today. 💨🌌👀\n\nSeveral bright active regions and a compact sunspot group are currently visible on the Sun.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261110T170217Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261110T140438Z",
       "facebook_id": "1170345462837861_122126384121440979",
       "published_at": "2026-11-10T14:04:38.371913+00:00",
@@ -9324,23 +9366,6 @@
           "type": "image",
           "url": "/media/feed/20260927T040354Z/image_1.jpg",
           "alt": "NOAA SWPC OVATION Aurora Forecast"
-        }
-      ]
-    },
-    {
-      "id": "20260927T040219Z",
-      "facebook_id": "122116312899440979",
-      "published_at": "2026-09-27T04:02:19.103497+00:00",
-      "published_display": "September 27, 2026 · 12:02 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — September 27, 2026\n\n🌖 Moon phase: Waning Gibbous\n💡 Illumination: 99%\n📅 Next full moon: October 26, 2026\n\nnooo, i'm getting smaller now 🥺🌖 🎀\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌖 Moon phase: Waning Gibbous\n💡 Illumination: 99%\n📅 Next full moon: October 26, 2026\n\nnooo, i'm getting smaller now 🥺🌖 🎀\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260927T040219Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

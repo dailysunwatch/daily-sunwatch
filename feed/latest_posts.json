@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261111T080204Z",
+      "facebook_id": "122126527491440979",
+      "published_at": "2026-11-11T08:02:04.525504+00:00",
+      "published_display": "November 11, 2026 · 3:02 AM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 11, 2026\n\n🔆️ Solar activity: Low (B7.7)\n🔥 Latest solar flare: C2.0 (Peaked November 11, 2026 at 04:25 UTC)\n💨 Solar wind speed: 505 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nHow are we doing out there? 💛🖤\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.7)\n🔥 Latest solar flare: C2.0 (Peaked November 11, 2026 at 04:25 UTC)\n💨 Solar wind speed: 505 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nHow are we doing out there? 💛🖤\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T080204Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261111T050321Z",
       "facebook_id": "122126508525440979",
       "published_at": "2026-11-11T05:03:21.027637+00:00",
@@ -9330,23 +9347,6 @@
           "type": "image",
           "url": "/media/feed/20260927T190027Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260927T170009Z",
-      "facebook_id": "122116460223440979",
-      "published_at": "2026-09-27T17:00:09.430278+00:00",
-      "published_display": "September 27, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — September 27, 2026\n\nSandwich time!\n\nHere's what Sunny noticed in the last 24 hours:\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n🔥 Strongest flare: C1.9\n\nSometimes Sunny gets his lunch a little late. The union will be hearing about this. 🥪✊",
-      "display_text": "Sandwich time!\n\nHere's what Sunny noticed in the last 24 hours:\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n🔥 Strongest flare: C1.9\n\nSometimes Sunny gets his lunch a little late. The union will be hearing about this. 🥪✊",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260927T170009Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

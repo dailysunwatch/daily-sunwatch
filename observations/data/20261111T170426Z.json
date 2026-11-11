@@ -1,0 +1,27 @@
+{
+  "id": "20261111T170426Z",
+  "facebook_id": "1170345462837861_122126611653440979",
+  "published_at": "2026-11-11T17:04:26.728405+00:00",
+  "published_display": "November 11, 2026 · 12:04 PM EST",
+  "type": "sunspot_watch",
+  "title": "Sunspot Watch",
+  "text": "☀️ Sunspot Watch — November 11, 2026\n\nSunny is taking a closer look at NOAA Active Region 4566, where an unusually spot-rich active region is showing up on the solar disk.\n\n📍 Location: S07W48\n☀️ Region: AR 4566\n🔥 Recent activity: 2 C-class flares\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "display_text": "Sunny is taking a closer look at NOAA Active Region 4566, where an unusually spot-rich active region is showing up on the solar disk.\n\n📍 Location: S07W48\n☀️ Region: AR 4566\n🔥 Recent activity: 2 C-class flares\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261111T170426Z/image_1.jpg",
+      "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4566"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261111T170426Z/image_2.jpg",
+      "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4566"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261111T170426Z/image_3.jpg",
+      "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4566"
+    }
+  ]
+}

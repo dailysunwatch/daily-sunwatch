@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261111T170223Z",
+      "facebook_id": "1170345462837861_122126610405440979",
+      "published_at": "2026-11-11T17:02:23.227635+00:00",
+      "published_display": "November 11, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 11, 2026\n\n🔆️ Solar activity: Low (B7.0)\n🔥 Latest solar flare: C1.1 (Peaked November 11, 2026 at 14:39 UTC)\n🔥 Strongest recent flare: C2.4 (Peaked November 10, 2026 at 20:34 UTC)\n💨 Solar wind speed: 515 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nC-Class activity! 💥🌌\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.0)\n🔥 Latest solar flare: C1.1 (Peaked November 11, 2026 at 14:39 UTC)\n🔥 Strongest recent flare: C2.4 (Peaked November 10, 2026 at 20:34 UTC)\n💨 Solar wind speed: 515 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nC-Class activity! 💥🌌\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T170223Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261111T140339Z",
       "facebook_id": "1170345462837861_122126584755440979",
       "published_at": "2026-11-11T14:03:39.324274+00:00",
@@ -9330,23 +9372,6 @@
           "type": "image",
           "url": "/media/feed/20260928T040026Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260928T010027Z",
-      "facebook_id": "122116609371440979",
-      "published_at": "2026-09-28T01:00:27.767092+00:00",
-      "published_display": "September 27, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 27, 2026\n\n🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: B6.2 (Peaked September 28, 2026 at 00:30 UTC)\n💨 Solar wind speed: 354 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe Sun's behaving. For now. 🤍✨\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: B6.2 (Peaked September 28, 2026 at 00:30 UTC)\n💨 Solar wind speed: 354 km/s (Moderate)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe Sun's behaving. For now. 🤍✨\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260928T010027Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

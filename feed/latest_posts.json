@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261111T050204Z",
+      "facebook_id": "122126508063440979",
+      "published_at": "2026-11-11T05:02:04.672439+00:00",
+      "published_display": "November 11, 2026 · 12:02 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 11, 2026\n\n🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: C2.0 (Peaked November 11, 2026 at 04:25 UTC)\n🔥 Strongest recent flare: C9.3 (Peaked November 10, 2026 at 08:34 UTC)\n💨 Solar wind speed: 530 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle burst of solar energy! 🔥🚀\n\nSeveral bright active regions and broad coronal-hole areas are visible across today’s Sun, while the coronagraph shows no clear large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: C2.0 (Peaked November 11, 2026 at 04:25 UTC)\n🔥 Strongest recent flare: C9.3 (Peaked November 10, 2026 at 08:34 UTC)\n💨 Solar wind speed: 530 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle burst of solar energy! 🔥🚀\n\nSeveral bright active regions and broad coronal-hole areas are visible across today’s Sun, while the coronagraph shows no clear large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T050204Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261111T020205Z",
       "facebook_id": "122126482593440979",
       "published_at": "2026-11-11T02:02:05.096487+00:00",
@@ -9326,23 +9343,6 @@
       "text": "🌎 East Coast Weather\n\nBaltimore, MD — 64°F and Rainy 🌧️",
       "display_text": "Baltimore, MD — 64°F and Rainy 🌧️",
       "media": []
-    },
-    {
-      "id": "20260927T160256Z",
-      "facebook_id": "122116451541440979",
-      "published_at": "2026-09-27T16:02:56.640663+00:00",
-      "published_display": "September 27, 2026 · 12:02 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 27, 2026\n\nA new CME showed up in NASA’s DONKI, so Sunny is checking the Sun’s outer corona.\n\n☀️ CME start: September 27, 2026 at 07:00 UTC\n💨 CME speed: 606 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 28° (Moderate)\n📍 Source: S30W110 (beyond the western limb)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A new CME showed up in NASA’s DONKI, so Sunny is checking the Sun’s outer corona.\n\n☀️ CME start: September 27, 2026 at 07:00 UTC\n💨 CME speed: 606 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 28° (Moderate)\n📍 Source: S30W110 (beyond the western limb)\n🌎 WSA-ENLIL Earth outlook: No or little Earth impact modeled\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260927T160256Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
-        }
-      ]
     }
   ]
 }

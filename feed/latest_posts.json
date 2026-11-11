@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261111T230205Z",
+      "facebook_id": "122126652231440979",
+      "published_at": "2026-11-11T23:02:05.483978+00:00",
+      "published_display": "November 11, 2026 · 6:02 PM EST",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — November 11, 2026\n\n🔆️ Solar activity: Low (B7.8​)\n🔥 Latest solar flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 481 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nM-CLASS FLARE! Satellites have some energetic company right now! 💥📡💣🚀\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.8​)\n🔥 Latest solar flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 481 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nM-CLASS FLARE! Satellites have some energetic company right now! 💥📡💣🚀\n\nImage: NASA SDO/AIA — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261111T230205Z/image_1.jpg",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261111T200206Z",
       "facebook_id": "122126631621440979",
       "published_at": "2026-11-11T20:02:06.029088+00:00",
@@ -9361,23 +9378,6 @@
       "text": "🌎 East Coast Weather\n\nBridgeport, CT — 63°F and Rainy 🌧️",
       "display_text": "Bridgeport, CT — 63°F and Rainy 🌧️",
       "media": []
-    },
-    {
-      "id": "20260928T130032Z",
-      "facebook_id": "122116742193440979",
-      "published_at": "2026-09-28T13:00:32.071871+00:00",
-      "published_display": "September 28, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — September 28, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B6.7 (Peaked September 28, 2026 at 04:51 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 🛰⚡🚀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B6.7 (Peaked September 28, 2026 at 04:51 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 🛰⚡🚀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260928T130032Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

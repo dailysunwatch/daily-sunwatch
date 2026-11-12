@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261112T140209Z",
+      "facebook_id": "122126776167440979",
+      "published_at": "2026-11-12T14:02:09.670321+00:00",
+      "published_display": "November 12, 2026 · 9:02 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 12, 2026\n\n🔆️ Solar activity: Low (B7.9)\n🔥 Latest solar flare: C2.7 (Peaked November 12, 2026 at 12:27 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 455 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 💥🌞\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.9)\n🔥 Latest solar flare: C2.7 (Peaked November 12, 2026 at 12:27 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 455 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 💥🌞\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261112T140209Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261112T110204Z",
       "facebook_id": "122126748771440979",
       "published_at": "2026-11-12T11:02:04.212621+00:00",
@@ -9348,17 +9365,6 @@
           "alt": "Nighttime Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20260928T220255Z",
-      "facebook_id": "1170345462837861_122116837137440979",
-      "published_at": "2026-09-28T22:02:55.994138+00:00",
-      "published_display": "September 28, 2026 · 6:02 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nProvidence, RI — 63°F and Rainy 🌧️",
-      "display_text": "Providence, RI — 63°F and Rainy 🌧️",
-      "media": []
     }
   ]
 }

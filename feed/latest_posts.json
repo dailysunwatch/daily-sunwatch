@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261112T020205Z",
+      "facebook_id": "122126673039440979",
+      "published_at": "2026-11-12T02:02:05.410992+00:00",
+      "published_display": "November 11, 2026 · 9:02 PM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 11, 2026\n\n🔆️ Solar activity: Low (B9.0)\n🔥 Latest solar flare: C1.8 (Peaked November 12, 2026 at 00:37 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 474 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunny caught a C-Class flare! 🔥🌌\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B9.0)\n🔥 Latest solar flare: C1.8 (Peaked November 12, 2026 at 00:37 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 474 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunny caught a C-Class flare! 🔥🌌\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261112T020205Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261111T230420Z",
       "facebook_id": "1170345462837861_122126652645440979",
       "published_at": "2026-11-11T23:04:20.292123+00:00",
@@ -9367,17 +9384,6 @@
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20260928T132302Z",
-      "facebook_id": null,
-      "published_at": "2026-09-28T13:23:02.196835+00:00",
-      "published_display": "September 28, 2026 · 9:23 AM EDT",
-      "type": "site_update",
-      "title": "📡 SDO Service Update",
-      "text": "NASA SDO is currently experiencing data outages. ☀️\n\nFor the time being, Sunny is explicitly using NOAA GOES-19 SUVI for solar imagery while the NASA SDO website and its data services are unavailable.\n\nSunny will return to his normal mix of NASA SDO/AIA and NOAA SUVI imagery once SDO service is restored.\nClear skies and sunny days! ☀️",
-      "display_text": "NASA SDO is currently experiencing data outages. ☀️\n\nFor the time being, Sunny is explicitly using NOAA GOES-19 SUVI for solar imagery while the NASA SDO website and its data services are unavailable.\n\nSunny will return to his normal mix of NASA SDO/AIA and NOAA SUVI imagery once SDO service is restored.\n\nClear skies and sunny days! ☀️",
-      "media": []
     }
   ]
 }

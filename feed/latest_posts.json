@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261112T080203Z",
+      "facebook_id": "122126727621440979",
+      "published_at": "2026-11-12T08:02:03.754504+00:00",
+      "published_display": "November 12, 2026 · 3:02 AM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 12, 2026\n\n🔆️ Solar activity: Low (B8.3)\n🔥 Latest solar flare: C1.6 (Peaked November 12, 2026 at 06:22 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 488 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunny says hi! 🌞✨\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B8.3)\n🔥 Latest solar flare: C1.6 (Peaked November 12, 2026 at 06:22 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 11, 2026 at 21:21 UTC)\n💨 Solar wind speed: 488 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSunny says hi! 🌞✨\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261112T080203Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261112T050426Z",
       "facebook_id": "122126705205440979",
       "published_at": "2026-11-12T05:04:26.254459+00:00",
@@ -9340,23 +9357,6 @@
           "type": "image",
           "url": "/media/feed/20260928T220030Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260928T210732Z",
-      "facebook_id": "122116828857440979",
-      "published_at": "2026-09-28T21:07:32.908967+00:00",
-      "published_display": "September 28, 2026 · 5:07 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — September 28, 2026\n\nA newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 28, 2026 at 14:36 UTC\n💨 CME speed: 501 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N27W50 (western disk)\n🌎 WSA-ENLIL Earth outlook: Earth impact modeled — estimated arrival October 02, 2026 at 02:39 UTC; possible Kp 3–4\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "display_text": "A newly reported CME has Sunny checking in on the outer corona.\n\n☀️ CME start: September 28, 2026 at 14:36 UTC\n💨 CME speed: 501 km/s\n🏷 CME SCORE: C-type (500–999 km/s)\n📐 CME half-angle: 45° (Wide)\n📍 Source: N27W50 (western disk)\n🌎 WSA-ENLIL Earth outlook: Earth impact modeled — estimated arrival October 02, 2026 at 02:39 UTC; possible Kp 3–4\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — LASCO C2\nData: NASA DONKI + NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260928T210732Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

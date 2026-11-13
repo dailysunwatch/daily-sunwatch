@@ -1,6 +1,33 @@
 {
   "posts": [
     {
+      "id": "20261113T200519Z",
+      "facebook_id": "1170345462837861_122127004401440979",
+      "published_at": "2026-11-13T20:05:19.290499+00:00",
+      "published_display": "November 13, 2026 · 3:05 PM EST",
+      "type": "sunspot_watch",
+      "title": "Sunspot Watch",
+      "text": "☀️ Sunspot Watch — November 13, 2026\n\nNOAA Active Region 4566 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: S08W80\n☀️ Region: AR 4566\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "display_text": "NOAA Active Region 4566 stands out on the visible solar disk today as an unusually crowded sunspot disk.\n\n📍 Location: S08W80\n☀️ Region: AR 4566\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nA little extra texture today. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261113T200519Z/image_1.jpg",
+          "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261113T200519Z/image_2.jpg",
+          "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4566"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261113T200519Z/image_3.jpg",
+          "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4566"
+        }
+      ]
+    },
+    {
       "id": "20261113T200207Z",
       "facebook_id": "122127003651440979",
       "published_at": "2026-11-13T20:02:07.461990+00:00",
@@ -9381,23 +9408,6 @@
           "type": "image",
           "url": "/media/feed/20260930T040026Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260930T010337Z",
-      "facebook_id": "122117116929440979",
-      "published_at": "2026-09-30T01:03:37.885949+00:00",
-      "published_display": "September 29, 2026 · 9:03 PM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — September 29, 2026\n\n🌖 Moon phase: Waning Gibbous\n💡 Illumination: 90%\n📅 Next full moon: October 26, 2026\n\n*glances at photo*\nmoony thinks it's sooo pretty out tonight~ ✨\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌖 Moon phase: Waning Gibbous\n💡 Illumination: 90%\n📅 Next full moon: October 26, 2026\n\n*glances at photo*\nmoony thinks it's sooo pretty out tonight~ ✨\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T010337Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

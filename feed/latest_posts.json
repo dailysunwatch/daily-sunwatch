@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261113T050205Z",
+      "facebook_id": "122126894223440979",
+      "published_at": "2026-11-13T05:02:05.238052+00:00",
+      "published_display": "November 13, 2026 · 12:02 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 13, 2026\n\n🔆️ Solar activity: Low (B7.5)\n🔥 Latest solar flare: C1.1 (Peaked November 12, 2026 at 22:43 UTC)\n💨 Solar wind speed: 390 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡🔌🌌\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.5)\n🔥 Latest solar flare: C1.1 (Peaked November 12, 2026 at 22:43 UTC)\n💨 Solar wind speed: 390 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡🔌🌌\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261113T050205Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261113T020207Z",
       "facebook_id": "122126878581440979",
       "published_at": "2026-11-13T02:02:07.301894+00:00",
@@ -9383,17 +9400,6 @@
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20260929T130626Z",
-      "facebook_id": "1170345462837861_122116996005440979",
-      "published_at": "2026-09-29T13:06:26.321594+00:00",
-      "published_display": "September 29, 2026 · 9:06 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nPhiladelphia, PA — 75°F and Partly Sunny ⛅",
-      "display_text": "Philadelphia, PA — 75°F and Partly Sunny ⛅",
-      "media": []
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261114T200301Z",
+      "facebook_id": "122127166533440979",
+      "published_at": "2026-11-14T20:03:01.636593+00:00",
+      "published_display": "November 14, 2026 · 3:03 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — November 14, 2026\n\nQuiet conditions make this a good time for a casual look at the outer corona.\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Quiet conditions make this a good time for a casual look at the outer corona.\n\nSunny is watching the corona. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T200301Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261114T170545Z",
       "facebook_id": "1170345462837861_122127145941440979",
       "published_at": "2026-11-14T17:05:45.939249+00:00",
@@ -9407,23 +9424,6 @@
           "type": "image",
           "url": "/media/feed/20261001T040125Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261001T010046Z",
-      "facebook_id": "122117395227440979",
-      "published_at": "2026-10-01T01:00:46.260529+00:00",
-      "published_display": "September 30, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — September 30, 2026\n\n🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 280 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 🤍💫\n\nA broad dark coronal region stands out near the Sun’s center, while sunspot coverage and coronagraph structures remain modest.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 280 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nNothing unusual at the moment. 🤍💫\n\nA broad dark coronal region stands out near the Sun’s center, while sunspot coverage and coronagraph structures remain modest.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T010046Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

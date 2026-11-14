@@ -1,0 +1,17 @@
+{
+  "id": "20261114T020301Z",
+  "facebook_id": "122127039945440979",
+  "published_at": "2026-11-14T02:03:01.667195+00:00",
+  "published_display": "November 13, 2026 · 9:03 PM EST",
+  "type": "sunwatch",
+  "title": "Nighttime Sunwatch",
+  "text": "🌕 Nighttime Sunwatch — November 13, 2026\n\n🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C1.4 (Peaked November 14, 2026 at 00:10 UTC)\n🔥 Strongest recent flare: C5.5 (Peaked November 13, 2026 at 18:21 UTC)\n💨 Solar wind speed: 377 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nC-Class flare! 💥🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C1.4 (Peaked November 14, 2026 at 00:10 UTC)\n🔥 Strongest recent flare: C5.5 (Peaked November 13, 2026 at 18:21 UTC)\n💨 Solar wind speed: 377 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nC-Class flare! 💥🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261114T020301Z/image_1.png",
+      "alt": "Nighttime Sunwatch image"
+    }
+  ]
+}

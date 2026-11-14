@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261114T170312Z",
+      "facebook_id": "1170345462837861_122127145239440979",
+      "published_at": "2026-11-14T17:03:12.552120+00:00",
+      "published_display": "November 14, 2026 · 12:03 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 14, 2026\n\n🔆️ Solar activity: Low (B9.3)\n🔥 Latest solar flare: C4.4 (Peaked November 14, 2026 at 06:06 UTC)\n💨 Solar wind speed: 416 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡⚡🚀\n\nSeveral active regions and a prominent dark filament are visible on today’s Sun, with no clear large outward structure in the coronagraph.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B9.3)\n🔥 Latest solar flare: C4.4 (Peaked November 14, 2026 at 06:06 UTC)\n💨 Solar wind speed: 416 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic particles are keeping things interesting upstairs! 📡⚡🚀\n\nSeveral active regions and a prominent dark filament are visible on today’s Sun, with no clear large outward structure in the coronagraph.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T170312Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261114T140526Z",
       "facebook_id": "1170345462837861_122127121647440979",
       "published_at": "2026-11-14T14:05:26.208376+00:00",
@@ -9372,23 +9414,6 @@
           "type": "image",
           "url": "/media/feed/20260930T220058Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20260930T190046Z",
-      "facebook_id": "122117301663440979",
-      "published_at": "2026-09-30T19:00:46.388380+00:00",
-      "published_display": "September 30, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — September 30, 2026\n\n🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 298 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWorking hard or hardly fusing? ✨☀️\n\nA broad dark coronal feature and several small active regions are visible, while the outer corona looks otherwise routine.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 298 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWorking hard or hardly fusing? ✨☀️\n\nA broad dark coronal feature and several small active regions are visible, while the outer corona looks otherwise routine.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T190046Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

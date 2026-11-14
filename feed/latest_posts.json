@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261114T110302Z",
+      "facebook_id": "122127095937440979",
+      "published_at": "2026-11-14T11:03:02.352288+00:00",
+      "published_display": "November 14, 2026 · 6:03 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 14, 2026\n\n🔆️ Solar activity: Low (B6.4)\n🔥 Latest solar flare: C4.4 (Peaked November 14, 2026 at 06:06 UTC)\n🔥 Strongest recent flare: C5.5 (Peaked November 13, 2026 at 18:21 UTC)\n💨 Solar wind speed: 412 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA small C-Class flare! 💥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.4)\n🔥 Latest solar flare: C4.4 (Peaked November 14, 2026 at 06:06 UTC)\n🔥 Strongest recent flare: C5.5 (Peaked November 13, 2026 at 18:21 UTC)\n💨 Solar wind speed: 412 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA small C-Class flare! 💥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T110302Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261114T050548Z",
       "facebook_id": "122127059079440979",
       "published_at": "2026-11-14T05:05:48.590059+00:00",
@@ -9374,48 +9391,6 @@
       "text": "🌎 East Coast Weather\n\nBurlington, VT — 68°F and Mostly Cloudy 🌥️",
       "display_text": "Burlington, VT — 68°F and Mostly Cloudy 🌥️",
       "media": []
-    },
-    {
-      "id": "20260930T160142Z",
-      "facebook_id": "1170345462837861_122117272965440979",
-      "published_at": "2026-09-30T16:01:42.720173+00:00",
-      "published_display": "September 30, 2026 · 12:01 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — September 30, 2026\n\n🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 304 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 🛰🔋🌌\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.6)\n🔥 Latest solar flare: C8.6 (Peaked September 30, 2026 at 02:46 UTC)\n💨 Solar wind speed: 304 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are getting energetic up there! 🛰🔋🌌\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20260930T160142Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261114T050548Z",
+      "facebook_id": "122127059079440979",
+      "published_at": "2026-11-14T05:05:48.590059+00:00",
+      "published_display": "November 14, 2026 · 12:05 AM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 14, 2026\n\n🌒 Moon phase: Waxing Crescent\n💡 Illumination: 23%\n🌌 Constellation: Sagittarius ♐\n📅 Next full moon: November 24, 2026\n\n*stares at photo*\nhope you're all cozy tonight~ <3 🌙🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌒 Moon phase: Waxing Crescent\n💡 Illumination: 23%\n🌌 Constellation: Sagittarius ♐\n📅 Next full moon: November 24, 2026\n\n*stares at photo*\nhope you're all cozy tonight~ <3 🌙🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261114T050548Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261114T050301Z",
       "facebook_id": "122127058485440979",
       "published_at": "2026-11-14T05:03:01.128344+00:00",
@@ -9399,17 +9416,6 @@
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20260930T130221Z",
-      "facebook_id": "1170345462837861_122117244963440979",
-      "published_at": "2026-09-30T13:02:21.709204+00:00",
-      "published_display": "September 30, 2026 · 9:02 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nSavannah, GA — 86°F and Slight Chance of Rain 🌧️",
-      "display_text": "Savannah, GA — 86°F and Slight Chance of Rain 🌧️",
-      "media": []
     }
   ]
 }

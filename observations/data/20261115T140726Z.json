@@ -1,0 +1,27 @@
+{
+  "id": "20261115T140726Z",
+  "facebook_id": "1170345462837861_122127294777440979",
+  "published_at": "2026-11-15T14:07:26.771617+00:00",
+  "published_display": "November 15, 2026 · 9:07 AM EST",
+  "type": "sunspot_watch",
+  "title": "Sunspot Watch",
+  "text": "☀️ Sunspot Watch — November 15, 2026\n\nSunny is taking a closer look at NOAA Active Region 4579, where a rapidly developing sunspot group is showing up on the solar disk.\n\n📍 Location: N15E58\n☀️ Region: AR 4579\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSomebody brought freckles to work.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "display_text": "Sunny is taking a closer look at NOAA Active Region 4579, where a rapidly developing sunspot group is showing up on the solar disk.\n\n📍 Location: N15E58\n☀️ Region: AR 4579\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSomebody brought freckles to work.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImages: NASA SDO/HMI — Continuum Intensity, Intensitygram (Flattened), Intensitygram\nData: NOAA Space Weather Prediction Center + NASA SDO",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261115T140726Z/image_1.jpg",
+      "alt": "NASA SDO/HMI Continuum Intensity of NOAA Active Region 4579"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261115T140726Z/image_2.jpg",
+      "alt": "NASA SDO/HMI Intensitygram (Flattened) of NOAA Active Region 4579"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261115T140726Z/image_3.jpg",
+      "alt": "NASA SDO/HMI Intensitygram of NOAA Active Region 4579"
+    }
+  ]
+}

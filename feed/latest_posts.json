@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261115T180139Z",
+      "facebook_id": "122127323133440979",
+      "published_at": "2026-11-15T18:01:39.337149+00:00",
+      "published_display": "November 15, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 15, 2026\n\nI brought salami today!\n\nHere's what caught my eye today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C2.8\n\nSometimes Sunny gets his lunch a little late. The union will be hearing about this. 🥪✊ #FreeSunny 🌞✊",
+      "display_text": "I brought salami today!\n\nHere's what caught my eye today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C2.8\n\nSometimes Sunny gets his lunch a little late. The union will be hearing about this. 🥪✊ #FreeSunny 🌞✊",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T180139Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261115T170308Z",
       "facebook_id": "1170345462837861_122127316095440979",
       "published_at": "2026-11-15T17:03:08.785606+00:00",
@@ -9417,23 +9434,6 @@
           "type": "image",
           "url": "/media/feed/20261002T040056Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261002T010056Z",
-      "facebook_id": "122117696175440979",
-      "published_at": "2026-10-02T01:00:56.531376+00:00",
-      "published_display": "October 1, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — October 01, 2026\n\n🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 308 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.0)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 308 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSome C-Class activity! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261002T010056Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

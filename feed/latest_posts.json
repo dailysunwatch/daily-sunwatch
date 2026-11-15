@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261115T170308Z",
+      "facebook_id": "1170345462837861_122127316095440979",
+      "published_at": "2026-11-15T17:03:08.785606+00:00",
+      "published_display": "November 15, 2026 · 12:03 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 15, 2026\n\n🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: B8.0 (Peaked November 15, 2026 at 13:15 UTC)\n💨 Solar wind speed: 348 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nQuiet one right now. 🖤✨\n\nSeveral modest active regions are visible across the Sun today, while the overall solar appearance remains relatively quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.6)\n🔥 Latest solar flare: B8.0 (Peaked November 15, 2026 at 13:15 UTC)\n💨 Solar wind speed: 348 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nQuiet one right now. 🖤✨\n\nSeveral modest active regions are visible across the Sun today, while the overall solar appearance remains relatively quiet.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T170308Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261115T140726Z",
       "facebook_id": "1170345462837861_122127294777440979",
       "published_at": "2026-11-15T14:07:26.771617+00:00",
@@ -9392,23 +9434,6 @@
           "type": "image",
           "url": "/media/feed/20261002T010056Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261001T220056Z",
-      "facebook_id": "122117619003440979",
-      "published_at": "2026-10-01T22:00:56.132273+00:00",
-      "published_display": "October 1, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — October 01, 2026\n\n🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: B3.6 (Peaked October 01, 2026 at 18:02 UTC)\n💨 Solar wind speed: 304 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe space around Earth is getting a little energetic! 🌎⚡📡🔋🌌\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: B3.6 (Peaked October 01, 2026 at 18:02 UTC)\n💨 Solar wind speed: 304 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThe space around Earth is getting a little energetic! 🌎⚡📡🔋🌌\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T220056Z/image_1.png",
-          "alt": "Evening Sunwatch image"
         }
       ]
     }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261115T140303Z",
+      "facebook_id": "122127293775440979",
+      "published_at": "2026-11-15T14:03:03.943185+00:00",
+      "published_display": "November 15, 2026 · 9:03 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 15, 2026\n\n🔆️ Solar activity: Low (B6.6)\n🔥 Latest solar flare: B8.0 (Peaked November 15, 2026 at 13:15 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun is about halfway through its roughly 10-billion-year main-sequence lifetime. Still plenty of time before retirement. 🌞🤍\n\nSeveral active regions and sunspot groups are visible today, along with a broad darker coronal area; the coronagraph view appears routine.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.6)\n🔥 Latest solar flare: B8.0 (Peaked November 15, 2026 at 13:15 UTC)\n💨 Solar wind speed: 350 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun is about halfway through its roughly 10-billion-year main-sequence lifetime. Still plenty of time before retirement. 🌞🤍\n\nSeveral active regions and sunspot groups are visible today, along with a broad darker coronal area; the coronagraph view appears routine.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T140303Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261115T110303Z",
       "facebook_id": "122127268497440979",
       "published_at": "2026-11-15T11:03:03.703574+00:00",
@@ -9384,48 +9401,6 @@
       "text": "🌎 East Coast Weather\n\nWilmington, DE — 81°F and Mostly Sunny 🌤️",
       "display_text": "Wilmington, DE — 81°F and Mostly Sunny 🌤️",
       "media": []
-    },
-    {
-      "id": "20261001T160116Z",
-      "facebook_id": "1170345462837861_122117569437440979",
-      "published_at": "2026-10-01T16:01:16.464524+00:00",
-      "published_display": "October 1, 2026 · 12:01 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 01, 2026\n\n🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B7.8 (Peaked October 01, 2026 at 12:55 UTC)\n💨 Solar wind speed: 302 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are buzzing a bit in near-Earth space! 🛰💡🌌\n\nA broad coronal-hole-like dark region is the main visual feature today, while sunspot activity and the outer-corona view look relatively quiet.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B7.8 (Peaked October 01, 2026 at 12:55 UTC)\n💨 Solar wind speed: 302 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are buzzing a bit in near-Earth space! 🛰💡🌌\n\nA broad coronal-hole-like dark region is the main visual feature today, while sunspot activity and the outer-corona view look relatively quiet.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261001T160116Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

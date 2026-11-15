@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261115T230555Z",
+      "facebook_id": "1170345462837861_122127359571440979",
+      "published_at": "2026-11-15T23:05:55.859416+00:00",
+      "published_display": "November 15, 2026 · 6:05 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nProvidence, RI — 50°F and Mostly Sunny 🌤️",
+      "display_text": "Providence, RI — 50°F and Mostly Sunny 🌤️",
+      "media": []
+    },
+    {
       "id": "20261115T230303Z",
       "facebook_id": "122127359043440979",
       "published_at": "2026-11-15T23:03:03.249471+00:00",
@@ -9417,23 +9428,6 @@
           "type": "image",
           "url": "/media/feed/20261002T130101Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20261002T100059Z",
-      "facebook_id": "122117791275440979",
-      "published_at": "2026-10-02T10:00:59.301719+00:00",
-      "published_display": "October 2, 2026 · 6:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Early Morning Sunwatch",
-      "text": "🌅 Early Morning Sunwatch — October 02, 2026\n\n🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 288 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡💡🌌\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.1)\n🔥 Latest solar flare: C1.4 (Peaked October 01, 2026 at 21:37 UTC)\n💨 Solar wind speed: 288 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSatellite conditions are a little spicy right now! 🛰⚡💡🌌\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261002T100059Z/image_1.png",
-          "alt": "Early Morning Sunwatch image"
         }
       ]
     }

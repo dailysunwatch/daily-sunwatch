@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261115T230303Z",
+      "facebook_id": "122127359043440979",
+      "published_at": "2026-11-15T23:03:03.249471+00:00",
+      "published_display": "November 15, 2026 · 6:03 PM EST",
+      "type": "coronagraph_watch",
+      "title": "Coronagraph Watch",
+      "text": "🔭 Coronagraph Watch — November 15, 2026\n\nSolar activity has picked up today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C1.5\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Solar activity has picked up today, so here’s a look at the Sun’s outer corona.\n\n🔥 Strongest recent flare: C1.5\n\nSunny is keeping watch. 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261115T230303Z/image_1.jpg",
+          "alt": "Coronagraph Watch image"
+        }
+      ]
+    },
+    {
       "id": "20261115T200303Z",
       "facebook_id": "122127338823440979",
       "published_at": "2026-11-15T20:03:03.359187+00:00",
@@ -9417,23 +9434,6 @@
           "type": "image",
           "url": "/media/feed/20261002T100059Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261002T070049Z",
-      "facebook_id": "122117763309440979",
-      "published_at": "2026-10-02T07:00:49.285146+00:00",
-      "published_display": "October 2, 2026 · 3:00 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 02, 2026\n\n🌖 Moon phase: Waning Gibbous\n💡 Illumination: 62%\n📅 Next full moon: October 26, 2026\n\n*glances at photo*\ngood evening everyone!!! c: ✨\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌖 Moon phase: Waning Gibbous\n💡 Illumination: 62%\n📅 Next full moon: October 26, 2026\n\n*glances at photo*\ngood evening everyone!!! c: ✨\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261002T070049Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

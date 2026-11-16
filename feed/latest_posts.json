@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261116T020304Z",
+      "facebook_id": "122127378207440979",
+      "published_at": "2026-11-16T02:03:04.199410+00:00",
+      "published_display": "November 15, 2026 · 9:03 PM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 15, 2026\n\n🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.5 (Peaked November 15, 2026 at 21:27 UTC)\n💨 Solar wind speed: 320 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThings are flickering on the Sun. 🔥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.5 (Peaked November 15, 2026 at 21:27 UTC)\n💨 Solar wind speed: 320 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThings are flickering on the Sun. 🔥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261116T020304Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261115T230555Z",
       "facebook_id": "1170345462837861_122127359571440979",
       "published_at": "2026-11-15T23:05:55.859416+00:00",
@@ -9413,23 +9430,6 @@
       "text": "🌎 East Coast Weather\n\nPortland, ME — 76°F and Chance of Rain 🌧️",
       "display_text": "Portland, ME — 76°F and Chance of Rain 🌧️",
       "media": []
-    },
-    {
-      "id": "20261002T130101Z",
-      "facebook_id": "122117830737440979",
-      "published_at": "2026-10-02T13:01:01.713618+00:00",
-      "published_display": "October 2, 2026 · 9:01 AM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — October 02, 2026\n\nNot much is happening right now, so Sunny is checking out the outer corona.\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Not much is happening right now, so Sunny is checking out the outer corona.\n\nSunny is on corona watch! 👀🌌\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261002T130101Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
-        }
-      ]
     }
   ]
 }

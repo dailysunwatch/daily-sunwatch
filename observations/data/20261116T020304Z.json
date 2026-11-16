@@ -1,0 +1,17 @@
+{
+  "id": "20261116T020304Z",
+  "facebook_id": "122127378207440979",
+  "published_at": "2026-11-16T02:03:04.199410+00:00",
+  "published_display": "November 15, 2026 · 9:03 PM EST",
+  "type": "sunwatch",
+  "title": "Nighttime Sunwatch",
+  "text": "🌕 Nighttime Sunwatch — November 15, 2026\n\n🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.5 (Peaked November 15, 2026 at 21:27 UTC)\n💨 Solar wind speed: 320 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThings are flickering on the Sun. 🔥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B5.5)\n🔥 Latest solar flare: C1.5 (Peaked November 15, 2026 at 21:27 UTC)\n💨 Solar wind speed: 320 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThings are flickering on the Sun. 🔥🌎\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261116T020304Z/image_1.jpg",
+      "alt": "Nighttime Sunwatch image"
+    }
+  ]
+}

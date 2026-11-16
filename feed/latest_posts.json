@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261116T110312Z",
+      "facebook_id": "122127435027440979",
+      "published_at": "2026-11-16T11:03:12.449080+00:00",
+      "published_display": "November 16, 2026 · 6:03 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 16, 2026\n\n🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B8.9 (Peaked November 16, 2026 at 09:08 UTC)\n💨 Solar wind speed: 297 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nHigh-energy electrons are elevated near Earth! 🌎🛰⚡🚀\n\nImage: NASA SDO/AIA — 304/211/171 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.0)\n🔥 Latest solar flare: B8.9 (Peaked November 16, 2026 at 09:08 UTC)\n💨 Solar wind speed: 297 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nHigh-energy electrons are elevated near Earth! 🌎🛰⚡🚀\n\nImage: NASA SDO/AIA — 304/211/171 Å Composite\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261116T110312Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261116T050259Z",
       "facebook_id": "122127397629440979",
       "published_at": "2026-11-16T05:02:59.485297+00:00",
@@ -9392,23 +9409,6 @@
           "type": "image",
           "url": "/media/feed/20261002T220048Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261002T190048Z",
-      "facebook_id": "122117902575440979",
-      "published_at": "2026-10-02T19:00:48.646423+00:00",
-      "published_display": "October 2, 2026 · 3:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Afternoon Sunwatch",
-      "text": "☀️ Afternoon Sunwatch — October 02, 2026\n\n🔆️ Solar activity: Low (B2.2)\n🔥 Latest solar flare: B3.3 (Peaked October 02, 2026 at 17:37 UTC)\n💨 Solar wind speed: 281 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic electrons are making things interesting near Earth! 🛰⚡📡🔋🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.2)\n🔥 Latest solar flare: B3.3 (Peaked October 02, 2026 at 17:37 UTC)\n💨 Solar wind speed: 281 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nEnergetic electrons are making things interesting near Earth! 🛰⚡📡🔋🌞\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261002T190048Z/image_1.png",
-          "alt": "Afternoon Sunwatch image"
         }
       ]
     }

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261116T140525Z",
+      "facebook_id": "1170345462837861_122127456039440979",
+      "published_at": "2026-11-16T14:05:25.314255+00:00",
+      "published_display": "November 16, 2026 · 9:05 AM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nAlbany, NY — 47°F and Mostly Sunny 🌤️",
+      "display_text": "Albany, NY — 47°F and Mostly Sunny 🌤️",
+      "media": []
+    },
+    {
       "id": "20261116T110452Z",
       "facebook_id": "1170345462837861_122127435561440979",
       "published_at": "2026-11-16T11:04:52.701188+00:00",
@@ -9410,17 +9421,6 @@
           "alt": "Nighttime Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20261002T220346Z",
-      "facebook_id": "1170345462837861_122117932953440979",
-      "published_at": "2026-10-02T22:03:46.384412+00:00",
-      "published_display": "October 2, 2026 · 6:03 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nOcean City, MD — 78°F and Mostly Sunny 🌤️",
-      "display_text": "Ocean City, MD — 78°F and Mostly Sunny 🌤️",
-      "media": []
     }
   ]
 }

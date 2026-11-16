@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261116T200300Z",
+      "facebook_id": "122127515625440979",
+      "published_at": "2026-11-16T20:03:00.607701+00:00",
+      "published_display": "November 16, 2026 · 3:03 PM EST",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — November 16, 2026\n\n🔆️ Solar activity: Low (B7.6)\n🔥 Latest solar flare: B9.5 (Peaked November 16, 2026 at 19:45 UTC)\n💨 Solar wind speed: 295 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are buzzing a bit in near-Earth space! 🛰🔌🌎\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.6)\n🔥 Latest solar flare: B9.5 (Peaked November 16, 2026 at 19:45 UTC)\n💨 Solar wind speed: 295 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are buzzing a bit in near-Earth space! 🛰🔌🌎\n\nImage: NASA SDO — AIA 171 Å + HMI Magnetic Polarity\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261116T200300Z/image_1.jpg",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261116T180138Z",
       "facebook_id": "122127491301440979",
       "published_at": "2026-11-16T18:01:38.255134+00:00",
@@ -9423,23 +9440,6 @@
       "text": "🌎 East Coast Weather\n\nWilmington, DE — 72°F and Mostly Cloudy 🌥️",
       "display_text": "Wilmington, DE — 72°F and Mostly Cloudy 🌥️",
       "media": []
-    },
-    {
-      "id": "20261003T130052Z",
-      "facebook_id": "122118090231440979",
-      "published_at": "2026-10-03T13:00:52.993868+00:00",
-      "published_display": "October 3, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — October 03, 2026\n\n🔆️ Solar activity: Low (B2.0)\n🔥 Latest solar flare: B2.9 (Peaked October 02, 2026 at 22:37 UTC)\n💨 Solar wind speed: 290 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLooks pretty quiet right now. 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.0)\n🔥 Latest solar flare: B2.9 (Peaked October 02, 2026 at 22:37 UTC)\n💨 Solar wind speed: 290 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLooks pretty quiet right now. 🌞🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T130052Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

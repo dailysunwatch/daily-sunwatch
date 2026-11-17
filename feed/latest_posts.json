@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261117T140550Z",
+      "facebook_id": "1170345462837861_122127649041440979",
+      "published_at": "2026-11-17T14:05:50.384282+00:00",
+      "published_display": "November 17, 2026 · 9:05 AM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nProvidence, RI — 58°F and Sunny ☀️",
+      "display_text": "Providence, RI — 58°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20261117T140305Z",
       "facebook_id": "122127648561440979",
       "published_at": "2026-11-17T14:03:05.629392+00:00",
@@ -9396,23 +9407,6 @@
           "type": "image",
           "url": "/media/feed/20261004T100049Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261004T040232Z",
-      "facebook_id": "122118248997440979",
-      "published_at": "2026-10-04T04:02:32.110028+00:00",
-      "published_display": "October 4, 2026 · 12:02 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 04, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 39%\n📅 Next full moon: October 26, 2026\n\ngetting little again~ 🌘🎀🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 39%\n📅 Next full moon: October 26, 2026\n\ngetting little again~ 🌘🎀🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261004T040232Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

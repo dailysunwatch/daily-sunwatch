@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261117T050300Z",
+      "facebook_id": "122127576675440979",
+      "published_at": "2026-11-17T05:03:00.873493+00:00",
+      "published_display": "November 17, 2026 · 12:03 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 17, 2026\n\n🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C1.0 (Peaked November 17, 2026 at 02:12 UTC)\n🔥 Strongest recent flare: C5.4 (Peaked November 16, 2026 at 06:58 UTC)\n💨 Solar wind speed: 286 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSmall flare, but Sunny noticed! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C1.0 (Peaked November 17, 2026 at 02:12 UTC)\n🔥 Strongest recent flare: C5.4 (Peaked November 16, 2026 at 06:58 UTC)\n💨 Solar wind speed: 286 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nSmall flare, but Sunny noticed! 🔥🌎\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261117T050300Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261117T020450Z",
       "facebook_id": "1170345462837861_122127557241440979",
       "published_at": "2026-11-17T02:04:50.061702+00:00",
@@ -9402,23 +9419,6 @@
           "type": "image",
           "url": "/media/feed/20261003T190047Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261003T170026Z",
-      "facebook_id": "122118129681440979",
-      "published_at": "2026-10-03T17:00:26.939573+00:00",
-      "published_display": "October 3, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — October 03, 2026\n\nLunch time!\n\nHere's what stood out today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nDo not disturb. Sandwich in progress. #SunnySpinny 🌞🌎\n\nWant your art featured here? Contact me! 🎨",
-      "display_text": "Lunch time!\n\nHere's what stood out today:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nDo not disturb. Sandwich in progress. #SunnySpinny 🌞🌎\n\nWant your art featured here? Contact me! 🎨",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T170026Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

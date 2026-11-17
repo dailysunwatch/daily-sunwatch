@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261117T020450Z",
+      "facebook_id": "1170345462837861_122127557241440979",
+      "published_at": "2026-11-17T02:04:50.061702+00:00",
+      "published_display": "November 16, 2026 · 9:04 PM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 16, 2026\n\n🌒 Moon phase: Waxing Crescent\n💡 Illumination: 41%\n🌌 Constellation: Capricornus ♑\n📅 Next full moon: November 24, 2026\n\ncrescent moony. 💕🌒 🌙\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌒 Moon phase: Waxing Crescent\n💡 Illumination: 41%\n🌌 Constellation: Capricornus ♑\n📅 Next full moon: November 24, 2026\n\ncrescent moony. 💕🌒 🌙\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": []
+    },
+    {
       "id": "20261117T020301Z",
       "facebook_id": "122127556881440979",
       "published_at": "2026-11-17T02:03:01.516868+00:00",
@@ -9410,17 +9421,6 @@
           "alt": "Sunny's Lunch Break"
         }
       ]
-    },
-    {
-      "id": "20261003T160300Z",
-      "facebook_id": "1170345462837861_122118120885440979",
-      "published_at": "2026-10-03T16:03:00.262404+00:00",
-      "published_display": "October 3, 2026 · 12:03 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nWashington, DC — 68°F and Rainy 🌧️",
-      "display_text": "Washington, DC — 68°F and Rainy 🌧️",
-      "media": []
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261117T020301Z",
+      "facebook_id": "122127556881440979",
+      "published_at": "2026-11-17T02:03:01.516868+00:00",
+      "published_display": "November 16, 2026 · 9:03 PM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 16, 2026\n\n🔆️ Solar activity: Low (B7.4)\n🔥 Latest solar flare: C1.0 (Peaked November 17, 2026 at 00:32 UTC)\n🔥 Strongest recent flare: C5.4 (Peaked November 16, 2026 at 06:58 UTC)\n💨 Solar wind speed: 298 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA quick flare from the Sun! 💥🌌\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B7.4)\n🔥 Latest solar flare: C1.0 (Peaked November 17, 2026 at 00:32 UTC)\n🔥 Strongest recent flare: C5.4 (Peaked November 16, 2026 at 06:58 UTC)\n💨 Solar wind speed: 298 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA quick flare from the Sun! 💥🌌\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261117T020301Z/image_1.png",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261116T230305Z",
       "facebook_id": "122127537207440979",
       "published_at": "2026-11-16T23:03:05.968421+00:00",
@@ -9404,48 +9421,6 @@
       "text": "🌎 East Coast Weather\n\nWashington, DC — 68°F and Rainy 🌧️",
       "display_text": "Washington, DC — 68°F and Rainy 🌧️",
       "media": []
-    },
-    {
-      "id": "20261003T160100Z",
-      "facebook_id": "1170345462837861_122118119817440979",
-      "published_at": "2026-10-03T16:01:00.413138+00:00",
-      "published_display": "October 3, 2026 · 12:01 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 03, 2026\n\n🔆️ Solar activity: Low (B2.5)\n🔥 Latest solar flare: B5.0 (Peaked October 03, 2026 at 15:07 UTC)\n💨 Solar wind speed: 275 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLeave a comment! 💫\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B2.5)\n🔥 Latest solar flare: B5.0 (Peaked October 03, 2026 at 15:07 UTC)\n💨 Solar wind speed: 275 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLeave a comment! 💫\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261003T160100Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261118T170313Z",
+      "facebook_id": "1170345462837861_122127854607440979",
+      "published_at": "2026-11-18T17:03:13.827438+00:00",
+      "published_display": "November 18, 2026 · 12:03 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 18, 2026\n\n🔆️ Solar activity: Low (B9.3)\n🔥 Latest solar flare: C1.5 (Peaked November 18, 2026 at 15:22 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 17, 2026 at 21:39 UTC)\n💨 Solar wind speed: 386 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny spotted a flare! 💥🌎\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B9.3)\n🔥 Latest solar flare: C1.5 (Peaked November 18, 2026 at 15:22 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 17, 2026 at 21:39 UTC)\n💨 Solar wind speed: 386 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nSunny spotted a flare! 💥🌎\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T170313Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261118T140440Z",
       "facebook_id": "1170345462837861_122127834159440979",
       "published_at": "2026-11-18T14:04:40.854221+00:00",
@@ -9408,17 +9450,6 @@
           "alt": "Evening Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20261004T220522Z",
-      "facebook_id": "1170345462837861_122118435285440979",
-      "published_at": "2026-10-04T22:05:22.040301+00:00",
-      "published_display": "October 4, 2026 · 6:05 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nBurlington, VT — 65°F and Mostly Cloudy 🌥️",
-      "display_text": "Burlington, VT — 65°F and Mostly Cloudy 🌥️",
-      "media": []
     }
   ]
 }

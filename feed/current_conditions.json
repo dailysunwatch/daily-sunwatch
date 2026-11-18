@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T11:03:10.658694+00:00",
-  "updated_display": "November 18, 2026 at 6:03 AM EST",
+  "updated_at": "2026-11-18T14:03:13.035432+00:00",
+  "updated_display": "November 18, 2026 at 9:03 AM EST",
   "conditions": {
     "solar_activity": {
       "label": "Solar Activity",
@@ -8,11 +8,11 @@
     },
     "latest_flare": {
       "label": "Latest Flare",
-      "value": "C3.6 · 10:15 UTC"
+      "value": "C4.9 · 13:20 UTC"
     },
     "solar_wind": {
       "label": "Solar Wind",
-      "value": "392 km/s · Moderate"
+      "value": "395 km/s · Moderate"
     },
     "kp_index": {
       "label": "Kp Index",
@@ -24,7 +24,7 @@
     },
     "imf_bz": {
       "label": "IMF Bz",
-      "value": "-5.2 nT · Southward"
+      "value": "-2.6 nT · Normal"
     },
     "active_regions": {
       "label": "Active Regions",
@@ -32,7 +32,7 @@
     },
     "coronal_hole_hss": {
       "label": "Coronal Hole / HSS",
-      "value": "Expected"
+      "value": "Expected · Confirmed"
     },
     "cme": {
       "label": "CME",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261118T050302Z",
+      "facebook_id": "122127769701440979",
+      "published_at": "2026-11-18T05:03:02.732616+00:00",
+      "published_display": "November 18, 2026 · 12:03 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 18, 2026\n\n🔆️ Solar activity: Moderate (C1.4)\n🔥 Latest solar flare: C2.0 (Peaked November 18, 2026 at 03:55 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 17, 2026 at 21:39 UTC)\n💨 Solar wind speed: 393 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nSeveral bright active regions and sunspot groups are visible across the solar disk today; the coronagraph view looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Moderate (C1.4)\n🔥 Latest solar flare: C2.0 (Peaked November 18, 2026 at 03:55 UTC)\n🔥 Strongest recent flare: M1.7 (Peaked November 17, 2026 at 21:39 UTC)\n💨 Solar wind speed: 393 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nSeveral bright active regions and sunspot groups are visible across the solar disk today; the coronagraph view looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T050302Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261118T020301Z",
       "facebook_id": "122127739965440979",
       "published_at": "2026-11-18T02:03:01.571372+00:00",
@@ -9414,17 +9431,6 @@
           "alt": "Sunny's Lunch Break"
         }
       ]
-    },
-    {
-      "id": "20261004T160431Z",
-      "facebook_id": "1170345462837861_122118377367440979",
-      "published_at": "2026-10-04T16:04:31.762976+00:00",
-      "published_display": "October 4, 2026 · 12:04 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nWilmington, DE — 66°F and Chance of Rain 🌧️",
-      "display_text": "Wilmington, DE — 66°F and Chance of Rain 🌧️",
-      "media": []
     }
   ]
 }

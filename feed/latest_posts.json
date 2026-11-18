@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261118T180143Z",
+      "facebook_id": "122127861333440979",
+      "published_at": "2026-11-18T18:01:43.905171+00:00",
+      "published_display": "November 18, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 18, 2026\n\nLunch acquired!\n\nHere's what I'm keeping an eye on today:\n🔥 Strongest flare: M1.7\n🔆 Peak solar activity: High (M1.7)\n\nSee you after lunch!",
+      "display_text": "Lunch acquired!\n\nHere's what I'm keeping an eye on today:\n🔥 Strongest flare: M1.7\n🔆 Peak solar activity: High (M1.7)\n\nSee you after lunch!",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261118T180143Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261118T170509Z",
       "facebook_id": "1170345462837861_122127855603440979",
       "published_at": "2026-11-18T17:05:09.512353+00:00",
@@ -9441,23 +9458,6 @@
           "type": "image",
           "url": "/media/feed/20261005T040049Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261005T010052Z",
-      "facebook_id": "122118460461440979",
-      "published_at": "2026-10-05T01:00:52.312629+00:00",
-      "published_display": "October 4, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — October 04, 2026\n\n🔆️ Solar activity: Low (B3.8​)\n🔥 Latest solar flare: B2.9 (Peaked October 04, 2026 at 23:40 UTC)\n💨 Solar wind speed: 571 km/s (Fast)\n🌎 Geomagnetic activity: Active (Kp 4.67)\n🚨 NOAA Alert: Geomagnetic K-index of 5\n\nHold onto something! ☀️🚀👀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B3.8​)\n🔥 Latest solar flare: B2.9 (Peaked October 04, 2026 at 23:40 UTC)\n💨 Solar wind speed: 571 km/s (Fast)\n🌎 Geomagnetic activity: Active (Kp 4.67)\n🚨 NOAA Alert: Geomagnetic K-index of 5\n\nHold onto something! ☀️🚀👀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261005T010052Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

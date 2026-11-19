@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261119T050610Z",
+      "facebook_id": "122127959403440979",
+      "published_at": "2026-11-19T05:06:10.434832+00:00",
+      "published_display": "November 19, 2026 · 12:06 AM EST",
+      "type": "aurora_watch",
+      "title": "Aurora Watch",
+      "text": "🌌 Aurora Watch — November 19, 2026\n\nGeomagnetic activity has reached storm levels, so Sunny is keeping watch for aurora potential.\n\n🌎 Kp: 5.00 (G1 Storm Level)\n🧲 IMF Bz: +2.3 nT (Northward)\n💨 Solar wind: 442 km/s (Moderate)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nOooh. Pretty. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "display_text": "Geomagnetic activity has reached storm levels, so Sunny is keeping watch for aurora potential.\n\n🌎 Kp: 5.00 (G1 Storm Level)\n🧲 IMF Bz: +2.3 nT (Northward)\n💨 Solar wind: 442 km/s (Moderate)\n🚨 NOAA: ALERT: Geomagnetic K-index of 5\n☀️ Solar driver context: CH-HSS\n\nOooh. Pretty. ✨\n\nAurora visibility still depends on location, darkness, cloud cover, and how the magnetic field evolves from here. ✨\n\nImage: NOAA SWPC — OVATION Aurora Forecast\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261119T050610Z/image_1.jpg",
+          "alt": "NOAA SWPC OVATION Aurora Forecast"
+        }
+      ]
+    },
+    {
       "id": "20261119T050303Z",
       "facebook_id": "122127959055440979",
       "published_at": "2026-11-19T05:03:03.039433+00:00",
@@ -9416,23 +9433,6 @@
           "type": "image",
           "url": "/media/feed/20261005T220052Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261005T190049Z",
-      "facebook_id": "122118638589440979",
-      "published_at": "2026-10-05T19:00:49.094847+00:00",
-      "published_display": "October 5, 2026 · 3:00 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — October 05, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C1.5\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — LASCO C3\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C1.5\n\nEyes on the corona today. 👀☀️\n\nImage: NOAA SWPC — LASCO C3\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261005T190049Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

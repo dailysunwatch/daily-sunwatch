@@ -1,0 +1,42 @@
+{
+  "id": "20261120T170332Z",
+  "facebook_id": "1170345462837861_122128229955440979",
+  "published_at": "2026-11-20T17:03:32.387022+00:00",
+  "published_display": "November 20, 2026 · 12:03 PM EST",
+  "type": "sunwatch",
+  "title": "Midday Sunwatch",
+  "text": "🌤️ Midday Sunwatch — November 20, 2026\n\n🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: B5.7 (Peaked November 20, 2026 at 16:38 UTC)\n🔥 Strongest recent flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 379 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n\nSunny caught a little flare! 💥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B4.1)\n🔥 Latest solar flare: B5.7 (Peaked November 20, 2026 at 16:38 UTC)\n🔥 Strongest recent flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 379 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n\nSunny caught a little flare! 💥\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_1.jpg",
+      "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_2.jpg",
+      "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_3.jpg",
+      "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_4.jpg",
+      "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_5.jpg",
+      "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261120T170332Z/image_6.jpg",
+      "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+    }
+  ]
+}

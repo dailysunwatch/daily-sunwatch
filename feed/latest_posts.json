@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261120T140303Z",
+      "facebook_id": "122128207593440979",
+      "published_at": "2026-11-20T14:03:03.428264+00:00",
+      "published_display": "November 20, 2026 · 9:03 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 20, 2026\n\n🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 378 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nSunny caught a C-Class flare! 🔥🌎\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.6)\n🔥 Latest solar flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 378 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nSunny caught a C-Class flare! 🔥🌎\n\nImage: NASA SDO/AIA — 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261120T140303Z/image_1.jpg",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261120T110258Z",
       "facebook_id": "122128181055440979",
       "published_at": "2026-11-20T11:02:58.304811+00:00",
@@ -9424,17 +9441,6 @@
           "alt": "Coronagraph Watch image"
         }
       ]
-    },
-    {
-      "id": "20261006T190341Z",
-      "facebook_id": "1170345462837861_122118873129440979",
-      "published_at": "2026-10-06T19:03:41.501563+00:00",
-      "published_display": "October 6, 2026 · 3:03 PM EDT",
-      "type": "sunspot_watch",
-      "title": "Sunspot Watch",
-      "text": "☀️ Sunspot Watch — October 06, 2026\n\nSunny is taking a closer look at NOAA Active Region 4549, where a sunspot region associated with recent M-class activity is showing up on the solar disk.\n\n📍 Location: N10E01\n☀️ Region: AR 4549\n🔥 Recent activity: 2 M-class flares · 5 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "Sunny is taking a closer look at NOAA Active Region 4549, where a sunspot region associated with recent M-class activity is showing up on the solar disk.\n\n📍 Location: N10E01\n☀️ Region: AR 4549\n🔥 Recent activity: 2 M-class flares · 5 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": []
     }
   ]
 }

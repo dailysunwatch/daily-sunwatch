@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261120T170508Z",
+      "facebook_id": "1170345462837861_122128230729440979",
+      "published_at": "2026-11-20T17:05:08.934636+00:00",
+      "published_display": "November 20, 2026 · 12:05 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nMiami, FL — 82°F and Partly Sunny ⛅",
+      "display_text": "Miami, FL — 82°F and Partly Sunny ⛅",
+      "media": []
+    },
+    {
       "id": "20261120T170332Z",
       "facebook_id": "1170345462837861_122128229955440979",
       "published_at": "2026-11-20T17:03:32.387022+00:00",
@@ -9455,17 +9466,6 @@
           "alt": "Nighttime Sunwatch image"
         }
       ]
-    },
-    {
-      "id": "20261006T220206Z",
-      "facebook_id": "1170345462837861_122118898149440979",
-      "published_at": "2026-10-06T22:02:06.664246+00:00",
-      "published_display": "October 6, 2026 · 6:02 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nPhiladelphia, PA — 63°F and Sunny ☀️",
-      "display_text": "Philadelphia, PA — 63°F and Sunny ☀️",
-      "media": []
     }
   ]
 }

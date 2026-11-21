@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261121T050300Z",
+      "facebook_id": "122128315575440979",
+      "published_at": "2026-11-21T05:03:00.072610+00:00",
+      "published_display": "November 21, 2026 · 12:03 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 21, 2026\n\n🔆️ Solar activity: Low (B3.7)\n🔥 Latest solar flare: B4.9 (Peaked November 21, 2026 at 01:24 UTC)\n💨 Solar wind speed: 335 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nLooks pretty quiet right now. 🌎\n\nA few modest active regions and small sunspot groups are visible, with no clearly significant outward coronal structure.\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.7)\n🔥 Latest solar flare: B4.9 (Peaked November 21, 2026 at 01:24 UTC)\n💨 Solar wind speed: 335 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n\nLooks pretty quiet right now. 🌎\n\nA few modest active regions and small sunspot groups are visible, with no clearly significant outward coronal structure.\n\nImage: NASA SDO/AIA — 335 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261121T050300Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261121T020514Z",
       "facebook_id": "122128293015440979",
       "published_at": "2026-11-21T02:05:14.769153+00:00",
@@ -9449,23 +9466,6 @@
       "text": "🌎 East Coast Weather\n\nCharlotte, NC — 79°F and Sunny ☀️",
       "display_text": "Charlotte, NC — 79°F and Sunny ☀️",
       "media": []
-    },
-    {
-      "id": "20261007T130044Z",
-      "facebook_id": "122119043187440979",
-      "published_at": "2026-10-07T13:00:44.502575+00:00",
-      "published_display": "October 7, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — October 07, 2026\n\n🔆️ Solar activity: Moderate (C1.7)\n🔥 Latest solar flare: C1.1 (Peaked October 07, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle flare from the Sun! 💥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Moderate (C1.7)\n🔥 Latest solar flare: C1.1 (Peaked October 07, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: C3.6 (Peaked October 06, 2026 at 15:06 UTC)\n💨 Solar wind speed: 356 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nLittle flare from the Sun! 💥🌎\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T130044Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

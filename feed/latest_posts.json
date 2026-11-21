@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261121T140548Z",
+      "facebook_id": "1170345462837861_122128391193440979",
+      "published_at": "2026-11-21T14:05:48.580739+00:00",
+      "published_display": "November 21, 2026 · 9:05 AM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nBoston, MA — 63°F and Sunny ☀️",
+      "display_text": "Boston, MA — 63°F and Sunny ☀️",
+      "media": []
+    },
+    {
       "id": "20261121T140300Z",
       "facebook_id": "122128390581440979",
       "published_at": "2026-11-21T14:03:00.505770+00:00",
@@ -9435,17 +9446,6 @@
       "title": "East Coast Weather",
       "text": "🌎 East Coast Weather\n\nSavannah, GA — 79°F and Mostly Cloudy 🌥️",
       "display_text": "Savannah, GA — 79°F and Mostly Cloudy 🌥️",
-      "media": []
-    },
-    {
-      "id": "20261007T160409Z",
-      "facebook_id": "1170345462837861_122119071747440979",
-      "published_at": "2026-10-07T16:04:09.836127+00:00",
-      "published_display": "October 7, 2026 · 12:04 PM EDT",
-      "type": "sunspot_watch",
-      "title": "Sunspot Watch",
-      "text": "☀️ Sunspot Watch — October 07, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4549.\n\n📍 Location: N10W13\n☀️ Region: AR 4549\n🔥 Recent activity: 4 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4549.\n\n📍 Location: N10W13\n☀️ Region: AR 4549\n🔥 Recent activity: 4 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "media": []
     }
   ]

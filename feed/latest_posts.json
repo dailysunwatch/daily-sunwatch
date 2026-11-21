@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261121T110303Z",
+      "facebook_id": "122128362615440979",
+      "published_at": "2026-11-21T11:03:03.954976+00:00",
+      "published_display": "November 21, 2026 · 6:03 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 21, 2026\n\n🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 349 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n\nAll quiet on the Sunwatch front. 👀🌞🖤\n\nA few small sunspot groups and bright active regions are visible today, while the surrounding corona looks fairly routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.4)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 349 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n\nAll quiet on the Sunwatch front. 👀🌞🖤\n\nA few small sunspot groups and bright active regions are visible today, while the surrounding corona looks fairly routine.\n\nImage: NASA SDO/AIA — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261121T110303Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261121T050300Z",
       "facebook_id": "122128315575440979",
       "published_at": "2026-11-21T05:03:00.072610+00:00",
@@ -9455,17 +9472,6 @@
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
-    },
-    {
-      "id": "20261007T130336Z",
-      "facebook_id": "1170345462837861_122119044075440979",
-      "published_at": "2026-10-07T13:03:36.487122+00:00",
-      "published_display": "October 7, 2026 · 9:03 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nCharlotte, NC — 79°F and Sunny ☀️",
-      "display_text": "Charlotte, NC — 79°F and Sunny ☀️",
-      "media": []
     }
   ]
 }

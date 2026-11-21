@@ -1,0 +1,42 @@
+{
+  "id": "20261121T170312Z",
+  "facebook_id": "1170345462837861_122128415847440979",
+  "published_at": "2026-11-21T17:03:12.103528+00:00",
+  "published_display": "November 21, 2026 · 12:03 PM EST",
+  "type": "sunwatch",
+  "title": "Midday Sunwatch",
+  "text": "🌤️ Midday Sunwatch — November 21, 2026\n\n🔆️ Solar activity: Low (B2.9)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 355 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nQuiet one right now. 🌎\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B2.9)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 355 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n\nQuiet one right now. 🌎\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_1.jpg",
+      "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_2.jpg",
+      "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_3.jpg",
+      "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_4.jpg",
+      "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_5.jpg",
+      "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261121T170312Z/image_6.jpg",
+      "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+    }
+  ]
+}

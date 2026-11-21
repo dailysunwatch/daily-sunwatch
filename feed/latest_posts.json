@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261121T020300Z",
+      "facebook_id": "122128292481440979",
+      "published_at": "2026-11-21T02:03:00.013451+00:00",
+      "published_display": "November 20, 2026 · 9:03 PM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 20, 2026\n\n🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B4.9 (Peaked November 21, 2026 at 01:24 UTC)\n🔥 Strongest recent flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nA little flicker from the Sun! 🔥\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.5)\n🔥 Latest solar flare: B4.9 (Peaked November 21, 2026 at 01:24 UTC)\n🔥 Strongest recent flare: C9.6 (Peaked November 20, 2026 at 11:30 UTC)\n💨 Solar wind speed: 336 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nA little flicker from the Sun! 🔥\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261121T020300Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261120T230309Z",
       "facebook_id": "122128273071440979",
       "published_at": "2026-11-20T23:03:09.419749+00:00",
@@ -9447,23 +9464,6 @@
           "type": "image",
           "url": "/media/feed/20261007T100050Z/image_1.png",
           "alt": "Early Morning Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261007T040322Z",
-      "facebook_id": "122118957873440979",
-      "published_at": "2026-10-07T04:03:22.696408+00:00",
-      "published_display": "October 7, 2026 · 12:03 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 07, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 11%\n📅 Next full moon: October 26, 2026\n\nhiii!!! c: 🎀💕\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 11%\n📅 Next full moon: October 26, 2026\n\nhiii!!! c: 🎀💕\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T040322Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

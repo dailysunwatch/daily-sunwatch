@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261121T140300Z",
+      "facebook_id": "122128390581440979",
+      "published_at": "2026-11-21T14:03:00.505770+00:00",
+      "published_display": "November 21, 2026 · 9:03 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 21, 2026\n\n🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 353 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNo days off when you're a star. ⭐🌎☀️\n\nSeveral active regions and broad coronal-hole features are visible today, with no obvious large outward coronal structure.\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.3)\n🔥 Latest solar flare: B5.1 (Peaked November 21, 2026 at 09:17 UTC)\n💨 Solar wind speed: 353 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n\nNo days off when you're a star. ⭐🌎☀️\n\nSeveral active regions and broad coronal-hole features are visible today, with no obvious large outward coronal structure.\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261121T140300Z/image_1.jpg",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261121T110303Z",
       "facebook_id": "122128362615440979",
       "published_at": "2026-11-21T11:03:03.954976+00:00",
@@ -9430,48 +9447,6 @@
       "text": "☀️ Sunspot Watch — October 07, 2026\n\nA prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4549.\n\n📍 Location: N10W13\n☀️ Region: AR 4549\n🔥 Recent activity: 4 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "display_text": "A prominent sunspot group is visible across the solar disk today, associated with NOAA Active Region 4549.\n\n📍 Location: N10W13\n☀️ Region: AR 4549\n🔥 Recent activity: 4 C-class flares\n\nThat is a lot of freckles. ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "media": []
-    },
-    {
-      "id": "20261007T160112Z",
-      "facebook_id": "1170345462837861_122119070691440979",
-      "published_at": "2026-10-07T16:01:12.606504+00:00",
-      "published_display": "October 7, 2026 · 12:01 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 07, 2026\n\n🔆️ Solar activity: Low (B8.9)\n🔥 Latest solar flare: C7.9 (Peaked October 07, 2026 at 13:17 UTC)\n💨 Solar wind speed: 347 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA small burst of solar energy! 🔥🚀\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B8.9)\n🔥 Latest solar flare: C7.9 (Peaked October 07, 2026 at 13:17 UTC)\n💨 Solar wind speed: 347 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nA small burst of solar energy! 🔥🚀\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261007T160112Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

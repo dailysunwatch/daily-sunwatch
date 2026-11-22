@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261122T180137Z",
+      "facebook_id": "122128617321440979",
+      "published_at": "2026-11-22T18:01:37.263938+00:00",
+      "published_display": "November 22, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 22, 2026\n\nTime for lunch!\n\nHere's what I'm keeping an eye on today:\n💨 Peak solar wind: 479 km/s (Elevated)\n\nSunny will be back shortly. #SunnySpinny 🌞🌎\n\nSunny's always looking for new Lunch Break art! Reach out to connect! 🎨",
+      "display_text": "Time for lunch!\n\nHere's what I'm keeping an eye on today:\n💨 Peak solar wind: 479 km/s (Elevated)\n\nSunny will be back shortly. #SunnySpinny 🌞🌎\n\nSunny's always looking for new Lunch Break art! Reach out to connect! 🎨",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261122T180137Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261122T170535Z",
       "facebook_id": "1170345462837861_122128608255440979",
       "published_at": "2026-11-22T17:05:35.414169+00:00",
@@ -9459,23 +9476,6 @@
           "type": "image",
           "url": "/media/feed/20261009T040046Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261009T010046Z",
-      "facebook_id": "122119403127440979",
-      "published_at": "2026-10-09T01:00:46.930425+00:00",
-      "published_display": "October 8, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — October 08, 2026\n\n🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.5 (Peaked October 08, 2026 at 22:44 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 363 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nA bright active region stands out in today’s EUV solar images, while the coronagraph shows routine streamer structure.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Moderate (C1.3)\n🔥 Latest solar flare: C3.5 (Peaked October 08, 2026 at 22:44 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 363 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Alert: Electron 2MeV Integral Flux exceeded 1,000pfu\n\nThings are flickering on the Sun. 🔥🌞\n\nA bright active region stands out in today’s EUV solar images, while the coronagraph shows routine streamer structure.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T010046Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

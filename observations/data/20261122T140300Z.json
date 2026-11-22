@@ -1,0 +1,17 @@
+{
+  "id": "20261122T140300Z",
+  "facebook_id": "122128582323440979",
+  "published_at": "2026-11-22T14:03:00.620264+00:00",
+  "published_display": "November 22, 2026 · 9:03 AM EST",
+  "type": "sunwatch",
+  "title": "Morning Sunwatch",
+  "text": "☀️ Morning Sunwatch — November 22, 2026\n\n🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 376 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n\nA prominent dark coronal-hole region and several compact active regions are visible, while the coronagraph shows no clear large outward structure.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B2.7)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 376 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n\nA prominent dark coronal-hole region and several compact active regions are visible, while the coronagraph shows no clear large outward structure.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261122T140300Z/image_1.png",
+      "alt": "Morning Sunwatch image"
+    }
+  ]
+}

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261122T050301Z",
+      "facebook_id": "122128517367440979",
+      "published_at": "2026-11-22T05:03:01.128658+00:00",
+      "published_display": "November 22, 2026 · 12:03 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 22, 2026\n\n🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 337 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nThe Sun's behaving itself. ☀️\n\nSolar images show a few bright active regions and a broad coronal-hole-like area; no clearly unusual outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.2)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 337 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nThe Sun's behaving itself. ☀️\n\nSolar images show a few bright active regions and a broad coronal-hole-like area; no clearly unusual outward structure is visible.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261122T050301Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261122T020300Z",
       "facebook_id": "122128494165440979",
       "published_at": "2026-11-22T02:03:00.072158+00:00",
@@ -9454,17 +9471,6 @@
       "title": "Sunspot Watch",
       "text": "☀️ Sunspot Watch — October 08, 2026\n\nNOAA Active Region 4549 stands out on the visible solar disk today as a rapidly developing sunspot group.\n\n📍 Location: N10W29\n☀️ Region: AR 4549\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "display_text": "NOAA Active Region 4549 stands out on the visible solar disk today as a rapidly developing sunspot group.\n\n📍 Location: N10W29\n☀️ Region: AR 4549\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
-      "media": []
-    },
-    {
-      "id": "20261008T130256Z",
-      "facebook_id": "1170345462837861_122119279533440979",
-      "published_at": "2026-10-08T13:02:56.855922+00:00",
-      "published_display": "October 8, 2026 · 9:02 AM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nHartford, CT — 72°F and Slight Chance of Rain 🌧️",
-      "display_text": "Hartford, CT — 72°F and Slight Chance of Rain 🌧️",
       "media": []
     }
   ]

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261122T110259Z",
+      "facebook_id": "122128557687440979",
+      "published_at": "2026-11-22T11:02:59.875465+00:00",
+      "published_display": "November 22, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 22, 2026\n\n🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 384 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🖤🌎\n\nA broad dark coronal-hole region and several bright active regions are visible today, while the coronagraph shows no clearly distinctive large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B4.7 (Peaked November 21, 2026 at 19:27 UTC)\n💨 Solar wind speed: 384 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.33)\n\nCalm conditions right now. 🖤🌎\n\nA broad dark coronal-hole region and several bright active regions are visible today, while the coronagraph shows no clearly distinctive large outward structure.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261122T110259Z/image_1.jpg",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261122T050508Z",
       "facebook_id": "122128517805440979",
       "published_at": "2026-11-22T05:05:08.954512+00:00",
@@ -9436,48 +9453,6 @@
       "text": "🌎 East Coast Weather\n\nManchester, NH — 71°F and Slight Chance of Rain 🌧️",
       "display_text": "Manchester, NH — 71°F and Slight Chance of Rain 🌧️",
       "media": []
-    },
-    {
-      "id": "20261008T160059Z",
-      "facebook_id": "1170345462837861_122119314915440979",
-      "published_at": "2026-10-08T16:00:59.302447+00:00",
-      "published_display": "October 8, 2026 · 12:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 08, 2026\n\n🔆️ Solar activity: High (M3.6)\n🔥 Latest solar flare: C1.6 (Peaked October 08, 2026 at 00:59 UTC)\n💨 Solar wind speed: 352 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: X-Ray Flux exceeded M5\n\nThe Sun's waking up! ☀️🌌\n\nA bright active region is standing out prominently on the solar disk today, while the coronagraph shows ordinary streamer structure.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: High (M3.6)\n🔥 Latest solar flare: C1.6 (Peaked October 08, 2026 at 00:59 UTC)\n💨 Solar wind speed: 352 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: X-Ray Flux exceeded M5\n\nThe Sun's waking up! ☀️🌌\n\nA bright active region is standing out prominently on the solar disk today, while the coronagraph shows ordinary streamer structure.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261008T160059Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

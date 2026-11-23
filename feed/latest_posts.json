@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261123T050302Z",
+      "facebook_id": "122128700823440979",
+      "published_at": "2026-11-23T05:03:02.329250+00:00",
+      "published_display": "November 23, 2026 · 12:03 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 23, 2026\n\n🔆️ Solar activity: Low (B2.2)\n🔥 Latest solar flare: B4.2 (Peaked November 22, 2026 at 20:46 UTC)\n💨 Solar wind speed: 318 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nThings are pretty quiet. 🖤\n\nA broad dark coronal region and several bright active areas are visible today, with no clear large outward structure in the coronagraph view.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.2)\n🔥 Latest solar flare: B4.2 (Peaked November 22, 2026 at 20:46 UTC)\n💨 Solar wind speed: 318 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nThings are pretty quiet. 🖤\n\nA broad dark coronal region and several bright active areas are visible today, with no clear large outward structure in the coronagraph view.\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T050302Z/image_1.jpg",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261123T020302Z",
       "facebook_id": "122128676397440979",
       "published_at": "2026-11-23T02:03:02.044928+00:00",
@@ -9459,23 +9476,6 @@
           "type": "image",
           "url": "/media/feed/20261009T160057Z/image_6.png",
           "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
-    },
-    {
-      "id": "20261009T130036Z",
-      "facebook_id": "122119508031440979",
-      "published_at": "2026-10-09T13:00:36.193354+00:00",
-      "published_display": "October 9, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — October 09, 2026\n\n🔆️ Solar activity: Low (B9.9)\n🔥 Latest solar flare: C1.8 (Peaked October 09, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🧲 Bz: +6.5 nT (Northward)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThere goes a C-Class flare! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B9.9)\n🔥 Latest solar flare: C1.8 (Peaked October 09, 2026 at 12:39 UTC)\n🔥 Strongest recent flare: M6.7 (Peaked October 08, 2026 at 15:48 UTC)\n💨 Solar wind speed: 387 km/s (Moderate)\n🧲 Bz: +6.5 nT (Northward)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nThere goes a C-Class flare! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T130036Z/image_1.png",
-          "alt": "Morning Sunwatch image"
         }
       ]
     }

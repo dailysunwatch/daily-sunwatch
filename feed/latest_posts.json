@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261123T230305Z",
+      "facebook_id": "122128863867440979",
+      "published_at": "2026-11-23T23:03:05.048105+00:00",
+      "published_display": "November 23, 2026 · 6:03 PM EST",
+      "type": "sunwatch",
+      "title": "Evening Sunwatch",
+      "text": "🌇 Evening Sunwatch — November 23, 2026\n\n🔆️ Solar activity: Low (B1.8​)\n🔥 Latest solar flare: B2.3 (Peaked November 23, 2026 at 19:41 UTC)\n💨 Solar wind speed: 317 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nPretty calm right now. 💫\n\nA broad dark coronal-hole-like region and several bright active regions stand out today, while the coronagraph view looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.8​)\n🔥 Latest solar flare: B2.3 (Peaked November 23, 2026 at 19:41 UTC)\n💨 Solar wind speed: 317 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nPretty calm right now. 💫\n\nA broad dark coronal-hole-like region and several bright active regions stand out today, while the coronagraph view looks routine.\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T230305Z/image_1.png",
+          "alt": "Evening Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261123T200305Z",
       "facebook_id": "122128843557440979",
       "published_at": "2026-11-23T20:03:05.392792+00:00",
@@ -9449,23 +9466,6 @@
       "text": "☀️ Sunspot Watch — October 10, 2026\n\nNOAA Active Region 4551 stands out on the visible solar disk today as a rapidly developing sunspot group.\n\n📍 Location: S14E61\n☀️ Region: AR 4551\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "display_text": "NOAA Active Region 4551 stands out on the visible solar disk today as a rapidly developing sunspot group.\n\n📍 Location: S14E61\n☀️ Region: AR 4551\n🔥 Recent activity: No C/M/X flares listed by NOAA for this region.\n\nSpotted. Literally.\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "media": []
-    },
-    {
-      "id": "20261010T100043Z",
-      "facebook_id": "122119705923440979",
-      "published_at": "2026-10-10T10:00:43.809575+00:00",
-      "published_display": "October 10, 2026 · 6:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Early Morning Sunwatch",
-      "text": "🌅 Early Morning Sunwatch — October 10, 2026\n\n🔆️ Solar activity: Low (B9.7)\n🔥 Latest solar flare: C1.7 (Peaked October 10, 2026 at 09:33 UTC)\n🔥 Strongest recent flare: M1.3 (Peaked October 09, 2026 at 14:09 UTC)\n💨 Solar wind speed: 408 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle burst of solar energy! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B9.7)\n🔥 Latest solar flare: C1.7 (Peaked October 10, 2026 at 09:33 UTC)\n🔥 Strongest recent flare: M1.3 (Peaked October 09, 2026 at 14:09 UTC)\n💨 Solar wind speed: 408 km/s (Moderate)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nLittle burst of solar energy! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261010T100043Z/image_1.png",
-          "alt": "Early Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

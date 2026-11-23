@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261123T170313Z",
+      "facebook_id": "1170345462837861_122128785591440979",
+      "published_at": "2026-11-23T17:03:13.076399+00:00",
+      "published_display": "November 23, 2026 · 12:03 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 23, 2026\n\n🔆️ Solar activity: Low (B1.6)\n🔥 Latest solar flare: B2.8 (Peaked November 23, 2026 at 09:56 UTC)\n💨 Solar wind speed: 327 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nA small sunspot, several bright active regions, and a broad coronal-hole-like area are visible today, while the outer corona looks quiet.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.6)\n🔥 Latest solar flare: B2.8 (Peaked November 23, 2026 at 09:56 UTC)\n💨 Solar wind speed: 327 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n\nA small sunspot, several bright active regions, and a broad coronal-hole-like area are visible today, while the outer corona looks quiet.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T170313Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261123T140548Z",
       "facebook_id": "1170345462837861_122128761669440979",
       "published_at": "2026-11-23T14:05:48.093679+00:00",
@@ -9428,23 +9470,6 @@
           "type": "image",
           "url": "/media/feed/20261010T010235Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20261010T010046Z",
-      "facebook_id": "122119632819440979",
-      "published_at": "2026-10-10T01:00:46.103243+00:00",
-      "published_display": "October 9, 2026 · 9:00 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — October 09, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M1.3\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: M1.3\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-2\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261010T010046Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }

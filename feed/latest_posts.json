@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261123T170502Z",
+      "facebook_id": "1170345462837861_122128786323440979",
+      "published_at": "2026-11-23T17:05:02.848206+00:00",
+      "published_display": "November 23, 2026 · 12:05 PM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nOcean City, MD — 65°F and Mostly Sunny 🌤️",
+      "display_text": "Ocean City, MD — 65°F and Mostly Sunny 🌤️",
+      "media": []
+    },
+    {
       "id": "20261123T170313Z",
       "facebook_id": "1170345462837861_122128785591440979",
       "published_at": "2026-11-23T17:03:13.076399+00:00",
@@ -9453,23 +9464,6 @@
           "type": "image",
           "url": "/media/feed/20261010T040044Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261010T010235Z",
-      "facebook_id": "122119633353440979",
-      "published_at": "2026-10-10T01:02:35.988304+00:00",
-      "published_display": "October 9, 2026 · 9:02 PM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 09, 2026\n\n🌘 Moon phase: Waning Crescent\n💡 Illumination: 2%\n📅 Next full moon: October 26, 2026\n\nhope you're all cozy tonight~ <3 🌕💖\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌘 Moon phase: Waning Crescent\n💡 Illumination: 2%\n📅 Next full moon: October 26, 2026\n\nhope you're all cozy tonight~ <3 🌕💖\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261010T010235Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

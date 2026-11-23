@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "20261123T140548Z",
+      "facebook_id": "1170345462837861_122128761669440979",
+      "published_at": "2026-11-23T14:05:48.093679+00:00",
+      "published_display": "November 23, 2026 · 9:05 AM EST",
+      "type": "weather",
+      "title": "East Coast Weather",
+      "text": "🌎 East Coast Weather\n\nBurlington, VT — 55°F and Partly Sunny ⛅",
+      "display_text": "Burlington, VT — 55°F and Partly Sunny ⛅",
+      "media": []
+    },
+    {
       "id": "20261123T140305Z",
       "facebook_id": "122128761021440979",
       "published_at": "2026-11-23T14:03:05.953016+00:00",
@@ -9434,23 +9445,6 @@
           "type": "image",
           "url": "/media/feed/20261010T010046Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20261009T220046Z",
-      "facebook_id": "122119601913440979",
-      "published_at": "2026-10-09T22:00:46.473209+00:00",
-      "published_display": "October 9, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — October 09, 2026\n\n🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C1.4 (Peaked October 09, 2026 at 16:02 UTC)\n💨 Solar wind speed: 370 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nI'm still watching that earlier M1.3 flare. ☀️\n\nA bright active region stands out near the Sun’s right limb, while the coronagraph shows no clear large outward eruption.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Moderate (C1.0)\n🔥 Latest solar flare: C1.4 (Peaked October 09, 2026 at 16:02 UTC)\n💨 Solar wind speed: 370 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nI'm still watching that earlier M1.3 flare. ☀️\n\nA bright active region stands out near the Sun’s right limb, while the coronagraph shows no clear large outward eruption.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T220046Z/image_1.png",
-          "alt": "Evening Sunwatch image"
         }
       ]
     }

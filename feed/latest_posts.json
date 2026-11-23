@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261123T050427Z",
+      "facebook_id": "122128701213440979",
+      "published_at": "2026-11-23T05:04:27.396054+00:00",
+      "published_display": "November 23, 2026 · 12:04 AM EST",
+      "type": "moonwatch",
+      "title": "Moony Moonwatch",
+      "text": "Moony Moonwatch 🌙 — November 23, 2026\n\n🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 98%\n🌌 Constellation: Aries ♈\n📅 Next full moon: November 24, 2026\n\n*peeks at image*\neverything looks so nice tonight!!! c: ✨🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "display_text": "🌔 Moon phase: Waxing Gibbous\n💡 Illumination: 98%\n🌌 Constellation: Aries ♈\n📅 Next full moon: November 24, 2026\n\n*peeks at image*\neverything looks so nice tonight!!! c: ✨🌕\n\nData: U.S. Naval Observatory + NASA/JPL Horizons\nImage: NASA Scientific Visualization Studio",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261123T050427Z/image_1.jpg",
+          "alt": "Moony Moonwatch lunar observation"
+        }
+      ]
+    },
+    {
       "id": "20261123T050302Z",
       "facebook_id": "122128700823440979",
       "published_at": "2026-11-23T05:03:02.329250+00:00",
@@ -9434,48 +9451,6 @@
           "type": "image",
           "url": "/media/feed/20261009T170026Z/image_1.png",
           "alt": "Sunny's Lunch Break"
-        }
-      ]
-    },
-    {
-      "id": "20261009T160057Z",
-      "facebook_id": "1170345462837861_122119542975440979",
-      "published_at": "2026-10-09T16:00:57.175376+00:00",
-      "published_display": "October 9, 2026 · 12:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 09, 2026\n\n🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: M1.3 (Peaked October 09, 2026 at 14:09 UTC)\n💨 Solar wind speed: 376 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nSunny just spit out an M-Class flare! 🔥💣🚀📡\n\nA bright active region stands out in today’s solar EUV images, while the coronagraph shows no clearly visible large outward eruption.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Moderate (C1.1)\n🔥 Latest solar flare: M1.3 (Peaked October 09, 2026 at 14:09 UTC)\n💨 Solar wind speed: 376 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Alert: Geomagnetic K-index of 4\n\nSunny just spit out an M-Class flare! 🔥💣🚀📡\n\nA bright active region stands out in today’s solar EUV images, while the coronagraph shows no clearly visible large outward eruption.\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261009T160057Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
         }
       ]
     }

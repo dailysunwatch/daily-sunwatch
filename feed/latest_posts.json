@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261124T180112Z",
+      "facebook_id": "122129031213440979",
+      "published_at": "2026-11-24T18:01:12.404512+00:00",
+      "published_display": "November 24, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 24, 2026\n\nI brought salami today!\n\nHere's what I'm watching today:\n💨 Peak solar wind: 1032 km/s (Intense)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSee you after lunch!\n\nGot some art you'd like Sunny to feature? Send it my way! 🎨",
+      "display_text": "I brought salami today!\n\nHere's what I'm watching today:\n💨 Peak solar wind: 1032 km/s (Intense)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSee you after lunch!\n\nGot some art you'd like Sunny to feature? Send it my way! 🎨",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261124T180112Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261124T170219Z",
       "facebook_id": "1170345462837861_122129021643440979",
       "published_at": "2026-11-24T17:02:19.821876+00:00",
@@ -9447,23 +9464,6 @@
           "type": "image",
           "url": "/media/feed/20261011T040333Z/image_1.jpg",
           "alt": "Moony Moonwatch lunar observation"
-        }
-      ]
-    },
-    {
-      "id": "20261011T040051Z",
-      "facebook_id": "122119887999440979",
-      "published_at": "2026-10-11T04:00:51.271213+00:00",
-      "published_display": "October 11, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — October 11, 2026\n\n🔆️ Solar activity: Low (B7.5)\n🔥 Latest solar flare: C1.8 (Peaked October 11, 2026 at 02:53 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 643 km/s (Fast)\n🧲 Bz: +10.9 nT (Strongly Northward)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nNow that's some wind! 🌬🌞👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B7.5)\n🔥 Latest solar flare: C1.8 (Peaked October 11, 2026 at 02:53 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 643 km/s (Fast)\n🧲 Bz: +10.9 nT (Strongly Northward)\n🌎 Geomagnetic activity: Active (Kp 4.00)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nNow that's some wind! 🌬🌞👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261011T040051Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

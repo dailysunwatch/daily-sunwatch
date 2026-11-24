@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261124T200211Z",
+      "facebook_id": "122129070231440979",
+      "published_at": "2026-11-24T20:02:11.824788+00:00",
+      "published_display": "November 24, 2026 · 3:02 PM EST",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — November 24, 2026\n\n🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.6 (Peaked November 24, 2026 at 00:41 UTC)\n💨 Solar wind speed: 315 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nPretty quiet out there. 🌞\n\nA large central coronal-hole-like region stands out today, while sunspot coverage remains sparse and coronal activity looks generally modest.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.6 (Peaked November 24, 2026 at 00:41 UTC)\n💨 Solar wind speed: 315 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nPretty quiet out there. 🌞\n\nA large central coronal-hole-like region stands out today, while sunspot coverage remains sparse and coronal activity looks generally modest.\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261124T200211Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261124T180112Z",
       "facebook_id": "122129031213440979",
       "published_at": "2026-11-24T18:01:12.404512+00:00",
@@ -9447,23 +9464,6 @@
           "type": "image",
           "url": "/media/feed/20261011T070050Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261011T040333Z",
-      "facebook_id": "122119888677440979",
-      "published_at": "2026-10-11T04:03:33.567152+00:00",
-      "published_display": "October 11, 2026 · 12:03 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 11, 2026\n\n🌒 Moon phase: Waxing Crescent\n💡 Illumination: 1%\n📅 Next full moon: October 26, 2026\n\ncrescent moony. 💕🌒 🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌒 Moon phase: Waxing Crescent\n💡 Illumination: 1%\n📅 Next full moon: October 26, 2026\n\ncrescent moony. 💕🌒 🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261011T040333Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

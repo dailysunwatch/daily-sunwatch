@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261125T020218Z",
+      "facebook_id": "122129109519440979",
+      "published_at": "2026-11-25T02:02:18.316654+00:00",
+      "published_display": "November 24, 2026 · 9:02 PM EST",
+      "type": "sunwatch",
+      "title": "Nighttime Sunwatch",
+      "text": "🌕 Nighttime Sunwatch — November 24, 2026\n\n🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.6 (Peaked November 24, 2026 at 00:41 UTC)\n💨 Solar wind speed: 330 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun is about halfway through its roughly 10-billion-year main-sequence lifetime. Still plenty of time before retirement. 🌞☀️\n\nA broad coronal-hole-like region is the main feature in today’s solar images, while sunspot activity remains low.\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.6 (Peaked November 24, 2026 at 00:41 UTC)\n💨 Solar wind speed: 330 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun is about halfway through its roughly 10-billion-year main-sequence lifetime. Still plenty of time before retirement. 🌞☀️\n\nA broad coronal-hole-like region is the main feature in today’s solar images, while sunspot activity remains low.\n\nImage: NASA SDO/AIA — 211 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261125T020218Z/image_1.jpg",
+          "alt": "Nighttime Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261124T230212Z",
       "facebook_id": "122129090871440979",
       "published_at": "2026-11-24T23:02:12.572248+00:00",
@@ -9449,23 +9466,6 @@
       "text": "☀️ Sunspot Watch — October 11, 2026\n\nNOAA Active Region 4551 stands out on the visible solar disk today as a particularly prominent sunspot group.\n\n📍 Location: S15E48\n☀️ Region: AR 4551\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "display_text": "NOAA Active Region 4551 stands out on the visible solar disk today as a particularly prominent sunspot group.\n\n📍 Location: S15E48\n☀️ Region: AR 4551\n🔥 Recent activity: 1 C-class flare\n\nSunspots noted! ☀️\n\nSunspots are cooler, magnetically active regions of the solar surface and are often associated with solar flares and other activity.\n\nImage: N/A\nData: NOAA Space Weather Prediction Center + NASA SDO",
       "media": []
-    },
-    {
-      "id": "20261011T100048Z",
-      "facebook_id": "122119940289440979",
-      "published_at": "2026-10-11T10:00:48.411530+00:00",
-      "published_display": "October 11, 2026 · 6:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Early Morning Sunwatch",
-      "text": "🌅 Early Morning Sunwatch — October 11, 2026\n\n🔆️ Solar activity: Low (B6.2)\n🔥 Latest solar flare: C1.8 (Peaked October 11, 2026 at 02:53 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 603 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nHere comes the wind! 💨🌞👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B6.2)\n🔥 Latest solar flare: C1.8 (Peaked October 11, 2026 at 02:53 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 603 km/s (Fast)\n🌎 Geomagnetic activity: Quiet (Kp 2.67)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nHere comes the wind! 💨🌞👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261011T100048Z/image_1.png",
-          "alt": "Early Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

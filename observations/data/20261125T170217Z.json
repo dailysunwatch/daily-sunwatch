@@ -1,0 +1,42 @@
+{
+  "id": "20261125T170217Z",
+  "facebook_id": "1170345462837861_122129233773440979",
+  "published_at": "2026-11-25T17:02:17.678693+00:00",
+  "published_display": "November 25, 2026 · 12:02 PM EST",
+  "type": "sunwatch",
+  "title": "Midday Sunwatch",
+  "text": "🌤️ Midday Sunwatch — November 25, 2026\n\n🔆️ Solar activity: Low (B1.6)\n🔥 Latest solar flare: B3.1 (Peaked November 25, 2026 at 15:44 UTC)\n🔥 Strongest recent flare: B6.4 (Peaked November 25, 2026 at 02:52 UTC)\n💨 Solar wind speed: 382 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLittle flare action. 🔥\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+  "display_text": "🔆️ Solar activity: Low (B1.6)\n🔥 Latest solar flare: B3.1 (Peaked November 25, 2026 at 15:44 UTC)\n🔥 Strongest recent flare: B6.4 (Peaked November 25, 2026 at 02:52 UTC)\n💨 Solar wind speed: 382 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nLittle flare action. 🔥\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+  "media": [
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_1.png",
+      "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_2.png",
+      "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_3.png",
+      "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_4.png",
+      "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_5.png",
+      "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+    },
+    {
+      "type": "image",
+      "url": "/media/feed/20261125T170217Z/image_6.png",
+      "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+    }
+  ]
+}

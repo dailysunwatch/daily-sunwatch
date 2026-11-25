@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261125T140209Z",
+      "facebook_id": "122129212617440979",
+      "published_at": "2026-11-25T14:02:09.419789+00:00",
+      "published_display": "November 25, 2026 · 9:02 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 25, 2026\n\n🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.2 (Peaked November 25, 2026 at 04:33 UTC)\n💨 Solar wind speed: 381 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nQuiet one right now. 💛💫\n\nA broad coronal-hole region stands out in today’s solar images, while sunspot activity remains sparse.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B2.2 (Peaked November 25, 2026 at 04:33 UTC)\n💨 Solar wind speed: 381 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nQuiet one right now. 💛💫\n\nA broad coronal-hole region stands out in today’s solar images, while sunspot activity remains sparse.\n\nImage: NOAA GOES-19 SUVI — 304 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261125T140209Z/image_1.png",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261125T110217Z",
       "facebook_id": "122129184903440979",
       "published_at": "2026-11-25T11:02:17.023187+00:00",
@@ -9455,23 +9472,6 @@
       "text": "🌎 East Coast Weather\n\nManchester, NH — 62°F and Chance of Rain 🌧️",
       "display_text": "Manchester, NH — 62°F and Chance of Rain 🌧️",
       "media": []
-    },
-    {
-      "id": "20261011T130050Z",
-      "facebook_id": "122119973877440979",
-      "published_at": "2026-10-11T13:00:50.393421+00:00",
-      "published_display": "October 11, 2026 · 9:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Morning Sunwatch",
-      "text": "☀️ Morning Sunwatch — October 11, 2026\n\n🔆️ Solar activity: Low (B9.9)\n🔥 Latest solar flare: C1.1 (Peaked October 11, 2026 at 10:38 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 578 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nHold onto something! 🌬🌎👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B9.9)\n🔥 Latest solar flare: C1.1 (Peaked October 11, 2026 at 10:38 UTC)\n🔥 Strongest recent flare: M6.4 (Peaked October 10, 2026 at 15:10 UTC)\n💨 Solar wind speed: 578 km/s (Fast)\n🌎 Geomagnetic activity: Unsettled (Kp 3.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nHold onto something! 🌬🌎👀\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261011T130050Z/image_1.png",
-          "alt": "Morning Sunwatch image"
-        }
-      ]
     }
   ]
 }

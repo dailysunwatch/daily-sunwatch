@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261125T200213Z",
+      "facebook_id": "122129257125440979",
+      "published_at": "2026-11-25T20:02:13.337202+00:00",
+      "published_display": "November 25, 2026 · 3:02 PM EST",
+      "type": "sunwatch",
+      "title": "Afternoon Sunwatch",
+      "text": "☀️ Afternoon Sunwatch — November 25, 2026\n\n🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B5.0 (Peaked November 25, 2026 at 18:03 UTC)\n🔥 Strongest recent flare: B6.4 (Peaked November 25, 2026 at 02:52 UTC)\n💨 Solar wind speed: 371 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\n#FreeSunny 🌞✊💛🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.4)\n🔥 Latest solar flare: B5.0 (Peaked November 25, 2026 at 18:03 UTC)\n🔥 Strongest recent flare: B6.4 (Peaked November 25, 2026 at 02:52 UTC)\n💨 Solar wind speed: 371 km/s (Moderate)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\n#FreeSunny 🌞✊💛🌎\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261125T200213Z/image_1.png",
+          "alt": "Afternoon Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261125T180113Z",
       "facebook_id": "122129244489440979",
       "published_at": "2026-11-25T18:01:13.230907+00:00",
@@ -9459,23 +9476,6 @@
           "type": "image",
           "url": "/media/feed/20261011T190042Z/image_1.png",
           "alt": "Afternoon Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261011T170022Z",
-      "facebook_id": "122120015049440979",
-      "published_at": "2026-10-11T17:00:22.068303+00:00",
-      "published_display": "October 11, 2026 · 1:00 PM EDT",
-      "type": "lunch_break",
-      "title": "Sunny's Lunch Break",
-      "text": "🥪 Sunny's Lunch Break — October 11, 2026\n\nI'm hungry!\n\nHere's what stood out today:\n💨 Peak solar wind: 931 km/s (Intense)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nSee you after lunch!",
-      "display_text": "I'm hungry!\n\nHere's what stood out today:\n💨 Peak solar wind: 931 km/s (Intense)\n🚨 NOAA Watch: Geomagnetic Storm Category G2 Predicted\n\nSee you after lunch!",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261011T170022Z/image_1.png",
-          "alt": "Sunny's Lunch Break"
         }
       ]
     }

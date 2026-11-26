@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261126T170223Z",
+      "facebook_id": "1170345462837861_122129391621440979",
+      "published_at": "2026-11-26T17:02:23.251863+00:00",
+      "published_display": "November 26, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 26, 2026\n\n🔆️ Solar activity: Low (B1.8​)\n🔥 Latest solar flare: B3.3 (Peaked November 26, 2026 at 15:46 UTC)\n💨 Solar wind speed: 307 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThanks for stopping by! 🌎\n\nA broad dark coronal-hole-like region is visible on the Sun’s right side, while no clear CME appears in the coronagraph view.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B1.8​)\n🔥 Latest solar flare: B3.3 (Peaked November 26, 2026 at 15:46 UTC)\n💨 Solar wind speed: 307 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 1.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThanks for stopping by! 🌎\n\nA broad dark coronal-hole-like region is visible on the Sun’s right side, while no clear CME appears in the coronagraph view.\n\nImages: NASA SDO/AIA — 193, 335, 171, 304, 131, 94 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_1.jpg",
+          "alt": "NASA SDO/AIA 193 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_2.jpg",
+          "alt": "NASA SDO/AIA 335 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_3.jpg",
+          "alt": "NASA SDO/AIA 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_4.jpg",
+          "alt": "NASA SDO/AIA 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_5.jpg",
+          "alt": "NASA SDO/AIA 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261126T170223Z/image_6.jpg",
+          "alt": "NASA SDO/AIA 94 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261126T140329Z",
       "facebook_id": "1170345462837861_122129368929440979",
       "published_at": "2026-11-26T14:03:29.310509+00:00",
@@ -9453,23 +9495,6 @@
           "type": "image",
           "url": "/media/feed/20261012T070052Z/image_1.png",
           "alt": "Nighttime Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261012T040048Z",
-      "facebook_id": "122120108691440979",
-      "published_at": "2026-10-12T04:00:48.361537+00:00",
-      "published_display": "October 12, 2026 · 12:00 AM EDT",
-      "type": "sunwatch",
-      "title": "Midnight Sunwatch",
-      "text": "🌙 Midnight Sunwatch — October 12, 2026\n\n🔆️ Solar activity: Low (B6.5)\n🔥 Latest solar flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked October 11, 2026 at 17:01 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nA little C-Class flare action! 🔥🚀\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B6.5)\n🔥 Latest solar flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked October 11, 2026 at 17:01 UTC)\n💨 Solar wind speed: 497 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nA little C-Class flare action! 🔥🚀\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T040048Z/image_1.png",
-          "alt": "Midnight Sunwatch image"
         }
       ]
     }

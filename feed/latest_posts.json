@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261127T180110Z",
+      "facebook_id": "122129584101440979",
+      "published_at": "2026-11-27T18:01:10.321102+00:00",
+      "published_display": "November 27, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 27, 2026\n\nI'm hungry!\n\nToday, Sunny has his eyes on:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C1.6\n\nI'll be back after lunch!",
+      "display_text": "I'm hungry!\n\nToday, Sunny has his eyes on:\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n🔥 Strongest flare: C1.6\n\nI'll be back after lunch!",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T180110Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261127T170539Z",
       "facebook_id": "1170345462837861_122129578215440979",
       "published_at": "2026-11-27T17:05:39.467967+00:00",
@@ -9478,23 +9495,6 @@
           "type": "image",
           "url": "/media/feed/20261013T040045Z/image_1.png",
           "alt": "Midnight Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261013T010047Z",
-      "facebook_id": "122120308407440979",
-      "published_at": "2026-10-13T01:00:47.386694+00:00",
-      "published_display": "October 12, 2026 · 9:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Nighttime Sunwatch",
-      "text": "🌕 Nighttime Sunwatch — October 12, 2026\n\n🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.0 (Peaked October 12, 2026 at 23:53 UTC)\n🔥 Strongest recent flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n💨 Solar wind speed: 504 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWhat's everyone up to? 🖤\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B5.8​)\n🔥 Latest solar flare: C1.0 (Peaked October 12, 2026 at 23:53 UTC)\n🔥 Strongest recent flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n💨 Solar wind speed: 504 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 1.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWhat's everyone up to? 🖤\n\nImage: NOAA GOES-19 SUVI — 195 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261013T010047Z/image_1.png",
-          "alt": "Nighttime Sunwatch image"
         }
       ]
     }

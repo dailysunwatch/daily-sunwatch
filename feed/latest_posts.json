@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "20261127T170216Z",
+      "facebook_id": "1170345462837861_122129577243440979",
+      "published_at": "2026-11-27T17:02:16.195455+00:00",
+      "published_display": "November 27, 2026 · 12:02 PM EST",
+      "type": "sunwatch",
+      "title": "Midday Sunwatch",
+      "text": "🌤️ Midday Sunwatch — November 27, 2026\n\n🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B4.0 (Peaked November 27, 2026 at 16:34 UTC)\n🔥 Strongest recent flare: C1.6 (Peaked November 27, 2026 at 14:13 UTC)\n💨 Solar wind speed: 323 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nHow are you feeling today? ☀️\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B2.8​)\n🔥 Latest solar flare: B4.0 (Peaked November 27, 2026 at 16:34 UTC)\n🔥 Strongest recent flare: C1.6 (Peaked November 27, 2026 at 14:13 UTC)\n💨 Solar wind speed: 323 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nHow are you feeling today? ☀️\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_1.png",
+          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_2.png",
+          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_3.png",
+          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_4.png",
+          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_5.png",
+          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
+        },
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T170216Z/image_6.png",
+          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
+        }
+      ]
+    },
+    {
       "id": "20261127T140347Z",
       "facebook_id": "1170345462837861_122129553717440979",
       "published_at": "2026-11-27T14:03:47.619326+00:00",
@@ -9455,23 +9497,6 @@
       "text": "🌎 East Coast Weather\n\nBaltimore, MD — 75°F and Partly Sunny ⛅",
       "display_text": "Baltimore, MD — 75°F and Partly Sunny ⛅",
       "media": []
-    },
-    {
-      "id": "20261012T220046Z",
-      "facebook_id": "122120284731440979",
-      "published_at": "2026-10-12T22:00:46.562572+00:00",
-      "published_display": "October 12, 2026 · 6:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Evening Sunwatch",
-      "text": "🌇 Evening Sunwatch — October 12, 2026\n\n🔆️ Solar activity: Low (B6.6)\n🔥 Latest solar flare: C1.0 (Peaked October 12, 2026 at 20:39 UTC)\n🔥 Strongest recent flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n💨 Solar wind speed: 456 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSome C-Class activity! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B6.6)\n🔥 Latest solar flare: C1.0 (Peaked October 12, 2026 at 20:39 UTC)\n🔥 Strongest recent flare: C1.1 (Peaked October 12, 2026 at 02:02 UTC)\n💨 Solar wind speed: 456 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nSome C-Class activity! 💥🚀\n\nImage: NOAA GOES-19 SUVI — 284 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T220046Z/image_1.png",
-          "alt": "Evening Sunwatch image"
-        }
-      ]
     }
   ]
 }

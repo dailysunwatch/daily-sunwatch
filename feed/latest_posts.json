@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261127T050220Z",
+      "facebook_id": "122129466171440979",
+      "published_at": "2026-11-27T05:02:20.788805+00:00",
+      "published_display": "November 27, 2026 · 12:02 AM EST",
+      "type": "sunwatch",
+      "title": "Midnight Sunwatch",
+      "text": "🌙 Midnight Sunwatch — November 27, 2026\n\n🔆️ Solar activity: Low (B6.2)\n🔥 Latest solar flare: B2.5 (Peaked November 27, 2026 at 02:04 UTC)\n💨 Solar wind speed: 286 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun looks mostly quiet, with no clear sunspots and a dark coronal-hole-like region visible on the right side.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B6.2)\n🔥 Latest solar flare: B2.5 (Peaked November 27, 2026 at 02:04 UTC)\n💨 Solar wind speed: 286 km/s (Calm)\n🌎 Geomagnetic activity: Quiet (Kp 2.00)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nThe Sun looks mostly quiet, with no clear sunspots and a dark coronal-hole-like region visible on the right side.\n\nImage: NOAA GOES-19 SUVI — 131 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T050220Z/image_1.png",
+          "alt": "Midnight Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261127T020221Z",
       "facebook_id": "122129447451440979",
       "published_at": "2026-11-27T02:02:21.610036+00:00",
@@ -9455,48 +9472,6 @@
       "text": "🌎 East Coast Weather\n\nHartford, CT — 72°F and Mostly Sunny 🌤️",
       "display_text": "Hartford, CT — 72°F and Mostly Sunny 🌤️",
       "media": []
-    },
-    {
-      "id": "20261012T160057Z",
-      "facebook_id": "1170345462837861_122120227299440979",
-      "published_at": "2026-10-12T16:00:57.327323+00:00",
-      "published_display": "October 12, 2026 · 12:00 PM EDT",
-      "type": "sunwatch",
-      "title": "Midday Sunwatch",
-      "text": "🌤️ Midday Sunwatch — October 12, 2026\n\n🔆️ Solar activity: Low (B7.2)\n🔥 Latest solar flare: B8.8 (Peaked October 12, 2026 at 12:33 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked October 11, 2026 at 17:01 UTC)\n💨 Solar wind speed: 453 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWhat are you seeing out there? ✨💫\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "display_text": "🔆️ Solar activity: Low (B7.2)\n🔥 Latest solar flare: B8.8 (Peaked October 12, 2026 at 12:33 UTC)\n🔥 Strongest recent flare: C1.2 (Peaked October 11, 2026 at 17:01 UTC)\n💨 Solar wind speed: 453 km/s (Elevated)\n🌎 Geomagnetic activity: Quiet (Kp 0.67)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nWhat are you seeing out there? ✨💫\n\nImages: NOAA GOES-19 SUVI — 195, 284, 171, 304, 131, 094 Å\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_1.png",
-          "alt": "NOAA GOES-19 SUVI 195 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_2.png",
-          "alt": "NOAA GOES-19 SUVI 284 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_3.png",
-          "alt": "NOAA GOES-19 SUVI 171 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_4.png",
-          "alt": "NOAA GOES-19 SUVI 304 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_5.png",
-          "alt": "NOAA GOES-19 SUVI 131 Å solar image used by Daily Sunwatch"
-        },
-        {
-          "type": "image",
-          "url": "/media/feed/20261012T160057Z/image_6.png",
-          "alt": "NOAA GOES-19 SUVI 094 Å solar image used by Daily Sunwatch"
-        }
-      ]
     }
   ]
 }

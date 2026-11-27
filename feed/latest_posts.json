@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261127T110207Z",
+      "facebook_id": "122129527083440979",
+      "published_at": "2026-11-27T11:02:07.524611+00:00",
+      "published_display": "November 27, 2026 · 6:02 AM EST",
+      "type": "sunwatch",
+      "title": "Early Morning Sunwatch",
+      "text": "🌅 Early Morning Sunwatch — November 27, 2026\n\n🔆️ Solar activity: Low (B4.4)\n🔥 Latest solar flare: B2.5 (Peaked November 27, 2026 at 02:04 UTC)\n💨 Solar wind speed: 293 km/s (Calm)\n🧲 Bz: +9.1 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nBz is pointing north. 🏔👀\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B4.4)\n🔥 Latest solar flare: B2.5 (Peaked November 27, 2026 at 02:04 UTC)\n💨 Solar wind speed: 293 km/s (Calm)\n🧲 Bz: +9.1 nT (Northward)\n🌎 Geomagnetic activity: Quiet (Kp 0.33)\n🚨 NOAA Watch: Geomagnetic Storm Category G1 Predicted\n\nBz is pointing north. 🏔👀\n\nImage: NOAA GOES-19 SUVI — 171 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261127T110207Z/image_1.png",
+          "alt": "Early Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261127T050220Z",
       "facebook_id": "122129466171440979",
       "published_at": "2026-11-27T05:02:20.788805+00:00",
@@ -9461,17 +9478,6 @@
           "alt": "Sunny's Lunch Break"
         }
       ]
-    },
-    {
-      "id": "20261012T160246Z",
-      "facebook_id": "1170345462837861_122120228619440979",
-      "published_at": "2026-10-12T16:02:46.620479+00:00",
-      "published_display": "October 12, 2026 · 12:02 PM EDT",
-      "type": "weather",
-      "title": "East Coast Weather",
-      "text": "🌎 East Coast Weather\n\nHartford, CT — 72°F and Mostly Sunny 🌤️",
-      "display_text": "Hartford, CT — 72°F and Mostly Sunny 🌤️",
-      "media": []
     }
   ]
 }

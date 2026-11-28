@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261128T180109Z",
+      "facebook_id": "122129760435440979",
+      "published_at": "2026-11-28T18:01:09.817427+00:00",
+      "published_display": "November 28, 2026 · 1:01 PM EST",
+      "type": "lunch_break",
+      "title": "Sunny's Lunch Break",
+      "text": "🥪 Sunny's Lunch Break — November 28, 2026\n\nI brought salami today!\n\nHere's what stood out in the last 24 hours:\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n💨 Peak solar wind: 648 km/s (Fast)\n\nSee you after lunch!\n\nHave some art you'd like to share? Send me a message, and Sunny might feature it! 🎨",
+      "display_text": "I brought salami today!\n\nHere's what stood out in the last 24 hours:\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n💨 Peak solar wind: 648 km/s (Fast)\n\nSee you after lunch!\n\nHave some art you'd like to share? Send me a message, and Sunny might feature it! 🎨",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261128T180109Z/image_1.png",
+          "alt": "Sunny's Lunch Break"
+        }
+      ]
+    },
+    {
       "id": "20261128T170350Z",
       "facebook_id": "1170345462837861_122129755071440979",
       "published_at": "2026-11-28T17:03:50.917827+00:00",
@@ -9472,23 +9489,6 @@
           "type": "image",
           "url": "/media/feed/20261014T070045Z/image_1.jpg",
           "alt": "Coronagraph Watch image"
-        }
-      ]
-    },
-    {
-      "id": "20261014T040220Z",
-      "facebook_id": "122120494899440979",
-      "published_at": "2026-10-14T04:02:20.413083+00:00",
-      "published_display": "October 14, 2026 · 12:02 AM EDT",
-      "type": "moonwatch",
-      "title": "Moony Moonwatch",
-      "text": "Moony Moonwatch 🌙 — October 14, 2026\n\n🌒 Moon phase: Waxing Crescent\n💡 Illumination: 14%\n📅 Next full moon: October 26, 2026\n\ni'm coming back!!! c: 🌒 🌕🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "display_text": "🌒 Moon phase: Waxing Crescent\n💡 Illumination: 14%\n📅 Next full moon: October 26, 2026\n\ni'm coming back!!! c: 🌒 🌕🌙\n\nData: U.S. Naval Observatory\nImage: NASA Scientific Visualization Studio",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261014T040220Z/image_1.jpg",
-          "alt": "Moony Moonwatch lunar observation"
         }
       ]
     }

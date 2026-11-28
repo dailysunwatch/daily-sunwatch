@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "id": "20261128T140207Z",
+      "facebook_id": "122129728845440979",
+      "published_at": "2026-11-28T14:02:07.172584+00:00",
+      "published_display": "November 28, 2026 · 9:02 AM EST",
+      "type": "sunwatch",
+      "title": "Morning Sunwatch",
+      "text": "☀️ Morning Sunwatch — November 28, 2026\n\n🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B9.7 (Peaked November 28, 2026 at 06:41 UTC)\n💨 Solar wind speed: 477 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nEyes on the Sun! 👀🤍💛\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "display_text": "🔆️ Solar activity: Low (B3.9)\n🔥 Latest solar flare: B9.7 (Peaked November 28, 2026 at 06:41 UTC)\n💨 Solar wind speed: 477 km/s (Elevated)\n🌎 Geomagnetic activity: Unsettled (Kp 3.33)\n🚨 NOAA Warning: Geomagnetic K-index of 4 expected\n\nEyes on the Sun! 👀🤍💛\n\nImage: NASA SDO/AIA — 193 Å\nData: NOAA Space Weather Prediction Center",
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/feed/20261128T140207Z/image_1.jpg",
+          "alt": "Morning Sunwatch image"
+        }
+      ]
+    },
+    {
       "id": "20261128T110206Z",
       "facebook_id": "122129710911440979",
       "published_at": "2026-11-28T11:02:06.596987+00:00",
@@ -9453,23 +9470,6 @@
           "type": "image",
           "url": "/media/feed/20261013T220044Z/image_1.png",
           "alt": "Evening Sunwatch image"
-        }
-      ]
-    },
-    {
-      "id": "20261013T190045Z",
-      "facebook_id": "122120440443440979",
-      "published_at": "2026-10-13T19:00:45.663001+00:00",
-      "published_display": "October 13, 2026 · 3:00 PM EDT",
-      "type": "coronagraph_watch",
-      "title": "Coronagraph Watch",
-      "text": "🔭 Coronagraph Watch — October 13, 2026\n\nToday’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C4.2\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "display_text": "Today’s elevated solar activity makes the outer corona worth a look.\n\n🔥 Strongest recent flare: C4.2\n\nI'm watching the corona today.\n\nImage: NOAA SWPC — CCOR-1\nData: NOAA Space Weather Prediction Center",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/feed/20261013T190045Z/image_1.jpg",
-          "alt": "Coronagraph Watch image"
         }
       ]
     }
